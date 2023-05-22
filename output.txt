@@ -1,0 +1,902 @@
+2023-05-11 22:27:58,555 root INFO Namespace(limit_num_smiles=None, limit_iterations=500, limit_rxn_model_calls=25, paroutes_n=5)
+2023-05-11 22:27:58,720 h5py._conv DEBUG Creating converter from 3 to 5
+2023-05-11 22:28:10,106 COMPARISON DEBUG Start search 0/100. SMILES: COc1ccc(F)c(-c2ccc(COc3cc(C(CC(=O)O)C4CC4)ccc3F)nc2CC(C)(C)C)c1
+2023-05-11 22:28:11,751 COMPARISON DEBUG Done constant-0: nodes=1722, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 22:28:30,381 COMPARISON DEBUG Done Tanimoto-distance: nodes=1874, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 22:28:48,921 COMPARISON DEBUG Done Tanimoto-distance-EXP: nodes=1910, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 22:29:07,813 COMPARISON DEBUG Done Tanimoto-distance-SIN: nodes=1925, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 22:29:27,560 COMPARISON DEBUG Done Tanimoto-distance-LOG: nodes=1995, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 22:29:48,150 COMPARISON DEBUG Done Tanimoto-distance-QUAD: nodes=2166, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 22:30:07,003 COMPARISON DEBUG Done Tanimoto-distance-CUB: nodes=1915, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 22:30:23,998 COMPARISON DEBUG Done Dice-distance: nodes=1701, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 22:30:23,998 COMPARISON DEBUG Start search 1/100. SMILES: CCc1cc2nncc(N3CCc4[nH]nc(C(=O)NC5CC5)c4C3)c2cc1OC
+2023-05-11 22:30:25,252 COMPARISON DEBUG Done constant-0: nodes=1156, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 22:30:36,451 COMPARISON DEBUG Done Tanimoto-distance: nodes=1079, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 22:30:47,479 COMPARISON DEBUG Done Tanimoto-distance-EXP: nodes=1079, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 22:30:58,447 COMPARISON DEBUG Done Tanimoto-distance-SIN: nodes=1082, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 22:31:09,433 COMPARISON DEBUG Done Tanimoto-distance-LOG: nodes=1082, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 22:31:21,092 COMPARISON DEBUG Done Tanimoto-distance-QUAD: nodes=1151, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 22:31:32,634 COMPARISON DEBUG Done Tanimoto-distance-CUB: nodes=1156, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 22:31:44,568 COMPARISON DEBUG Done Dice-distance: nodes=1116, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 22:31:44,568 COMPARISON DEBUG Start search 2/100. SMILES: Clc1ccc(-n2cncn2)c(Cc2nc3c(NCCC4CCCCN4)nccc3o2)c1
+2023-05-11 22:31:45,981 COMPARISON DEBUG Done constant-0: nodes=971, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 22:31:56,648 COMPARISON DEBUG Done Tanimoto-distance: nodes=905, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 22:32:06,682 COMPARISON DEBUG Done Tanimoto-distance-EXP: nodes=867, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 22:32:16,664 COMPARISON DEBUG Done Tanimoto-distance-SIN: nodes=905, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 22:32:26,576 COMPARISON DEBUG Done Tanimoto-distance-LOG: nodes=937, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 22:32:36,702 COMPARISON DEBUG Done Tanimoto-distance-QUAD: nodes=966, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 22:32:46,617 COMPARISON DEBUG Done Tanimoto-distance-CUB: nodes=966, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 22:32:57,139 COMPARISON DEBUG Done Dice-distance: nodes=937, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 22:32:57,140 COMPARISON DEBUG Start search 3/100. SMILES: CCOCc1nc2c(N)nc3ccc(O)cc3c2n1CC(C)(C)NS(C)(=O)=O
+2023-05-11 22:32:58,631 COMPARISON DEBUG Done constant-0: nodes=2500, solution time = 6, num routes = 13 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 22:33:24,086 COMPARISON DEBUG Done Tanimoto-distance: nodes=2478, solution time = 6, num routes = 13 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 22:33:49,226 COMPARISON DEBUG Done Tanimoto-distance-EXP: nodes=2478, solution time = 6, num routes = 13 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 22:34:13,525 COMPARISON DEBUG Done Tanimoto-distance-SIN: nodes=2490, solution time = 6, num routes = 13 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 22:34:37,777 COMPARISON DEBUG Done Tanimoto-distance-LOG: nodes=2490, solution time = 6, num routes = 13 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 22:35:02,068 COMPARISON DEBUG Done Tanimoto-distance-QUAD: nodes=2478, solution time = 6, num routes = 13 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 22:35:26,838 COMPARISON DEBUG Done Tanimoto-distance-CUB: nodes=2526, solution time = 6, num routes = 13 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 22:35:51,578 COMPARISON DEBUG Done Dice-distance: nodes=2478, solution time = 6, num routes = 13 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 22:35:51,578 COMPARISON DEBUG Start search 4/100. SMILES: O=C(O)CCNC(=O)c1nc(-c2ccncc2)c2c(cc(-c3ccccc3)c(=O)n2CC2CCCCC2)c1O
+2023-05-11 22:35:53,082 COMPARISON DEBUG Done constant-0: nodes=1758, solution time = 5, num routes = 9 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 22:36:10,729 COMPARISON DEBUG Done Tanimoto-distance: nodes=1757, solution time = 5, num routes = 10 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 22:36:28,051 COMPARISON DEBUG Done Tanimoto-distance-EXP: nodes=1677, solution time = 5, num routes = 10 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 22:36:45,871 COMPARISON DEBUG Done Tanimoto-distance-SIN: nodes=1757, solution time = 5, num routes = 10 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 22:37:03,821 COMPARISON DEBUG Done Tanimoto-distance-LOG: nodes=1757, solution time = 5, num routes = 10 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 22:37:21,703 COMPARISON DEBUG Done Tanimoto-distance-QUAD: nodes=1757, solution time = 5, num routes = 10 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 22:37:39,664 COMPARISON DEBUG Done Tanimoto-distance-CUB: nodes=1757, solution time = 5, num routes = 10 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 22:37:58,054 COMPARISON DEBUG Done Dice-distance: nodes=1757, solution time = 5, num routes = 10 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 22:37:58,055 COMPARISON DEBUG Start search 5/100. SMILES: CC(C)CON=C(C(=O)NC1C(=O)N2C(C(=O)O)=CCS[C@H]12)c1csc(N)n1
+2023-05-11 22:37:59,168 COMPARISON DEBUG Done constant-0: nodes=1429, solution time = 13, num routes = 39 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 22:38:12,029 COMPARISON DEBUG Done Tanimoto-distance: nodes=1403, solution time = 10, num routes = 43 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 22:38:24,103 COMPARISON DEBUG Done Tanimoto-distance-EXP: nodes=1345, solution time = 10, num routes = 43 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 22:38:36,491 COMPARISON DEBUG Done Tanimoto-distance-SIN: nodes=1403, solution time = 10, num routes = 43 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 22:38:49,138 COMPARISON DEBUG Done Tanimoto-distance-LOG: nodes=1403, solution time = 11, num routes = 43 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 22:39:01,726 COMPARISON DEBUG Done Tanimoto-distance-QUAD: nodes=1385, solution time = 13, num routes = 43 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 22:39:14,472 COMPARISON DEBUG Done Tanimoto-distance-CUB: nodes=1385, solution time = 10, num routes = 43 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 22:39:27,059 COMPARISON DEBUG Done Dice-distance: nodes=1385, solution time = 9, num routes = 43 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 22:39:27,059 COMPARISON DEBUG Start search 6/100. SMILES: CCc1cc2c(Br)cnnc2cc1OC
+2023-05-11 22:39:28,166 COMPARISON DEBUG Done constant-0: nodes=1735, solution time = 8, num routes = 15 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 22:39:41,885 COMPARISON DEBUG Done Tanimoto-distance: nodes=1661, solution time = 7, num routes = 15 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 22:39:55,728 COMPARISON DEBUG Done Tanimoto-distance-EXP: nodes=1661, solution time = 7, num routes = 15 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 22:40:08,787 COMPARISON DEBUG Done Tanimoto-distance-SIN: nodes=1640, solution time = 7, num routes = 15 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 22:40:22,383 COMPARISON DEBUG Done Tanimoto-distance-LOG: nodes=1690, solution time = 7, num routes = 15 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 22:40:35,814 COMPARISON DEBUG Done Tanimoto-distance-QUAD: nodes=1661, solution time = 7, num routes = 15 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 22:40:49,380 COMPARISON DEBUG Done Tanimoto-distance-CUB: nodes=1661, solution time = 7, num routes = 15 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 22:41:02,996 COMPARISON DEBUG Done Dice-distance: nodes=1661, solution time = 7, num routes = 15 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 22:41:02,996 COMPARISON DEBUG Start search 7/100. SMILES: CN(CCCOc1ccc(-c2cc3c(ncn3C)c(C#N)n2)cc1C(F)(F)F)C(=O)C1CCCCN1C
+2023-05-11 22:41:04,591 COMPARISON DEBUG Done constant-0: nodes=2507, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 22:41:26,333 COMPARISON DEBUG Done Tanimoto-distance: nodes=2298, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 22:41:46,613 COMPARISON DEBUG Done Tanimoto-distance-EXP: nodes=2131, solution time = 25, num routes = 3 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 22:42:07,812 COMPARISON DEBUG Done Tanimoto-distance-SIN: nodes=2293, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 22:42:30,209 COMPARISON DEBUG Done Tanimoto-distance-LOG: nodes=2436, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 22:42:51,106 COMPARISON DEBUG Done Tanimoto-distance-QUAD: nodes=2293, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 22:43:14,047 COMPARISON DEBUG Done Tanimoto-distance-CUB: nodes=2489, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 22:43:37,279 COMPARISON DEBUG Done Dice-distance: nodes=2436, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 22:43:37,279 COMPARISON DEBUG Start search 8/100. SMILES: CCCCCNc1nc(N)nc(C)c1Cc1ccc(CC(=O)OCCN(C)C)cc1
+2023-05-11 22:43:38,741 COMPARISON DEBUG Done constant-0: nodes=3222, solution time = 23, num routes = 1 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 22:44:04,623 COMPARISON DEBUG Done Tanimoto-distance: nodes=2907, solution time = 20, num routes = 1 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 22:44:28,394 COMPARISON DEBUG Done Tanimoto-distance-EXP: nodes=2683, solution time = 20, num routes = 1 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 22:44:55,159 COMPARISON DEBUG Done Tanimoto-distance-SIN: nodes=2965, solution time = 20, num routes = 1 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 22:45:22,650 COMPARISON DEBUG Done Tanimoto-distance-LOG: nodes=3080, solution time = 21, num routes = 1 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 22:45:49,974 COMPARISON DEBUG Done Tanimoto-distance-QUAD: nodes=2970, solution time = 20, num routes = 1 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 22:46:17,442 COMPARISON DEBUG Done Tanimoto-distance-CUB: nodes=3080, solution time = 20, num routes = 1 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 22:46:44,352 COMPARISON DEBUG Done Dice-distance: nodes=3028, solution time = 20, num routes = 1 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 22:46:44,352 COMPARISON DEBUG Start search 9/100. SMILES: CCOC(=O)C1(c2ccc(-c3ccc(-c4onc(C)c4CCOCc4ccncc4)cc3)cc2)CC1
+2023-05-11 22:46:46,057 COMPARISON DEBUG Done constant-0: nodes=3585, solution time = 12, num routes = 106 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 22:47:17,207 COMPARISON DEBUG Done Tanimoto-distance: nodes=3587, solution time = 10, num routes = 130 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 22:47:49,953 COMPARISON DEBUG Done Tanimoto-distance-EXP: nodes=3870, solution time = 10, num routes = 163 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 22:48:21,059 COMPARISON DEBUG Done Tanimoto-distance-SIN: nodes=3643, solution time = 10, num routes = 134 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 22:48:53,189 COMPARISON DEBUG Done Tanimoto-distance-LOG: nodes=3699, solution time = 10, num routes = 138 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 22:49:25,054 COMPARISON DEBUG Done Tanimoto-distance-QUAD: nodes=3699, solution time = 12, num routes = 138 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 22:49:57,660 COMPARISON DEBUG Done Tanimoto-distance-CUB: nodes=3746, solution time = 12, num routes = 118 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 22:50:30,262 COMPARISON DEBUG Done Dice-distance: nodes=3702, solution time = 12, num routes = 138 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 22:50:30,262 COMPARISON DEBUG Start search 10/100. SMILES: CCOc1cn(-c2cccc(C(F)(F)F)c2)nc(-c2ccnn2-c2ccccc2)c1=O
+2023-05-11 22:50:31,677 COMPARISON DEBUG Done constant-0: nodes=2414, solution time = 12, num routes = 4 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 22:50:54,332 COMPARISON DEBUG Done Tanimoto-distance: nodes=2422, solution time = 12, num routes = 4 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 22:51:18,430 COMPARISON DEBUG Done Tanimoto-distance-EXP: nodes=2512, solution time = 12, num routes = 4 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 22:51:41,069 COMPARISON DEBUG Done Tanimoto-distance-SIN: nodes=2422, solution time = 12, num routes = 4 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 22:52:04,261 COMPARISON DEBUG Done Tanimoto-distance-LOG: nodes=2422, solution time = 12, num routes = 4 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 22:52:27,364 COMPARISON DEBUG Done Tanimoto-distance-QUAD: nodes=2456, solution time = 12, num routes = 4 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 22:52:51,032 COMPARISON DEBUG Done Tanimoto-distance-CUB: nodes=2422, solution time = 12, num routes = 4 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 22:53:14,649 COMPARISON DEBUG Done Dice-distance: nodes=2422, solution time = 12, num routes = 4 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 22:53:14,650 COMPARISON DEBUG Start search 11/100. SMILES: COc1cc(N)c(Cl)cc1C(=O)NCCCC1CN(Cc2ccccc2)CCO1
+2023-05-11 22:53:15,945 COMPARISON DEBUG Done constant-0: nodes=1388, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 22:53:28,440 COMPARISON DEBUG Done Tanimoto-distance: nodes=1355, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 22:53:41,294 COMPARISON DEBUG Done Tanimoto-distance-EXP: nodes=1355, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 22:53:54,049 COMPARISON DEBUG Done Tanimoto-distance-SIN: nodes=1355, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 22:54:06,800 COMPARISON DEBUG Done Tanimoto-distance-LOG: nodes=1355, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 22:54:20,068 COMPARISON DEBUG Done Tanimoto-distance-QUAD: nodes=1415, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 22:54:33,619 COMPARISON DEBUG Done Tanimoto-distance-CUB: nodes=1454, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 22:54:46,675 COMPARISON DEBUG Done Dice-distance: nodes=1415, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 22:54:46,675 COMPARISON DEBUG Start search 12/100. SMILES: CCC(=O)NC1CCCc2c(-c3cc(Cl)c4c(c3)CCC(=O)N4C)cncc21
+2023-05-11 22:54:48,146 COMPARISON DEBUG Done constant-0: nodes=2425, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 22:55:10,420 COMPARISON DEBUG Done Tanimoto-distance: nodes=2485, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 22:55:31,020 COMPARISON DEBUG Done Tanimoto-distance-EXP: nodes=2307, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 22:55:52,277 COMPARISON DEBUG Done Tanimoto-distance-SIN: nodes=2389, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 22:56:12,801 COMPARISON DEBUG Done Tanimoto-distance-LOG: nodes=2371, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 22:56:33,914 COMPARISON DEBUG Done Tanimoto-distance-QUAD: nodes=2457, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 22:56:56,550 COMPARISON DEBUG Done Tanimoto-distance-CUB: nodes=2584, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 22:57:17,190 COMPARISON DEBUG Done Dice-distance: nodes=2359, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 22:57:17,190 COMPARISON DEBUG Start search 13/100. SMILES: O=C(NOCCO)c1ccc2cncn2c1Nc1ccc(C2CC2)cc1F
+2023-05-11 22:57:18,244 COMPARISON DEBUG Done constant-0: nodes=484, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 22:57:24,058 COMPARISON DEBUG Done Tanimoto-distance: nodes=484, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 22:57:29,843 COMPARISON DEBUG Done Tanimoto-distance-EXP: nodes=484, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 22:57:35,599 COMPARISON DEBUG Done Tanimoto-distance-SIN: nodes=484, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 22:57:41,621 COMPARISON DEBUG Done Tanimoto-distance-LOG: nodes=484, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 22:57:47,449 COMPARISON DEBUG Done Tanimoto-distance-QUAD: nodes=484, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 22:57:53,256 COMPARISON DEBUG Done Tanimoto-distance-CUB: nodes=484, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 22:57:59,355 COMPARISON DEBUG Done Dice-distance: nodes=484, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 22:57:59,356 COMPARISON DEBUG Start search 14/100. SMILES: c1ccc(-c2cc3cc(-c4ccncn4)c(-c4ccco4)nc3[nH]2)cc1
+2023-05-11 22:58:01,198 COMPARISON DEBUG Done constant-0: nodes=1960, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 22:58:19,964 COMPARISON DEBUG Done Tanimoto-distance: nodes=1899, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 22:58:38,255 COMPARISON DEBUG Done Tanimoto-distance-EXP: nodes=1899, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 22:58:56,763 COMPARISON DEBUG Done Tanimoto-distance-SIN: nodes=1959, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 22:59:15,227 COMPARISON DEBUG Done Tanimoto-distance-LOG: nodes=1970, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 22:59:34,314 COMPARISON DEBUG Done Tanimoto-distance-QUAD: nodes=1973, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 22:59:53,393 COMPARISON DEBUG Done Tanimoto-distance-CUB: nodes=1973, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:00:11,668 COMPARISON DEBUG Done Dice-distance: nodes=1917, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:00:11,668 COMPARISON DEBUG Start search 15/100. SMILES: CCCCc1nc2c(N)nc3ccccc3c2n1CCCN(Cc1ccc(CC(=O)OC)cc1)C(=O)CS(C)(=O)=O
+2023-05-11 23:00:13,279 COMPARISON DEBUG Done constant-0: nodes=2079, solution time = 9, num routes = 58 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:00:34,601 COMPARISON DEBUG Done Tanimoto-distance: nodes=2083, solution time = 9, num routes = 58 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:00:55,285 COMPARISON DEBUG Done Tanimoto-distance-EXP: nodes=2083, solution time = 8, num routes = 58 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:01:15,909 COMPARISON DEBUG Done Tanimoto-distance-SIN: nodes=2083, solution time = 9, num routes = 58 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:01:36,903 COMPARISON DEBUG Done Tanimoto-distance-LOG: nodes=2083, solution time = 9, num routes = 58 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:01:56,907 COMPARISON DEBUG Done Tanimoto-distance-QUAD: nodes=2083, solution time = 9, num routes = 58 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:02:17,317 COMPARISON DEBUG Done Tanimoto-distance-CUB: nodes=2083, solution time = 9, num routes = 58 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:02:38,383 COMPARISON DEBUG Done Dice-distance: nodes=2083, solution time = 9, num routes = 58 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:02:38,383 COMPARISON DEBUG Start search 16/100. SMILES: CCC1Cc2cc(OCC(C)C)c(OC)cc2-c2cc(=O)c(C(=O)O)cn21
+2023-05-11 23:02:39,498 COMPARISON DEBUG Done constant-0: nodes=1320, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:02:51,978 COMPARISON DEBUG Done Tanimoto-distance: nodes=1293, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:03:04,655 COMPARISON DEBUG Done Tanimoto-distance-EXP: nodes=1293, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:03:16,666 COMPARISON DEBUG Done Tanimoto-distance-SIN: nodes=1293, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:03:29,787 COMPARISON DEBUG Done Tanimoto-distance-LOG: nodes=1353, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:03:42,511 COMPARISON DEBUG Done Tanimoto-distance-QUAD: nodes=1293, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:03:54,739 COMPARISON DEBUG Done Tanimoto-distance-CUB: nodes=1260, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:04:07,272 COMPARISON DEBUG Done Dice-distance: nodes=1293, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:04:07,272 COMPARISON DEBUG Start search 17/100. SMILES: CC(=O)c1cc2c(cc1Cl)NCC(C(=O)N1CCC(C#N)(Cc3ccc(F)cc3)CC1)O2
+2023-05-11 23:04:08,583 COMPARISON DEBUG Done constant-0: nodes=1182, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:04:21,034 COMPARISON DEBUG Done Tanimoto-distance: nodes=1205, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:04:33,117 COMPARISON DEBUG Done Tanimoto-distance-EXP: nodes=1148, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:04:45,721 COMPARISON DEBUG Done Tanimoto-distance-SIN: nodes=1224, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:04:58,233 COMPARISON DEBUG Done Tanimoto-distance-LOG: nodes=1205, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:05:11,031 COMPARISON DEBUG Done Tanimoto-distance-QUAD: nodes=1225, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:05:23,541 COMPARISON DEBUG Done Tanimoto-distance-CUB: nodes=1222, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:05:36,088 COMPARISON DEBUG Done Dice-distance: nodes=1205, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:05:36,088 COMPARISON DEBUG Start search 18/100. SMILES: Cc1cc(C)cc(-c2c(OCC[C@@H]3CCCCN3)c3cc(NC(=O)NC4CC4)c(Cl)cc3[nH]c2=O)c1
+2023-05-11 23:05:38,059 COMPARISON DEBUG Done constant-0: nodes=2115, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:05:59,472 COMPARISON DEBUG Done Tanimoto-distance: nodes=1922, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:06:19,893 COMPARISON DEBUG Done Tanimoto-distance-EXP: nodes=1747, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:06:42,343 COMPARISON DEBUG Done Tanimoto-distance-SIN: nodes=1922, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:07:02,956 COMPARISON DEBUG Done Tanimoto-distance-LOG: nodes=1867, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:07:25,677 COMPARISON DEBUG Done Tanimoto-distance-QUAD: nodes=2012, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:07:48,237 COMPARISON DEBUG Done Tanimoto-distance-CUB: nodes=2012, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:08:09,838 COMPARISON DEBUG Done Dice-distance: nodes=1980, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:08:09,838 COMPARISON DEBUG Start search 19/100. SMILES: CC(C)c1ccc2c(Nc3cc(C(=O)O)ccc3Sc3ccc(NC(=O)OC(C)(C)C)cc3)ncnc2c1
+2023-05-11 23:08:11,300 COMPARISON DEBUG Done constant-0: nodes=2147, solution time = 9, num routes = 32 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:08:27,268 COMPARISON DEBUG Done Tanimoto-distance: nodes=1904, solution time = 12, num routes = 50 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:08:43,051 COMPARISON DEBUG Done Tanimoto-distance-EXP: nodes=1813, solution time = 12, num routes = 56 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:08:58,968 COMPARISON DEBUG Done Tanimoto-distance-SIN: nodes=1904, solution time = 9, num routes = 50 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:09:16,193 COMPARISON DEBUG Done Tanimoto-distance-LOG: nodes=1925, solution time = 10, num routes = 40 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:09:31,965 COMPARISON DEBUG Done Tanimoto-distance-QUAD: nodes=1726, solution time = 12, num routes = 40 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:09:49,339 COMPARISON DEBUG Done Tanimoto-distance-CUB: nodes=2053, solution time = 10, num routes = 40 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:10:07,533 COMPARISON DEBUG Done Dice-distance: nodes=2077, solution time = 11, num routes = 40 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:10:07,533 COMPARISON DEBUG Start search 20/100. SMILES: CS(=O)(=O)NC(=O)c1cc(C2CC2)c(OCC2(C#N)C3CC4CC(C3)CC2C4)cc1F
+2023-05-11 23:10:09,110 COMPARISON DEBUG Done constant-0: nodes=1490, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:10:22,512 COMPARISON DEBUG Done Tanimoto-distance: nodes=1404, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:10:36,231 COMPARISON DEBUG Done Tanimoto-distance-EXP: nodes=1404, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:10:49,877 COMPARISON DEBUG Done Tanimoto-distance-SIN: nodes=1404, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:11:03,917 COMPARISON DEBUG Done Tanimoto-distance-LOG: nodes=1449, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:11:17,325 COMPARISON DEBUG Done Tanimoto-distance-QUAD: nodes=1449, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:11:31,409 COMPARISON DEBUG Done Tanimoto-distance-CUB: nodes=1490, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:11:45,021 COMPARISON DEBUG Done Dice-distance: nodes=1449, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:11:45,021 COMPARISON DEBUG Start search 21/100. SMILES: COc1c(N2CCN(C(=O)COC(C)=O)CC2)cc(Br)cc1C(C)(C)C
+2023-05-11 23:11:46,427 COMPARISON DEBUG Done constant-0: nodes=2006, solution time = 7, num routes = 25 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:12:04,395 COMPARISON DEBUG Done Tanimoto-distance: nodes=2154, solution time = 7, num routes = 51 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:12:22,527 COMPARISON DEBUG Done Tanimoto-distance-EXP: nodes=2216, solution time = 7, num routes = 56 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:12:39,993 COMPARISON DEBUG Done Tanimoto-distance-SIN: nodes=2154, solution time = 7, num routes = 51 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:12:57,058 COMPARISON DEBUG Done Tanimoto-distance-LOG: nodes=2077, solution time = 7, num routes = 44 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:13:14,745 COMPARISON DEBUG Done Tanimoto-distance-QUAD: nodes=2077, solution time = 7, num routes = 44 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:13:32,367 COMPARISON DEBUG Done Tanimoto-distance-CUB: nodes=2077, solution time = 7, num routes = 44 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:13:49,752 COMPARISON DEBUG Done Dice-distance: nodes=2077, solution time = 7, num routes = 44 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:13:49,753 COMPARISON DEBUG Start search 22/100. SMILES: CC(=O)Nc1c(-c2ccc3c(c2OC2CCC2)CC[C@H](C)N3C(=O)C2CC2)cnn1C1CC1
+2023-05-11 23:13:51,487 COMPARISON DEBUG Done constant-0: nodes=1592, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:14:10,018 COMPARISON DEBUG Done Tanimoto-distance: nodes=1764, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:14:27,846 COMPARISON DEBUG Done Tanimoto-distance-EXP: nodes=1741, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:14:43,009 COMPARISON DEBUG Done Tanimoto-distance-SIN: nodes=1476, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:15:00,783 COMPARISON DEBUG Done Tanimoto-distance-LOG: nodes=1739, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:15:16,991 COMPARISON DEBUG Done Tanimoto-distance-QUAD: nodes=1580, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:15:33,683 COMPARISON DEBUG Done Tanimoto-distance-CUB: nodes=1627, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:15:49,735 COMPARISON DEBUG Done Dice-distance: nodes=1580, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:15:49,735 COMPARISON DEBUG Start search 23/100. SMILES: CCC(C)(C)Cc1c[nH]c(C(Cc2ccc(-c3cn(C)nc3N)cc2)NC(C)=O)n1
+2023-05-11 23:15:51,420 COMPARISON DEBUG Done constant-0: nodes=1418, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:16:06,384 COMPARISON DEBUG Done Tanimoto-distance: nodes=1421, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:16:21,353 COMPARISON DEBUG Done Tanimoto-distance-EXP: nodes=1421, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:16:35,935 COMPARISON DEBUG Done Tanimoto-distance-SIN: nodes=1421, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:16:50,572 COMPARISON DEBUG Done Tanimoto-distance-LOG: nodes=1421, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:17:05,716 COMPARISON DEBUG Done Tanimoto-distance-QUAD: nodes=1421, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:17:21,394 COMPARISON DEBUG Done Tanimoto-distance-CUB: nodes=1463, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:17:36,697 COMPARISON DEBUG Done Dice-distance: nodes=1421, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:17:36,697 COMPARISON DEBUG Start search 24/100. SMILES: CN(C)CCNC(=O)COc1cccc(-c2nc(Nc3ccc4[nH]ncc4c3)c3ccccc3n2)c1
+2023-05-11 23:17:38,517 COMPARISON DEBUG Done constant-0: nodes=2130, solution time = 14, num routes = 16 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:18:01,366 COMPARISON DEBUG Done Tanimoto-distance: nodes=2304, solution time = 11, num routes = 28 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:18:25,295 COMPARISON DEBUG Done Tanimoto-distance-EXP: nodes=2334, solution time = 10, num routes = 35 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:18:47,337 COMPARISON DEBUG Done Tanimoto-distance-SIN: nodes=2229, solution time = 11, num routes = 27 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:19:10,338 COMPARISON DEBUG Done Tanimoto-distance-LOG: nodes=2229, solution time = 11, num routes = 27 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:19:31,708 COMPARISON DEBUG Done Tanimoto-distance-QUAD: nodes=2115, solution time = 11, num routes = 26 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:19:52,868 COMPARISON DEBUG Done Tanimoto-distance-CUB: nodes=2115, solution time = 12, num routes = 26 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:20:15,102 COMPARISON DEBUG Done Dice-distance: nodes=2174, solution time = 11, num routes = 27 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:20:15,102 COMPARISON DEBUG Start search 25/100. SMILES: Cn1cc(-c2ccc3c(ccn3CC3CCN(C(=O)CCc4ccccc4)CC3)c2)nn1
+2023-05-11 23:20:16,551 COMPARISON DEBUG Done constant-0: nodes=1589, solution time = 5, num routes = 34 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:20:32,337 COMPARISON DEBUG Done Tanimoto-distance: nodes=1682, solution time = 5, num routes = 37 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:20:47,068 COMPARISON DEBUG Done Tanimoto-distance-EXP: nodes=1625, solution time = 5, num routes = 40 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:21:01,980 COMPARISON DEBUG Done Tanimoto-distance-SIN: nodes=1682, solution time = 5, num routes = 37 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:21:16,867 COMPARISON DEBUG Done Tanimoto-distance-LOG: nodes=1682, solution time = 5, num routes = 37 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:21:31,836 COMPARISON DEBUG Done Tanimoto-distance-QUAD: nodes=1708, solution time = 5, num routes = 37 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:21:46,940 COMPARISON DEBUG Done Tanimoto-distance-CUB: nodes=1710, solution time = 5, num routes = 37 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:22:02,041 COMPARISON DEBUG Done Dice-distance: nodes=1708, solution time = 5, num routes = 37 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:22:02,041 COMPARISON DEBUG Start search 26/100. SMILES: Cn1nc(-c2ccc(OC(F)(F)F)cc2)cc1CCOc1ccc2ccn(CC(=O)O)c2c1
+2023-05-11 23:22:03,305 COMPARISON DEBUG Done constant-0: nodes=1469, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:22:17,439 COMPARISON DEBUG Done Tanimoto-distance: nodes=1487, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:22:31,671 COMPARISON DEBUG Done Tanimoto-distance-EXP: nodes=1541, solution time = 25, num routes = 1 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:22:45,378 COMPARISON DEBUG Done Tanimoto-distance-SIN: nodes=1523, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:22:59,109 COMPARISON DEBUG Done Tanimoto-distance-LOG: nodes=1523, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:23:12,506 COMPARISON DEBUG Done Tanimoto-distance-QUAD: nodes=1465, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:23:25,854 COMPARISON DEBUG Done Tanimoto-distance-CUB: nodes=1465, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:23:38,680 COMPARISON DEBUG Done Dice-distance: nodes=1379, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:23:38,680 COMPARISON DEBUG Start search 27/100. SMILES: COc1ccc(CNC(=O)c2cc(-c3cncc(C)c3)ncc2-c2nccs2)nc1OC
+2023-05-11 23:23:39,638 COMPARISON DEBUG Done constant-0: nodes=1824, solution time = 8, num routes = 30 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:23:52,907 COMPARISON DEBUG Done Tanimoto-distance: nodes=1861, solution time = 7, num routes = 39 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:24:05,697 COMPARISON DEBUG Done Tanimoto-distance-EXP: nodes=1759, solution time = 6, num routes = 39 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:24:19,173 COMPARISON DEBUG Done Tanimoto-distance-SIN: nodes=1838, solution time = 8, num routes = 39 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:24:32,155 COMPARISON DEBUG Done Tanimoto-distance-LOG: nodes=1808, solution time = 7, num routes = 39 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:24:45,106 COMPARISON DEBUG Done Tanimoto-distance-QUAD: nodes=1854, solution time = 7, num routes = 39 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:24:58,772 COMPARISON DEBUG Done Tanimoto-distance-CUB: nodes=1930, solution time = 8, num routes = 39 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:25:11,902 COMPARISON DEBUG Done Dice-distance: nodes=1838, solution time = 8, num routes = 39 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:25:11,902 COMPARISON DEBUG Start search 28/100. SMILES: CC(C)(C)n1ncc(-c2nc(CC(=O)NCC3CCOCC3)cs2)c1-c1ccc(C(F)(F)F)cc1
+2023-05-11 23:25:13,054 COMPARISON DEBUG Done constant-0: nodes=1896, solution time = 16, num routes = 54 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:25:29,246 COMPARISON DEBUG Done Tanimoto-distance: nodes=1917, solution time = 15, num routes = 56 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:25:44,940 COMPARISON DEBUG Done Tanimoto-distance-EXP: nodes=1927, solution time = 14, num routes = 73 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:26:00,757 COMPARISON DEBUG Done Tanimoto-distance-SIN: nodes=1917, solution time = 16, num routes = 56 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:26:16,182 COMPARISON DEBUG Done Tanimoto-distance-LOG: nodes=1896, solution time = 16, num routes = 54 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:26:31,931 COMPARISON DEBUG Done Tanimoto-distance-QUAD: nodes=1917, solution time = 15, num routes = 56 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:26:47,313 COMPARISON DEBUG Done Tanimoto-distance-CUB: nodes=1916, solution time = 16, num routes = 54 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:27:03,203 COMPARISON DEBUG Done Dice-distance: nodes=1917, solution time = 16, num routes = 56 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:27:03,203 COMPARISON DEBUG Start search 29/100. SMILES: CC[C@@H]1C(=O)N(C)c2cnc(Nc3ccc(C(=O)NC[C@@H](CN4CCN(C)CC4)OC)c4c3OCC4)nc2N1C(C)C
+2023-05-11 23:27:04,798 COMPARISON DEBUG Done constant-0: nodes=1986, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:27:22,839 COMPARISON DEBUG Done Tanimoto-distance: nodes=1963, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:27:43,433 COMPARISON DEBUG Done Tanimoto-distance-EXP: nodes=2145, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:28:02,026 COMPARISON DEBUG Done Tanimoto-distance-SIN: nodes=1932, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:28:18,997 COMPARISON DEBUG Done Tanimoto-distance-LOG: nodes=1808, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:28:38,581 COMPARISON DEBUG Done Tanimoto-distance-QUAD: nodes=2166, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:28:56,198 COMPARISON DEBUG Done Tanimoto-distance-CUB: nodes=1970, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:29:14,969 COMPARISON DEBUG Done Dice-distance: nodes=2054, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:29:14,969 COMPARISON DEBUG Start search 30/100. SMILES: COc1cc(Oc2ccc(S(C)(=O)=O)nc2)cc2cc(C3=NCC(CC(=O)NCC(C)(C)O)S3)[nH]c12
+2023-05-11 23:29:16,182 COMPARISON DEBUG Done constant-0: nodes=1605, solution time = 6, num routes = 22 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:29:31,609 COMPARISON DEBUG Done Tanimoto-distance: nodes=1621, solution time = 6, num routes = 12 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:29:46,466 COMPARISON DEBUG Done Tanimoto-distance-EXP: nodes=1621, solution time = 6, num routes = 12 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:30:01,435 COMPARISON DEBUG Done Tanimoto-distance-SIN: nodes=1621, solution time = 6, num routes = 12 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:30:16,629 COMPARISON DEBUG Done Tanimoto-distance-LOG: nodes=1666, solution time = 6, num routes = 12 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:30:33,072 COMPARISON DEBUG Done Tanimoto-distance-QUAD: nodes=1666, solution time = 6, num routes = 12 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:30:47,783 COMPARISON DEBUG Done Tanimoto-distance-CUB: nodes=1605, solution time = 6, num routes = 22 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:31:03,115 COMPARISON DEBUG Done Dice-distance: nodes=1666, solution time = 6, num routes = 12 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:31:03,115 COMPARISON DEBUG Start search 31/100. SMILES: COc1cc(C(=O)NC2CCN(C)CC2)ccc1Nc1ncc2c(n1)N(C1CCCC1)CC(C)(F)C(=O)N2C
+2023-05-11 23:31:04,228 COMPARISON DEBUG Done constant-0: nodes=1218, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:31:14,786 COMPARISON DEBUG Done Tanimoto-distance: nodes=1218, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:31:24,775 COMPARISON DEBUG Done Tanimoto-distance-EXP: nodes=1153, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:31:35,484 COMPARISON DEBUG Done Tanimoto-distance-SIN: nodes=1218, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:31:46,659 COMPARISON DEBUG Done Tanimoto-distance-LOG: nodes=1218, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:31:57,710 COMPARISON DEBUG Done Tanimoto-distance-QUAD: nodes=1218, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:32:08,154 COMPARISON DEBUG Done Tanimoto-distance-CUB: nodes=1218, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:32:18,989 COMPARISON DEBUG Done Dice-distance: nodes=1218, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:32:18,989 COMPARISON DEBUG Start search 32/100. SMILES: COc1cc(C(=O)N2CC(C)(C)OC[C@H]2CCO)cc2nc(NC(C)c3cc(Cl)ccn3)oc12
+2023-05-11 23:32:19,995 COMPARISON DEBUG Done constant-0: nodes=914, solution time = 14, num routes = 1 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:32:28,345 COMPARISON DEBUG Done Tanimoto-distance: nodes=924, solution time = 10, num routes = 2 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:32:35,585 COMPARISON DEBUG Done Tanimoto-distance-EXP: nodes=760, solution time = 7, num routes = 2 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:32:43,962 COMPARISON DEBUG Done Tanimoto-distance-SIN: nodes=924, solution time = 10, num routes = 2 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:32:51,688 COMPARISON DEBUG Done Tanimoto-distance-LOG: nodes=843, solution time = 10, num routes = 1 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:33:00,158 COMPARISON DEBUG Done Tanimoto-distance-QUAD: nodes=914, solution time = 7, num routes = 1 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:33:09,173 COMPARISON DEBUG Done Tanimoto-distance-CUB: nodes=982, solution time = 10, num routes = 1 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:33:17,886 COMPARISON DEBUG Done Dice-distance: nodes=896, solution time = 11, num routes = 2 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:33:17,886 COMPARISON DEBUG Start search 33/100. SMILES: NC(=O)c1sc(-n2cnc3ccc(CCCCN4CCOCC4)cc32)nc1-c1cccc(Cl)c1
+2023-05-11 23:33:19,536 COMPARISON DEBUG Done constant-0: nodes=2148, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:33:42,101 COMPARISON DEBUG Done Tanimoto-distance: nodes=2186, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:34:03,856 COMPARISON DEBUG Done Tanimoto-distance-EXP: nodes=2174, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:34:25,719 COMPARISON DEBUG Done Tanimoto-distance-SIN: nodes=2186, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:34:47,455 COMPARISON DEBUG Done Tanimoto-distance-LOG: nodes=2148, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:35:08,603 COMPARISON DEBUG Done Tanimoto-distance-QUAD: nodes=2110, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:35:29,594 COMPARISON DEBUG Done Tanimoto-distance-CUB: nodes=2128, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:35:51,277 COMPARISON DEBUG Done Dice-distance: nodes=2148, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:35:51,278 COMPARISON DEBUG Start search 34/100. SMILES: Cc1cc(NC(=O)C2(c3ccc4c(c3)OC(F)(F)O4)CC2)nc(-c2c[nH]c(=O)c(C)c2)c1C
+2023-05-11 23:35:52,547 COMPARISON DEBUG Done constant-0: nodes=1690, solution time = 5, num routes = 81 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:36:05,340 COMPARISON DEBUG Done Tanimoto-distance: nodes=1604, solution time = 5, num routes = 69 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:36:18,700 COMPARISON DEBUG Done Tanimoto-distance-EXP: nodes=1726, solution time = 5, num routes = 207 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:36:31,303 COMPARISON DEBUG Done Tanimoto-distance-SIN: nodes=1619, solution time = 5, num routes = 69 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:36:44,507 COMPARISON DEBUG Done Tanimoto-distance-LOG: nodes=1712, solution time = 5, num routes = 249 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:36:57,415 COMPARISON DEBUG Done Tanimoto-distance-QUAD: nodes=1655, solution time = 5, num routes = 249 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:37:11,240 COMPARISON DEBUG Done Tanimoto-distance-CUB: nodes=1704, solution time = 5, num routes = 201 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:37:24,081 COMPARISON DEBUG Done Dice-distance: nodes=1671, solution time = 5, num routes = 201 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:37:24,082 COMPARISON DEBUG Start search 35/100. SMILES: C[C@H]1CN(c2ccc(C#N)cn2)C[C@H]1Nc1c(C(N)=O)cnn2cc(-c3cnn(CC(C)(C)O)c3)cc12
+2023-05-11 23:37:25,723 COMPARISON DEBUG Done constant-0: nodes=1309, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:37:39,407 COMPARISON DEBUG Done Tanimoto-distance: nodes=1265, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:37:52,996 COMPARISON DEBUG Done Tanimoto-distance-EXP: nodes=1272, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:38:07,232 COMPARISON DEBUG Done Tanimoto-distance-SIN: nodes=1299, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:38:21,478 COMPARISON DEBUG Done Tanimoto-distance-LOG: nodes=1299, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:38:35,895 COMPARISON DEBUG Done Tanimoto-distance-QUAD: nodes=1301, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:38:49,916 COMPARISON DEBUG Done Tanimoto-distance-CUB: nodes=1301, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:39:03,919 COMPARISON DEBUG Done Dice-distance: nodes=1301, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:39:03,919 COMPARISON DEBUG Start search 36/100. SMILES: Cc1cc2c(cc1-c1cc(C=C3SC(=O)NC3=O)ccc1OC(F)(F)F)C(C(C)C)=CCC2(C)C
+2023-05-11 23:39:05,548 COMPARISON DEBUG Done constant-0: nodes=2715, solution time = 16, num routes = 9 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:39:31,952 COMPARISON DEBUG Done Tanimoto-distance: nodes=3094, solution time = 14, num routes = 26 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:40:00,012 COMPARISON DEBUG Done Tanimoto-distance-EXP: nodes=3506, solution time = 15, num routes = 35 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:40:27,403 COMPARISON DEBUG Done Tanimoto-distance-SIN: nodes=3403, solution time = 16, num routes = 27 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:40:52,234 COMPARISON DEBUG Done Tanimoto-distance-LOG: nodes=3036, solution time = 16, num routes = 26 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:41:19,414 COMPARISON DEBUG Done Tanimoto-distance-QUAD: nodes=3283, solution time = 14, num routes = 24 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:41:48,037 COMPARISON DEBUG Done Tanimoto-distance-CUB: nodes=3399, solution time = 15, num routes = 40 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:42:17,680 COMPARISON DEBUG Done Dice-distance: nodes=3494, solution time = 15, num routes = 18 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:42:17,681 COMPARISON DEBUG Start search 37/100. SMILES: Cc1ccc2c(=O)n([C@H](C)CN3CC(O)C3)ccc2c1NC(=O)Cc1ccc(C(F)(F)F)c(F)c1
+2023-05-11 23:42:19,080 COMPARISON DEBUG Done constant-0: nodes=1095, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:42:30,121 COMPARISON DEBUG Done Tanimoto-distance: nodes=1063, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:42:41,249 COMPARISON DEBUG Done Tanimoto-distance-EXP: nodes=1072, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:42:52,948 COMPARISON DEBUG Done Tanimoto-distance-SIN: nodes=1073, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:43:04,185 COMPARISON DEBUG Done Tanimoto-distance-LOG: nodes=1095, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:43:15,680 COMPARISON DEBUG Done Tanimoto-distance-QUAD: nodes=1095, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:43:27,099 COMPARISON DEBUG Done Tanimoto-distance-CUB: nodes=1095, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:43:38,118 COMPARISON DEBUG Done Dice-distance: nodes=1095, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:43:38,118 COMPARISON DEBUG Start search 38/100. SMILES: CCOC(=O)CCc1ccc(-c2ccc(CN3CCN(C)CC3)cc2)c(OCCCOC)c1
+2023-05-11 23:43:40,081 COMPARISON DEBUG Done constant-0: nodes=2204, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:44:01,512 COMPARISON DEBUG Done Tanimoto-distance: nodes=2231, solution time = 25, num routes = 5 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:44:23,634 COMPARISON DEBUG Done Tanimoto-distance-EXP: nodes=2332, solution time = 21, num routes = 5 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:44:44,560 COMPARISON DEBUG Done Tanimoto-distance-SIN: nodes=2231, solution time = 25, num routes = 5 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:45:05,679 COMPARISON DEBUG Done Tanimoto-distance-LOG: nodes=2231, solution time = 25, num routes = 5 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:45:27,492 COMPARISON DEBUG Done Tanimoto-distance-QUAD: nodes=2273, solution time = 25, num routes = 5 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:45:49,126 COMPARISON DEBUG Done Tanimoto-distance-CUB: nodes=2297, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:46:10,402 COMPARISON DEBUG Done Dice-distance: nodes=2231, solution time = 25, num routes = 5 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:46:10,402 COMPARISON DEBUG Start search 39/100. SMILES: CCc1cc(-c2cccc(N)n2)c(OC)cc1O
+2023-05-11 23:46:11,997 COMPARISON DEBUG Done constant-0: nodes=2172, solution time = 15, num routes = 1 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:46:30,313 COMPARISON DEBUG Done Tanimoto-distance: nodes=2138, solution time = 12, num routes = 1 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:46:48,367 COMPARISON DEBUG Done Tanimoto-distance-EXP: nodes=2199, solution time = 12, num routes = 2 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:47:06,360 COMPARISON DEBUG Done Tanimoto-distance-SIN: nodes=2138, solution time = 12, num routes = 1 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:47:24,092 COMPARISON DEBUG Done Tanimoto-distance-LOG: nodes=2138, solution time = 12, num routes = 1 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:47:43,065 COMPARISON DEBUG Done Tanimoto-distance-QUAD: nodes=2138, solution time = 13, num routes = 1 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:48:01,380 COMPARISON DEBUG Done Tanimoto-distance-CUB: nodes=2138, solution time = 13, num routes = 1 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:48:19,389 COMPARISON DEBUG Done Dice-distance: nodes=2138, solution time = 12, num routes = 1 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:48:19,390 COMPARISON DEBUG Start search 40/100. SMILES: CS(=O)(=O)NCCc1ccc2cc(OCCNC(=O)c3ccccc3)ccc2c1
+2023-05-11 23:48:20,906 COMPARISON DEBUG Done constant-0: nodes=2084, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:48:41,061 COMPARISON DEBUG Done Tanimoto-distance: nodes=2238, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:49:01,548 COMPARISON DEBUG Done Tanimoto-distance-EXP: nodes=2252, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:49:21,506 COMPARISON DEBUG Done Tanimoto-distance-SIN: nodes=2238, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:49:41,452 COMPARISON DEBUG Done Tanimoto-distance-LOG: nodes=2238, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:50:01,558 COMPARISON DEBUG Done Tanimoto-distance-QUAD: nodes=2238, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:50:22,233 COMPARISON DEBUG Done Tanimoto-distance-CUB: nodes=2238, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:50:42,246 COMPARISON DEBUG Done Dice-distance: nodes=2238, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:50:42,247 COMPARISON DEBUG Start search 41/100. SMILES: O=c1n(Cc2ccc(C(F)(F)F)nc2O)nc2c(-c3ccncc3)c(-c3ccc(Cl)cc3)ccn12
+2023-05-11 23:50:44,058 COMPARISON DEBUG Done constant-0: nodes=1898, solution time = 12, num routes = 2 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:51:02,524 COMPARISON DEBUG Done Tanimoto-distance: nodes=2019, solution time = 12, num routes = 4 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:51:20,490 COMPARISON DEBUG Done Tanimoto-distance-EXP: nodes=2013, solution time = 12, num routes = 4 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:51:38,585 COMPARISON DEBUG Done Tanimoto-distance-SIN: nodes=2019, solution time = 12, num routes = 4 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:51:56,865 COMPARISON DEBUG Done Tanimoto-distance-LOG: nodes=1979, solution time = 12, num routes = 4 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:52:14,245 COMPARISON DEBUG Done Tanimoto-distance-QUAD: nodes=1842, solution time = 12, num routes = 2 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:52:32,558 COMPARISON DEBUG Done Tanimoto-distance-CUB: nodes=1977, solution time = 12, num routes = 2 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:52:50,764 COMPARISON DEBUG Done Dice-distance: nodes=1979, solution time = 12, num routes = 4 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:52:50,764 COMPARISON DEBUG Start search 42/100. SMILES: Cc1cccc2nc(C(C)N3C(=O)c4ccccc4C3=O)c(-c3cccc(F)c3)c(=O)n12
+2023-05-11 23:52:51,868 COMPARISON DEBUG Done constant-0: nodes=1784, solution time = 19, num routes = 4 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:53:07,564 COMPARISON DEBUG Done Tanimoto-distance: nodes=1913, solution time = 19, num routes = 6 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:53:23,309 COMPARISON DEBUG Done Tanimoto-distance-EXP: nodes=1931, solution time = 19, num routes = 6 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:53:38,376 COMPARISON DEBUG Done Tanimoto-distance-SIN: nodes=1913, solution time = 19, num routes = 6 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:53:53,540 COMPARISON DEBUG Done Tanimoto-distance-LOG: nodes=1859, solution time = 19, num routes = 5 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:54:09,300 COMPARISON DEBUG Done Tanimoto-distance-QUAD: nodes=1931, solution time = 19, num routes = 6 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:54:25,235 COMPARISON DEBUG Done Tanimoto-distance-CUB: nodes=1931, solution time = 19, num routes = 6 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:54:40,431 COMPARISON DEBUG Done Dice-distance: nodes=1913, solution time = 19, num routes = 6 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:54:40,432 COMPARISON DEBUG Start search 43/100. SMILES: Cc1ccc(C(C)C)cc1OCc1c(C)nc(-c2c(C)cccc2C)nc1N1CCN(CC(N)=O)[C@H](C)C1
+2023-05-11 23:54:41,881 COMPARISON DEBUG Done constant-0: nodes=1688, solution time = 15, num routes = 2 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:54:57,705 COMPARISON DEBUG Done Tanimoto-distance: nodes=1670, solution time = 14, num routes = 4 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:55:13,018 COMPARISON DEBUG Done Tanimoto-distance-EXP: nodes=1670, solution time = 14, num routes = 4 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:55:28,599 COMPARISON DEBUG Done Tanimoto-distance-SIN: nodes=1670, solution time = 15, num routes = 4 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:55:44,326 COMPARISON DEBUG Done Tanimoto-distance-LOG: nodes=1680, solution time = 15, num routes = 3 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:55:59,410 COMPARISON DEBUG Done Tanimoto-distance-QUAD: nodes=1640, solution time = 15, num routes = 2 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:56:15,565 COMPARISON DEBUG Done Tanimoto-distance-CUB: nodes=1742, solution time = 15, num routes = 3 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:56:31,473 COMPARISON DEBUG Done Dice-distance: nodes=1680, solution time = 15, num routes = 3 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:56:31,473 COMPARISON DEBUG Start search 44/100. SMILES: OC(COc1cccc(-c2ccc3ncn(Cc4ccccc4)c3c2)c1)CN1CCc2ccccc2C1
+2023-05-11 23:56:33,285 COMPARISON DEBUG Done constant-0: nodes=2154, solution time = 5, num routes = 1580 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:56:52,765 COMPARISON DEBUG Done Tanimoto-distance: nodes=2243, solution time = 7, num routes = 2568 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:57:11,858 COMPARISON DEBUG Done Tanimoto-distance-EXP: nodes=2246, solution time = 5, num routes = 2620 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:57:30,847 COMPARISON DEBUG Done Tanimoto-distance-SIN: nodes=2243, solution time = 7, num routes = 2568 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:57:49,019 COMPARISON DEBUG Done Tanimoto-distance-LOG: nodes=2130, solution time = 6, num routes = 1788 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:58:07,001 COMPARISON DEBUG Done Tanimoto-distance-QUAD: nodes=2092, solution time = 7, num routes = 1716 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:58:25,378 COMPARISON DEBUG Done Tanimoto-distance-CUB: nodes=2130, solution time = 7, num routes = 1788 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:58:43,919 COMPARISON DEBUG Done Dice-distance: nodes=2130, solution time = 7, num routes = 1788 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:58:43,919 COMPARISON DEBUG Start search 45/100. SMILES: NC1=NC(c2cc(NC(=O)c3ccc(Cl)cn3)ccc2F)(C2CC2)COC1
+2023-05-11 23:58:45,158 COMPARISON DEBUG Done constant-0: nodes=1183, solution time = 17, num routes = 1 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:58:56,254 COMPARISON DEBUG Done Tanimoto-distance: nodes=1276, solution time = 17, num routes = 1 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:59:07,846 COMPARISON DEBUG Done Tanimoto-distance-EXP: nodes=1355, solution time = 17, num routes = 1 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:59:18,760 COMPARISON DEBUG Done Tanimoto-distance-SIN: nodes=1276, solution time = 17, num routes = 1 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:59:29,406 COMPARISON DEBUG Done Tanimoto-distance-LOG: nodes=1240, solution time = 17, num routes = 1 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:59:40,611 COMPARISON DEBUG Done Tanimoto-distance-QUAD: nodes=1276, solution time = 17, num routes = 1 (capped at 10000), final num rxn model calls = 25.
+2023-05-11 23:59:51,447 COMPARISON DEBUG Done Tanimoto-distance-CUB: nodes=1240, solution time = 17, num routes = 1 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:00:02,731 COMPARISON DEBUG Done Dice-distance: nodes=1276, solution time = 17, num routes = 1 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:00:02,731 COMPARISON DEBUG Start search 46/100. SMILES: C=CC(OCOC)c1ccc(N(c2cc3oc(-c4ccc(F)cc4)c(C(=O)NC)c3cc2C2CC2)S(C)(=O)=O)cc1Cl
+2023-05-12 00:00:04,257 COMPARISON DEBUG Done constant-0: nodes=1194, solution time = 3, num routes = 9 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:00:15,418 COMPARISON DEBUG Done Tanimoto-distance: nodes=1144, solution time = 3, num routes = 9 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:00:26,242 COMPARISON DEBUG Done Tanimoto-distance-EXP: nodes=1115, solution time = 3, num routes = 12 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:00:37,223 COMPARISON DEBUG Done Tanimoto-distance-SIN: nodes=1144, solution time = 3, num routes = 9 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:00:48,249 COMPARISON DEBUG Done Tanimoto-distance-LOG: nodes=1144, solution time = 3, num routes = 9 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:00:59,821 COMPARISON DEBUG Done Tanimoto-distance-QUAD: nodes=1211, solution time = 3, num routes = 9 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:01:11,134 COMPARISON DEBUG Done Tanimoto-distance-CUB: nodes=1211, solution time = 3, num routes = 9 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:01:22,080 COMPARISON DEBUG Done Dice-distance: nodes=1144, solution time = 3, num routes = 9 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:01:22,080 COMPARISON DEBUG Start search 47/100. SMILES: CC(C)(C)c1cc2cc(N)cc(CO)c2[nH]1
+2023-05-12 00:01:23,275 COMPARISON DEBUG Done constant-0: nodes=1705, solution time = 19, num routes = 45 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:01:36,953 COMPARISON DEBUG Done Tanimoto-distance: nodes=1739, solution time = 15, num routes = 55 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:01:50,828 COMPARISON DEBUG Done Tanimoto-distance-EXP: nodes=1707, solution time = 14, num routes = 55 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:02:04,371 COMPARISON DEBUG Done Tanimoto-distance-SIN: nodes=1690, solution time = 17, num routes = 45 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:02:17,852 COMPARISON DEBUG Done Tanimoto-distance-LOG: nodes=1690, solution time = 18, num routes = 45 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:02:31,625 COMPARISON DEBUG Done Tanimoto-distance-QUAD: nodes=1707, solution time = 16, num routes = 55 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:02:44,960 COMPARISON DEBUG Done Tanimoto-distance-CUB: nodes=1658, solution time = 17, num routes = 45 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:02:58,625 COMPARISON DEBUG Done Dice-distance: nodes=1690, solution time = 16, num routes = 45 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:02:58,625 COMPARISON DEBUG Start search 48/100. SMILES: COCCCOc1cc(C(=O)N(C[C@@H]2CNC[C@H]2CO)C(C)C)ccc1OC
+2023-05-12 00:03:00,267 COMPARISON DEBUG Done constant-0: nodes=1471, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:03:14,849 COMPARISON DEBUG Done Tanimoto-distance: nodes=1413, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:03:29,649 COMPARISON DEBUG Done Tanimoto-distance-EXP: nodes=1413, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:03:44,239 COMPARISON DEBUG Done Tanimoto-distance-SIN: nodes=1425, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:03:58,912 COMPARISON DEBUG Done Tanimoto-distance-LOG: nodes=1413, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:04:12,993 COMPARISON DEBUG Done Tanimoto-distance-QUAD: nodes=1374, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:04:27,399 COMPARISON DEBUG Done Tanimoto-distance-CUB: nodes=1374, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:04:42,671 COMPARISON DEBUG Done Dice-distance: nodes=1460, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:04:42,672 COMPARISON DEBUG Start search 49/100. SMILES: Cc1c(CCCN2CC3C(C2)C3(C)c2cccc(NS(C)(=O)=O)c2)[nH]c2ccc(F)cc12
+2023-05-12 00:04:44,166 COMPARISON DEBUG Done constant-0: nodes=1803, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:05:02,256 COMPARISON DEBUG Done Tanimoto-distance: nodes=1821, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:05:20,267 COMPARISON DEBUG Done Tanimoto-distance-EXP: nodes=1821, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:05:38,862 COMPARISON DEBUG Done Tanimoto-distance-SIN: nodes=1905, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:05:57,547 COMPARISON DEBUG Done Tanimoto-distance-LOG: nodes=1905, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:06:16,235 COMPARISON DEBUG Done Tanimoto-distance-QUAD: nodes=1905, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:06:34,375 COMPARISON DEBUG Done Tanimoto-distance-CUB: nodes=1862, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:06:52,976 COMPARISON DEBUG Done Dice-distance: nodes=1905, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:06:52,976 COMPARISON DEBUG Start search 50/100. SMILES: CC(C(=O)O)c1ccc2nc(N)oc2c1
+2023-05-12 00:06:54,172 COMPARISON DEBUG Done constant-0: nodes=2594, solution time = 3, num routes = 12 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:07:13,522 COMPARISON DEBUG Done Tanimoto-distance: nodes=2554, solution time = 3, num routes = 33 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:07:33,640 COMPARISON DEBUG Done Tanimoto-distance-EXP: nodes=2625, solution time = 3, num routes = 33 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:07:52,892 COMPARISON DEBUG Done Tanimoto-distance-SIN: nodes=2554, solution time = 3, num routes = 33 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:08:12,173 COMPARISON DEBUG Done Tanimoto-distance-LOG: nodes=2554, solution time = 3, num routes = 33 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:08:31,806 COMPARISON DEBUG Done Tanimoto-distance-QUAD: nodes=2634, solution time = 3, num routes = 33 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:08:51,480 COMPARISON DEBUG Done Tanimoto-distance-CUB: nodes=2634, solution time = 3, num routes = 33 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:09:11,067 COMPARISON DEBUG Done Dice-distance: nodes=2554, solution time = 3, num routes = 33 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:09:11,067 COMPARISON DEBUG Start search 51/100. SMILES: Cc1c(C(=O)Nc2ccc(Oc3ccnc4cc(OC[C@@H](C)O)ccc34)cc2)c(=O)n(-c2ccccc2)n1C
+2023-05-12 00:09:12,406 COMPARISON DEBUG Done constant-0: nodes=2250, solution time = 9, num routes = 29 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:09:31,380 COMPARISON DEBUG Done Tanimoto-distance: nodes=2243, solution time = 10, num routes = 30 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:09:50,959 COMPARISON DEBUG Done Tanimoto-distance-EXP: nodes=2337, solution time = 10, num routes = 34 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:10:09,646 COMPARISON DEBUG Done Tanimoto-distance-SIN: nodes=2222, solution time = 10, num routes = 29 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:10:27,895 COMPARISON DEBUG Done Tanimoto-distance-LOG: nodes=2199, solution time = 10, num routes = 29 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:10:47,428 COMPARISON DEBUG Done Tanimoto-distance-QUAD: nodes=2369, solution time = 10, num routes = 38 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:11:06,778 COMPARISON DEBUG Done Tanimoto-distance-CUB: nodes=2346, solution time = 10, num routes = 38 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:11:26,064 COMPARISON DEBUG Done Dice-distance: nodes=2369, solution time = 10, num routes = 38 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:11:26,064 COMPARISON DEBUG Start search 52/100. SMILES: CC(C)(O)Cn1nc(C[C@@H]2CCN(C(=O)C3CC3)C2)n(-c2ccc(-c3ccc4occc4c3)cc2)c1=O
+2023-05-12 00:11:28,020 COMPARISON DEBUG Done constant-0: nodes=3047, solution time = 20, num routes = 3 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:11:55,320 COMPARISON DEBUG Done Tanimoto-distance: nodes=2995, solution time = 19, num routes = 6 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:12:22,290 COMPARISON DEBUG Done Tanimoto-distance-EXP: nodes=3034, solution time = 17, num routes = 9 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:12:49,551 COMPARISON DEBUG Done Tanimoto-distance-SIN: nodes=2995, solution time = 19, num routes = 6 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:13:18,013 COMPARISON DEBUG Done Tanimoto-distance-LOG: nodes=3088, solution time = 20, num routes = 18 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:13:45,883 COMPARISON DEBUG Done Tanimoto-distance-QUAD: nodes=3053, solution time = 19, num routes = 6 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:14:11,881 COMPARISON DEBUG Done Tanimoto-distance-CUB: nodes=2928, solution time = 20, num routes = 3 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:14:40,316 COMPARISON DEBUG Done Dice-distance: nodes=3126, solution time = 19, num routes = 18 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:14:40,316 COMPARISON DEBUG Start search 53/100. SMILES: COC1=C(OC)C(=O)C(Cc2cccc(C(=O)O)c2O)=C(C)C1=O
+2023-05-12 00:14:42,046 COMPARISON DEBUG Done constant-0: nodes=2408, solution time = 2, num routes = 7 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:15:03,506 COMPARISON DEBUG Done Tanimoto-distance: nodes=2442, solution time = 2, num routes = 7 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:15:25,393 COMPARISON DEBUG Done Tanimoto-distance-EXP: nodes=2476, solution time = 2, num routes = 7 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:15:46,606 COMPARISON DEBUG Done Tanimoto-distance-SIN: nodes=2442, solution time = 2, num routes = 7 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:16:07,917 COMPARISON DEBUG Done Tanimoto-distance-LOG: nodes=2442, solution time = 2, num routes = 7 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:16:28,818 COMPARISON DEBUG Done Tanimoto-distance-QUAD: nodes=2419, solution time = 2, num routes = 7 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:16:50,154 COMPARISON DEBUG Done Tanimoto-distance-CUB: nodes=2419, solution time = 2, num routes = 7 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:17:11,951 COMPARISON DEBUG Done Dice-distance: nodes=2442, solution time = 2, num routes = 7 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:17:11,952 COMPARISON DEBUG Start search 54/100. SMILES: Cc1cc(NCCNC2CCOCC2)n2nc(C)c(-c3c(C)cc(Cl)cc3C)c2n1
+2023-05-12 00:17:13,235 COMPARISON DEBUG Done constant-0: nodes=1477, solution time = 24, num routes = 2 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:17:26,213 COMPARISON DEBUG Done Tanimoto-distance: nodes=1477, solution time = 24, num routes = 2 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:17:40,130 COMPARISON DEBUG Done Tanimoto-distance-EXP: nodes=1571, solution time = 23, num routes = 2 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:17:53,187 COMPARISON DEBUG Done Tanimoto-distance-SIN: nodes=1477, solution time = 24, num routes = 2 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:18:06,311 COMPARISON DEBUG Done Tanimoto-distance-LOG: nodes=1477, solution time = 24, num routes = 2 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:18:19,829 COMPARISON DEBUG Done Tanimoto-distance-QUAD: nodes=1532, solution time = 24, num routes = 2 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:18:33,274 COMPARISON DEBUG Done Tanimoto-distance-CUB: nodes=1532, solution time = 24, num routes = 2 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:18:46,404 COMPARISON DEBUG Done Dice-distance: nodes=1477, solution time = 24, num routes = 2 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:18:46,404 COMPARISON DEBUG Start search 55/100. SMILES: NCCc1ccc(OCc2ccccc2)c(NC=O)c1
+2023-05-12 00:18:47,630 COMPARISON DEBUG Done constant-0: nodes=1728, solution time = 11, num routes = 6 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:19:04,384 COMPARISON DEBUG Done Tanimoto-distance: nodes=1894, solution time = 11, num routes = 10 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:19:21,124 COMPARISON DEBUG Done Tanimoto-distance-EXP: nodes=1894, solution time = 11, num routes = 10 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:19:37,607 COMPARISON DEBUG Done Tanimoto-distance-SIN: nodes=1875, solution time = 12, num routes = 6 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:19:53,386 COMPARISON DEBUG Done Tanimoto-distance-LOG: nodes=1805, solution time = 12, num routes = 6 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:20:10,721 COMPARISON DEBUG Done Tanimoto-distance-QUAD: nodes=1944, solution time = 11, num routes = 6 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:20:26,617 COMPARISON DEBUG Done Tanimoto-distance-CUB: nodes=1805, solution time = 12, num routes = 6 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:20:43,140 COMPARISON DEBUG Done Dice-distance: nodes=1875, solution time = 12, num routes = 6 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:20:43,140 COMPARISON DEBUG Start search 56/100. SMILES: COC1(c2ccc(Cl)c(Cc3ccc(COC4CC4)cc3)c2)O[C@H](CO)[C@@H](O)[C@H](O)[C@H]1O
+2023-05-12 00:20:44,723 COMPARISON DEBUG Done constant-0: nodes=2455, solution time = 8, num routes = 56 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:21:08,071 COMPARISON DEBUG Done Tanimoto-distance: nodes=2853, solution time = 8, num routes = 61 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:21:31,512 COMPARISON DEBUG Done Tanimoto-distance-EXP: nodes=2880, solution time = 8, num routes = 61 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:21:55,326 COMPARISON DEBUG Done Tanimoto-distance-SIN: nodes=2853, solution time = 8, num routes = 61 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:22:18,709 COMPARISON DEBUG Done Tanimoto-distance-LOG: nodes=2892, solution time = 8, num routes = 60 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:22:41,363 COMPARISON DEBUG Done Tanimoto-distance-QUAD: nodes=2774, solution time = 8, num routes = 58 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:23:04,316 COMPARISON DEBUG Done Tanimoto-distance-CUB: nodes=2800, solution time = 8, num routes = 58 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:23:28,113 COMPARISON DEBUG Done Dice-distance: nodes=2892, solution time = 8, num routes = 60 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:23:28,113 COMPARISON DEBUG Start search 57/100. SMILES: COc1nccc(I)c1-c1nc2c(C)cc(N3CCN(C(=O)OC(C)(C)C)CC3)cc2[nH]1
+2023-05-12 00:23:29,414 COMPARISON DEBUG Done constant-0: nodes=2008, solution time = 2, num routes = 54 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:23:45,535 COMPARISON DEBUG Done Tanimoto-distance: nodes=1972, solution time = 2, num routes = 54 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:24:01,554 COMPARISON DEBUG Done Tanimoto-distance-EXP: nodes=1954, solution time = 2, num routes = 54 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:24:17,721 COMPARISON DEBUG Done Tanimoto-distance-SIN: nodes=1972, solution time = 2, num routes = 54 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:24:33,647 COMPARISON DEBUG Done Tanimoto-distance-LOG: nodes=1972, solution time = 2, num routes = 54 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:24:49,748 COMPARISON DEBUG Done Tanimoto-distance-QUAD: nodes=1972, solution time = 2, num routes = 54 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:25:05,994 COMPARISON DEBUG Done Tanimoto-distance-CUB: nodes=1972, solution time = 2, num routes = 54 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:25:21,995 COMPARISON DEBUG Done Dice-distance: nodes=1972, solution time = 2, num routes = 54 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:25:21,995 COMPARISON DEBUG Start search 58/100. SMILES: COc1cn(-c2cc(F)c(N3CCOCC3)cc2F)nc(-c2ccnn2-c2ccccc2)c1=O
+2023-05-12 00:25:23,332 COMPARISON DEBUG Done constant-0: nodes=1328, solution time = 18, num routes = 13 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:25:35,355 COMPARISON DEBUG Done Tanimoto-distance: nodes=1292, solution time = 18, num routes = 13 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:25:47,034 COMPARISON DEBUG Done Tanimoto-distance-EXP: nodes=1261, solution time = 18, num routes = 5 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:25:59,129 COMPARISON DEBUG Done Tanimoto-distance-SIN: nodes=1292, solution time = 18, num routes = 13 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:26:11,191 COMPARISON DEBUG Done Tanimoto-distance-LOG: nodes=1292, solution time = 18, num routes = 13 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:26:23,245 COMPARISON DEBUG Done Tanimoto-distance-QUAD: nodes=1292, solution time = 18, num routes = 13 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:26:35,180 COMPARISON DEBUG Done Tanimoto-distance-CUB: nodes=1292, solution time = 18, num routes = 13 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:26:47,733 COMPARISON DEBUG Done Dice-distance: nodes=1292, solution time = 18, num routes = 13 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:26:47,734 COMPARISON DEBUG Start search 59/100. SMILES: CC(=O)OCc1c(-c2cc(Nc3cccc(N)n3)c(=O)n(C)c2)ccnc1N1CCn2c(cc3c2CC(C)(C)C3)C1=O
+2023-05-12 00:26:49,295 COMPARISON DEBUG Done constant-0: nodes=1496, solution time = 11, num routes = 11 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:27:04,167 COMPARISON DEBUG Done Tanimoto-distance: nodes=1427, solution time = 10, num routes = 11 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:27:19,547 COMPARISON DEBUG Done Tanimoto-distance-EXP: nodes=1489, solution time = 10, num routes = 11 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:27:34,244 COMPARISON DEBUG Done Tanimoto-distance-SIN: nodes=1427, solution time = 10, num routes = 11 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:27:49,491 COMPARISON DEBUG Done Tanimoto-distance-LOG: nodes=1427, solution time = 10, num routes = 11 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:28:04,013 COMPARISON DEBUG Done Tanimoto-distance-QUAD: nodes=1363, solution time = 10, num routes = 11 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:28:18,967 COMPARISON DEBUG Done Tanimoto-distance-CUB: nodes=1423, solution time = 10, num routes = 11 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:28:36,261 COMPARISON DEBUG Done Dice-distance: nodes=1427, solution time = 10, num routes = 11 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:28:36,261 COMPARISON DEBUG Start search 60/100. SMILES: Cc1ccc2ccccc2c1CC(C)Oc1ccccc1N
+2023-05-12 00:28:37,778 COMPARISON DEBUG Done constant-0: nodes=1940, solution time = 3, num routes = 7 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:28:54,800 COMPARISON DEBUG Done Tanimoto-distance: nodes=1940, solution time = 3, num routes = 7 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:29:12,520 COMPARISON DEBUG Done Tanimoto-distance-EXP: nodes=2033, solution time = 3, num routes = 10 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:29:29,442 COMPARISON DEBUG Done Tanimoto-distance-SIN: nodes=1940, solution time = 3, num routes = 7 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:29:47,390 COMPARISON DEBUG Done Tanimoto-distance-LOG: nodes=1940, solution time = 3, num routes = 7 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:30:06,278 COMPARISON DEBUG Done Tanimoto-distance-QUAD: nodes=2033, solution time = 3, num routes = 10 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:30:23,292 COMPARISON DEBUG Done Tanimoto-distance-CUB: nodes=1940, solution time = 3, num routes = 7 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:30:40,397 COMPARISON DEBUG Done Dice-distance: nodes=1940, solution time = 3, num routes = 7 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:30:40,397 COMPARISON DEBUG Start search 61/100. SMILES: CS(=O)(=O)Cc1cccc2c(C(c3ccc(Cl)cc3F)C3CC3C#N)c[nH]c12
+2023-05-12 00:30:41,397 COMPARISON DEBUG Done constant-0: nodes=1217, solution time = 6, num routes = 96 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:30:51,444 COMPARISON DEBUG Done Tanimoto-distance: nodes=1230, solution time = 8, num routes = 128 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:31:01,643 COMPARISON DEBUG Done Tanimoto-distance-EXP: nodes=1230, solution time = 8, num routes = 128 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:31:11,940 COMPARISON DEBUG Done Tanimoto-distance-SIN: nodes=1230, solution time = 8, num routes = 128 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:31:22,415 COMPARISON DEBUG Done Tanimoto-distance-LOG: nodes=1230, solution time = 9, num routes = 128 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:31:32,983 COMPARISON DEBUG Done Tanimoto-distance-QUAD: nodes=1230, solution time = 9, num routes = 128 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:31:43,425 COMPARISON DEBUG Done Tanimoto-distance-CUB: nodes=1230, solution time = 9, num routes = 128 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:31:53,868 COMPARISON DEBUG Done Dice-distance: nodes=1230, solution time = 9, num routes = 128 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:31:53,868 COMPARISON DEBUG Start search 62/100. SMILES: CCOC(CC)c1ccc(Cl)c2nc3n(c12)CCCN3c1ccc(OC)nc1C
+2023-05-12 00:31:55,139 COMPARISON DEBUG Done constant-0: nodes=1943, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:32:12,090 COMPARISON DEBUG Done Tanimoto-distance: nodes=1706, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:32:30,211 COMPARISON DEBUG Done Tanimoto-distance-EXP: nodes=1819, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:32:46,762 COMPARISON DEBUG Done Tanimoto-distance-SIN: nodes=1706, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:33:03,726 COMPARISON DEBUG Done Tanimoto-distance-LOG: nodes=1706, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:33:21,652 COMPARISON DEBUG Done Tanimoto-distance-QUAD: nodes=1819, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:33:39,951 COMPARISON DEBUG Done Tanimoto-distance-CUB: nodes=1819, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:33:58,349 COMPARISON DEBUG Done Dice-distance: nodes=1819, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:33:58,349 COMPARISON DEBUG Start search 63/100. SMILES: CCCNc1nc(Nc2cccc(F)c2)ncc1-c1cc(CCN2C(=O)c3ccccc3C2=O)no1
+2023-05-12 00:33:59,740 COMPARISON DEBUG Done constant-0: nodes=1443, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:34:13,815 COMPARISON DEBUG Done Tanimoto-distance: nodes=1362, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:34:28,166 COMPARISON DEBUG Done Tanimoto-distance-EXP: nodes=1361, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:34:42,854 COMPARISON DEBUG Done Tanimoto-distance-SIN: nodes=1395, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:34:57,543 COMPARISON DEBUG Done Tanimoto-distance-LOG: nodes=1395, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:35:11,775 COMPARISON DEBUG Done Tanimoto-distance-QUAD: nodes=1362, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:35:25,807 COMPARISON DEBUG Done Tanimoto-distance-CUB: nodes=1362, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:35:39,866 COMPARISON DEBUG Done Dice-distance: nodes=1362, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:35:39,866 COMPARISON DEBUG Start search 64/100. SMILES: CCNc1ncc2cc(-c3ccc(-c4cncc(C)n4)cc3Cl)c(=O)n(CCOC3CNC3)c2n1
+2023-05-12 00:35:42,434 COMPARISON DEBUG Done constant-0: nodes=2059, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:36:08,459 COMPARISON DEBUG Done Tanimoto-distance: nodes=2065, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:36:34,715 COMPARISON DEBUG Done Tanimoto-distance-EXP: nodes=2065, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:37:01,024 COMPARISON DEBUG Done Tanimoto-distance-SIN: nodes=2065, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:37:26,881 COMPARISON DEBUG Done Tanimoto-distance-LOG: nodes=2012, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:37:52,794 COMPARISON DEBUG Done Tanimoto-distance-QUAD: nodes=2065, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:38:19,422 COMPARISON DEBUG Done Tanimoto-distance-CUB: nodes=2012, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:38:46,092 COMPARISON DEBUG Done Dice-distance: nodes=2012, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:38:46,093 COMPARISON DEBUG Start search 65/100. SMILES: CC(C)(C)OC(=O)NCCOCCn1cnc2c(N)nc3ccccc3c21
+2023-05-12 00:38:47,696 COMPARISON DEBUG Done constant-0: nodes=2680, solution time = 6, num routes = 74 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:39:13,956 COMPARISON DEBUG Done Tanimoto-distance: nodes=2739, solution time = 6, num routes = 74 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:39:41,257 COMPARISON DEBUG Done Tanimoto-distance-EXP: nodes=2874, solution time = 6, num routes = 81 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:40:07,373 COMPARISON DEBUG Done Tanimoto-distance-SIN: nodes=2739, solution time = 6, num routes = 74 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:40:32,831 COMPARISON DEBUG Done Tanimoto-distance-LOG: nodes=2680, solution time = 6, num routes = 74 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:40:58,666 COMPARISON DEBUG Done Tanimoto-distance-QUAD: nodes=2739, solution time = 6, num routes = 74 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:41:25,159 COMPARISON DEBUG Done Tanimoto-distance-CUB: nodes=2739, solution time = 6, num routes = 74 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:41:51,257 COMPARISON DEBUG Done Dice-distance: nodes=2739, solution time = 6, num routes = 74 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:41:51,258 COMPARISON DEBUG Start search 66/100. SMILES: COC(=O)c1cc(Cc2ccc(OC)cc2)c(C)c(Cl)c1OS(=O)(=O)C(F)(F)F
+2023-05-12 00:41:52,819 COMPARISON DEBUG Done constant-0: nodes=4143, solution time = 7, num routes = 73 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:42:27,128 COMPARISON DEBUG Done Tanimoto-distance: nodes=4215, solution time = 7, num routes = 73 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:43:03,667 COMPARISON DEBUG Done Tanimoto-distance-EXP: nodes=4366, solution time = 7, num routes = 77 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:43:38,817 COMPARISON DEBUG Done Tanimoto-distance-SIN: nodes=4215, solution time = 7, num routes = 73 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:44:13,984 COMPARISON DEBUG Done Tanimoto-distance-LOG: nodes=4143, solution time = 7, num routes = 73 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:44:49,094 COMPARISON DEBUG Done Tanimoto-distance-QUAD: nodes=4215, solution time = 7, num routes = 73 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:45:24,143 COMPARISON DEBUG Done Tanimoto-distance-CUB: nodes=4215, solution time = 7, num routes = 73 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:45:59,599 COMPARISON DEBUG Done Dice-distance: nodes=4215, solution time = 7, num routes = 73 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:45:59,599 COMPARISON DEBUG Start search 67/100. SMILES: CN1CCCc2cc3c(c(Cl)c21)CCN(C(=O)OC(C)(C)C)CC3
+2023-05-12 00:46:01,268 COMPARISON DEBUG Done constant-0: nodes=1505, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:46:17,213 COMPARISON DEBUG Done Tanimoto-distance: nodes=1583, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:46:33,233 COMPARISON DEBUG Done Tanimoto-distance-EXP: nodes=1583, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:46:49,156 COMPARISON DEBUG Done Tanimoto-distance-SIN: nodes=1583, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:47:05,541 COMPARISON DEBUG Done Tanimoto-distance-LOG: nodes=1583, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:47:21,604 COMPARISON DEBUG Done Tanimoto-distance-QUAD: nodes=1583, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:47:37,827 COMPARISON DEBUG Done Tanimoto-distance-CUB: nodes=1583, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:47:53,838 COMPARISON DEBUG Done Dice-distance: nodes=1583, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:47:53,838 COMPARISON DEBUG Start search 68/100. SMILES: CCc1nccc(-c2ccc(C(=O)N3CCC(N4CCOCC4)CC3)c(Cl)c2)c1C#Cc1ccc(N)nc1
+2023-05-12 00:47:55,385 COMPARISON DEBUG Done constant-0: nodes=1850, solution time = 9, num routes = 75 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:48:13,120 COMPARISON DEBUG Done Tanimoto-distance: nodes=1830, solution time = 9, num routes = 75 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:48:30,018 COMPARISON DEBUG Done Tanimoto-distance-EXP: nodes=1801, solution time = 9, num routes = 75 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:48:47,032 COMPARISON DEBUG Done Tanimoto-distance-SIN: nodes=1830, solution time = 9, num routes = 75 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:49:04,000 COMPARISON DEBUG Done Tanimoto-distance-LOG: nodes=1830, solution time = 9, num routes = 75 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:49:21,122 COMPARISON DEBUG Done Tanimoto-distance-QUAD: nodes=1850, solution time = 9, num routes = 75 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:49:38,036 COMPARISON DEBUG Done Tanimoto-distance-CUB: nodes=1850, solution time = 9, num routes = 75 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:49:55,602 COMPARISON DEBUG Done Dice-distance: nodes=1871, solution time = 9, num routes = 75 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:49:55,602 COMPARISON DEBUG Start search 69/100. SMILES: CN(CCON=C(c1ccccc1)c1cc2ccncc2[nH]1)C(=O)OC(C)(C)C
+2023-05-12 00:49:56,821 COMPARISON DEBUG Done constant-0: nodes=876, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:50:04,948 COMPARISON DEBUG Done Tanimoto-distance: nodes=775, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:50:13,154 COMPARISON DEBUG Done Tanimoto-distance-EXP: nodes=775, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:50:21,385 COMPARISON DEBUG Done Tanimoto-distance-SIN: nodes=775, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:50:29,544 COMPARISON DEBUG Done Tanimoto-distance-LOG: nodes=775, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:50:37,798 COMPARISON DEBUG Done Tanimoto-distance-QUAD: nodes=775, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:50:46,013 COMPARISON DEBUG Done Tanimoto-distance-CUB: nodes=805, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:50:54,220 COMPARISON DEBUG Done Dice-distance: nodes=775, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:50:54,220 COMPARISON DEBUG Start search 70/100. SMILES: Cc1c(Oc2ccc(C(CO)CO)cc2)ncnc1OC1CCN(c2ncccn2)CC1
+2023-05-12 00:50:55,788 COMPARISON DEBUG Done constant-0: nodes=1642, solution time = 20, num routes = 2 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:51:13,780 COMPARISON DEBUG Done Tanimoto-distance: nodes=1678, solution time = 20, num routes = 2 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:51:31,925 COMPARISON DEBUG Done Tanimoto-distance-EXP: nodes=1678, solution time = 23, num routes = 2 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:51:49,419 COMPARISON DEBUG Done Tanimoto-distance-SIN: nodes=1678, solution time = 20, num routes = 2 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:52:06,988 COMPARISON DEBUG Done Tanimoto-distance-LOG: nodes=1688, solution time = 20, num routes = 2 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:52:23,381 COMPARISON DEBUG Done Tanimoto-distance-QUAD: nodes=1637, solution time = 18, num routes = 2 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:52:40,723 COMPARISON DEBUG Done Tanimoto-distance-CUB: nodes=1632, solution time = 17, num routes = 2 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:52:58,271 COMPARISON DEBUG Done Dice-distance: nodes=1637, solution time = 18, num routes = 2 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:52:58,271 COMPARISON DEBUG Start search 71/100. SMILES: CCc1nc2c(C)cc(C)nc2n1-c1ccc(CCNC(=O)NS(=O)(=O)c2ccc3ccccc3c2)cc1
+2023-05-12 00:52:59,750 COMPARISON DEBUG Done constant-0: nodes=1763, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:53:18,909 COMPARISON DEBUG Done Tanimoto-distance: nodes=1814, solution time = 24, num routes = 1 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:53:36,672 COMPARISON DEBUG Done Tanimoto-distance-EXP: nodes=1756, solution time = 23, num routes = 1 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:53:54,630 COMPARISON DEBUG Done Tanimoto-distance-SIN: nodes=1758, solution time = 23, num routes = 1 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:54:12,358 COMPARISON DEBUG Done Tanimoto-distance-LOG: nodes=1763, solution time = 24, num routes = 1 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:54:30,660 COMPARISON DEBUG Done Tanimoto-distance-QUAD: nodes=1903, solution time = 25, num routes = 1 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:54:49,923 COMPARISON DEBUG Done Tanimoto-distance-CUB: nodes=1928, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:55:09,478 COMPARISON DEBUG Done Dice-distance: nodes=1807, solution time = 24, num routes = 1 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:55:09,478 COMPARISON DEBUG Start search 72/100. SMILES: C[C@@H]1CCCN(C(=O)c2cccc(F)c2-n2nccn2)[C@@H]1CNc1ncc(C(F)(F)F)cn1
+2023-05-12 00:55:11,286 COMPARISON DEBUG Done constant-0: nodes=2935, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:55:34,574 COMPARISON DEBUG Done Tanimoto-distance: nodes=2647, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:55:53,223 COMPARISON DEBUG Done Tanimoto-distance-EXP: nodes=2096, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:56:14,735 COMPARISON DEBUG Done Tanimoto-distance-SIN: nodes=2441, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:56:38,827 COMPARISON DEBUG Done Tanimoto-distance-LOG: nodes=2743, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:57:03,146 COMPARISON DEBUG Done Tanimoto-distance-QUAD: nodes=2787, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:57:25,301 COMPARISON DEBUG Done Tanimoto-distance-CUB: nodes=2549, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:57:46,933 COMPARISON DEBUG Done Dice-distance: nodes=2471, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:57:46,933 COMPARISON DEBUG Start search 73/100. SMILES: Cn1c(Nc2c(Cl)ccc(CNC(=O)C(C)(C)C)c2Cl)nc2cc(C(=O)Nc3ccc(F)c(Cl)c3)c(F)cc21
+2023-05-12 00:57:48,161 COMPARISON DEBUG Done constant-0: nodes=1738, solution time = 25, num routes = 1 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:58:01,791 COMPARISON DEBUG Done Tanimoto-distance: nodes=1582, solution time = 24, num routes = 1 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:58:15,609 COMPARISON DEBUG Done Tanimoto-distance-EXP: nodes=1582, solution time = 24, num routes = 1 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:58:29,450 COMPARISON DEBUG Done Tanimoto-distance-SIN: nodes=1582, solution time = 25, num routes = 1 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:58:43,982 COMPARISON DEBUG Done Tanimoto-distance-LOG: nodes=1678, solution time = 25, num routes = 1 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:58:58,379 COMPARISON DEBUG Done Tanimoto-distance-QUAD: nodes=1678, solution time = 24, num routes = 1 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:59:14,451 COMPARISON DEBUG Done Tanimoto-distance-CUB: nodes=1884, solution time = 22, num routes = 3 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:59:31,993 COMPARISON DEBUG Done Dice-distance: nodes=2074, solution time = 22, num routes = 3 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:59:31,993 COMPARISON DEBUG Start search 74/100. SMILES: CCc1ccc(NC(=O)c2cccc(C(C)(C)C#N)c2)cc1Oc1ccc2nc(NC(=O)CO)sc2n1
+2023-05-12 00:59:33,097 COMPARISON DEBUG Done constant-0: nodes=2322, solution time = 6, num routes = 70 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 00:59:52,210 COMPARISON DEBUG Done Tanimoto-distance: nodes=2397, solution time = 6, num routes = 79 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:00:11,322 COMPARISON DEBUG Done Tanimoto-distance-EXP: nodes=2372, solution time = 6, num routes = 83 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:00:30,619 COMPARISON DEBUG Done Tanimoto-distance-SIN: nodes=2397, solution time = 6, num routes = 79 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:00:50,048 COMPARISON DEBUG Done Tanimoto-distance-LOG: nodes=2397, solution time = 6, num routes = 79 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:01:08,587 COMPARISON DEBUG Done Tanimoto-distance-QUAD: nodes=2300, solution time = 6, num routes = 64 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:01:27,001 COMPARISON DEBUG Done Tanimoto-distance-CUB: nodes=2300, solution time = 6, num routes = 64 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:01:45,816 COMPARISON DEBUG Done Dice-distance: nodes=2351, solution time = 6, num routes = 64 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:01:45,816 COMPARISON DEBUG Start search 75/100. SMILES: CC(=O)OC1CCCC1(N)CNc1ccc(C#N)c(Cl)c1C
+2023-05-12 01:01:46,813 COMPARISON DEBUG Done constant-0: nodes=1461, solution time = 20, num routes = 1 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:01:58,738 COMPARISON DEBUG Done Tanimoto-distance: nodes=1461, solution time = 19, num routes = 1 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:02:10,337 COMPARISON DEBUG Done Tanimoto-distance-EXP: nodes=1402, solution time = 18, num routes = 1 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:02:22,219 COMPARISON DEBUG Done Tanimoto-distance-SIN: nodes=1461, solution time = 19, num routes = 1 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:02:34,162 COMPARISON DEBUG Done Tanimoto-distance-LOG: nodes=1461, solution time = 19, num routes = 1 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:02:45,990 COMPARISON DEBUG Done Tanimoto-distance-QUAD: nodes=1461, solution time = 19, num routes = 1 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:02:57,706 COMPARISON DEBUG Done Tanimoto-distance-CUB: nodes=1461, solution time = 19, num routes = 1 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:03:09,702 COMPARISON DEBUG Done Dice-distance: nodes=1461, solution time = 19, num routes = 1 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:03:09,702 COMPARISON DEBUG Start search 76/100. SMILES: Cc1ccc(-c2cc(C(=O)O)cc(-n3cnnn3)c2)cc1
+2023-05-12 01:03:11,331 COMPARISON DEBUG Done constant-0: nodes=2522, solution time = 6, num routes = 102 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:03:31,923 COMPARISON DEBUG Done Tanimoto-distance: nodes=2617, solution time = 6, num routes = 112 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:03:54,267 COMPARISON DEBUG Done Tanimoto-distance-EXP: nodes=2819, solution time = 6, num routes = 128 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:04:15,147 COMPARISON DEBUG Done Tanimoto-distance-SIN: nodes=2617, solution time = 6, num routes = 112 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:04:35,266 COMPARISON DEBUG Done Tanimoto-distance-LOG: nodes=2522, solution time = 6, num routes = 102 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:04:56,104 COMPARISON DEBUG Done Tanimoto-distance-QUAD: nodes=2617, solution time = 6, num routes = 112 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:05:16,910 COMPARISON DEBUG Done Tanimoto-distance-CUB: nodes=2617, solution time = 6, num routes = 112 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:05:37,754 COMPARISON DEBUG Done Dice-distance: nodes=2617, solution time = 6, num routes = 112 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:05:37,754 COMPARISON DEBUG Start search 77/100. SMILES: COCCN1CCC(Oc2cc(Nc3cc4ccn(CCO)c(=O)c4c(NC(C)(C)C)n3)ncn2)CC1
+2023-05-12 01:05:39,141 COMPARISON DEBUG Done constant-0: nodes=2057, solution time = 9, num routes = 32 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:05:54,431 COMPARISON DEBUG Done Tanimoto-distance: nodes=1697, solution time = 8, num routes = 32 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:06:09,810 COMPARISON DEBUG Done Tanimoto-distance-EXP: nodes=1697, solution time = 7, num routes = 32 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:06:25,190 COMPARISON DEBUG Done Tanimoto-distance-SIN: nodes=1697, solution time = 8, num routes = 32 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:06:40,860 COMPARISON DEBUG Done Tanimoto-distance-LOG: nodes=1697, solution time = 8, num routes = 32 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:06:57,289 COMPARISON DEBUG Done Tanimoto-distance-QUAD: nodes=1842, solution time = 8, num routes = 32 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:07:13,703 COMPARISON DEBUG Done Tanimoto-distance-CUB: nodes=1842, solution time = 8, num routes = 32 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:07:29,061 COMPARISON DEBUG Done Dice-distance: nodes=1697, solution time = 8, num routes = 32 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:07:29,061 COMPARISON DEBUG Start search 78/100. SMILES: CCOC(=O)C1(c2cc(Br)c(N)c(OCC3CC3)c2)CCCC1
+2023-05-12 01:07:30,147 COMPARISON DEBUG Done constant-0: nodes=2180, solution time = 13, num routes = 13 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:07:48,597 COMPARISON DEBUG Done Tanimoto-distance: nodes=2165, solution time = 13, num routes = 21 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:08:06,035 COMPARISON DEBUG Done Tanimoto-distance-EXP: nodes=2060, solution time = 11, num routes = 21 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:08:24,511 COMPARISON DEBUG Done Tanimoto-distance-SIN: nodes=2214, solution time = 13, num routes = 21 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:08:42,765 COMPARISON DEBUG Done Tanimoto-distance-LOG: nodes=2175, solution time = 13, num routes = 16 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:09:00,940 COMPARISON DEBUG Done Tanimoto-distance-QUAD: nodes=2165, solution time = 13, num routes = 21 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:09:19,405 COMPARISON DEBUG Done Tanimoto-distance-CUB: nodes=2218, solution time = 13, num routes = 16 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:09:38,020 COMPARISON DEBUG Done Dice-distance: nodes=2214, solution time = 13, num routes = 21 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:09:38,020 COMPARISON DEBUG Start search 79/100. SMILES: CCOCCOc1cc(C)c(-c2cccc(CNc3ccc(CCC(N)=O)c(F)c3)c2)c(C)c1
+2023-05-12 01:09:40,424 COMPARISON DEBUG Done constant-0: nodes=2516, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:10:10,254 COMPARISON DEBUG Done Tanimoto-distance: nodes=2822, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:10:37,812 COMPARISON DEBUG Done Tanimoto-distance-EXP: nodes=2576, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:11:05,195 COMPARISON DEBUG Done Tanimoto-distance-SIN: nodes=2576, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:11:35,137 COMPARISON DEBUG Done Tanimoto-distance-LOG: nodes=2822, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:12:00,619 COMPARISON DEBUG Done Tanimoto-distance-QUAD: nodes=2414, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:12:26,021 COMPARISON DEBUG Done Tanimoto-distance-CUB: nodes=2414, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:12:54,444 COMPARISON DEBUG Done Dice-distance: nodes=2678, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:12:54,444 COMPARISON DEBUG Start search 80/100. SMILES: COc1ccc(Br)c(CC(=O)N(C)C)c1
+2023-05-12 01:12:55,532 COMPARISON DEBUG Done constant-0: nodes=2975, solution time = 2, num routes = 190 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:13:17,261 COMPARISON DEBUG Done Tanimoto-distance: nodes=2960, solution time = 2, num routes = 196 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:13:40,244 COMPARISON DEBUG Done Tanimoto-distance-EXP: nodes=3104, solution time = 2, num routes = 209 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:14:01,956 COMPARISON DEBUG Done Tanimoto-distance-SIN: nodes=2960, solution time = 2, num routes = 196 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:14:23,782 COMPARISON DEBUG Done Tanimoto-distance-LOG: nodes=2975, solution time = 2, num routes = 190 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:14:45,471 COMPARISON DEBUG Done Tanimoto-distance-QUAD: nodes=2960, solution time = 2, num routes = 196 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:15:07,303 COMPARISON DEBUG Done Tanimoto-distance-CUB: nodes=2975, solution time = 2, num routes = 190 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:15:28,972 COMPARISON DEBUG Done Dice-distance: nodes=2960, solution time = 2, num routes = 196 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:15:28,973 COMPARISON DEBUG Start search 81/100. SMILES: Cc1ccc2c(Nc3ccc(C#N)cc3)nccc2c1Nc1ncccc1-c1ncnc2[nH]ncc12
+2023-05-12 01:15:30,381 COMPARISON DEBUG Done constant-0: nodes=1474, solution time = 9, num routes = 4 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:15:44,548 COMPARISON DEBUG Done Tanimoto-distance: nodes=1545, solution time = 8, num routes = 6 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:15:59,417 COMPARISON DEBUG Done Tanimoto-distance-EXP: nodes=1521, solution time = 7, num routes = 6 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:16:13,873 COMPARISON DEBUG Done Tanimoto-distance-SIN: nodes=1527, solution time = 8, num routes = 6 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:16:28,458 COMPARISON DEBUG Done Tanimoto-distance-LOG: nodes=1556, solution time = 9, num routes = 6 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:16:43,103 COMPARISON DEBUG Done Tanimoto-distance-QUAD: nodes=1574, solution time = 9, num routes = 6 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:16:57,688 COMPARISON DEBUG Done Tanimoto-distance-CUB: nodes=1574, solution time = 9, num routes = 6 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:17:12,336 COMPARISON DEBUG Done Dice-distance: nodes=1574, solution time = 9, num routes = 6 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:17:12,336 COMPARISON DEBUG Start search 82/100. SMILES: O=C(CCCn1cnc2c[n+]([O-])c3ccccc3c21)c1ccccc1
+2023-05-12 01:17:13,741 COMPARISON DEBUG Done constant-0: nodes=3118, solution time = 7, num routes = 36 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:17:41,294 COMPARISON DEBUG Done Tanimoto-distance: nodes=3145, solution time = 7, num routes = 36 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:18:08,214 COMPARISON DEBUG Done Tanimoto-distance-EXP: nodes=3145, solution time = 7, num routes = 36 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:18:34,710 COMPARISON DEBUG Done Tanimoto-distance-SIN: nodes=3119, solution time = 7, num routes = 35 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:19:01,672 COMPARISON DEBUG Done Tanimoto-distance-LOG: nodes=3061, solution time = 7, num routes = 35 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:19:29,305 COMPARISON DEBUG Done Tanimoto-distance-QUAD: nodes=3144, solution time = 7, num routes = 37 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:19:56,462 COMPARISON DEBUG Done Tanimoto-distance-CUB: nodes=3118, solution time = 7, num routes = 36 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:20:22,981 COMPARISON DEBUG Done Dice-distance: nodes=3118, solution time = 7, num routes = 36 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:20:22,981 COMPARISON DEBUG Start search 83/100. SMILES: CC(C)(C)c1cc(F)c2c(=O)n(Cc3cc(CO)c(-c4cc[nH]c(=O)c4)cc3F)ncc2c1
+2023-05-12 01:20:24,350 COMPARISON DEBUG Done constant-0: nodes=1478, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:20:38,287 COMPARISON DEBUG Done Tanimoto-distance: nodes=1478, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:20:52,184 COMPARISON DEBUG Done Tanimoto-distance-EXP: nodes=1507, solution time = 25, num routes = 2 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:21:06,080 COMPARISON DEBUG Done Tanimoto-distance-SIN: nodes=1478, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:21:19,996 COMPARISON DEBUG Done Tanimoto-distance-LOG: nodes=1478, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:21:33,871 COMPARISON DEBUG Done Tanimoto-distance-QUAD: nodes=1447, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:21:47,644 COMPARISON DEBUG Done Tanimoto-distance-CUB: nodes=1447, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:22:01,678 COMPARISON DEBUG Done Dice-distance: nodes=1478, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:22:01,678 COMPARISON DEBUG Start search 84/100. SMILES: C=CC(=O)N1CCN(c2ncnc3cc(Cl)c(C#N)cc23)CC1C#N
+2023-05-12 01:22:03,047 COMPARISON DEBUG Done constant-0: nodes=1360, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:22:15,253 COMPARISON DEBUG Done Tanimoto-distance: nodes=1398, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:22:27,003 COMPARISON DEBUG Done Tanimoto-distance-EXP: nodes=1340, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:22:41,820 COMPARISON DEBUG Done Tanimoto-distance-SIN: nodes=1710, solution time = 13, num routes = 6 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:22:55,521 COMPARISON DEBUG Done Tanimoto-distance-LOG: nodes=1516, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:23:08,013 COMPARISON DEBUG Done Tanimoto-distance-QUAD: nodes=1340, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:23:19,904 COMPARISON DEBUG Done Tanimoto-distance-CUB: nodes=1302, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:23:34,896 COMPARISON DEBUG Done Dice-distance: nodes=1682, solution time = 11, num routes = 6 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:23:34,897 COMPARISON DEBUG Start search 85/100. SMILES: Cc1c(-c2cnc(C(N)=O)c3[nH]c4cc(OCC(C)O)ccc4c23)cccc1-n1cnc2ccccc2c1=O
+2023-05-12 01:23:36,792 COMPARISON DEBUG Done constant-0: nodes=2104, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:24:02,745 COMPARISON DEBUG Done Tanimoto-distance: nodes=2031, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:24:27,541 COMPARISON DEBUG Done Tanimoto-distance-EXP: nodes=1948, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:24:52,584 COMPARISON DEBUG Done Tanimoto-distance-SIN: nodes=2031, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:25:17,597 COMPARISON DEBUG Done Tanimoto-distance-LOG: nodes=2031, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:25:43,298 COMPARISON DEBUG Done Tanimoto-distance-QUAD: nodes=2104, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:26:10,491 COMPARISON DEBUG Done Tanimoto-distance-CUB: nodes=2104, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:26:36,672 COMPARISON DEBUG Done Dice-distance: nodes=2054, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:26:36,672 COMPARISON DEBUG Start search 86/100. SMILES: NCCn1cnc2cc(C(=O)N3CCCC4CCCCC43)ccc21
+2023-05-12 01:26:38,281 COMPARISON DEBUG Done constant-0: nodes=1519, solution time = 5, num routes = 56 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:26:54,443 COMPARISON DEBUG Done Tanimoto-distance: nodes=1519, solution time = 5, num routes = 56 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:27:12,213 COMPARISON DEBUG Done Tanimoto-distance-EXP: nodes=1660, solution time = 5, num routes = 72 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:27:28,531 COMPARISON DEBUG Done Tanimoto-distance-SIN: nodes=1519, solution time = 5, num routes = 56 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:27:44,433 COMPARISON DEBUG Done Tanimoto-distance-LOG: nodes=1519, solution time = 5, num routes = 56 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:28:01,299 COMPARISON DEBUG Done Tanimoto-distance-QUAD: nodes=1519, solution time = 5, num routes = 56 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:28:17,800 COMPARISON DEBUG Done Tanimoto-distance-CUB: nodes=1519, solution time = 5, num routes = 56 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:28:33,890 COMPARISON DEBUG Done Dice-distance: nodes=1519, solution time = 5, num routes = 56 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:28:33,890 COMPARISON DEBUG Start search 87/100. SMILES: NC(=O)c1cc(F)cc2cc(-c3ccc(CNC4CC4)cc3)oc12
+2023-05-12 01:28:35,484 COMPARISON DEBUG Done constant-0: nodes=2005, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:28:54,221 COMPARISON DEBUG Done Tanimoto-distance: nodes=1878, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:29:13,110 COMPARISON DEBUG Done Tanimoto-distance-EXP: nodes=1894, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:29:31,647 COMPARISON DEBUG Done Tanimoto-distance-SIN: nodes=1858, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:29:50,048 COMPARISON DEBUG Done Tanimoto-distance-LOG: nodes=1901, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:30:09,658 COMPARISON DEBUG Done Tanimoto-distance-QUAD: nodes=1979, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:30:29,444 COMPARISON DEBUG Done Tanimoto-distance-CUB: nodes=1991, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:30:48,814 COMPARISON DEBUG Done Dice-distance: nodes=1939, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:30:48,814 COMPARISON DEBUG Start search 88/100. SMILES: CNC(=O)c1nc(-c2cnn(CC(F)(F)COCc3ccccc3)c2)ccc1N
+2023-05-12 01:30:50,226 COMPARISON DEBUG Done constant-0: nodes=1771, solution time = 23, num routes = 16 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:31:09,727 COMPARISON DEBUG Done Tanimoto-distance: nodes=1905, solution time = 21, num routes = 16 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:31:28,065 COMPARISON DEBUG Done Tanimoto-distance-EXP: nodes=1753, solution time = 18, num routes = 16 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:31:48,210 COMPARISON DEBUG Done Tanimoto-distance-SIN: nodes=1905, solution time = 21, num routes = 16 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:32:08,266 COMPARISON DEBUG Done Tanimoto-distance-LOG: nodes=1905, solution time = 22, num routes = 16 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:32:29,728 COMPARISON DEBUG Done Tanimoto-distance-QUAD: nodes=2155, solution time = 21, num routes = 16 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:32:49,017 COMPARISON DEBUG Done Tanimoto-distance-CUB: nodes=1929, solution time = 21, num routes = 16 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:33:09,439 COMPARISON DEBUG Done Dice-distance: nodes=2019, solution time = 21, num routes = 16 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:33:09,439 COMPARISON DEBUG Start search 89/100. SMILES: NS(=O)(=O)c1ccc(-c2nc(NC(=O)N(CCC(c3ccc(F)cc3)c3ccc(F)cc3)C3CC3)sc2Cl)cc1
+2023-05-12 01:33:11,098 COMPARISON DEBUG Done constant-0: nodes=1646, solution time = 18, num routes = 2 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:33:28,060 COMPARISON DEBUG Done Tanimoto-distance: nodes=1712, solution time = 17, num routes = 2 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:33:44,510 COMPARISON DEBUG Done Tanimoto-distance-EXP: nodes=1662, solution time = 17, num routes = 2 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:34:01,852 COMPARISON DEBUG Done Tanimoto-distance-SIN: nodes=1682, solution time = 17, num routes = 2 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:34:20,025 COMPARISON DEBUG Done Tanimoto-distance-LOG: nodes=1670, solution time = 17, num routes = 2 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:34:36,507 COMPARISON DEBUG Done Tanimoto-distance-QUAD: nodes=1620, solution time = 17, num routes = 2 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:34:52,933 COMPARISON DEBUG Done Tanimoto-distance-CUB: nodes=1646, solution time = 18, num routes = 2 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:35:09,648 COMPARISON DEBUG Done Dice-distance: nodes=1670, solution time = 17, num routes = 2 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:35:09,648 COMPARISON DEBUG Start search 90/100. SMILES: CCC(CC)c1ccc(Cl)c2nc3n(c12)CCN3c1ccc(Cl)cc1Cl
+2023-05-12 01:35:10,924 COMPARISON DEBUG Done constant-0: nodes=1141, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:35:23,255 COMPARISON DEBUG Done Tanimoto-distance: nodes=1141, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:35:34,309 COMPARISON DEBUG Done Tanimoto-distance-EXP: nodes=1043, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:35:46,875 COMPARISON DEBUG Done Tanimoto-distance-SIN: nodes=1141, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:35:59,678 COMPARISON DEBUG Done Tanimoto-distance-LOG: nodes=1141, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:36:12,288 COMPARISON DEBUG Done Tanimoto-distance-QUAD: nodes=1141, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:36:24,969 COMPARISON DEBUG Done Tanimoto-distance-CUB: nodes=1141, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:36:37,563 COMPARISON DEBUG Done Dice-distance: nodes=1141, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:36:37,563 COMPARISON DEBUG Start search 91/100. SMILES: CCn1c(=O)c2c(C)[nH]nc2c2cc(CCCN3CCCC3)ccc21
+2023-05-12 01:36:39,513 COMPARISON DEBUG Done constant-0: nodes=3283, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:37:15,556 COMPARISON DEBUG Done Tanimoto-distance: nodes=3192, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:37:48,604 COMPARISON DEBUG Done Tanimoto-distance-EXP: nodes=3041, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:38:24,410 COMPARISON DEBUG Done Tanimoto-distance-SIN: nodes=3192, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:39:00,593 COMPARISON DEBUG Done Tanimoto-distance-LOG: nodes=3192, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:39:35,716 COMPARISON DEBUG Done Tanimoto-distance-QUAD: nodes=3258, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:40:09,659 COMPARISON DEBUG Done Tanimoto-distance-CUB: nodes=3258, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:40:43,272 COMPARISON DEBUG Done Dice-distance: nodes=3258, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:40:43,272 COMPARISON DEBUG Start search 92/100. SMILES: Cc1ccc(C(=O)NC2CC2)cc1-c1ccc2c(=O)n(CC3CC3)cc(CN3CCCN(C(C)C)CC3)c2c1
+2023-05-12 01:40:45,502 COMPARISON DEBUG Done constant-0: nodes=2101, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:41:09,089 COMPARISON DEBUG Done Tanimoto-distance: nodes=2020, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:41:32,515 COMPARISON DEBUG Done Tanimoto-distance-EXP: nodes=1959, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:41:56,178 COMPARISON DEBUG Done Tanimoto-distance-SIN: nodes=2020, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:42:20,580 COMPARISON DEBUG Done Tanimoto-distance-LOG: nodes=2020, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:42:47,831 COMPARISON DEBUG Done Tanimoto-distance-QUAD: nodes=2129, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:43:12,573 COMPARISON DEBUG Done Tanimoto-distance-CUB: nodes=2112, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:43:37,851 COMPARISON DEBUG Done Dice-distance: nodes=2020, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:43:37,852 COMPARISON DEBUG Start search 93/100. SMILES: COc1nc(CNC(=O)OC(C)(C)C)cc(C)c1CNC(=O)c1cc(Br)cc2c1c(C)cn2C(C)C
+2023-05-12 01:43:39,340 COMPARISON DEBUG Done constant-0: nodes=1267, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:43:53,687 COMPARISON DEBUG Done Tanimoto-distance: nodes=1357, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:44:07,487 COMPARISON DEBUG Done Tanimoto-distance-EXP: nodes=1389, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:44:21,291 COMPARISON DEBUG Done Tanimoto-distance-SIN: nodes=1335, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:44:34,522 COMPARISON DEBUG Done Tanimoto-distance-LOG: nodes=1259, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:44:47,461 COMPARISON DEBUG Done Tanimoto-distance-QUAD: nodes=1281, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:45:01,257 COMPARISON DEBUG Done Tanimoto-distance-CUB: nodes=1374, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:45:14,187 COMPARISON DEBUG Done Dice-distance: nodes=1286, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:45:14,187 COMPARISON DEBUG Start search 94/100. SMILES: N#Cc1c(Cl)cc(Nc2nc(N)n(S(=O)(=O)c3ccc(C(F)(F)F)cc3)n2)cc1Cl
+2023-05-12 01:45:15,472 COMPARISON DEBUG Done constant-0: nodes=1113, solution time = 20, num routes = 4 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:45:27,561 COMPARISON DEBUG Done Tanimoto-distance: nodes=1307, solution time = 19, num routes = 20 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:45:41,211 COMPARISON DEBUG Done Tanimoto-distance-EXP: nodes=1493, solution time = 18, num routes = 20 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:45:55,299 COMPARISON DEBUG Done Tanimoto-distance-SIN: nodes=1500, solution time = 19, num routes = 20 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:46:07,163 COMPARISON DEBUG Done Tanimoto-distance-LOG: nodes=1216, solution time = 19, num routes = 14 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:46:19,822 COMPARISON DEBUG Done Tanimoto-distance-QUAD: nodes=1237, solution time = 19, num routes = 14 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:46:31,748 COMPARISON DEBUG Done Tanimoto-distance-CUB: nodes=1168, solution time = 19, num routes = 8 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:46:45,367 COMPARISON DEBUG Done Dice-distance: nodes=1478, solution time = 19, num routes = 20 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:46:45,367 COMPARISON DEBUG Start search 95/100. SMILES: CCOC(=O)/C=C/CC[C@H]1CN(C(=O)OCc2ccccc2)CCN1S(=O)(=O)c1ccccc1
+2023-05-12 01:46:47,184 COMPARISON DEBUG Done constant-0: nodes=2038, solution time = 10, num routes = 7 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:47:09,692 COMPARISON DEBUG Done Tanimoto-distance: nodes=2083, solution time = 8, num routes = 8 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:47:32,126 COMPARISON DEBUG Done Tanimoto-distance-EXP: nodes=2107, solution time = 7, num routes = 8 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:47:54,614 COMPARISON DEBUG Done Tanimoto-distance-SIN: nodes=2070, solution time = 8, num routes = 8 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:48:16,760 COMPARISON DEBUG Done Tanimoto-distance-LOG: nodes=2070, solution time = 10, num routes = 8 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:48:38,878 COMPARISON DEBUG Done Tanimoto-distance-QUAD: nodes=2070, solution time = 8, num routes = 8 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:49:01,031 COMPARISON DEBUG Done Tanimoto-distance-CUB: nodes=2070, solution time = 8, num routes = 8 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:49:24,396 COMPARISON DEBUG Done Dice-distance: nodes=2070, solution time = 8, num routes = 8 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:49:24,396 COMPARISON DEBUG Start search 96/100. SMILES: CN1Cc2c(Br)cccc2N(Cc2cccc(F)c2)C1=O
+2023-05-12 01:49:25,886 COMPARISON DEBUG Done constant-0: nodes=1634, solution time = 7, num routes = 31 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:49:41,789 COMPARISON DEBUG Done Tanimoto-distance: nodes=1583, solution time = 7, num routes = 31 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:49:57,119 COMPARISON DEBUG Done Tanimoto-distance-EXP: nodes=1607, solution time = 7, num routes = 41 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:50:12,207 COMPARISON DEBUG Done Tanimoto-distance-SIN: nodes=1583, solution time = 7, num routes = 31 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:50:27,410 COMPARISON DEBUG Done Tanimoto-distance-LOG: nodes=1634, solution time = 7, num routes = 31 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:50:42,427 COMPARISON DEBUG Done Tanimoto-distance-QUAD: nodes=1583, solution time = 7, num routes = 31 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:50:57,054 COMPARISON DEBUG Done Tanimoto-distance-CUB: nodes=1583, solution time = 7, num routes = 31 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:51:11,622 COMPARISON DEBUG Done Dice-distance: nodes=1583, solution time = 7, num routes = 31 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:51:11,623 COMPARISON DEBUG Start search 97/100. SMILES: CC(C)(C)OC(=O)NCC1Oc2c(Cl)cc(Br)cc2C1O
+2023-05-12 01:51:12,866 COMPARISON DEBUG Done constant-0: nodes=1810, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:51:30,581 COMPARISON DEBUG Done Tanimoto-distance: nodes=1832, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:51:47,966 COMPARISON DEBUG Done Tanimoto-distance-EXP: nodes=1791, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:52:06,247 COMPARISON DEBUG Done Tanimoto-distance-SIN: nodes=1832, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:52:24,083 COMPARISON DEBUG Done Tanimoto-distance-LOG: nodes=1832, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:52:42,734 COMPARISON DEBUG Done Tanimoto-distance-QUAD: nodes=1777, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:53:00,499 COMPARISON DEBUG Done Tanimoto-distance-CUB: nodes=1777, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:53:17,981 COMPARISON DEBUG Done Dice-distance: nodes=1777, solution time = inf, num routes = 0 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:53:17,981 COMPARISON DEBUG Start search 98/100. SMILES: CC(=O)Nc1nc2ccc(Oc3cccc(NC(=O)c4cccc(C5(C#N)CC5)c4Cl)c3)cc2s1
+2023-05-12 01:53:20,148 COMPARISON DEBUG Done constant-0: nodes=4111, solution time = 14, num routes = 390 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:53:53,580 COMPARISON DEBUG Done Tanimoto-distance: nodes=3564, solution time = 12, num routes = 384 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:54:26,278 COMPARISON DEBUG Done Tanimoto-distance-EXP: nodes=3508, solution time = 12, num routes = 384 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:55:00,528 COMPARISON DEBUG Done Tanimoto-distance-SIN: nodes=3564, solution time = 12, num routes = 384 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:55:36,529 COMPARISON DEBUG Done Tanimoto-distance-LOG: nodes=3801, solution time = 13, num routes = 390 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:56:12,123 COMPARISON DEBUG Done Tanimoto-distance-QUAD: nodes=3695, solution time = 13, num routes = 384 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:56:51,951 COMPARISON DEBUG Done Tanimoto-distance-CUB: nodes=3801, solution time = 13, num routes = 390 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:57:27,005 COMPARISON DEBUG Done Dice-distance: nodes=3695, solution time = 13, num routes = 384 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:57:27,005 COMPARISON DEBUG Start search 99/100. SMILES: CCCCCCCCCCCCCCCCSCC(CBr)OC
+2023-05-12 01:57:28,221 COMPARISON DEBUG Done constant-0: nodes=2616, solution time = 10, num routes = 34 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:57:54,013 COMPARISON DEBUG Done Tanimoto-distance: nodes=3141, solution time = 9, num routes = 195 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:58:19,368 COMPARISON DEBUG Done Tanimoto-distance-EXP: nodes=2927, solution time = 8, num routes = 159 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:58:44,491 COMPARISON DEBUG Done Tanimoto-distance-SIN: nodes=3141, solution time = 9, num routes = 195 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:59:08,734 COMPARISON DEBUG Done Tanimoto-distance-LOG: nodes=3048, solution time = 9, num routes = 138 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 01:59:36,713 COMPARISON DEBUG Done Tanimoto-distance-QUAD: nodes=3206, solution time = 9, num routes = 203 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 02:00:03,252 COMPARISON DEBUG Done Tanimoto-distance-CUB: nodes=3234, solution time = 9, num routes = 146 (capped at 10000), final num rxn model calls = 25.
+2023-05-12 02:00:28,197 COMPARISON DEBUG Done Dice-distance: nodes=3098, solution time = 9, num routes = 138 (capped at 10000), final num rxn model calls = 25.
