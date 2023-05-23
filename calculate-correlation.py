@@ -109,12 +109,11 @@ def calculate_correlation(
                         if node.mol.metadata['is_purchasable']:
                             dp_table[node]=calc_tanimoto(node.mol.smiles,root.mol.smiles)
 
-
-                global mxm_depth 
                 mxm_depth = -1
 
                 # Change to BFS
                 def dfs_depth(root,curr_depth):
+                    nonlocal mxm_depth
                     if isinstance(root,OrNode):
                         if root.mol.metadata['is_purchasable']:
                             mxm_depth = max(mxm_depth,curr_depth)
