@@ -35,17 +35,20 @@ def get_BRICS_bonds(molecule):
     return [i for i in brics]
 
 def break_bond(molecule,bonds:list):
-    emol =  Chem.EditableMol(molecule)
+    try:
+        emol =  Chem.EditableMol(molecule)
 
-    for bond in bonds:
-        emol.RemoveBond(bond[0],bond[1])
-    back = emol.GetMol()
-    Chem.SanitizeMol(back)
+        for bond in bonds:
+            emol.RemoveBond(bond[0],bond[1])
+        back = emol.GetMol()
+        Chem.SanitizeMol(back)
 
-    frags = Chem.GetMolFrags(back,asMols=True)
-    mols = [i for i in frags]
+        frags = Chem.GetMolFrags(back,asMols=True)
+        mols = [i for i in frags]
 
-    return mols
+        return mols
+    except:
+        return [molecule]
 
     
 
