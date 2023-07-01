@@ -2,6 +2,8 @@ import rdkit
 from rdkit import Chem
 from split_environment import *
 import random
+from GNN_utils import *
+from GNN_agent import *
 
 class RandomAgent:
 
@@ -48,6 +50,47 @@ class EqualSplitAgent:
                 mnm_index = i
 
         return [bonds[mnm_index]]
+
+    def update():
+        pass
+
+class GNNAgent:
+    def __init__(self):
+        temp_smiles = 'CC(=O)OC1CCCC1(N)CNc1ccc(C#N)c(Cl)c1C'
+        temp_molecule = Chem.MolFromSmiles(temp_smiles)
+        temp_graph = graph_from_molecule(temp_molecule)
+        atom_dim = temp_graph[0].shape[-1]
+        bond_dim = temp_graph[1].shape[-1]
+        print(bond_dim,atom_dim)
+        self.GNNModel = MPNNModel(atom_dim=atom_dim,bond_dim=bond_dim,message_units=64,message_steps=4)
+
+    
+    def action(self,smiles:str):
+        molecule = Chem.MolFromSmiles(smiles)
+        graph = graphs_from_smiles([smiles])
+        
+
+        y = np.zeros((1))
+        data = MPNNDataset(graph,y)
+        bonds = get_all_bonds_idxs(molecule)
+
+        atom_feats = self.GNNModel.predict(data)
+
+        # atom_feats = atom_feats.numpy()
+
+        edge_embeddings = []
+        
+        for bond in bonds:
+            atm1 = bond[0]
+            atm2 = bond[1]
+
+            bond_embeddings = atom_feats[atm1,:]+atom_feats[atm2,:]
+
+            edge_embeddings.append(bond_embeddings)
+
+        return edge_embeddings,bonds
+            
+        
 
     def update():
         pass
