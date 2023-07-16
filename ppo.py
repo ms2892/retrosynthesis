@@ -86,9 +86,9 @@ def main():
     target_reached = False
     best_reward = 0
     iters = 0
-    EPOCHS = 25
+    EPOCHS = 15
     torch.autograd.set_detect_anomaly(True)
-    max_iters = 200
+    max_iters = 100
 
     dataset = get_target_smiles(5)
     cnt = 0
