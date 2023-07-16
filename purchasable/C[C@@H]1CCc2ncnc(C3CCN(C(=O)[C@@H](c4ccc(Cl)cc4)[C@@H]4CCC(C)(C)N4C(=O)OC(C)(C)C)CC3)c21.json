@@ -1,0 +1,16 @@
+{
+    "C[C@@H]1CCc2ncnc(C3CCN(C(=O)[C@@H](c4ccc(Cl)cc4)[C@@H]4CCC(C)(C)N4C(=O)OC(C)(C)C)CC3)c21": [
+        [
+            "CC(C)(C)OC(=O)N1[C@H]([C@@H](C(=O)O)c2ccc(Cl)cc2)CCC1(C)C",
+            "C[C@@H]1CCc2nc(S)nc(O)c21",
+            "COC(=O)C1CCN(C(=O)OC(C)(C)C)CC1",
+            "O=P(Cl)(Cl)Cl"
+        ],
+        [
+            "CC(C)(C)OC(=O)N1CC=C(B2OC(C)(C)C(C)(C)O2)CC1",
+            "O=P(Cl)(Cl)Cl",
+            "CC(C)(C)OC(=O)N1[C@H]([C@@H](C(=O)O)c2ccc(Cl)cc2)CCC1(C)C",
+            "C[C@@H]1CCc2nc(S)nc(O)c21"
+        ]
+    ]
+}

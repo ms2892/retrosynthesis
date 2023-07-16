@@ -1,0 +1,19 @@
+{
+    "CCC(C)c1c(O)ccc2c1oc1ccc(C#N)cc12": [
+        [
+            "COc1cccc(O)c1",
+            "CCC(C)=O",
+            "N#Cc1ccc(F)c(Br)c1"
+        ],
+        [
+            "CCC(C)=O",
+            "N#Cc1ccc(O)c(Br)c1",
+            "COc1cccc(F)c1"
+        ],
+        [
+            "N#Cc1ccc(O)c(Br)c1",
+            "COc1cccc(F)c1Br",
+            "CCC(C)=O"
+        ]
+    ]
+}

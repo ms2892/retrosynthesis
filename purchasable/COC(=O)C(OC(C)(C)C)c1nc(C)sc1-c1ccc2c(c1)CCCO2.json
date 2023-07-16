@@ -1,0 +1,30 @@
+{
+    "COC(=O)C(OC(C)(C)C)c1nc(C)sc1-c1ccc2c(c1)CCCO2": [
+        [
+            "CC(=O)Cl",
+            "O=C1CCC(=O)N1Br",
+            "Cc1nc(C(C#N)O[Si](C)(C)C)cs1",
+            "CC(=O)OC(C)(C)C",
+            "CO",
+            "CC1(C)OB(c2ccc3c(c2)CCCO3)OC1(C)C"
+        ],
+        [
+            "CC(=O)Cl",
+            "Cc1nc(C(C#N)O[Si](C)(C)C)cs1",
+            "CC(=O)OC(C)(C)C",
+            "CO",
+            "CC1(C)OB(c2ccc3c(c2)CCCO3)OC1(C)C",
+            "BrBr"
+        ],
+        [
+            "CC(=O)OC(C)(C)C",
+            "C[Si](C)(C)C#N",
+            "Ic1ccc2c(c1)CCCO2",
+            "CC(=O)Cl",
+            "CC(N)=S",
+            "COC(=O)C(Cl)Cl",
+            "CN(C)C=O",
+            "CO"
+        ]
+    ]
+}

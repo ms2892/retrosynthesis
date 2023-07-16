@@ -5,7 +5,9 @@ os.environ["TF_CPP_MIN_LOG_LEVEL"] = "3"
 
 import tensorflow as tf
 from tensorflow import keras
+from tensorflow.keras import backend as K
 from tensorflow.keras import layers
+from tensorflow.keras.optimizers import Adam
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -14,6 +16,28 @@ from rdkit import Chem
 from rdkit import RDLogger
 from rdkit.Chem.Draw import IPythonConsole
 from rdkit.Chem.Draw import MolsToGridImage
+
+clipping_val = 0.2
+critic_discount = 0.5
+entropy_beta = 0.001
+gamma = 0.99
+lmbda = 0.95
+
+
+def ppo_loss(oldpolicy_probs, advantages, rewards, values):
+    def loss(y_true, y_pred):
+        newpolicy_probs = y_pred
+        ratio = K.exp(K.log(newpolicy_probs + 1e-10) - K.log(oldpolicy_probs + 1e-10))
+        p1 = ratio * advantages
+        p2 = K.clip(ratio, min_value=1 - clipping_val, max_value=1 + clipping_val) * advantages
+        actor_loss = -K.mean(K.minimum(p1, p2))
+        critic_loss = K.mean(K.square(rewards - values))
+        total_loss = critic_discount * critic_loss + actor_loss - entropy_beta * K.mean(
+            -(newpolicy_probs * K.log(newpolicy_probs + 1e-10)))
+        return total_loss
+
+    return loss
+
 
 class EdgeNetwork(layers.Layer):
     def build(self, input_shape):
@@ -90,6 +114,7 @@ class MessagePassing(layers.Layer):
 def MPNNModel(
     atom_dim,
     bond_dim,
+    output_dim,
     message_units=64,
     message_steps=4,
 ):
@@ -99,6 +124,11 @@ def MPNNModel(
     pair_indices = layers.Input((2), dtype="int32", name="pair_indices")
     molecule_indicator = layers.Input((), dtype="int32", name="molecule_indicator")
 
+    oldpolicy_probs = layers.Input(shape=(1, output_dim,))
+    advantages = layers.Input(shape=(1, 1,))
+    rewards = layers.Input(shape=(1, 1,))
+    values = layers.Input(shape=(1, 1,))
+
     x = MessagePassing(message_units, message_steps)(
         [atom_features, bond_features, pair_indices]
     )
@@ -106,4 +136,9 @@ def MPNNModel(
         inputs=[atom_features, bond_features, pair_indices, molecule_indicator],
         outputs=[x],
     )
+    model.compile(optimizer=Adam(lr=1e-4), loss=[ppo_loss(
+        oldpolicy_probs=oldpolicy_probs,
+        advantages=advantages,
+        rewards=rewards,
+        values=values)])
     return model

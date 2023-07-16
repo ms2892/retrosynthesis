@@ -5,6 +5,8 @@ import random
 from GNN_utils import *
 from GNN_agent import *
 
+
+
 class RandomAgent:
 
     def __init__(self):
@@ -55,14 +57,15 @@ class EqualSplitAgent:
         pass
 
 class GNNAgent:
-    def __init__(self):
+    def __init__(self,output_size):
         temp_smiles = 'CC(=O)OC1CCCC1(N)CNc1ccc(C#N)c(Cl)c1C'
         temp_molecule = Chem.MolFromSmiles(temp_smiles)
         temp_graph = graph_from_molecule(temp_molecule)
         atom_dim = temp_graph[0].shape[-1]
         bond_dim = temp_graph[1].shape[-1]
+        self.n_actions = output_size
         print(bond_dim,atom_dim)
-        self.GNNModel = MPNNModel(atom_dim=atom_dim,bond_dim=bond_dim,message_units=64,message_steps=4)
+        self.GNNModel = MPNNModel(atom_dim=atom_dim,bond_dim=bond_dim,output_dim=output_size,message_units=64,message_steps=4)
 
     
     def action(self,smiles:str):
@@ -73,8 +76,10 @@ class GNNAgent:
         y = np.zeros((1))
         data = MPNNDataset(graph,y)
         bonds = get_all_bonds_idxs(molecule)
-
+        
         atom_feats = self.GNNModel.predict(data)
+
+        
 
         # atom_feats = atom_feats.numpy()
 
@@ -90,7 +95,8 @@ class GNNAgent:
 
         return edge_embeddings,bonds
             
-        
 
-    def update():
-        pass
+    def update(self,states, actions_probs,actions_onehot,values, advantages,rewards):
+        actor_loss = self.GNNModel.fit(
+        [states, actions_probs, advantages, np.reshape(rewards, newshape=(-1, 1, 1)), values[:-1]],
+        [(np.reshape(actions_onehot, newshape=(-1, self.n_actions)))], verbose=True, shuffle=True, epochs=8)

@@ -1,0 +1,16 @@
+{
+    "NC(=O)c1nc(-c2ccccc2)cc2c(C3CCN(C(=O)c4ccccc4)CC3)c[nH]c12": [
+        [
+            "OO",
+            "C#N",
+            "O=C(Cl)c1ccccc1",
+            "CC(C)(C)OC(=O)N1CC=C(c2c[nH]c3c(Cl)nc(-c4ccccc4)cc23)CC1"
+        ],
+        [
+            "O=C(O)c1ccccc1",
+            "OO",
+            "CC(C)(C)OC(=O)N1CC=C(c2c[nH]c3c(Cl)nc(-c4ccccc4)cc23)CC1",
+            "C#N"
+        ]
+    ]
+}

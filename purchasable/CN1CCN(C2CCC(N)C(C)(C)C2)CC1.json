@@ -1,0 +1,29 @@
+{
+    "CN1CCN(C2CCC(N)C(C)(C)C2)CC1": [
+        [
+            "CC1(C)CC2(CCC1=O)OCCO2",
+            "N",
+            "CN1CCNCC1"
+        ],
+        [
+            "NO",
+            "CC1(C)CC2(CCC1=O)OCCO2",
+            "CN1CCNCC1"
+        ],
+        [
+            "CC1(C)CC2(CCC1=O)OCCO2",
+            "NCc1ccccc1",
+            "CN1CCNCC1"
+        ],
+        [
+            "BC#N",
+            "CC1(C)CC2(CCC1=O)OCCO2",
+            "CN1CCNCC1"
+        ],
+        [
+            "NCc1ccccc1",
+            "CC1(C)CC2(CCC1=O)OCCO2",
+            "CN1CCNCC1"
+        ]
+    ]
+}

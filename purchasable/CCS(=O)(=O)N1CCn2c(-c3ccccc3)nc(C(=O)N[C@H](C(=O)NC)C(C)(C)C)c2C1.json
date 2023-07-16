@@ -1,0 +1,26 @@
+{
+    "CCS(=O)(=O)N1CCn2c(-c3ccccc3)nc(C(=O)N[C@H](C(=O)NC)C(C)(C)C)c2C1": [
+        [
+            "CNC(=O)[C@@H](N)C(C)(C)C",
+            "O=C(O)CNC(=O)c1ccccc1",
+            "ClCCl",
+            "O=C1CNCCN1",
+            "CCS(=O)(=O)Cl"
+        ],
+        [
+            "CNC(=O)[C@@H](N)C(C)(C)C",
+            "O=C(O)CNC(=O)c1ccccc1",
+            "C[O+](C)C",
+            "CCS(=O)(=O)Cl",
+            "O=C1CNCCN1"
+        ],
+        [
+            "CCS(=O)(=O)Cl",
+            "COC(=O)[C@@H](N)C(C)(C)C",
+            "O=C(O)CNC(=O)c1ccccc1",
+            "CN",
+            "O=C1CNCCN1",
+            "ClCCl"
+        ]
+    ]
+}

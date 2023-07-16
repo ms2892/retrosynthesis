@@ -1,0 +1,14 @@
+{
+    "CC(=O)CCCC1(C)CCCC2(CO1)OCCO2": [
+        [
+            "CC1(CCCCOCc2ccccc2)CCCC(=O)CO1",
+            "OCCO",
+            "[Li]C"
+        ],
+        [
+            "CC1(CCCCOCc2ccccc2)CCCC(=O)CO1",
+            "OCCO",
+            "C[Mg+]"
+        ]
+    ]
+}

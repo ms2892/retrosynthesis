@@ -1,0 +1,25 @@
+{
+    "CCC(CC)c1ccc(Cl)c2nc3n(c12)CCN3c1ccc(Cl)cc1Cl": [
+        [
+            "O=P(Cl)(Cl)Cl",
+            "Nc1ccc(Cl)cc1Cl",
+            "COC(=O)CBr",
+            "CCC(O)(CC)c1cccc2[nH]c(=O)[nH]c12",
+            "O=C1CCC(=O)N1Cl"
+        ],
+        [
+            "O=P(Cl)(Cl)Cl",
+            "Nc1ccc(Cl)cc1Cl",
+            "CCC(O)(CC)c1cccc2[nH]c(=O)[nH]c12",
+            "COC(=O)CBr",
+            "O=C1CCC(=O)N1Cl"
+        ],
+        [
+            "O=P(Cl)(Cl)Cl",
+            "CCC(O)(CC)c1cccc2[nH]c(=O)[nH]c12",
+            "O=C1CCC(=O)N1Cl",
+            "Nc1ccc(Cl)cc1Cl",
+            "CC(C)(C)OC(=O)CBr"
+        ]
+    ]
+}

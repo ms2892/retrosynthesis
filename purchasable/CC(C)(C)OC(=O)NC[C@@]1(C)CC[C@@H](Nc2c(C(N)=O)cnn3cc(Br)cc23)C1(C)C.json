@@ -1,0 +1,38 @@
+{
+    "CC(C)(C)OC(=O)NC[C@@]1(C)CC[C@@H](Nc2c(C(N)=O)cnn3cc(Br)cc23)C1(C)C": [
+        [
+            "OO",
+            "N#Cc1cnn2cccc2c1Cl",
+            "CC(C)(C)OC(=O)OC(=O)OC(C)(C)C",
+            "O=C1CCC(=O)N1Br",
+            "COC(=O)[C@@]1(C)CC[C@@H](NC(=O)OCc2ccccc2)C1(C)C",
+            "N"
+        ],
+        [
+            "OO",
+            "N#Cc1cnn2cccc2c1Cl",
+            "Cc1ccccc1",
+            "CC1(C)[C@H](C(=O)O)CC[C@]1(C)C#N",
+            "[N-]=[N+]=NP(=O)(c1ccccc1)c1ccccc1",
+            "CC(C)(C)OC(=O)OC(=O)OC(C)(C)C",
+            "O=C1CCC(=O)N1Br"
+        ],
+        [
+            "OO",
+            "BrBr",
+            "CC(C)(C)OC(=O)OC(=O)OC(C)(C)C",
+            "N#Cc1cnn2cccc2c1Cl",
+            "COC(=O)[C@@]1(C)CC[C@@H](NC(=O)OCc2ccccc2)C1(C)C",
+            "N"
+        ],
+        [
+            "OO",
+            "Cc1ccccc1",
+            "CC1(C)[C@H](C(=O)O)CC[C@]1(C)C#N",
+            "[N-]=[N+]=NP(=O)(c1ccccc1)c1ccccc1",
+            "BrBr",
+            "CC(C)(C)OC(=O)OC(=O)OC(C)(C)C",
+            "N#Cc1cnn2cccc2c1Cl"
+        ]
+    ]
+}

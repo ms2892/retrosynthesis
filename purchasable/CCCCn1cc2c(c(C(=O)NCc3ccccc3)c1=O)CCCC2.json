@@ -1,0 +1,25 @@
+{
+    "CCCCn1cc2c(c(C(=O)NCc3ccccc3)c1=O)CCCC2": [
+        [
+            "O=S(=O)(O)O",
+            "N#Cc1c2c(c[nH]c1=O)C(=O)CCC2",
+            "NCc1ccccc1",
+            "CCCCBr"
+        ],
+        [
+            "O=S(Cl)Cl",
+            "N#Cc1c2c(c[nH]c1=O)C(=O)CCC2",
+            "NCc1ccccc1",
+            "O=S(=O)(O)O",
+            "CCCCBr"
+        ],
+        [
+            "CCO",
+            "O",
+            "N#Cc1c2c(c[nH]c1=O)C(=O)CCC2",
+            "NCc1ccccc1",
+            "CCCCBr",
+            "CO"
+        ]
+    ]
+}

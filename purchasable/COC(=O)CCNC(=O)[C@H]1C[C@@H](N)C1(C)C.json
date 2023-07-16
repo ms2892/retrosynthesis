@@ -1,0 +1,32 @@
+{
+    "COC(=O)CCNC(=O)[C@H]1C[C@@H](N)C1(C)C": [
+        [
+            "COC(=O)CCN",
+            "CC(=O)N[C@@H]1C[C@H](C(=O)OCc2ccccc2)C1(C)C"
+        ],
+        [
+            "COC(=O)CCN",
+            "CC(=O)N[C@@H]1C[C@H](C(=O)OCc2ccccc2)C1(C)C"
+        ],
+        [
+            "COC(=O)CCN",
+            "O=C(Cl)C(=O)Cl",
+            "CC(=O)N[C@@H]1C[C@H](C(=O)OCc2ccccc2)C1(C)C"
+        ],
+        [
+            "COC(=O)CCN",
+            "O=S(Cl)Cl",
+            "CC(=O)N[C@@H]1C[C@H](C(=O)OCc2ccccc2)C1(C)C"
+        ],
+        [
+            "CC(=O)N[C@@H]1C[C@H](C(=O)OCc2ccccc2)C1(C)C",
+            "COC(=O)CCN",
+            "CC(C)(C)OC(=O)OC(=O)OC(C)(C)C"
+        ],
+        [
+            "CC(C)(C)OC(=O)OC(=O)OC(C)(C)C",
+            "COC(=O)CCN",
+            "CC(=O)N[C@@H]1C[C@H](C(=O)OCc2ccccc2)C1(C)C"
+        ]
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "COCCOCC(C)(C)c1ccc(N)cc1O": [
+        [
+            "COCCOCC(C)(C)c1ccc([N+](=O)[O-])cc1",
+            "O",
+            "O=[N+]([O-])O"
+        ]
+    ]
+}

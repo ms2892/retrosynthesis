@@ -1,0 +1,20 @@
+{
+    "CNC1(C)CCC(Oc2ncnc3sc4c(c23)[C@@H](CC(N)=O)CC4)CC1": [
+        [
+            "CC(C)(C)OC(=O)OC(=O)OC(C)(C)C",
+            "CC(C)(C)[Si](C)(C)OC[C@H]1CCc2sc3ncnc(Cl)c3c21",
+            "C#N",
+            "CS(=O)(=O)Cl",
+            "CC1(N)CCC(O)CC1",
+            "OO"
+        ],
+        [
+            "CC(C)(C)[Si](C)(C)OC[C@H]1CCc2sc3ncnc(Cl)c3c21",
+            "C#N",
+            "CC1(N)CCC(O)CC1",
+            "CS(=O)(=O)Cl",
+            "CC(C)(C)OC(=O)OC(C)(C)C",
+            "OO"
+        ]
+    ]
+}

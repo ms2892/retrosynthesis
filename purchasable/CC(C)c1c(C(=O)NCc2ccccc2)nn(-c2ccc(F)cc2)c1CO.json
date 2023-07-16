@@ -1,0 +1,30 @@
+{
+    "CC(C)c1c(C(=O)NCc2ccccc2)nn(-c2ccc(F)cc2)c1CO": [
+        [
+            "COC(=O)c1nn(-c2ccc(F)cc2)c(C(=O)OCc2ccccc2)c1C(C)C",
+            "NCc1ccccc1"
+        ],
+        [
+            "NCc1ccccc1",
+            "CO",
+            "COC(=O)c1nn(-c2ccc(F)cc2)c(C(=O)OCc2ccccc2)c1C(C)C"
+        ],
+        [
+            "CI",
+            "NCc1ccccc1",
+            "COC(=O)c1nn(-c2ccc(F)cc2)c(C(=O)OCc2ccccc2)c1C(C)C"
+        ],
+        [
+            "NCc1ccccc1",
+            "CO",
+            "COC(=O)c1nn(-c2ccc(F)cc2)c(C(=O)OCc2ccccc2)c1C(C)C"
+        ],
+        [
+            "CCOC(=O)C(=O)OCC",
+            "NNc1ccc(F)cc1",
+            "CC(=O)CC(C)C",
+            "NCc1ccccc1",
+            "O"
+        ]
+    ]
+}

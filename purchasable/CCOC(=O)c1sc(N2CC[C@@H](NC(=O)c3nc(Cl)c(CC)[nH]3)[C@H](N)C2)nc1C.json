@@ -1,0 +1,46 @@
+{
+    "CCOC(=O)c1sc(N2CC[C@@H](NC(=O)c3nc(Cl)c(CC)[nH]3)[C@H](N)C2)nc1C": [
+        [
+            "CCOC(=O)c1sc(Br)nc1C",
+            "O=C1CCC(=O)N1Cl",
+            "CC(C)(C)OC(=O)N1CC[C@@H](N=[N+]=[N-])[C@H](NC(=O)OCc2ccccc2)C1",
+            "CCOC(=O)c1ncc(CC)[nH]1"
+        ],
+        [
+            "CCOC(=O)c1sc(Br)nc1C",
+            "CCOC(=O)c1ncc(CC)[nH]1",
+            "CC(C)(C)OC(=O)N1CC[C@@H](N=[N+]=[N-])[C@H](NC(=O)OCc2ccccc2)C1",
+            "O=S(=O)(Cl)Cl"
+        ],
+        [
+            "CCOC(=O)c1sc(Br)nc1C",
+            "O=C1CCC(=O)N1Cl",
+            "CCOC(=O)c1ncc(CC)[nH]1",
+            "CC(C)(C)OC(=O)N1CC[C@@H](N=[N+]=[N-])[C@H](NC(=O)OCc2ccccc2)C1"
+        ],
+        [
+            "CCOC(=O)c1sc(Br)nc1C",
+            "O=S(=O)(Cl)Cl",
+            "CCOC(=O)c1ncc(CC)[nH]1",
+            "CC(C)(C)OC(=O)N1CC[C@@H](N=[N+]=[N-])[C@H](NC(=O)OCc2ccccc2)C1"
+        ],
+        [
+            "CCOC(=O)c1sc(Br)nc1C",
+            "O=C1CCC(=O)N1Cl",
+            "CCOC(=O)c1ncc(CC)[nH]1",
+            "CC(C)(C)OC(=O)N1CC[C@@H](N=[N+]=[N-])[C@H](NC(=O)OCc2ccccc2)C1"
+        ],
+        [
+            "CCOC(=O)c1sc(Br)nc1C",
+            "O=S(=O)(Cl)Cl",
+            "CCOC(=O)c1ncc(CC)[nH]1",
+            "CC(C)(C)OC(=O)N1CC[C@@H](N=[N+]=[N-])[C@H](NC(=O)OCc2ccccc2)C1"
+        ],
+        [
+            "CCOC(=O)c1ncc(CC)[nH]1",
+            "O=C1CCC(=O)N1Cl",
+            "CCOC(=O)c1sc(Br)nc1C",
+            "CC(C)(C)OC(=O)N1CC[C@@H](N=[N+]=[N-])[C@H](NC(=O)OCc2ccccc2)C1"
+        ]
+    ]
+}

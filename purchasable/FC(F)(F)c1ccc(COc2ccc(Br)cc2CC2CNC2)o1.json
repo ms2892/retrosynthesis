@@ -1,0 +1,20 @@
+{
+    "FC(F)(F)c1ccc(COc2ccc(Br)cc2CC2CNC2)o1": [
+        [
+            "FC(F)(F)c1ccc(CBr)o1",
+            "Oc1ccc(Br)cc1",
+            "O=C(O)C1CNC1"
+        ],
+        [
+            "FC(F)(F)c1ccc(CBr)o1",
+            "O=C(O)C1CNC1",
+            "COc1ccc(Br)cc1"
+        ],
+        [
+            "FC(F)(F)c1ccc(CBr)o1",
+            "O=C(O)C1CNC1",
+            "O",
+            "Fc1ccc(Br)cc1"
+        ]
+    ]
+}

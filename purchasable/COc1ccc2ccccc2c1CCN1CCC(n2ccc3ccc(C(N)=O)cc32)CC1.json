@@ -1,0 +1,19 @@
+{
+    "COc1ccc2ccccc2c1CCN1CCC(n2ccc3ccc(C(N)=O)cc32)CC1": [
+        [
+            "COc1ccc2ccccc2c1",
+            "C1CO1",
+            "BrC(Br)(Br)Br",
+            "COC(=O)c1ccc2ccn(C3CCN(C(=O)OCc4ccccc4)CC3)c2c1",
+            "N"
+        ],
+        [
+            "COc1ccc2ccccc2c1",
+            "N",
+            "C1CO1",
+            "c1ccc(CN2CCC(n3ccc4ccccc43)CC2)cc1",
+            "BrC(Br)(Br)Br",
+            "O=C(Cl)C(=O)Cl"
+        ]
+    ]
+}

@@ -1,0 +1,8 @@
+{
+    "CC(C)(C)OC(=O)NCCCC[C@@H](CNC(=O)[C@@H]1C[C@@H](O)CN1)NC(=O)OC(C)(C)C": [
+        [
+            "NC(=O)[C@@H]1C[C@@H](O)CN1",
+            "CC(C)(C)OC(=O)NCCCC[C@H](NC(=O)OC(C)(C)C)C(=O)O"
+        ]
+    ]
+}

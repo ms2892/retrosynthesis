@@ -1,0 +1,42 @@
+{
+    "CC1(C)C=C(c2c(F)cccc2N2CCN(CC3CCOCC3)CC2)CC(C)(C)C1": [
+        [
+            "C1CNCCN1",
+            "CC1(C)CC(=O)CC(C)(C)C1",
+            "BrCC1CCOCC1",
+            "Fc1cccc(F)c1Br"
+        ],
+        [
+            "CC1(C)C=C(B2OC(C)(C)C(C)(C)O2)CC(C)(C)C1",
+            "C1CNCCN1",
+            "BrCC1CCOCC1",
+            "Fc1cccc(F)c1Br"
+        ],
+        [
+            "O=C(O)C1CCOCC1",
+            "Fc1cccc(F)c1Br",
+            "CC1(C)CC(=O)CC(C)(C)C1",
+            "C1CNCCN1"
+        ],
+        [
+            "O=C(O)C1CCOCC1",
+            "C1CNCCN1",
+            "CC1(C)C=C(B2OC(C)(C)C(C)(C)O2)CC(C)(C)C1",
+            "Fc1cccc(F)c1Br"
+        ],
+        [
+            "BrCCBr",
+            "NCCO",
+            "CC1(C)CC(=O)CC(C)(C)C1",
+            "NCC1CCOCC1",
+            "Fc1cccc(F)c1Br"
+        ],
+        [
+            "BrCCBr",
+            "NCCO",
+            "CC1(C)C=C(B2OC(C)(C)C(C)(C)O2)CC(C)(C)C1",
+            "Fc1cccc(F)c1Br",
+            "NCC1CCOCC1"
+        ]
+    ]
+}

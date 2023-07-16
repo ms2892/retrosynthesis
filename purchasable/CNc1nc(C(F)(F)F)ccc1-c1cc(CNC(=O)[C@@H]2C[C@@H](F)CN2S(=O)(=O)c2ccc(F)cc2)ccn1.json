@@ -1,0 +1,32 @@
+{
+    "CNc1nc(C(F)(F)F)ccc1-c1cc(CNC(=O)[C@@H]2C[C@@H](F)CN2S(=O)(=O)c2ccc(F)cc2)ccn1": [
+        [
+            "CC(C)(C)OC(=O)N1C[C@H](F)C[C@H]1C(=O)O",
+            "CN",
+            "OB(O)c1ccc(C(F)(F)F)nc1F",
+            "NCc1ccnc(Br)c1",
+            "O=S(=O)(Cl)c1ccc(F)cc1"
+        ],
+        [
+            "O=S(=O)(Cl)c1ccc(F)cc1",
+            "CN",
+            "CC(C)(C)OC(=O)N1C[C@H](F)C[C@H]1C(=O)O",
+            "OB(O)c1ccc(C(F)(F)F)nc1F",
+            "NCc1ccnc(Br)c1"
+        ],
+        [
+            "CN",
+            "O=S(=O)(Cl)c1ccc(F)cc1",
+            "OB(O)c1ccc(C(F)(F)F)nc1F",
+            "NCc1ccnc(Br)c1",
+            "CC(C)(C)OC(=O)N1C[C@H](F)C[C@H]1C(=O)O"
+        ],
+        [
+            "O=S(=O)(Cl)c1ccc(F)cc1",
+            "CN",
+            "CC(C)(C)OC(=O)N1C[C@H](F)C[C@H]1C(=O)O",
+            "OB(O)c1ccc(C(F)(F)F)nc1F",
+            "NCc1ccnc(Br)c1"
+        ]
+    ]
+}

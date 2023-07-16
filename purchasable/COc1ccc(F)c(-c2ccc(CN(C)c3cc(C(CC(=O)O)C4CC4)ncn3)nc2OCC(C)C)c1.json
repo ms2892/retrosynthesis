@@ -1,0 +1,36 @@
+{
+    "COc1ccc(F)c(-c2ccc(CN(C)c3cc(C(CC(=O)O)C4CC4)ncn3)nc2OCC(C)C)c1": [
+        [
+            "CCOC(=O)CC(c1cc(Cl)ncn1)C1CC1",
+            "CN",
+            "COc1ccc(F)c(B(O)O)c1",
+            "COC(=O)c1ccc(Br)c(OCC(C)C)n1"
+        ],
+        [
+            "CCOC(=O)CC(c1cc(Cl)ncn1)C1CC1",
+            "CN",
+            "COc1ccc(F)c(B(O)O)c1",
+            "COC(=O)c1ccc(Br)c(OCC(C)C)n1"
+        ],
+        [
+            "CCOC(=O)CC(c1cc(Cl)ncn1)C1CC1",
+            "CN",
+            "COc1ccc(F)c(B(O)O)c1",
+            "COC(=O)c1ccc(Br)c(OCC(C)C)n1"
+        ],
+        [
+            "CCOC(=O)CC(c1cc(Cl)ncn1)C1CC1",
+            "O=S(Cl)Cl",
+            "COc1ccc(F)c(B(O)O)c1",
+            "COC(=O)c1ccc(Br)c(OCC(C)C)n1",
+            "CN"
+        ],
+        [
+            "CCOC(=O)CC(c1cc(Cl)ncn1)C1CC1",
+            "CN",
+            "COc1ccc(F)c(B(O)O)c1",
+            "CS(=O)(=O)Cl",
+            "COC(=O)c1ccc(Br)c(OCC(C)C)n1"
+        ]
+    ]
+}

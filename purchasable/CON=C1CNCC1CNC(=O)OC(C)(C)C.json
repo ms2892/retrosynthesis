@@ -1,0 +1,16 @@
+{
+    "CON=C1CNCC1CNC(=O)OC(C)(C)C": [
+        [
+            "[N-]=[N+]=[N-]",
+            "CC(C)(C)OC(=O)OC(=O)OC(C)(C)C",
+            "CS(=O)(=O)Cl",
+            "CCOC(=O)C1CN(C(=O)OCc2ccccc2)CC1=NOC"
+        ],
+        [
+            "CC(C)(C)OC(=O)OC(=O)OC(C)(C)C",
+            "[N-]=[N+]=[N-]",
+            "CS(=O)(=O)Cl",
+            "CCOC(=O)C1CN(C(=O)OCc2ccccc2)CC1=NOC"
+        ]
+    ]
+}

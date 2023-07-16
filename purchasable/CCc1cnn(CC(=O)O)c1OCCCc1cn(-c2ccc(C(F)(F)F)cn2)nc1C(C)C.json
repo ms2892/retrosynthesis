@@ -1,0 +1,28 @@
+{
+    "CCc1cnn(CC(=O)O)c1OCCCc1cn(-c2ccc(C(F)(F)F)cn2)nc1C(C)C": [
+        [
+            "FC(F)(F)c1ccc(Cl)nc1",
+            "CCOC(=O)CP(=O)(OCC)OCC",
+            "CCOC(=O)Cn1ncc(CC)c1O",
+            "CCOC(=O)c1c[nH]nc1C(C)C"
+        ],
+        [
+            "FC(F)(F)c1ccc(Br)nc1",
+            "CCOC(=O)CP(=O)(OCC)OCC",
+            "CCOC(=O)c1c[nH]nc1C(C)C",
+            "CCOC(=O)Cn1ncc(CC)c1O"
+        ],
+        [
+            "CCOC(=O)c1c[nH]nc1C(C)C",
+            "CCOC(=O)Cn1ncc(CC)c1O",
+            "CCOC(=O)CP(=O)(OCC)OCC",
+            "FC(F)(F)c1ccc(Cl)nc1"
+        ],
+        [
+            "CCOC(=O)c1c[nH]nc1C(C)C",
+            "FC(F)(F)c1ccc(Br)nc1",
+            "CCOC(=O)Cn1ncc(CC)c1O",
+            "CCOC(=O)CP(=O)(OCC)OCC"
+        ]
+    ]
+}

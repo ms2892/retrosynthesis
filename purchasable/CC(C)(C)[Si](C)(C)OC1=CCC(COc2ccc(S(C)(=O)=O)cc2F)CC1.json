@@ -1,0 +1,46 @@
+{
+    "CC(C)(C)[Si](C)(C)OC1=CCC(COc2ccc(S(C)(=O)=O)cc2F)CC1": [
+        [
+            "CC(=O)O",
+            "OCC1CCC(O)CC1",
+            "CS(=O)(=O)c1ccc(F)c(F)c1",
+            "CC(C)(C)[Si](C)(C)Cl",
+            "C#CC"
+        ],
+        [
+            "CC(=O)O",
+            "CS(=O)(=O)c1ccc(F)c(F)c1",
+            "CC(C)(C)[Si](C)(C)Cl",
+            "C#CC",
+            "O=C1CCC(C(=O)O)CC1"
+        ],
+        [
+            "CC(=O)O",
+            "CS(=O)(=O)c1ccc(F)c(F)c1",
+            "CC(C)(C)[Si](C)(C)Cl",
+            "C#CC",
+            "O=CC1CCC(=O)CC1"
+        ],
+        [
+            "CC(=O)O",
+            "CC(C)(C)[Si](C)(C)Cl",
+            "CS(=O)(=O)c1ccc(F)c(F)c1",
+            "C#CC",
+            "OCC1CCC(O)CC1"
+        ],
+        [
+            "CC(=O)O",
+            "O=C1CCC(C(=O)O)CC1",
+            "CC(C)(C)[Si](C)(C)Cl",
+            "CS(=O)(=O)c1ccc(F)c(F)c1",
+            "C#CC"
+        ],
+        [
+            "CC(=O)O",
+            "CC(C)(C)[Si](C)(C)Cl",
+            "CS(=O)(=O)c1ccc(F)c(F)c1",
+            "C#CC",
+            "O=CC1CCC(=O)CC1"
+        ]
+    ]
+}

@@ -1,5 +1,13 @@
 from rdkit import Chem
 from rdkit.Chem import BRICS
+from paroutes import PaRoutesInventory, PaRoutesModel, get_target_smiles
+from rdkit import Chem
+from rdkit.Chem import RDConfig
+import os
+import sys
+sys.path.append(os.path.join(RDConfig.RDContribDir, 'SA_Score'))
+# now you can import sascore!
+import sascorer
 
 def split_molecule(smile:str):
     return set(Chem.BRICS.BRICSDecompose(Chem.MolFromSmiles(smile)))
@@ -59,8 +67,15 @@ def get_all_bonds_idxs(molecule):
         a1 = bond.GetBeginAtom().GetIdx()
         a2 = bond.GetEndAtom().GetIdx()
         cliques.append([a1,a2])
-
+    cliques.sort()
     return cliques
+
+def reward_func(molecules,mode):
+    if mode=='sas':
+        sum_sa = []
+        for i in molecules:
+            sum_sa.append(sascorer.calculateScore(i))
+        return -1*max(sum_sa)
 
 
 def find_overlap_with_BRICS(molecule,bonds):
@@ -77,3 +92,30 @@ def find_overlap_with_BRICS(molecule,bonds):
             filteredBonds.append(bonds[i])
 
     return bonds_map,filteredBonds
+
+class SASEnvironment:
+    def __init__(self,inventory:list):
+        self.smile_db = inventory
+        self.action_space = self._get_max_bonds
+        # self.observation_space = len(self.smile_db)
+
+    def _get_max_bonds(self):
+        mxm_bonds=-1
+        for smile in self.smile_db:
+            molecule = Chem.MolFromSmiles(smile)
+            bonds = get_all_bonds_idxs(molecule)
+            mxm_bonds = max(mxm_bonds,len(bonds))
+
+        return mxm_bonds
+    
+    def step(self,bonds,smile):
+        BRICS = get_BRICS_bonds(Chem.MolFromSmiles(smile))
+        mol = Chem.MolFromSmiles(smile)
+        if len(BRICS)==1:
+            return [mol], reward_func([mol],mode='sas'),True
+        mols = break_bond(mol,bonds)
+        reward = reward_func(mols,mode='sas')
+
+        done_flag=False
+
+        return mols,reward,done_flag

@@ -1,0 +1,12 @@
+{
+    "CN1C(=O)OCCc2cc(N3C[C@H](CNC(=O)OC(C)(C)C)OC3=O)ccc21": [
+        [
+            "O=C(Cl)Cl",
+            "Nc1ccccc1CCO",
+            "O=C(n1ccnc1)n1ccnc1",
+            "CI",
+            "O=[N+]([O-])O",
+            "CC(C)(C)OC(=O)NC[C@H]1CO1"
+        ]
+    ]
+}

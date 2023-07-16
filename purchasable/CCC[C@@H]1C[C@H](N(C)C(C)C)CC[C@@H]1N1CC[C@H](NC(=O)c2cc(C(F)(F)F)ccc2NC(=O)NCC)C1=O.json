@@ -1,0 +1,17 @@
+{
+    "CCC[C@@H]1C[C@H](N(C)C(C)C)CC[C@@H]1N1CC[C@H](NC(=O)c2cc(C(F)(F)F)ccc2NC(=O)NCC)C1=O": [
+        [
+            "CCNC(=O)Nc1ccc(C(F)(F)F)cc1C(=O)O",
+            "CC(C)I",
+            "CSCC[C@H](NC(=O)OCc1ccccc1)C(=O)O",
+            "CCC[C@@H]1C[C@H](NC(=O)OC(C)(C)C)CC[C@@H]1N"
+        ],
+        [
+            "CCNC(=O)Nc1ccc(C(F)(F)F)cc1C(=O)O",
+            "C=O",
+            "CCC[C@@H]1C[C@H](NC(=O)OC(C)(C)C)CC[C@@H]1N",
+            "CC(C)=O",
+            "CSCC[C@H](NC(=O)OCc1ccccc1)C(=O)O"
+        ]
+    ]
+}

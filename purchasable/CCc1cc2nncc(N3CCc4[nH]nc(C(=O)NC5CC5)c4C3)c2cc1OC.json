@@ -1,0 +1,28 @@
+{
+    "CCc1cc2nncc(N3CCc4[nH]nc(C(=O)NC5CC5)c4C3)c2cc1OC": [
+        [
+            "O=C(NC1CC1)c1n[nH]c2c1CNCC2",
+            "O=[N+]([O-])O",
+            "CC(=O)Cl",
+            "CCc1ccccc1OC",
+            "O=P(Br)(Br)Br",
+            "O=NO"
+        ],
+        [
+            "O=C(NC1CC1)c1n[nH]c2c1CNCC2",
+            "O=[N+]([O-])O",
+            "CC(=O)OC(C)=O",
+            "O=P(Br)(Br)Br",
+            "O=NO",
+            "CCc1ccccc1OC"
+        ],
+        [
+            "O=C(NC1CC1)c1n[nH]c2c1CNCC2",
+            "O=[N+]([O-])O",
+            "O=P(Br)(Br)Br",
+            "O=NO",
+            "CCc1ccccc1OC",
+            "CC(=O)O"
+        ]
+    ]
+}

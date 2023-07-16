@@ -1,0 +1,40 @@
+{
+    "CNC(=O)c1ccc2c(c1)CC(=O)N2C1CCN(CC(=O)N2C[C@@H]3CCC[C@@H]3C2)CC1": [
+        [
+            "C1C[C@@H]2CNC[C@@H]2C1",
+            "O=C(O)CCl",
+            "CN",
+            "COC(=O)c1ccc(N(C(=O)CCl)C2CCN(C(=O)OCc3ccccc3)CC2)cc1"
+        ],
+        [
+            "CN",
+            "COC(=O)c1ccc(N(C(=O)CCl)C2CCN(C(=O)OCc3ccccc3)CC2)cc1",
+            "C1C[C@@H]2CNC[C@@H]2C1",
+            "O=C(CCl)OC(=O)CCl"
+        ],
+        [
+            "C1C[C@@H]2CNC[C@@H]2C1",
+            "COC(=O)c1ccc(N(C(=O)CCl)C2CCN(C(=O)OCc3ccccc3)CC2)cc1",
+            "CN",
+            "O=C(O)CCl"
+        ],
+        [
+            "O=C(CCl)OC(=O)CCl",
+            "COC(=O)c1ccc(N(C(=O)CCl)C2CCN(C(=O)OCc3ccccc3)CC2)cc1",
+            "CN",
+            "C1C[C@@H]2CNC[C@@H]2C1"
+        ],
+        [
+            "CN",
+            "O=C(O)CCl",
+            "C1C[C@@H]2CNC[C@@H]2C1",
+            "COC(=O)c1ccc(N(C(=O)CCl)C2CCN(C(=O)OCc3ccccc3)CC2)cc1"
+        ],
+        [
+            "CN",
+            "C1C[C@@H]2CNC[C@@H]2C1",
+            "O=C(CCl)OC(=O)CCl",
+            "COC(=O)c1ccc(N(C(=O)CCl)C2CCN(C(=O)OCc3ccccc3)CC2)cc1"
+        ]
+    ]
+}

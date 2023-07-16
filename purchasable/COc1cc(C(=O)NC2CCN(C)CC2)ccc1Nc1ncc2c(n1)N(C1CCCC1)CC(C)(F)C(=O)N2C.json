@@ -1,0 +1,14 @@
+{
+    "COc1cc(C(=O)NC2CCN(C)CC2)ccc1Nc1ncc2c(n1)N(C1CCCC1)CC(C)(F)C(=O)N2C": [
+        [
+            "C[Mg+]",
+            "COc1cc(C(=O)O)ccc1N",
+            "CCN(CC)S(F)(F)F",
+            "CN1CCC(N)CC1",
+            "NC1CCCC1",
+            "CCOC(=O)C(=O)CBr",
+            "CI",
+            "O=[N+]([O-])c1cnc(Cl)nc1Cl"
+        ]
+    ]
+}

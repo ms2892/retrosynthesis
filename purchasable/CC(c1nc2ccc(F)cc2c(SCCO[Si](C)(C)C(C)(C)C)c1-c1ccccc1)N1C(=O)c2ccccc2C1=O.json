@@ -1,0 +1,20 @@
+{
+    "CC(c1nc2ccc(F)cc2c(SCCO[Si](C)(C)C(C)(C)C)c1-c1ccccc1)N1C(=O)c2ccccc2C1=O": [
+        [
+            "CC1(C)C(=O)N(Br)C(=O)N1Br",
+            "Fc1ccc2nc(Cl)c(-c3ccccc3)c(Cl)c2c1",
+            "CC(C)(C)[Si](C)(C)Cl",
+            "O=C1NC(=O)c2ccccc21",
+            "OCCS",
+            "CC[Zn]CC"
+        ],
+        [
+            "O=C1NC(=O)c2ccccc21",
+            "Fc1ccc2nc(Cl)c(-c3ccccc3)c(Cl)c2c1",
+            "CC[Zn]CC",
+            "CC(C)(C)[Si](C)(C)Cl",
+            "OCCS",
+            "CC1(C)C(=O)N(Br)C(=O)N1Br"
+        ]
+    ]
+}

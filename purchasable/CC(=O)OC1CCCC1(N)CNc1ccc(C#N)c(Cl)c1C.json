@@ -1,0 +1,42 @@
+{
+    "CC(=O)OC1CCCC1(N)CNc1ccc(C#N)c(Cl)c1C": [
+        [
+            "Cc1c(F)ccc(C#N)c1Cl",
+            "N",
+            "C#N",
+            "CC(=O)O",
+            "O=C1CCCC1"
+        ],
+        [
+            "C1CC2OC2C1",
+            "Cc1c(F)ccc(C#N)c1Cl",
+            "N",
+            "C#N",
+            "CC(=O)O"
+        ],
+        [
+            "Cc1c(N)ccc(C#N)c1Cl",
+            "O=C1CCCC1",
+            "I",
+            "N",
+            "C#N",
+            "CC(=O)O"
+        ],
+        [
+            "II",
+            "O=C1CCCC1",
+            "Cc1c(N)ccc(C#N)c1Cl",
+            "N",
+            "C#N",
+            "CC(=O)O"
+        ],
+        [
+            "Cc1c(N)ccc(C#N)c1Cl",
+            "O=C1CCCC1",
+            "ICI",
+            "N",
+            "C#N",
+            "CC(=O)O"
+        ]
+    ]
+}

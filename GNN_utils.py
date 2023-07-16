@@ -4,6 +4,10 @@ import os
 os.environ["TF_CPP_MIN_LOG_LEVEL"] = "3"
 
 import tensorflow as tf
+import numpy as np
+import torch
+import torch.nn as nn
+import torch.nn.functional as F
 from tensorflow import keras
 from tensorflow.keras import layers
 import numpy as np
@@ -11,7 +15,13 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import warnings
 from rdkit import Chem
+from torch_geometric.data import Data
+from torch_geometric.nn import GATConv    # official GAT implementation in PyG
+from torch_geometric.datasets import Planetoid 
+import torch_geometric.transforms as T
 from rdkit import RDLogger
+import torch_geometric
+from split_environment import *
 from rdkit.Chem.Draw import IPythonConsole
 from rdkit.Chem.Draw import MolsToGridImage
 
@@ -187,3 +197,76 @@ def graphs_from_smiles(smiles_list):
         tf.ragged.constant(bond_features_list, dtype=tf.float32),
         tf.ragged.constant(pair_indices_list, dtype=tf.int64),
     )
+
+
+
+def convert_smiles_to_pyg_graph(smiles):
+    return torch_geometric.utils.from_smiles(smiles)
+
+class GAT(nn.Module):
+    def __init__(self,in_features,out_features):
+        super(GAT,self).__init__()
+        self.hid = 64
+        self.in_head = 64
+        self.out_head = 5
+        
+        self.conv1 = GATConv(in_features,self.hid,heads=self.in_head,dropout=0.6)
+        self.conv2 = GATConv(self.hid*self.in_head,out_features,concat=False,heads=self.out_head,dropout=0.6)
+        
+    def forward(self,data):
+        x,edge_index = data.x,data.edge_index
+        x =x.float()
+        x = F.dropout(x,p=0.6,training=self.training)
+        x = self.conv1(x,edge_index)
+        x = F.elu(x)
+        x = F.dropout(x,p=0.6,training=self.training)
+        x = self.conv2(x,edge_index)
+        
+        bonds = get_BRICS_bonds(Chem.MolFromSmiles(data['smiles']))
+
+        bonds = [list(i[0]) for i in bonds] 
+        bonds.sort()
+        # t=input()   
+        lefts=[]
+        rights=[]
+
+        for i in bonds:
+            lefts.append(i[0])
+            rights.append(i[1])
+        lefts = np.array(lefts)
+        rights = np.array(rights)
+        lefts = torch.from_numpy(lefts)
+        rights = torch.from_numpy(rights)
+
+        # src, dst = edge_index
+        # print(src,dst)
+        score = torch.sum(x[lefts] + x[rights],dim=-1)
+        # print(score.shape)  
+        return F.softmax(score,dim=0)
+
+class GATCritic(nn.Module):
+    def __init__(self,in_features,out_features):
+        super(GATCritic,self).__init__()
+        self.hid = 64
+        self.in_head = 64
+        self.out_head = 5
+        
+        self.conv1 = GATConv(in_features,self.hid,heads=self.in_head,dropout=0.6)
+        self.conv2 = GATConv(self.hid*self.in_head,out_features,concat=False,heads=self.out_head,dropout=0.6)
+        
+    def forward(self,data):
+        x,edge_index = data.x,data.edge_index
+        x =x.float()
+        x = F.dropout(x,p=0.6,training=self.training)
+        x = self.conv1(x,edge_index)
+        x = F.elu(x)
+        x = F.dropout(x,p=0.6,training=self.training)
+        x = self.conv2(x,edge_index)  
+        s = torch.mean(x,dim=0)
+        return F.tanh(s)
+
+if __name__=='__main__':
+    model = GAT(9,32)
+    mol_graph = convert_smiles_to_pyg_graph('CS(=O)(=O)NC(=O)c1cc(C2CC2)c(OCC2(C#N)C3CC4CC(C3)CC2C4)cc1F')
+    print(model(mol_graph))
+    print(convert_smiles_to_pyg_graph('CS(=O)(=O)NC(=O)c1cc(C2CC2)c(OCC2(C#N)C3CC4CC(C3)CC2C4)cc1F'))
