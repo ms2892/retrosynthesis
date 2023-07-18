@@ -2,9 +2,11 @@ from rdkit import Chem
 from rdkit.Chem import BRICS
 from paroutes import PaRoutesInventory, PaRoutesModel, get_target_smiles
 from rdkit import Chem
+from rdkit.Chem import AllChem,DataStructs
 from rdkit.Chem import RDConfig
 import os
 import sys
+import numpy as np
 sys.path.append(os.path.join(RDConfig.RDContribDir, 'SA_Score'))
 # now you can import sascore!
 import sascorer
@@ -70,12 +72,27 @@ def get_all_bonds_idxs(molecule):
     cliques.sort()
     return cliques
 
-def reward_func(molecules,mode):
+def get_fingerprint( mol: AllChem.Mol):
+    return AllChem.GetMorganFingerprint(mol, radius=3)
+
+
+def reward_func(molecules,mode,inventory=None):
     if mode=='sas':
         sum_sa = []
         for i in molecules:
             sum_sa.append(sascorer.calculateScore(i))
         return -1*max(sum_sa)
+    
+    elif mode=='nn' and inventory is not None:
+        nn_dist = []
+        smiles_query = [Chem.MolToSmiles(i) for i in molecules]
+        fps_mols = list(map(AllChem.MolFromSmiles, inventory))
+        fps_inv = list(map(get_fingerprint, fps_mols))
+        for i in smiles_query:
+            fp_query = get_fingerprint(AllChem.MolFromSmiles(i))
+            tanimoto_sims = DataStructs.BulkTanimotoSimilarity(fp_query, fps_inv)
+            nn_dist.append(1 - max(tanimoto_sims))
+        return -1 * np.mean(nn_dist)
 
 
 def find_overlap_with_BRICS(molecule,bonds):
@@ -97,6 +114,7 @@ class SASEnvironment:
     def __init__(self,inventory:list):
         self.smile_db = inventory
         self.action_space = self._get_max_bonds
+        self.inventory = get_target_smiles(5)
         # self.observation_space = len(self.smile_db)
 
     def _get_max_bonds(self):
@@ -112,10 +130,10 @@ class SASEnvironment:
         BRICS = get_BRICS_bonds(Chem.MolFromSmiles(smile))
         mol = Chem.MolFromSmiles(smile)
         if len(BRICS)==1:
-            return [mol], reward_func([mol],mode='sas'),True
+            return [mol], reward_func([mol],mode='nn',inventory=self.inventory),True
         mols = break_bond(mol,bonds)
-        reward = reward_func(mols,mode='sas')
+        reward = reward_func(mols,mode='nn',inventory=self.inventory)
 
         done_flag=False
-
+        # print(reward)
         return mols,reward,done_flag

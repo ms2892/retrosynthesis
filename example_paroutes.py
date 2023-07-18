@@ -12,9 +12,8 @@ from tqdm.auto import tqdm
 
 from syntheseus.search.chem import Molecule
 from syntheseus.search.graph.and_or import AndNode
-from syntheseus.search.algorithms.best_first.retro_star import RetroStarSearch
 from syntheseus.search.analysis.solution_time import get_first_solution_time
-from syntheseus.search.analysis.route_extraction import min_cost_routes
+from syntheseus.search.analysis.route_extraction import iter_routes_cost_order
 from syntheseus.search.reaction_models.base import BackwardReactionModel
 from syntheseus.search.mol_inventory import BaseMolInventory
 from syntheseus.search.node_evaluation.base import (
@@ -24,8 +23,8 @@ from syntheseus.search.node_evaluation.base import (
 from syntheseus.search.node_evaluation.common import ConstantNodeEvaluator
 
 from paroutes import PaRoutesInventory, PaRoutesModel, get_target_smiles
-from rdkit.Chem import DataStructs, AllChem
-from neighbour_value_functions import TanimotoNNCostEstimator, DistanceToCost, DiceNNCostEstimator, CustomNNCostEstimator
+from neighbour_value_functions import TanimotoNNCostEstimator, DistanceToCost
+from faster_retro_star import ReduceValueFunctionCallsRetroStar
 
 
 class PaRoutesRxnCost(NoCacheNodeEvaluator[AndNode]):
@@ -42,9 +41,13 @@ def compare_cost_functions(
     value_functions: list[tuple[str, BaseNodeEvaluator]],
     rxn_model: BackwardReactionModel,
     inventory: BaseMolInventory,
+    rxn_cost_fn: BaseNodeEvaluator,
     use_tqdm: bool = False,
-    limit_rxn_model_calls: int = 10,
+    limit_rxn_model_calls: int = 100,
     limit_iterations: int = 1_000_000,
+    prevent_repeat_mol_in_trees: bool = True,  # original paper did this
+    max_routes_to_extract: int = 10,
+    **alg_kwargs,
 ) -> list[tuple[float, ...]]:
     """
     Do search on a list of SMILES strings and report the time of first solution.
@@ -56,12 +59,13 @@ def compare_cost_functions(
         mol_inventory=inventory,
         limit_reaction_model_calls=limit_rxn_model_calls,
         limit_iterations=limit_iterations,
-        max_expansion_depth=15,  # prevent overly-deep solutions
-        prevent_repeat_mol_in_trees=True,  # original paper did this
+        max_expansion_depth=30,  # prevent overly-deep solutions
+        prevent_repeat_mol_in_trees=prevent_repeat_mol_in_trees,  # original paper did this
+        **alg_kwargs,
     )
     algs = [
-        RetroStarSearch(
-            and_node_cost_fn=PaRoutesRxnCost(), value_function=fn, **common_kwargs
+        ReduceValueFunctionCallsRetroStar(
+            and_node_cost_fn=rxn_cost_fn, value_function=fn, **common_kwargs
         )
         for _, fn in value_functions
     ]
@@ -87,17 +91,18 @@ def compare_cost_functions(
             this_soln_times.append(soln_time)
 
             # Analyze number of routes
-            MAX_ROUTES = 10000
-            routes = list(min_cost_routes(output_graph, MAX_ROUTES))
+            routes = list(iter_routes_cost_order(output_graph, max_routes_to_extract))
 
+            # Print result
             if alg.reaction_model.num_calls() < limit_rxn_model_calls:
                 note = " (NOTE: this was less than the maximum budget)"
             else:
                 note = ""
             logger.debug(
                 f"Done {name}: nodes={len(output_graph)}, solution time = {soln_time}, "
-                f"num routes = {len(routes)} (capped at {MAX_ROUTES}), "
-                f"final num rxn model calls = {alg.reaction_model.num_calls()}{note}."
+                f"num routes = {len(routes)} (capped at {max_routes_to_extract}), "
+                f"final num rxn model calls = {alg.reaction_model.num_calls()}{note}, "
+                f"final num value model calls = {alg.value_function.num_calls}."
             )
         min_soln_times.append(tuple(this_soln_times))
 
@@ -130,6 +135,12 @@ if __name__ == "__main__":
         default=5,
         help="Which PaRoutes benchmark to use.",
     )
+    parser.add_argument(
+        "--rxn_cost",
+        type=str,
+        default="log-softmax",
+        help="Cost function to use.",
+    )
     args = parser.parse_args()
 
     # Logging
@@ -157,51 +168,28 @@ if __name__ == "__main__":
                 inventory=inventory, distance_to_cost=DistanceToCost.NOTHING
             ),
         ),
-        (
-            "Tanimoto-distance-EXP",
-            TanimotoNNCostEstimator(
-                inventory=inventory, distance_to_cost=DistanceToCost.EXP
-            ),
-        ),
-        (
-            "Tanimoto-distance-SIN",
-            TanimotoNNCostEstimator(
-                inventory=inventory, distance_to_cost=DistanceToCost.SIN
-            ),
-        ),
-        (
-            "Tanimoto-distance-LOG",
-            TanimotoNNCostEstimator(
-                inventory=inventory, distance_to_cost=DistanceToCost.LOG
-            ),
-        ),
-        (
-            "Tanimoto-distance-QUAD",
-            TanimotoNNCostEstimator(
-                inventory=inventory, distance_to_cost=DistanceToCost.QUAD
-            ),
-        ),
-        (
-            "Tanimoto-distance-CUB",
-            TanimotoNNCostEstimator(
-                inventory=inventory, distance_to_cost=DistanceToCost.CUB
-            ),
-        ),
-        (
-            'Dice-distance',
-            DiceNNCostEstimator(
-                inventory=inventory, distance_to_cost=DistanceToCost.NOTHING
-            )
-        )
     ]
+    if args.rxn_cost == "log-softmax":
+        rxn_cost_fn = PaRoutesRxnCost()
+    elif args.rxn_cost == "constant":
+        rxn_cost_fn = ConstantNodeEvaluator(1.0)
+    else:
+        raise ValueError(f"Unknown rxn_cost: {args.rxn_cost}")
 
-    # Run without value function (retro*-0)
-    compare_cost_functions(
-        smiles_list=test_smiles[:100],
+    # Run with all value functions
+    soln_times_list = compare_cost_functions(
+        smiles_list=test_smiles,
         value_functions=value_fns,
         limit_rxn_model_calls=args.limit_rxn_model_calls,
         limit_iterations=args.limit_iterations,
         use_tqdm=True,
         rxn_model=rxn_model,
         inventory=inventory,
+        rxn_cost_fn=rxn_cost_fn,
     )
+
+    # Print quantiles of solution time
+    soln_times_array = np.asarray(soln_times_list)
+    for i, (name, _) in enumerate(value_fns):
+        for q in [0, 0.05, 0.1, 0.25, 0.5, 0.75, 0.9, 0.95, 1.0]:
+            print(f"{name} quantile {q}: {np.quantile(soln_times_array[:, i], q):.2f}")
