@@ -15,7 +15,7 @@ def get_output(smile):
 
     cutBonds = []
     print("Total Purchasable Mols: ",len(configDict[smile]))
-    for i in configDict[smile]:
+    for i in configDict[smile][:20]:
         num_cuts = len(i)-1
         combinations = itertools.combinations(bonds,num_cuts)
         mnm_sims = float('inf')
@@ -52,7 +52,7 @@ def get_output(smile):
 
 
 def save_outputs(smiles):
-    with Pool(4) as p:
+    with Pool(8) as p:
         p.map(get_output,smiles)
 
 
