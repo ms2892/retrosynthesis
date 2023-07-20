@@ -8,12 +8,27 @@ from tqdm import tqdm
 import itertools
 import json
 
+all_files = glob('splits/*.json')
+
+all_files = [i.split('/')[1] for i in all_files]
+all_files = [i[:-5] for i in all_files]
+all_files.sort()
+
 def get_output(smile):
+    if smile in all_files:
+        print(f'Found smile {smile} exists. Not Calculating this shit')
+        return 
+    else:
+        print("Didn't find the smile")
+    # t=input()
     bonds = get_all_bonds_idxs(Chem.MolFromSmiles(smile))
     with open(f'purchasable/{smile}.json','r') as f:
         configDict= json.load(f)
 
     cutBonds = []
+    if not configDict:
+        print("Skipping. No data present")
+        return 
     print("Total Purchasable Mols: ",len(configDict[smile]))
     for i in configDict[smile][:20]:
         num_cuts = len(i)-1
@@ -52,8 +67,10 @@ def get_output(smile):
 
 
 def save_outputs(smiles):
-    with Pool(8) as p:
+    with Pool(3) as p:
         p.map(get_output,smiles)
+    # for i in smiles:
+        # get_output(i,all_files)
 
 
 
@@ -65,4 +82,8 @@ if __name__=='__main__':
     for smile_file in smile_files:
         smile = smile_file.split('/')[1]
         smiles.append(smile[:-5])
+    # print(all_files)
+
+    smiles.sort()
+    # print(all_files)
     save_outputs(smiles)
