@@ -54,23 +54,42 @@ def test_reward(dataset, env, model_actor):
     print("testing...")
     limit = 0
     cnt = 2500
+    REPEAT=5
     state_input = dataset[cnt]
+
     while not done:
-        try:
-            action_probs = model_actor(convert_smiles_to_pyg_graph(state_input))
-        except:
-            state_input = dataset[cnt + 1]
-            cnt = (cnt + 1) % len(dataset)
-            continue
-        action_probs_numpy = action_probs.detach().numpy()
-        action = np.argmax(action_probs_numpy)
+        inv = env.get_inventory()
+        cum_reward=[]
+        mxm_rew = 0
+        best_act = -1
+        for i in range(REPEAT):
+            try:
+                action_probs = model_actor(convert_smiles_to_pyg_graph(state_input))
+            except:
+                state_input = dataset[cnt + 1]
+                cnt = (cnt + 1) % len(dataset)
+                continue
+            action_probs_numpy = action_probs.detach().numpy()
+            action = np.random.choice(len(action_probs_numpy),p=action_probs_numpy)
+            bond = get_BRICS_bonds(Chem.MolFromSmiles(state_input))
+
+            bond = [list(i[0]) for i in bond]
+            bond.sort()
+            bond = bond[action]
+            mols = break_bond(Chem.MolFromSmiles(state_input),[bond])
+            est_rew = calculate_estimate(mols,inv)
+            cum_reward.append(est_rew)
+            if est_rew > mxm_rew:
+                best_act = action
+                mxm_rew = est_rew
+
         bond = get_BRICS_bonds(Chem.MolFromSmiles(state_input))
 
         bond = [list(i[0]) for i in bond]
         bond.sort()
-        bond = bond[action]
-
-        observation, reward, done = env.step([bond], state_input)
+        bond = bond[best_act]
+        observation,reward,done = env.step([bond],state_input)
+        print(cum_reward,reward)
         state_input = dataset[cnt + 1]
         cnt = (cnt + 1) % len(dataset)
         tot_reward += reward
@@ -92,6 +111,7 @@ def main():
 
     dataset = get_target_smiles(5)
     cnt = 0
+    REPEAT=5
 
     model_actor = GAT(9, 32)
     model_critic = GATCritic(9, 1)
@@ -111,47 +131,49 @@ def main():
 
         for itr in range(ppo_steps):
             # state_input = K.expand_dims(state, 0)
-            try:
-                action_dist = model_actor(convert_smiles_to_pyg_graph(state_input))
-            except:
-                state_input = dataset[cnt + 1]
-                cnt = (cnt + 1) % 1000
-                continue
-            q_value = model_critic(convert_smiles_to_pyg_graph(state_input))
-            action_dist_numpy = action_dist.detach().numpy()
-            # print(action_dist_numpy)
-            action = np.random.choice(
-                range(len(action_dist_numpy)),p=action_dist_numpy
-            )
-            action_onehot = np.zeros(len(action_dist_numpy))
-            action_onehot[action] = 1
 
-            bond = get_BRICS_bonds(Chem.MolFromSmiles(state_input))
+            brics = get_BRICS_bonds(Chem.MolFromSmiles(state_input))
+            if brics:
+                tot_reward = []
+                for i in range(REPEAT):
+                    action_dist = model_actor(convert_smiles_to_pyg_graph(state_input))
+                
+                    q_value = model_critic(convert_smiles_to_pyg_graph(state_input))
+                    action_dist_numpy = action_dist.detach().numpy()
+                    # print(action_dist_numpy)
+                    action = np.random.choice(
+                        range(len(action_dist_numpy)),p=action_dist_numpy
+                    )
+                    action_onehot = np.zeros(len(action_dist_numpy))
+                    action_onehot[action] = 1
 
-            bond = [list(i[0]) for i in bond]
-            bond.sort()
+                    bond = get_BRICS_bonds(Chem.MolFromSmiles(state_input))
 
-            # print(action,len(bond))
+                    bond = [list(i[0]) for i in bond]
+                    bond.sort()
 
-            bond = bond[action]
+                    # print(action,len(bond))
 
-            observation, reward, done = env.step([bond], state_input)
-            # print('itr: ' + str(itr) + ', action=' + str(action) + ', reward=' + str(reward) + ', q val=' + str(q_value))
-            mask = not done
+                    bond = bond[action]
 
-            states.append(state_input)
-            actions.append(action)
-            actions_onehot.append(action_onehot)
-            values = torch.cat((values.clone(), q_value))
-            # values.append(q_value)
-            # masks = torch.cat((masks,torch.tensormask))
-            masks.append(mask)
-            # rewards = torch.cat((rewards,reward))
-            rewards.append(reward)
-            actions_probs.append(action_dist)
+                    observation, reward, done = env.step([bond], state_input)
+                    # print('itr: ' + str(itr) + ', action=' + str(action) + ', reward=' + str(reward) + ', q val=' + str(q_value))
+                    mask = not done
 
-            state_input = dataset[cnt+1]
-            cnt = (cnt+1)%1000
+                    states.append(state_input)
+                    actions.append(action)
+                    actions_onehot.append(action_onehot)
+                    values = torch.cat((values.clone(), q_value))
+                    # values.append(q_value)
+                    # masks = torch.cat((masks,torch.tensormask))
+                    masks.append(mask)
+                    # rewards = torch.cat((rewards,reward))
+                    rewards.append(reward)
+                    tot_reward.append(reward)
+                    actions_probs.append(action_dist)
+                print(tot_reward,max(tot_reward))
+                state_input = dataset[cnt+1]
+                cnt = (cnt+1)%1000
 
             if done:
                 state_input = dataset[cnt + 1]
@@ -203,7 +225,7 @@ def main():
         iters += 1
         with open("avg_reward", "wb") as fp:
             pickle.dump(avg_reward_list, fp)
-        torch.save(model_actor, "GNN_split_SAS_Model.pth")
+        torch.save(model_actor, "GNN_split_Multi_Sample_NN_Model.pth")
 
 
 if __name__ == "__main__":

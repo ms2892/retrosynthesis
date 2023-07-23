@@ -76,12 +76,23 @@ def get_fingerprint( mol: AllChem.Mol):
     return AllChem.GetMorganFingerprint(mol, radius=3)
 
 
+def calculate_estimate(mols,inventory):
+    nn_dist = []
+    smiles_query = [Chem.MolToSmiles(i) for i in mols]
+    fp_mols =list(map(AllChem.MolFromSmiles,inventory))
+    fps_inv = list(map(get_fingerprint,fp_mols))
+    for i in smiles_query:
+        fp_query = get_fingerprint(AllChem.MolFromSmiles(i))
+        tanimoto_sims = DataStructs.BulkTanimotoSimilarity(fp_query,fps_inv)
+        nn_dist.append(max(tanimoto_sims))
+    return min(nn_dist)
+
 def reward_func(molecules,mode,inventory=None):
     if mode=='sas':
         sum_sa = []
         for i in molecules:
-            sum_sa.append(sascorer.calculateScore(i))
-        return -1*max(sum_sa)
+            sum_sa.append((10 - sascorer.calculateScore(i))/10)
+        return min(sum_sa)
     
     elif mode=='nn' and inventory is not None:
         nn_dist = []
@@ -91,8 +102,8 @@ def reward_func(molecules,mode,inventory=None):
         for i in smiles_query:
             fp_query = get_fingerprint(AllChem.MolFromSmiles(i))
             tanimoto_sims = DataStructs.BulkTanimotoSimilarity(fp_query, fps_inv)
-            nn_dist.append(1 - max(tanimoto_sims))
-        return -1 * np.mean(nn_dist)
+            nn_dist.append(max(tanimoto_sims))
+        return min(nn_dist)
 
 
 def find_overlap_with_BRICS(molecule,bonds):
@@ -110,6 +121,41 @@ def find_overlap_with_BRICS(molecule,bonds):
 
     return bonds_map,filteredBonds
 
+
+
+
+class SASEnvironmentRAND:
+    def __init__(self,inventory:list):
+        self.smile_db = inventory
+        self.action_space = self._get_max_bonds
+        self.inventory = get_target_smiles(5)
+        # self.observation_space = len(self.smile_db)
+
+    def _get_max_bonds(self):
+        mxm_bonds=-1
+        for smile in self.smile_db:
+            molecule = Chem.MolFromSmiles(smile)
+            bonds = get_all_bonds_idxs(molecule)
+            mxm_bonds = max(mxm_bonds,len(bonds))
+
+        return mxm_bonds
+    
+    def get_inventory(self):
+        return self.new_inventory
+    
+    def step(self,bonds,smile,rand=True):
+        BRICS = get_BRICS_bonds(Chem.MolFromSmiles(smile))
+        mol = Chem.MolFromSmiles(smile)
+        if len(BRICS)==1:
+            return [mol], reward_func([mol],mode='nn',inventory=self.new_inventory),True
+        mols = break_bond(mol,bonds)
+        reward = reward_func(mols,mode='nn',inventory=self.new_inventory)
+
+        done_flag=False
+        # print(reward)
+        self.new_inventory = np.random.choice(self.inventory,int(len(self.inventory)*0.9),replace=False)
+        return mols,reward,done_flag
+
 class SASEnvironment:
     def __init__(self,inventory:list):
         self.smile_db = inventory
@@ -126,13 +172,20 @@ class SASEnvironment:
 
         return mxm_bonds
     
-    def step(self,bonds,smile):
+    def get_inventory(self):
+        return self.inventory
+    
+    def step(self,bonds,smile,rand=False):
         BRICS = get_BRICS_bonds(Chem.MolFromSmiles(smile))
         mol = Chem.MolFromSmiles(smile)
+        if not rand:
+            new_inventory = np.random.choice(self.inventory,int(len(self.inventory)*0.9),replace=False)
+        else:
+            new_inventory = self.inventory
         if len(BRICS)==1:
-            return [mol], reward_func([mol],mode='nn',inventory=self.inventory),True
+            return [mol], reward_func([mol],mode='nn',inventory=new_inventory),True
         mols = break_bond(mol,bonds)
-        reward = reward_func(mols,mode='nn',inventory=self.inventory)
+        reward = reward_func(mols,mode='nn',inventory=new_inventory)
 
         done_flag=False
         # print(reward)
