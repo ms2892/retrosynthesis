@@ -67,7 +67,7 @@ def get_output(smile):
 
 
 def save_outputs(smiles):
-    with Pool(3) as p:
+    with Pool(8) as p:
         p.map(get_output,smiles)
     # for i in smiles:
         # get_output(i,all_files)
