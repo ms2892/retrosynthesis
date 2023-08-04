@@ -7,9 +7,9 @@ import argparse
 import logging
 import sys
 import numpy as np
-import pandas as pd
+
 from tqdm.auto import tqdm
-from pathlib import Path
+
 from syntheseus.search.chem import Molecule
 from syntheseus.search.graph.and_or import AndNode
 from syntheseus.search.analysis.solution_time import get_first_solution_time
@@ -47,6 +47,7 @@ def compare_cost_functions(
     limit_iterations: int = 1_000_000,
     prevent_repeat_mol_in_trees: bool = True,  # original paper did this
     max_routes_to_extract: int = 10,
+    max_expansion_depth: int = 30,  # prevent overly-deep solutions
     **alg_kwargs,
 ) -> list[tuple[float, ...]]:
     """
@@ -59,7 +60,7 @@ def compare_cost_functions(
         mol_inventory=inventory,
         limit_reaction_model_calls=limit_rxn_model_calls,
         limit_iterations=limit_iterations,
-        max_expansion_depth=30,  # prevent overly-deep solutions
+        max_expansion_depth=max_expansion_depth,
         prevent_repeat_mol_in_trees=prevent_repeat_mol_in_trees,  # original paper did this
         **alg_kwargs,
     )
@@ -73,15 +74,6 @@ def compare_cost_functions(
     # Do search
     logger = logging.getLogger("COMPARISON")
     min_soln_times: list[tuple[float, ...]] = []
-    if Path('results.csv').exists():
-        df = pd.read_csv('results.csv',index_col=None)
-    else:
-        df=None
-        f=open('results.csv','w')
-        f.write('SMILES,NAME,NODES,SOLUTION_TIME,NUM_ROUTES,FINAL_NUM_RXN_MODEL_CALLS,final_num_value_model_calls\n')
-        f.close()
-    # print(df[['SMILES','NAME']])
-    # t=input()
     if use_tqdm:
         smiles_iter = tqdm(smiles_list)
     else:
@@ -90,11 +82,6 @@ def compare_cost_functions(
         logger.debug(f"Start search {i}/{len(smiles_list)}. SMILES: {smiles}")
         this_soln_times = list()
         for (name, _), alg in zip(value_functions, algs):
-            if df is not None:
-                if (df[['SMILES','NAME']].values == [smiles,name]).all(axis=1).any():
-                    print("CAME HERE")
-                    continue
-
             alg.reset()
             output_graph, _ = alg.run_from_mol(Molecule(smiles))
 
@@ -112,26 +99,12 @@ def compare_cost_functions(
                 note = " (NOTE: this was less than the maximum budget)"
             else:
                 note = ""
-            v1 = f'{smiles}'
-            v1_5 = f'{name}'
-            v2 = f'{len(output_graph)}'
-            v3= f'{soln_time}'
-            v4 = f'{len(routes)}'
-            v5 = f'{max_routes_to_extract}'
-            v6 =f'{alg.reaction_model.num_calls()}{note}'
-            v7 = f'{alg.value_function.num_calls}'
             logger.debug(
-                f"Done {v1_5}: nodes={v2}, solution time = {v3}, "
-                f"num routes = {v4} (capped at {v5}), "
-                f"final num rxn model calls = {v6}, "
-                f"final num value model calls = {v7}."
+                f"Done {name}: nodes={len(output_graph)}, solution time = {soln_time}, "
+                f"num routes = {len(routes)} (capped at {max_routes_to_extract}), "
+                f"final num rxn model calls = {alg.reaction_model.num_calls()}{note}, "
+                f"final num value model calls = {alg.value_function.num_calls}."
             )
-            print("WRITING TO CSV")
-            f = open('results.csv','a')
-            f.write(f'{v1},{v1_5},{v2},{v3},{v4},{v6},{v7}\n')
-            f.close()
-            print("WROTE TO CSV")
-
         min_soln_times.append(tuple(this_soln_times))
 
     return min_soln_times

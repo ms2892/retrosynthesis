@@ -5,7 +5,7 @@ from enum import Enum
 
 import numpy as np
 from rdkit.Chem import DataStructs, AllChem
-
+from GNN_utils import *
 from syntheseus.search.graph.and_or import OrNode
 from syntheseus.search.node_evaluation.base import NoCacheNodeEvaluator
 from syntheseus.search.mol_inventory import ExplicitMolInventory
@@ -18,60 +18,6 @@ class DistanceToCost(Enum):
     CUB = 3
     SIN = 4
     LOG = 5
-
-
-class GNNCostEstimator(NoCacheNodeEvaluator):
-    def __init__(
-        self,
-        inventory: ExplicitMolInventory,
-        distance_to_cost: DistanceToCost,
-        **kwargs,
-    ):
-        super().__init__(**kwargs)
-        self.distance_to_cost = distance_to_cost
-        self._set_fingerprints([mol.smiles for mol in inventory.purchasable_mols()])
-
-    def get_pyggraph(self, mol: AllChem.Mol):
-        pass
-
-    def _set_fingerprints(self, smiles_list: list[str]) -> None:
-        """Initialize fingerprint cache."""
-        mols = list(map(AllChem.MolFromSmiles, smiles_list))
-        assert None not in mols, "Invalid SMILES encountered."
-        self._fps = list(map(self.get_fingerprint, mols))
-
-    def _get_nearest_neighbour_dist(self, smiles: str) -> float:
-        fp_query = self.get_pyggraph(smiles)
-        tanimoto_sims = DataStructs.BulkTanimotoSimilarity(fp_query, self._fps)
-        return 1 - max(tanimoto_sims)
-
-    def _evaluate_nodes(self, nodes: list[OrNode], graph=None) -> list[float]:
-        if len(nodes) == 0:
-            return []
-
-        # Get distances to nearest neighbours
-        nn_dists = np.asarray(
-            [self._get_nearest_neighbour_dist(node.mol.smiles) for node in nodes]
-        )
-        assert np.min(nn_dists) >= 0
-
-        # Turn into costs
-        if self.distance_to_cost == DistanceToCost.NOTHING:
-            values = nn_dists
-        elif self.distance_to_cost == DistanceToCost.EXP:
-            values = np.exp(nn_dists) - 1
-        elif self.distance_to_cost == DistanceToCost.QUAD:
-            values = np.power(nn_dists,2)
-        elif self.distance_to_cost == DistanceToCost.CUB:
-            values = np.power(nn_dists,3)
-        elif self.distance_to_cost == DistanceToCost.SIN:
-            values = np.sin(nn_dists)
-        elif self.distance_to_cost == DistanceToCost.LOG:
-            values = np.log(1 + nn_dists)
-        else:
-            raise NotImplementedError(self.distance_to_cost)
-
-        return list(values)
 
 
 class TanimotoCalculator:
