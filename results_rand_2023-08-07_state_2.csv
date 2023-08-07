@@ -1,0 +1,7 @@
+SMILES,NAME,NODES,SOLUTION_TIME,NUM_ROUTES,FINAL_NUM_RXN_MODEL_CALLS,final_num_value_model_calls
+CCCN(CCc1cccc(-c2ccccc2)c1)C(=O)C1OC(C(=O)O)=CC(N)C1NC(C)=O,constant-0,17826,inf,0,500,799
+COc1cc(NCc2ccc3oc(=O)c(-c4ccccc4)nc3c2)cc(OC)c1OC,constant-0,13872,inf,0,500,676
+CC1(C)CC(C)(C)CC(CN)(CC(=O)O)C1,constant-0,10558,425,0,425 (NOTE: this was less than the maximum budget),489
+CC1(C)CC(C)(C)CC(CN)(CC(=O)O)C1,Tanimoto-top1NN-linear-3.0,11236,443,0,443 (NOTE: this was less than the maximum budget),3053
+COc1cc(NCc2ccc3oc(=O)c(-c4ccccc4)nc3c2)cc(OC)c1OC,Tanimoto-top1NN-linear-3.0,12305,inf,0,500,3656
+CCCN(CCc1cccc(-c2ccccc2)c1)C(=O)C1OC(C(=O)O)=CC(N)C1NC(C)=O,Tanimoto-top1NN-linear-3.0,18547,inf,0,500,6235

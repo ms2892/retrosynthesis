@@ -911,3 +911,43 @@ CCN(CC)C(=O)Cn1c2nc3ccccc3c(C)c2c(=O)n1-c1ccc(F)cc1,GNNEstimatorMAXScore-10.0,13
 CCN(CC)C(=O)Cn1c2nc3ccccc3c(C)c2c(=O)n1-c1ccc(F)cc1,GNNEstimatorAVGScore-3.0,11713,inf,0,500,4123
 COC(=O)C1=C(c2cc3ccccc3o2)CC2CCC1N2C(=O)NCc1cccc2ccccc12,GNN_NNSplitSingleMAXScore-3.0,21739,inf,0,500,8668
 COc1ccc(CNC(=O)CN2C(=O)NC3(CCCCCC3)C2=O)cc1,GNN-NN-Split-MAX-10.0,12493,inf,0,500,4175
+CCN(CC)C(=O)Cn1c2nc3ccccc3c(C)c2c(=O)n1-c1ccc(F)cc1,GNNEstimatorAVGScore-10.0,13134,inf,0,500,4948
+CCN(CC)C(=O)Cn1c2nc3ccccc3c(C)c2c(=O)n1-c1ccc(F)cc1,GNN_NNSplitSingleMAXScore-3.0,11713,inf,0,500,4124
+COC(=O)C1=C(c2cc3ccccc3o2)CC2CCC1N2C(=O)NCc1cccc2ccccc12,GNN_NNSplitSingleMAXScore-10.0,21066,inf,0,500,8449
+CCN(CC)C(=O)Cn1c2nc3ccccc3c(C)c2c(=O)n1-c1ccc(F)cc1,GNN_NNSplitSingleMAXScore-10.0,13088,inf,0,500,4943
+COc1ccc(CNC(=O)CN2C(=O)NC3(CCCCCC3)C2=O)cc1,GNN-NN-Split-AVG-3.0,12468,inf,0,500,3850
+CCN(CC)C(=O)Cn1c2nc3ccccc3c(C)c2c(=O)n1-c1ccc(F)cc1,GNN_NNSplitSingleAVGSCore-3.0,11730,inf,0,500,4128
+COC(=O)C1=C(c2cc3ccccc3o2)CC2CCC1N2C(=O)NCc1cccc2ccccc12,GNN_NNSplitSingleAVGSCore-3.0,21758,inf,0,500,8676
+CCN(CC)C(=O)Cn1c2nc3ccccc3c(C)c2c(=O)n1-c1ccc(F)cc1,GNN_NNSplitSingleAVGSCore-10.0,13071,inf,0,500,4925
+COc1ccc(CNC(=O)CN2C(=O)NC3(CCCCCC3)C2=O)cc1,GNN-NN-Split-AVG-10.0,12698,inf,0,500,4163
+CC(C)(OCC1OC(n2cnc3c(N)ncnc32)C(O)C1O)c1ccccc1,constant-0,13004,inf,0,500,859
+COC(=O)C1=C(c2cc3ccccc3o2)CC2CCC1N2C(=O)NCc1cccc2ccccc12,GNN_NNSplitSingleAVGSCore-10.0,21442,inf,0,500,8628
+CC(C)(OCC1OC(n2cnc3c(N)ncnc32)C(O)C1O)c1ccccc1,SAscore-linear-0.3,13702,inf,0,500,4617
+CC(C)(OCC1OC(n2cnc3c(N)ncnc32)C(O)C1O)c1ccccc1,SAscore-linear-1.0,14028,inf,0,500,4941
+CCN(CC)C(=O)Cn1c2nc3ccccc3c(C)c2c(=O)n1-c1ccc(F)cc1,GNN-NN-Split-MAX-3.0,11713,inf,0,500,4123
+CC(C)(OCC1OC(n2cnc3c(N)ncnc32)C(O)C1O)c1ccccc1,GNNEstimatorMAXScore-3.0,12925,inf,0,500,4259
+CC(C)(OCC1OC(n2cnc3c(N)ncnc32)C(O)C1O)c1ccccc1,GNNEstimatorMAXScore-10.0,13389,inf,0,500,4585
+CC(C)(OCC1OC(n2cnc3c(N)ncnc32)C(O)C1O)c1ccccc1,GNNEstimatorAVGScore-3.0,12925,inf,0,500,4258
+CCN(CC)C(=O)Cn1c2nc3ccccc3c(C)c2c(=O)n1-c1ccc(F)cc1,GNN-NN-Split-MAX-10.0,13079,inf,0,500,4933
+CC(C)(OCC1OC(n2cnc3c(N)ncnc32)C(O)C1O)c1ccccc1,GNNEstimatorAVGScore-10.0,13431,inf,0,500,4754
+CC(C)(OCC1OC(n2cnc3c(N)ncnc32)C(O)C1O)c1ccccc1,GNN_NNSplitSingleMAXScore-3.0,12925,inf,0,500,4259
+CC(C)(OCC1OC(n2cnc3c(N)ncnc32)C(O)C1O)c1ccccc1,GNN_NNSplitSingleMAXScore-10.0,13244,inf,0,500,4533
+COC(=O)C1=C(c2cc3ccccc3o2)CC2CCC1N2C(=O)NCc1cccc2ccccc12,GNN-NN-Split-MAX-3.0,21739,inf,0,500,8668
+CCN(CC)C(=O)Cn1c2nc3ccccc3c(C)c2c(=O)n1-c1ccc(F)cc1,GNN-NN-Split-AVG-3.0,11730,inf,0,500,4126
+CC(C)(OCC1OC(n2cnc3c(N)ncnc32)C(O)C1O)c1ccccc1,GNN_NNSplitSingleAVGSCore-3.0,12973,inf,0,500,4258
+CC(C)(OCC1OC(n2cnc3c(N)ncnc32)C(O)C1O)c1ccccc1,GNN_NNSplitSingleAVGSCore-10.0,13448,inf,0,500,4799
+CCN(CC)C(=O)Cn1c2nc3ccccc3c(C)c2c(=O)n1-c1ccc(F)cc1,GNN-NN-Split-AVG-10.0,13088,inf,0,500,4946
+CCc1nccn1-c1cncc(C2CCCN2Cc2ccc(F)cc2)n1,constant-0,11428,inf,0,500,767
+CCc1nccn1-c1cncc(C2CCCN2Cc2ccc(F)cc2)n1,SAscore-linear-0.3,11173,inf,0,500,3680
+CCc1nccn1-c1cncc(C2CCCN2Cc2ccc(F)cc2)n1,SAscore-linear-1.0,10886,482,0,482 (NOTE: this was less than the maximum budget),3710
+CC(C)(OCC1OC(n2cnc3c(N)ncnc32)C(O)C1O)c1ccccc1,GNN-NN-Split-MAX-3.0,12925,inf,0,500,4258
+CCc1nccn1-c1cncc(C2CCCN2Cc2ccc(F)cc2)n1,GNNEstimatorMAXScore-3.0,10503,inf,0,500,3461
+CCc1nccn1-c1cncc(C2CCCN2Cc2ccc(F)cc2)n1,GNNEstimatorMAXScore-10.0,9851,inf,0,500,3535
+CCc1nccn1-c1cncc(C2CCCN2Cc2ccc(F)cc2)n1,GNNEstimatorAVGScore-3.0,10465,inf,0,500,3461
+CCc1nccn1-c1cncc(C2CCCN2Cc2ccc(F)cc2)n1,GNNEstimatorAVGScore-10.0,5524,259,0,259 (NOTE: this was less than the maximum budget),2115
+CCc1nccn1-c1cncc(C2CCCN2Cc2ccc(F)cc2)n1,GNN_NNSplitSingleMAXScore-3.0,10444,inf,0,500,3436
+CCc1nccn1-c1cncc(C2CCCN2Cc2ccc(F)cc2)n1,GNN_NNSplitSingleMAXScore-10.0,9779,inf,0,500,3512
+CC(C)(OCC1OC(n2cnc3c(N)ncnc32)C(O)C1O)c1ccccc1,GNN-NN-Split-MAX-10.0,13403,inf,0,500,4747
+CCc1nccn1-c1cncc(C2CCCN2Cc2ccc(F)cc2)n1,GNN_NNSplitSingleAVGSCore-3.0,10445,inf,0,500,3450
+CCc1nccn1-c1cncc(C2CCCN2Cc2ccc(F)cc2)n1,GNN_NNSplitSingleAVGSCore-10.0,5543,260,0,260 (NOTE: this was less than the maximum budget),2118
+COC(=O)C1=C(c2cc3ccccc3o2)CC2CCC1N2C(=O)NCc1cccc2ccccc12,GNN-NN-Split-MAX-10.0,21667,inf,0,500,8746

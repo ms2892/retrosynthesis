@@ -4,8 +4,10 @@ from __future__ import annotations
 from enum import Enum
 
 import numpy as np
+import functools
 from rdkit.Chem import DataStructs, AllChem
 from GNN_utils import *
+import heapq
 from syntheseus.search.graph.and_or import OrNode
 from syntheseus.search.node_evaluation.base import NoCacheNodeEvaluator
 from syntheseus.search.mol_inventory import ExplicitMolInventory
@@ -54,10 +56,16 @@ class TanimotoNNCostEstimator(NoCacheNodeEvaluator):
         self,
         inventory: ExplicitMolInventory,
         distance_to_cost: DistanceToCost,
+        nearest_neighbour_cache_size: int = 10_000,
+        num_top_sims_to_return: int = 5,
         **kwargs,
     ):
         super().__init__(**kwargs)
         self.distance_to_cost = distance_to_cost
+        self.nearest_neighbour_cache_size = nearest_neighbour_cache_size
+        self._num_top_sims_to_return = (
+            num_top_sims_to_return  # should not reset, will affect cache
+        )
         self._set_fingerprints([mol.smiles for mol in inventory.purchasable_mols()])
 
     def get_fingerprint(self, mol: AllChem.Mol):
@@ -67,12 +75,16 @@ class TanimotoNNCostEstimator(NoCacheNodeEvaluator):
         """Initialize fingerprint cache."""
         mols = list(map(AllChem.MolFromSmiles, smiles_list))
         assert None not in mols, "Invalid SMILES encountered."
-        self._fps = list(map(self.get_fingerprint, mols))
+        _fps = list(map(self.get_fingerprint, mols))
 
-    def _get_nearest_neighbour_dist(self, smiles: str) -> float:
-        fp_query = self.get_fingerprint(AllChem.MolFromSmiles(smiles))
-        tanimoto_sims = DataStructs.BulkTanimotoSimilarity(fp_query, self._fps)
-        return 1 - max(tanimoto_sims)
+        @functools.lru_cache(maxsize=self.nearest_neighbour_cache_size)
+        def _top_few_fp_sims(smiles: str):
+            fp = self.get_fingerprint(AllChem.MolFromSmiles(smiles))
+            tanimoto_sims = DataStructs.BulkTanimotoSimilarity(fp, _fps)
+            top_sims = heapq.nlargest(self._num_top_sims_to_return, tanimoto_sims)
+            return [1 - sim for sim in top_sims]
+
+        self._get_nearest_neighbour_dists = _top_few_fp_sims
 
     def _evaluate_nodes(self, nodes: list[OrNode], graph=None) -> list[float]:
         if len(nodes) == 0:
@@ -80,27 +92,21 @@ class TanimotoNNCostEstimator(NoCacheNodeEvaluator):
 
         # Get distances to nearest neighbours
         nn_dists = np.asarray(
-            [self._get_nearest_neighbour_dist(node.mol.smiles) for node in nodes]
+            [self._get_nearest_neighbour_dists(node.mol.smiles) for node in nodes]
         )
-        assert np.min(nn_dists) >= 0
+        assert np.min(nn_dists) >= 0  # ensure distances are valid
+
+        # Function above returns top N distances,
+        # but we base the value on just the top 1 neighbour
+        top1_nn_dists = np.min(nn_dists, axis=1)
 
         # Turn into costs
         if self.distance_to_cost == DistanceToCost.NOTHING:
-            values = nn_dists
+            return top1_nn_dists.tolist()
         elif self.distance_to_cost == DistanceToCost.EXP:
-            values = np.exp(nn_dists) - 1
-        elif self.distance_to_cost == DistanceToCost.QUAD:
-            values = np.power(nn_dists,2)
-        elif self.distance_to_cost == DistanceToCost.CUB:
-            values = np.power(nn_dists,3)
-        elif self.distance_to_cost == DistanceToCost.SIN:
-            values = np.sin(nn_dists)
-        elif self.distance_to_cost == DistanceToCost.LOG:
-            values = np.log(1 + nn_dists)
+            return (np.exp(top1_nn_dists) - 1).tolist()
         else:
             raise NotImplementedError(self.distance_to_cost)
-
-        return list(values)
 
 
 class DiceNNCostEstimator(NoCacheNodeEvaluator):
