@@ -5,3 +5,16 @@ CC1(C)CC(C)(C)CC(CN)(CC(=O)O)C1,constant-0,10558,425,0,425 (NOTE: this was less 
 CC1(C)CC(C)(C)CC(CN)(CC(=O)O)C1,Tanimoto-top1NN-linear-3.0,11236,443,0,443 (NOTE: this was less than the maximum budget),3053
 COc1cc(NCc2ccc3oc(=O)c(-c4ccccc4)nc3c2)cc(OC)c1OC,Tanimoto-top1NN-linear-3.0,12305,inf,0,500,3656
 CCCN(CCc1cccc(-c2ccccc2)c1)C(=O)C1OC(C(=O)O)=CC(N)C1NC(C)=O,Tanimoto-top1NN-linear-3.0,18547,inf,0,500,6235
+CC1(C)CC(C)(C)CC(CN)(CC(=O)O)C1,Tanimoto-top1NN-linear-10.0,13165,inf,0,500,4045
+COc1cc(NCc2ccc3oc(=O)c(-c4ccccc4)nc3c2)cc(OC)c1OC,Tanimoto-top1NN-linear-10.0,12949,inf,0,500,4082
+CC1(C)CC(C)(C)CC(CN)(CC(=O)O)C1,Tanimoto-top10NN-linear-3.0,12700,inf,0,500,3496
+CCCN(CCc1cccc(-c2ccccc2)c1)C(=O)C1OC(C(=O)O)=CC(N)C1NC(C)=O,Tanimoto-top1NN-linear-10.0,20393,inf,0,500,7253
+COc1cc(NCc2ccc3oc(=O)c(-c4ccccc4)nc3c2)cc(OC)c1OC,Tanimoto-top10NN-linear-3.0,11978,inf,0,500,3536
+CC1(C)CC(C)(C)CC(CN)(CC(=O)O)C1,Tanimoto-top10NN-linear-10.0,12394,inf,0,500,3769
+CCCN(CCc1cccc(-c2ccccc2)c1)C(=O)C1OC(C(=O)O)=CC(N)C1NC(C)=O,Tanimoto-top10NN-linear-3.0,18125,inf,0,500,5878
+COc1cc(NCc2ccc3oc(=O)c(-c4ccccc4)nc3c2)cc(OC)c1OC,Tanimoto-top10NN-linear-10.0,12288,inf,0,500,3656
+CC1(C)CC(C)(C)CC(CN)(CC(=O)O)C1,SAscore-linear-0.3,12526,inf,0,500,2630
+COc1cc(NCc2ccc3oc(=O)c(-c4ccccc4)nc3c2)cc(OC)c1OC,SAscore-linear-0.3,12815,inf,0,500,660
+CC1(C)CC(C)(C)CC(CN)(CC(=O)O)C1,SAscore-linear-1.0,12312,inf,0,500,3234
+COc1cc(NCc2ccc3oc(=O)c(-c4ccccc4)nc3c2)cc(OC)c1OC,SAscore-linear-1.0,12706,inf,0,500,3488
+CCCN(CCc1cccc(-c2ccccc2)c1)C(=O)C1OC(C(=O)O)=CC(N)C1NC(C)=O,Tanimoto-top10NN-linear-10.0,19822,inf,0,500,6734

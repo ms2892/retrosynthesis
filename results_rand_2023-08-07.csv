@@ -951,3 +951,6 @@ CC(C)(OCC1OC(n2cnc3c(N)ncnc32)C(O)C1O)c1ccccc1,GNN-NN-Split-MAX-10.0,13403,inf,0
 CCc1nccn1-c1cncc(C2CCCN2Cc2ccc(F)cc2)n1,GNN_NNSplitSingleAVGSCore-3.0,10445,inf,0,500,3450
 CCc1nccn1-c1cncc(C2CCCN2Cc2ccc(F)cc2)n1,GNN_NNSplitSingleAVGSCore-10.0,5543,260,0,260 (NOTE: this was less than the maximum budget),2118
 COC(=O)C1=C(c2cc3ccccc3o2)CC2CCC1N2C(=O)NCc1cccc2ccccc12,GNN-NN-Split-MAX-10.0,21667,inf,0,500,8746
+CC(C)(OCC1OC(n2cnc3c(N)ncnc32)C(O)C1O)c1ccccc1,GNN-NN-Split-AVG-3.0,12972,inf,0,500,4286
+CCc1nccn1-c1cncc(C2CCCN2Cc2ccc(F)cc2)n1,GNN-NN-Split-MAX-3.0,10441,inf,0,500,3442
+CCc1nccn1-c1cncc(C2CCCN2Cc2ccc(F)cc2)n1,GNN-NN-Split-MAX-10.0,5543,260,0,260 (NOTE: this was less than the maximum budget),2119
