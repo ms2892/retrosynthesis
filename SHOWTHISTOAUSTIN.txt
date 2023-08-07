@@ -80,7 +80,7 @@ Quantile 0: 1.00
 Quantile 0.05: 2.00
 Quantile 0.1: 2.00
 Quantile 0.25: 8.00
-Quantile 0.5: 92.00
+Quantile 0.5: 95.50
 Quantile 0.75: nan
 Quantile 0.9: nan
 Quantile 0.95: nan
@@ -102,13 +102,57 @@ Quantile 0: 1.00
 Quantile 0.05: 2.00
 Quantile 0.1: 2.00
 Quantile 0.25: 8.00
-Quantile 0.5: 92.00
+Quantile 0.5: 95.50
 Quantile 0.75: nan
 Quantile 0.9: nan
 Quantile 0.95: nan
 Quantile 1.0: nan
 
 Value function: GNN-NN-Split-AVG-10.0
+Quantile 0: 1.00
+Quantile 0.05: 2.00
+Quantile 0.1: 2.00
+Quantile 0.25: 5.00
+Quantile 0.5: 22.50
+Quantile 0.75: nan
+Quantile 0.9: nan
+Quantile 0.95: nan
+Quantile 1.0: nan
+
+Value function: GNN_NNSplitSingleMAXScore-3.0
+Quantile 0: 1.00
+Quantile 0.05: 2.00
+Quantile 0.1: 2.00
+Quantile 0.25: 7.25
+Quantile 0.5: 114.00
+Quantile 0.75: nan
+Quantile 0.9: nan
+Quantile 0.95: nan
+Quantile 1.0: nan
+
+Value function: GNN_NNSplitSingleMAXScore-10.0
+Quantile 0: 1.00
+Quantile 0.05: 2.00
+Quantile 0.1: 2.00
+Quantile 0.25: 5.00
+Quantile 0.5: 21.00
+Quantile 0.75: nan
+Quantile 0.9: nan
+Quantile 0.95: nan
+Quantile 1.0: nan
+
+Value function: GNN_NNSplitSingleAVGSCore-3.0
+Quantile 0: 1.00
+Quantile 0.05: 2.00
+Quantile 0.1: 2.00
+Quantile 0.25: 7.25
+Quantile 0.5: 114.50
+Quantile 0.75: nan
+Quantile 0.9: nan
+Quantile 0.95: nan
+Quantile 1.0: nan
+
+Value function: GNN_NNSplitSingleAVGSCore-10.0
 Quantile 0: 1.00
 Quantile 0.05: 2.00
 Quantile 0.1: 2.00
@@ -151,4 +195,16 @@ Number of solutions found: 155, 62.0
 
 Value function: GNN-NN-Split-AVG-10.0
 Number of solutions found: 179, 71.6
+
+Value function: GNN_NNSplitSingleMAXScore-3.0
+Number of solutions found: 156, 62.4
+
+Value function: GNN_NNSplitSingleMAXScore-10.0
+Number of solutions found: 182, 72.8
+
+Value function: GNN_NNSplitSingleAVGSCore-3.0
+Number of solutions found: 154, 61.6
+
+Value function: GNN_NNSplitSingleAVGSCore-10.0
+Number of solutions found: 181, 72.39999999999999
 

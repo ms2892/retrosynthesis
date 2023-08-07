@@ -13,8 +13,8 @@ from syntheseus.search.node_evaluation.common import ConstantNodeEvaluator
 from syntheseus.search.graph.and_or import AndOrGraph, OrNode
 from syntheseus.search.node_evaluation.base import NoCacheNodeEvaluator
 
-from paroutes import PaRoutesInventory, PaRoutesModel
-from example_paroutes import compare_cost_functions
+from paroutes import PaRoutesInventory, PaRoutesModel, PaRoutesRandomInventory
+from example_paroutes_rand import compare_cost_functions
 from heuristic_value_functions import *
 
 
@@ -108,7 +108,11 @@ if __name__ == "__main__":
 
     # Make reaction model, inventory, value functions
     rxn_model = PaRoutesModel()
-    inventory = PaRoutesInventory(n=args.paroutes_n)
+    inventory = PaRoutesRandomInventory(n=args.paroutes_n)
+
+    print(type(inventory))
+
+    l = input()
 
     # Create all the value functions to test
     value_fns = [  # baseline: 0 value function
