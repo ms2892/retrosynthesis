@@ -1,0 +1,15 @@
+SMILES,NAME,NODES,SOLUTION_TIME,NUM_ROUTES,FINAL_NUM_RXN_MODEL_CALLS,final_num_value_model_calls
+CC1(C)CC(C)(C)CC(CN)(CC(=O)O)C1,constant-0,12757,inf,0,500,525
+COc1cc(NCc2ccc3oc(=O)c(-c4ccccc4)nc3c2)cc(OC)c1OC,constant-0,15930,inf,0,500,711
+CCCN(CCc1cccc(-c2ccccc2)c1)C(=O)C1OC(C(=O)O)=CC(N)C1NC(C)=O,constant-0,15914,inf,0,500,656
+CC1(C)CC(C)(C)CC(CN)(CC(=O)O)C1,SAscore-linear-0.3,12738,inf,0,500,2686
+COc1cc(NCc2ccc3oc(=O)c(-c4ccccc4)nc3c2)cc(OC)c1OC,SAscore-linear-0.3,15180,inf,0,500,1242
+CC1(C)CC(C)(C)CC(CN)(CC(=O)O)C1,SAscore-linear-1.0,12541,inf,0,500,3573
+CCCN(CCc1cccc(-c2ccccc2)c1)C(=O)C1OC(C(=O)O)=CC(N)C1NC(C)=O,SAscore-linear-0.3,18211,inf,0,500,5706
+COc1cc(NCc2ccc3oc(=O)c(-c4ccccc4)nc3c2)cc(OC)c1OC,SAscore-linear-1.0,14049,inf,0,500,4424
+CCCN(CCc1cccc(-c2ccccc2)c1)C(=O)C1OC(C(=O)O)=CC(N)C1NC(C)=O,SAscore-linear-1.0,18308,inf,0,500,5936
+CC1(C)CC(C)(C)CC(CN)(CC(=O)O)C1,GNNEstimatorMAXScore-3.0,12512,inf,0,500,3622
+COc1cc(NCc2ccc3oc(=O)c(-c4ccccc4)nc3c2)cc(OC)c1OC,GNNEstimatorMAXScore-3.0,14684,inf,0,500,4943
+CCCN(CCc1cccc(-c2ccccc2)c1)C(=O)C1OC(C(=O)O)=CC(N)C1NC(C)=O,GNNEstimatorMAXScore-3.0,16859,inf,0,500,5145
+CC1(C)CC(C)(C)CC(CN)(CC(=O)O)C1,GNNEstimatorMAXScore-10.0,12276,inf,0,500,4023
+COc1cc(NCc2ccc3oc(=O)c(-c4ccccc4)nc3c2)cc(OC)c1OC,GNNEstimatorMAXScore-10.0,14285,inf,0,500,4861

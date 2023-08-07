@@ -1,0 +1,12 @@
+SMILES,NAME,NODES,SOLUTION_TIME,NUM_ROUTES,FINAL_NUM_RXN_MODEL_CALLS,final_num_value_model_calls
+CC1(C)CC(C)(C)CC(CN)(CC(=O)O)C1,constant-0,12782,inf,0,500,529
+COc1cc(NCc2ccc3oc(=O)c(-c4ccccc4)nc3c2)cc(OC)c1OC,constant-0,12836,inf,0,500,654
+CCCN(CCc1cccc(-c2ccccc2)c1)C(=O)C1OC(C(=O)O)=CC(N)C1NC(C)=O,constant-0,15914,inf,0,500,638
+CC1(C)CC(C)(C)CC(CN)(CC(=O)O)C1,Tanimoto-top1NN-linear-3.0,12886,inf,0,500,3725
+COc1cc(NCc2ccc3oc(=O)c(-c4ccccc4)nc3c2)cc(OC)c1OC,Tanimoto-top1NN-linear-3.0,11841,inf,0,500,3548
+CCCN(CCc1cccc(-c2ccccc2)c1)C(=O)C1OC(C(=O)O)=CC(N)C1NC(C)=O,Tanimoto-top1NN-linear-3.0,17898,inf,0,500,5858
+CC1(C)CC(C)(C)CC(CN)(CC(=O)O)C1,Tanimoto-top1NN-linear-10.0,12516,inf,0,500,3996
+COc1cc(NCc2ccc3oc(=O)c(-c4ccccc4)nc3c2)cc(OC)c1OC,Tanimoto-top1NN-linear-10.0,12418,inf,0,500,3841
+CC1(C)CC(C)(C)CC(CN)(CC(=O)O)C1,Tanimoto-top10NN-linear-3.0,13004,inf,0,500,3699
+COc1cc(NCc2ccc3oc(=O)c(-c4ccccc4)nc3c2)cc(OC)c1OC,Tanimoto-top10NN-linear-3.0,11744,inf,0,500,3485
+CCCN(CCc1cccc(-c2ccccc2)c1)C(=O)C1OC(C(=O)O)=CC(N)C1NC(C)=O,Tanimoto-top1NN-linear-10.0,18073,inf,0,500,6248

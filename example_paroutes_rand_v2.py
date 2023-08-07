@@ -72,7 +72,7 @@ def compare_cost_functions(
 
     # Do search
     logger = logging.getLogger("COMPARISON")
-    csv_file = f"results_rand_{datetime.today().strftime('%Y-%m-%d')}_state_2.csv"
+    csv_file = f"results_rand_{datetime.today().strftime('%Y-%m-%d')}_state_5.csv"
     min_soln_times: list[tuple[float, ...]] = []
     if Path(csv_file).exists():
         df = pd.read_csv(csv_file,index_col=None)

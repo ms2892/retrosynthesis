@@ -108,7 +108,7 @@ if __name__ == "__main__":
 
     # Make reaction model, inventory, value functions
     rxn_model = PaRoutesModel()
-    inventory = PaRoutesRandomInventory(state=2,n=args.paroutes_n)
+    inventory = PaRoutesRandomInventory(state=5,n=args.paroutes_n)
 
     # print(type(inventory))
 
