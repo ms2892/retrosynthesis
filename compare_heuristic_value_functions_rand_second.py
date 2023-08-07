@@ -14,7 +14,7 @@ from syntheseus.search.graph.and_or import AndOrGraph, OrNode
 from syntheseus.search.node_evaluation.base import NoCacheNodeEvaluator
 
 from paroutes import PaRoutesInventory, PaRoutesModel, PaRoutesRandomInventory
-from example_paroutes_rand import compare_cost_functions
+from example_paroutes_rand_v2 import compare_cost_functions
 from heuristic_value_functions import *
 
 

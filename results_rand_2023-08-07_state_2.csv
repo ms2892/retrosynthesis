@@ -18,3 +18,10 @@ COc1cc(NCc2ccc3oc(=O)c(-c4ccccc4)nc3c2)cc(OC)c1OC,SAscore-linear-0.3,12815,inf,0
 CC1(C)CC(C)(C)CC(CN)(CC(=O)O)C1,SAscore-linear-1.0,12312,inf,0,500,3234
 COc1cc(NCc2ccc3oc(=O)c(-c4ccccc4)nc3c2)cc(OC)c1OC,SAscore-linear-1.0,12706,inf,0,500,3488
 CCCN(CCc1cccc(-c2ccccc2)c1)C(=O)C1OC(C(=O)O)=CC(N)C1NC(C)=O,Tanimoto-top10NN-linear-10.0,19822,inf,0,500,6734
+CCCN(CCc1cccc(-c2ccccc2)c1)C(=O)C1OC(C(=O)O)=CC(N)C1NC(C)=O,SAscore-linear-0.3,20308,inf,0,500,6048
+CCCN(CCc1cccc(-c2ccccc2)c1)C(=O)C1OC(C(=O)O)=CC(N)C1NC(C)=O,SAscore-linear-1.0,18531,inf,0,500,6033
+CCCN(CCc1cccc(-c2ccccc2)c1)C(=O)C1OC(C(=O)O)=CC(N)C1NC(C)=O,SAscore-linear-1.0,21445,inf,0,500,7332
+CC1(C)CC(C)(C)CC(CN)(CC(=O)O)C1,GNNEstimatorMAXScore-3.0,11053,438,0,438 (NOTE: this was less than the maximum budget),3018
+COc1cc(NCc2ccc3oc(=O)c(-c4ccccc4)nc3c2)cc(OC)c1OC,GNNEstimatorMAXScore-3.0,12563,inf,0,500,3711
+CC1(C)CC(C)(C)CC(CN)(CC(=O)O)C1,GNNEstimatorMAXScore-10.0,12239,inf,0,500,3653
+CCCN(CCc1cccc(-c2ccccc2)c1)C(=O)C1OC(C(=O)O)=CC(N)C1NC(C)=O,GNNEstimatorMAXScore-3.0,18343,inf,0,500,6125
