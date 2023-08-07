@@ -1,0 +1,913 @@
+SMILES,NAME,NODES,SOLUTION_TIME,NUM_ROUTES,FINAL_NUM_RXN_MODEL_CALLS,final_num_value_model_calls
+CCCN(CCc1cccc(-c2ccccc2)c1)C(=O)C1OC(C(=O)O)=CC(N)C1NC(C)=O,constant-0,16016,inf,0,500,646
+CCCN(CCc1cccc(-c2ccccc2)c1)C(=O)C1OC(C(=O)O)=CC(N)C1NC(C)=O,SAscore-linear-0.3,18652,inf,0,500,5727
+CCCN(CCc1cccc(-c2ccccc2)c1)C(=O)C1OC(C(=O)O)=CC(N)C1NC(C)=O,SAscore-linear-1.0,18720,inf,0,500,6027
+COc1cc(NCc2ccc3oc(=O)c(-c4ccccc4)nc3c2)cc(OC)c1OC,constant-0,15443,inf,0,500,859
+CC1(C)CC(C)(C)CC(CN)(CC(=O)O)C1,constant-0,12862,inf,0,500,562
+COc1cc(NCc2ccc3oc(=O)c(-c4ccccc4)nc3c2)cc(OC)c1OC,SAscore-linear-0.3,14840,inf,0,500,1258
+CC1(C)CC(C)(C)CC(CN)(CC(=O)O)C1,SAscore-linear-0.3,12764,inf,0,500,2702
+CCCN(CCc1cccc(-c2ccccc2)c1)C(=O)C1OC(C(=O)O)=CC(N)C1NC(C)=O,GNNEstimatorMAXScore-3.0,16911,inf,0,500,5214
+COc1cc(NCc2ccc3oc(=O)c(-c4ccccc4)nc3c2)cc(OC)c1OC,SAscore-linear-1.0,14151,inf,0,500,4470
+CC1(C)CC(C)(C)CC(CN)(CC(=O)O)C1,SAscore-linear-1.0,12723,inf,0,500,3629
+CC1(C)CC(C)(C)CC(CN)(CC(=O)O)C1,GNNEstimatorMAXScore-3.0,12547,inf,0,500,3646
+COc1cc(NCc2ccc3oc(=O)c(-c4ccccc4)nc3c2)cc(OC)c1OC,GNNEstimatorMAXScore-3.0,14605,inf,0,500,4911
+CCCN(CCc1cccc(-c2ccccc2)c1)C(=O)C1OC(C(=O)O)=CC(N)C1NC(C)=O,GNNEstimatorMAXScore-10.0,16772,inf,0,500,5367
+CC1(C)CC(C)(C)CC(CN)(CC(=O)O)C1,GNNEstimatorMAXScore-10.0,12231,inf,0,500,4034
+COc1cc(NCc2ccc3oc(=O)c(-c4ccccc4)nc3c2)cc(OC)c1OC,GNNEstimatorMAXScore-10.0,14613,inf,0,500,5054
+CC1(C)CC(C)(C)CC(CN)(CC(=O)O)C1,GNNEstimatorAVGScore-3.0,12538,inf,0,500,3649
+CCCN(CCc1cccc(-c2ccccc2)c1)C(=O)C1OC(C(=O)O)=CC(N)C1NC(C)=O,GNNEstimatorAVGScore-3.0,16880,inf,0,500,5199
+COc1cc(NCc2ccc3oc(=O)c(-c4ccccc4)nc3c2)cc(OC)c1OC,GNNEstimatorAVGScore-3.0,14605,inf,0,500,4912
+CC1(C)CC(C)(C)CC(CN)(CC(=O)O)C1,GNNEstimatorAVGScore-10.0,12197,inf,0,500,4012
+CCCN(CCc1cccc(-c2ccccc2)c1)C(=O)C1OC(C(=O)O)=CC(N)C1NC(C)=O,GNNEstimatorAVGScore-10.0,16781,inf,0,500,5410
+CC1(C)CC(C)(C)CC(CN)(CC(=O)O)C1,GNN_NNSplitSingleMAXScore-3.0,12574,inf,0,500,3654
+COc1cc(NCc2ccc3oc(=O)c(-c4ccccc4)nc3c2)cc(OC)c1OC,GNNEstimatorAVGScore-10.0,15157,inf,0,500,5291
+CCCN(CCc1cccc(-c2ccccc2)c1)C(=O)C1OC(C(=O)O)=CC(N)C1NC(C)=O,GNN_NNSplitSingleMAXScore-3.0,16911,inf,0,500,5214
+COc1cc(NCc2ccc3oc(=O)c(-c4ccccc4)nc3c2)cc(OC)c1OC,GNN_NNSplitSingleMAXScore-3.0,14605,inf,0,500,4911
+CC1(C)CC(C)(C)CC(CN)(CC(=O)O)C1,GNN_NNSplitSingleMAXScore-10.0,12234,inf,0,500,4027
+CC1(C)CC(C)(C)CC(CN)(CC(=O)O)C1,GNN_NNSplitSingleAVGSCore-3.0,12549,inf,0,500,3649
+COc1cc(NCc2ccc3oc(=O)c(-c4ccccc4)nc3c2)cc(OC)c1OC,GNN_NNSplitSingleMAXScore-10.0,14619,inf,0,500,5047
+CCCN(CCc1cccc(-c2ccccc2)c1)C(=O)C1OC(C(=O)O)=CC(N)C1NC(C)=O,GNN_NNSplitSingleMAXScore-10.0,16820,inf,0,500,5368
+CC1(C)CC(C)(C)CC(CN)(CC(=O)O)C1,GNN_NNSplitSingleAVGSCore-10.0,12240,inf,0,500,4032
+COc1cc(NCc2ccc3oc(=O)c(-c4ccccc4)nc3c2)cc(OC)c1OC,GNN_NNSplitSingleAVGSCore-3.0,14617,inf,0,500,4917
+CCCN(CCc1cccc(-c2ccccc2)c1)C(=O)C1OC(C(=O)O)=CC(N)C1NC(C)=O,GNN_NNSplitSingleAVGSCore-3.0,16880,inf,0,500,5199
+COc1cc(NCc2ccc3oc(=O)c(-c4ccccc4)nc3c2)cc(OC)c1OC,GNN_NNSplitSingleAVGSCore-10.0,14307,inf,0,500,4867
+CCCN(CCc1cccc(-c2ccccc2)c1)C(=O)C1OC(C(=O)O)=CC(N)C1NC(C)=O,GNN_NNSplitSingleAVGSCore-10.0,16827,inf,0,500,5427
+CC1(C)CC(C)(C)CC(CN)(CC(=O)O)C1,GNN-NN-Split-MAX-3.0,12547,inf,0,500,3646
+COc1cc(NCc2ccc3oc(=O)c(-c4ccccc4)nc3c2)cc(OC)c1OC,GNN-NN-Split-MAX-3.0,14605,inf,0,500,4909
+CC1(C)CC(C)(C)CC(CN)(CC(=O)O)C1,GNN-NN-Split-MAX-10.0,12276,inf,0,500,4030
+CCCN(CCc1cccc(-c2ccccc2)c1)C(=O)C1OC(C(=O)O)=CC(N)C1NC(C)=O,GNN-NN-Split-MAX-3.0,16911,inf,0,500,5213
+CC1(C)CC(C)(C)CC(CN)(CC(=O)O)C1,GNN-NN-Split-AVG-3.0,12520,inf,0,500,3626
+COc1cc(NCc2ccc3oc(=O)c(-c4ccccc4)nc3c2)cc(OC)c1OC,GNN-NN-Split-MAX-10.0,15157,inf,0,500,5290
+CCCN(CCc1cccc(-c2ccccc2)c1)C(=O)C1OC(C(=O)O)=CC(N)C1NC(C)=O,GNN-NN-Split-MAX-10.0,16848,inf,0,500,5390
+CC1(C)CC(C)(C)CC(CN)(CC(=O)O)C1,GNN-NN-Split-AVG-10.0,12213,inf,0,500,4028
+COC(=O)c1sc2cc(-c3ccsc3)cnc2c1N,constant-0,187,5,0,5 (NOTE: this was less than the maximum budget),17
+COC(=O)c1sc2cc(-c3ccsc3)cnc2c1N,SAscore-linear-0.3,311,11,0,11 (NOTE: this was less than the maximum budget),72
+COC(=O)c1sc2cc(-c3ccsc3)cnc2c1N,SAscore-linear-1.0,435,17,0,17 (NOTE: this was less than the maximum budget),111
+COC(=O)c1sc2cc(-c3ccsc3)cnc2c1N,GNNEstimatorMAXScore-3.0,357,13,0,13 (NOTE: this was less than the maximum budget),104
+COC(=O)c1sc2cc(-c3ccsc3)cnc2c1N,GNNEstimatorMAXScore-10.0,307,10,0,10 (NOTE: this was less than the maximum budget),85
+COC(=O)c1sc2cc(-c3ccsc3)cnc2c1N,GNNEstimatorAVGScore-3.0,357,13,0,13 (NOTE: this was less than the maximum budget),104
+COC(=O)c1sc2cc(-c3ccsc3)cnc2c1N,GNNEstimatorAVGScore-10.0,307,10,0,10 (NOTE: this was less than the maximum budget),85
+COC(=O)c1sc2cc(-c3ccsc3)cnc2c1N,GNN_NNSplitSingleMAXScore-3.0,357,13,0,13 (NOTE: this was less than the maximum budget),104
+COC(=O)c1sc2cc(-c3ccsc3)cnc2c1N,GNN_NNSplitSingleMAXScore-10.0,307,10,0,10 (NOTE: this was less than the maximum budget),85
+COC(=O)c1sc2cc(-c3ccsc3)cnc2c1N,GNN_NNSplitSingleAVGSCore-3.0,357,13,0,13 (NOTE: this was less than the maximum budget),104
+COC(=O)c1sc2cc(-c3ccsc3)cnc2c1N,GNN_NNSplitSingleAVGSCore-10.0,307,10,0,10 (NOTE: this was less than the maximum budget),85
+COC(=O)c1sc2cc(-c3ccsc3)cnc2c1N,GNN-NN-Split-MAX-3.0,357,13,0,13 (NOTE: this was less than the maximum budget),104
+COC(=O)c1sc2cc(-c3ccsc3)cnc2c1N,GNN-NN-Split-MAX-10.0,307,10,0,10 (NOTE: this was less than the maximum budget),85
+COC(=O)c1sc2cc(-c3ccsc3)cnc2c1N,GNN-NN-Split-AVG-3.0,357,13,0,13 (NOTE: this was less than the maximum budget),104
+COC(=O)c1sc2cc(-c3ccsc3)cnc2c1N,GNN-NN-Split-AVG-10.0,307,10,0,10 (NOTE: this was less than the maximum budget),85
+CCN1CCCC1CNC(=O)Cn1cnc2ccc(S(=O)(=O)N3CCC(C)CC3)cc2c1=O,constant-0,631,16,0,16 (NOTE: this was less than the maximum budget),21
+CCN1CCCC1CNC(=O)Cn1cnc2ccc(S(=O)(=O)N3CCC(C)CC3)cc2c1=O,SAscore-linear-0.3,243,7,0,7 (NOTE: this was less than the maximum budget),16
+CCN1CCCC1CNC(=O)Cn1cnc2ccc(S(=O)(=O)N3CCC(C)CC3)cc2c1=O,SAscore-linear-1.0,265,7,0,7 (NOTE: this was less than the maximum budget),77
+CCN1CCCC1CNC(=O)Cn1cnc2ccc(S(=O)(=O)N3CCC(C)CC3)cc2c1=O,GNNEstimatorMAXScore-3.0,126,3,0,3 (NOTE: this was less than the maximum budget),31
+CCN1CCCC1CNC(=O)Cn1cnc2ccc(S(=O)(=O)N3CCC(C)CC3)cc2c1=O,GNNEstimatorMAXScore-10.0,126,3,0,3 (NOTE: this was less than the maximum budget),31
+CCN1CCCC1CNC(=O)Cn1cnc2ccc(S(=O)(=O)N3CCC(C)CC3)cc2c1=O,GNNEstimatorAVGScore-3.0,126,3,0,3 (NOTE: this was less than the maximum budget),31
+CCN1CCCC1CNC(=O)Cn1cnc2ccc(S(=O)(=O)N3CCC(C)CC3)cc2c1=O,GNNEstimatorAVGScore-10.0,126,3,0,3 (NOTE: this was less than the maximum budget),31
+CCN1CCCC1CNC(=O)Cn1cnc2ccc(S(=O)(=O)N3CCC(C)CC3)cc2c1=O,GNN_NNSplitSingleMAXScore-3.0,126,3,0,3 (NOTE: this was less than the maximum budget),31
+CCN1CCCC1CNC(=O)Cn1cnc2ccc(S(=O)(=O)N3CCC(C)CC3)cc2c1=O,GNN_NNSplitSingleMAXScore-10.0,126,3,0,3 (NOTE: this was less than the maximum budget),31
+CCN1CCCC1CNC(=O)Cn1cnc2ccc(S(=O)(=O)N3CCC(C)CC3)cc2c1=O,GNN_NNSplitSingleAVGSCore-3.0,126,3,0,3 (NOTE: this was less than the maximum budget),31
+CCN1CCCC1CNC(=O)Cn1cnc2ccc(S(=O)(=O)N3CCC(C)CC3)cc2c1=O,GNN_NNSplitSingleAVGSCore-10.0,126,3,0,3 (NOTE: this was less than the maximum budget),31
+CCN1CCCC1CNC(=O)Cn1cnc2ccc(S(=O)(=O)N3CCC(C)CC3)cc2c1=O,GNN-NN-Split-MAX-3.0,126,3,0,3 (NOTE: this was less than the maximum budget),31
+CCN1CCCC1CNC(=O)Cn1cnc2ccc(S(=O)(=O)N3CCC(C)CC3)cc2c1=O,GNN-NN-Split-MAX-10.0,126,3,0,3 (NOTE: this was less than the maximum budget),31
+CCN1CCCC1CNC(=O)Cn1cnc2ccc(S(=O)(=O)N3CCC(C)CC3)cc2c1=O,GNN-NN-Split-AVG-3.0,126,3,0,3 (NOTE: this was less than the maximum budget),31
+CCN1CCCC1CNC(=O)Cn1cnc2ccc(S(=O)(=O)N3CCC(C)CC3)cc2c1=O,GNN-NN-Split-AVG-10.0,126,3,0,3 (NOTE: this was less than the maximum budget),31
+CSc1cccc(N(C)C(=N)Nc2cncc3ccccc23)c1,constant-0,856,31,0,31 (NOTE: this was less than the maximum budget),75
+CSc1cccc(N(C)C(=N)Nc2cncc3ccccc23)c1,SAscore-linear-0.3,1554,43,0,43 (NOTE: this was less than the maximum budget),56
+CSc1cccc(N(C)C(=N)Nc2cncc3ccccc23)c1,SAscore-linear-1.0,627,17,0,17 (NOTE: this was less than the maximum budget),222
+CSc1cccc(N(C)C(=N)Nc2cncc3ccccc23)c1,GNNEstimatorMAXScore-3.0,714,25,0,25 (NOTE: this was less than the maximum budget),248
+CSc1cccc(N(C)C(=N)Nc2cncc3ccccc23)c1,GNNEstimatorMAXScore-10.0,525,18,0,18 (NOTE: this was less than the maximum budget),190
+CSc1cccc(N(C)C(=N)Nc2cncc3ccccc23)c1,GNNEstimatorAVGScore-3.0,714,25,0,25 (NOTE: this was less than the maximum budget),248
+CSc1cccc(N(C)C(=N)Nc2cncc3ccccc23)c1,GNNEstimatorAVGScore-10.0,525,18,0,18 (NOTE: this was less than the maximum budget),190
+CSc1cccc(N(C)C(=N)Nc2cncc3ccccc23)c1,GNN_NNSplitSingleMAXScore-3.0,714,25,0,25 (NOTE: this was less than the maximum budget),248
+CSc1cccc(N(C)C(=N)Nc2cncc3ccccc23)c1,GNN_NNSplitSingleMAXScore-10.0,525,18,0,18 (NOTE: this was less than the maximum budget),190
+CSc1cccc(N(C)C(=N)Nc2cncc3ccccc23)c1,GNN_NNSplitSingleAVGSCore-3.0,714,25,0,25 (NOTE: this was less than the maximum budget),248
+CSc1cccc(N(C)C(=N)Nc2cncc3ccccc23)c1,GNN_NNSplitSingleAVGSCore-10.0,525,18,0,18 (NOTE: this was less than the maximum budget),190
+CSc1cccc(N(C)C(=N)Nc2cncc3ccccc23)c1,GNN-NN-Split-MAX-3.0,714,25,0,25 (NOTE: this was less than the maximum budget),248
+CSc1cccc(N(C)C(=N)Nc2cncc3ccccc23)c1,GNN-NN-Split-MAX-10.0,525,18,0,18 (NOTE: this was less than the maximum budget),190
+CSc1cccc(N(C)C(=N)Nc2cncc3ccccc23)c1,GNN-NN-Split-AVG-3.0,714,25,0,25 (NOTE: this was less than the maximum budget),248
+CSc1cccc(N(C)C(=N)Nc2cncc3ccccc23)c1,GNN-NN-Split-AVG-10.0,525,18,0,18 (NOTE: this was less than the maximum budget),190
+COc1cc(NCc2ccc3oc(=O)c(-c4ccccc4)nc3c2)cc(OC)c1OC,GNN-NN-Split-AVG-3.0,14586,inf,0,500,4897
+CC(=O)NC(Cc1ccc(O)cc1)C(=O)NC1CSSCC(C(=O)O)NC(=O)C2(CCCC2)CCNC1=O,constant-0,20483,inf,0,500,602
+CC(=O)NC(Cc1ccc(O)cc1)C(=O)NC1CSSCC(C(=O)O)NC(=O)C2(CCCC2)CCNC1=O,SAscore-linear-0.3,20457,inf,0,500,5477
+CC(=O)NC(Cc1ccc(O)cc1)C(=O)NC1CSSCC(C(=O)O)NC(=O)C2(CCCC2)CCNC1=O,SAscore-linear-1.0,13446,306,0,306 (NOTE: this was less than the maximum budget),4395
+CCCN(CCc1cccc(-c2ccccc2)c1)C(=O)C1OC(C(=O)O)=CC(N)C1NC(C)=O,GNN-NN-Split-AVG-3.0,16911,inf,0,500,5213
+CC(=O)NC(Cc1ccc(O)cc1)C(=O)NC1CSSCC(C(=O)O)NC(=O)C2(CCCC2)CCNC1=O,GNNEstimatorMAXScore-3.0,20809,inf,0,500,6149
+CC(=O)NC(Cc1ccc(O)cc1)C(=O)NC1CSSCC(C(=O)O)NC(=O)C2(CCCC2)CCNC1=O,GNNEstimatorMAXScore-10.0,9476,217,0,217 (NOTE: this was less than the maximum budget),3544
+COc1cc(NCc2ccc3oc(=O)c(-c4ccccc4)nc3c2)cc(OC)c1OC,GNN-NN-Split-AVG-10.0,14298,inf,0,500,4863
+CC(C)(C)CN1CCC2(CC1)CN(c1ccccc1N=c1[nH]nc(-c3cccc(F)c3)s1)c1c(O)ccc(C(F)(F)F)c12,constant-0,14980,inf,0,500,787
+CC(C)(C)CN1CCC2(CC1)CN(c1ccccc1N=c1[nH]nc(-c3cccc(F)c3)s1)c1c(O)ccc(C(F)(F)F)c12,SAscore-linear-0.3,16188,inf,0,500,5369
+CC(C)(C)CN1CCC2(CC1)CN(c1ccccc1N=c1[nH]nc(-c3cccc(F)c3)s1)c1c(O)ccc(C(F)(F)F)c12,SAscore-linear-1.0,16436,inf,0,500,5720
+CC(=O)NC(Cc1ccc(O)cc1)C(=O)NC1CSSCC(C(=O)O)NC(=O)C2(CCCC2)CCNC1=O,GNNEstimatorAVGScore-3.0,20743,inf,0,500,6156
+CC(C)(C)CN1CCC2(CC1)CN(c1ccccc1N=c1[nH]nc(-c3cccc(F)c3)s1)c1c(O)ccc(C(F)(F)F)c12,GNNEstimatorMAXScore-3.0,15158,inf,0,500,5280
+CC(=O)NC(Cc1ccc(O)cc1)C(=O)NC1CSSCC(C(=O)O)NC(=O)C2(CCCC2)CCNC1=O,GNNEstimatorAVGScore-10.0,21521,inf,0,500,7611
+CCCN(CCc1cccc(-c2ccccc2)c1)C(=O)C1OC(C(=O)O)=CC(N)C1NC(C)=O,GNN-NN-Split-AVG-10.0,16820,inf,0,500,5386
+Oc1ccc(C2CC(c3ccccc3)=NN2C(=S)Nc2ccccc2)cc1,constant-0,1700,123,0,123 (NOTE: this was less than the maximum budget),166
+Oc1ccc(C2CC(c3ccccc3)=NN2C(=S)Nc2ccccc2)cc1,SAscore-linear-0.3,1482,117,0,117 (NOTE: this was less than the maximum budget),414
+Oc1ccc(C2CC(c3ccccc3)=NN2C(=S)Nc2ccccc2)cc1,SAscore-linear-1.0,1378,103,0,103 (NOTE: this was less than the maximum budget),420
+Oc1ccc(C2CC(c3ccccc3)=NN2C(=S)Nc2ccccc2)cc1,GNNEstimatorMAXScore-3.0,1624,131,0,131 (NOTE: this was less than the maximum budget),464
+Oc1ccc(C2CC(c3ccccc3)=NN2C(=S)Nc2ccccc2)cc1,GNNEstimatorMAXScore-10.0,513,29,0,29 (NOTE: this was less than the maximum budget),167
+Oc1ccc(C2CC(c3ccccc3)=NN2C(=S)Nc2ccccc2)cc1,GNNEstimatorAVGScore-3.0,1624,131,0,131 (NOTE: this was less than the maximum budget),465
+Oc1ccc(C2CC(c3ccccc3)=NN2C(=S)Nc2ccccc2)cc1,GNNEstimatorAVGScore-10.0,513,29,0,29 (NOTE: this was less than the maximum budget),167
+Oc1ccc(C2CC(c3ccccc3)=NN2C(=S)Nc2ccccc2)cc1,GNN_NNSplitSingleMAXScore-3.0,1619,130,0,130 (NOTE: this was less than the maximum budget),472
+Oc1ccc(C2CC(c3ccccc3)=NN2C(=S)Nc2ccccc2)cc1,GNN_NNSplitSingleMAXScore-10.0,513,29,0,29 (NOTE: this was less than the maximum budget),167
+CC(C)(C)CN1CCC2(CC1)CN(c1ccccc1N=c1[nH]nc(-c3cccc(F)c3)s1)c1c(O)ccc(C(F)(F)F)c12,GNNEstimatorMAXScore-10.0,15289,inf,0,500,5531
+Oc1ccc(C2CC(c3ccccc3)=NN2C(=S)Nc2ccccc2)cc1,GNN_NNSplitSingleAVGSCore-3.0,1619,130,0,130 (NOTE: this was less than the maximum budget),468
+Oc1ccc(C2CC(c3ccccc3)=NN2C(=S)Nc2ccccc2)cc1,GNN_NNSplitSingleAVGSCore-10.0,513,29,0,29 (NOTE: this was less than the maximum budget),167
+Oc1ccc(C2CC(c3ccccc3)=NN2C(=S)Nc2ccccc2)cc1,GNN-NN-Split-MAX-3.0,1624,131,0,131 (NOTE: this was less than the maximum budget),465
+Oc1ccc(C2CC(c3ccccc3)=NN2C(=S)Nc2ccccc2)cc1,GNN-NN-Split-MAX-10.0,513,29,0,29 (NOTE: this was less than the maximum budget),167
+CC(=O)NC(Cc1ccc(O)cc1)C(=O)NC1CSSCC(C(=O)O)NC(=O)C2(CCCC2)CCNC1=O,GNN_NNSplitSingleMAXScore-3.0,20675,inf,0,500,6151
+Oc1ccc(C2CC(c3ccccc3)=NN2C(=S)Nc2ccccc2)cc1,GNN-NN-Split-AVG-3.0,1624,131,0,131 (NOTE: this was less than the maximum budget),465
+Oc1ccc(C2CC(c3ccccc3)=NN2C(=S)Nc2ccccc2)cc1,GNN-NN-Split-AVG-10.0,513,29,0,29 (NOTE: this was less than the maximum budget),167
+CC1(C)OCC2OC3(C4OC(C)(C)OC4CO)OC(C)(C)OC3C2O1,constant-0,11335,inf,0,500,679
+CC1(C)OCC2OC3(C4OC(C)(C)OC4CO)OC(C)(C)OC3C2O1,SAscore-linear-0.3,11533,inf,0,500,3991
+CC(C)(C)CN1CCC2(CC1)CN(c1ccccc1N=c1[nH]nc(-c3cccc(F)c3)s1)c1c(O)ccc(C(F)(F)F)c12,GNNEstimatorAVGScore-3.0,16326,inf,0,500,5891
+CC(=O)NC(Cc1ccc(O)cc1)C(=O)NC1CSSCC(C(=O)O)NC(=O)C2(CCCC2)CCNC1=O,GNN_NNSplitSingleMAXScore-10.0,12071,278,0,278 (NOTE: this was less than the maximum budget),4417
+CC1(C)OCC2OC3(C4OC(C)(C)OC4CO)OC(C)(C)OC3C2O1,SAscore-linear-1.0,11637,inf,0,500,4128
+CC1(C)OCC2OC3(C4OC(C)(C)OC4CO)OC(C)(C)OC3C2O1,GNNEstimatorMAXScore-3.0,11528,inf,0,500,4166
+CC(C)(C)CN1CCC2(CC1)CN(c1ccccc1N=c1[nH]nc(-c3cccc(F)c3)s1)c1c(O)ccc(C(F)(F)F)c12,GNNEstimatorAVGScore-10.0,15192,inf,0,500,5526
+CC(=O)NC(Cc1ccc(O)cc1)C(=O)NC1CSSCC(C(=O)O)NC(=O)C2(CCCC2)CCNC1=O,GNN_NNSplitSingleAVGSCore-3.0,20615,inf,0,500,6090
+CC(=O)NC(Cc1ccc(O)cc1)C(=O)NC1CSSCC(C(=O)O)NC(=O)C2(CCCC2)CCNC1=O,GNN_NNSplitSingleAVGSCore-10.0,11360,266,0,266 (NOTE: this was less than the maximum budget),4108
+CC1(C)OCC2OC3(C4OC(C)(C)OC4CO)OC(C)(C)OC3C2O1,GNNEstimatorMAXScore-10.0,11271,inf,0,500,4199
+CC(C)(C)CN1CCC2(CC1)CN(c1ccccc1N=c1[nH]nc(-c3cccc(F)c3)s1)c1c(O)ccc(C(F)(F)F)c12,GNN_NNSplitSingleMAXScore-3.0,15194,inf,0,500,5309
+CC1(C)OCC2OC3(C4OC(C)(C)OC4CO)OC(C)(C)OC3C2O1,GNNEstimatorAVGScore-3.0,11532,inf,0,500,4174
+CC(C)(C)CN1CCC2(CC1)CN(c1ccccc1N=c1[nH]nc(-c3cccc(F)c3)s1)c1c(O)ccc(C(F)(F)F)c12,GNN_NNSplitSingleMAXScore-10.0,15341,inf,0,500,5397
+CC1(C)OCC2OC3(C4OC(C)(C)OC4CO)OC(C)(C)OC3C2O1,GNNEstimatorAVGScore-10.0,11271,inf,0,500,4199
+CC1(C)OCC2OC3(C4OC(C)(C)OC4CO)OC(C)(C)OC3C2O1,GNN_NNSplitSingleMAXScore-3.0,11532,inf,0,500,4174
+CC(C)(C)CN1CCC2(CC1)CN(c1ccccc1N=c1[nH]nc(-c3cccc(F)c3)s1)c1c(O)ccc(C(F)(F)F)c12,GNN_NNSplitSingleAVGSCore-3.0,15163,inf,0,500,5289
+CC1(C)OCC2OC3(C4OC(C)(C)OC4CO)OC(C)(C)OC3C2O1,GNN_NNSplitSingleMAXScore-10.0,11201,inf,0,500,4175
+CC(C)(C)CN1CCC2(CC1)CN(c1ccccc1N=c1[nH]nc(-c3cccc(F)c3)s1)c1c(O)ccc(C(F)(F)F)c12,GNN_NNSplitSingleAVGSCore-10.0,15276,inf,0,500,5386
+CC1(C)OCC2OC3(C4OC(C)(C)OC4CO)OC(C)(C)OC3C2O1,GNN_NNSplitSingleAVGSCore-3.0,11528,inf,0,500,4166
+CC(=O)NC(Cc1ccc(O)cc1)C(=O)NC1CSSCC(C(=O)O)NC(=O)C2(CCCC2)CCNC1=O,GNN-NN-Split-MAX-3.0,20646,inf,0,500,6090
+CC1(C)OCC2OC3(C4OC(C)(C)OC4CO)OC(C)(C)OC3C2O1,GNN_NNSplitSingleAVGSCore-10.0,11212,inf,0,500,4195
+CC(=O)NC(Cc1ccc(O)cc1)C(=O)NC1CSSCC(C(=O)O)NC(=O)C2(CCCC2)CCNC1=O,GNN-NN-Split-MAX-10.0,12723,295,0,295 (NOTE: this was less than the maximum budget),4641
+CC(C)(C)CN1CCC2(CC1)CN(c1ccccc1N=c1[nH]nc(-c3cccc(F)c3)s1)c1c(O)ccc(C(F)(F)F)c12,GNN-NN-Split-MAX-3.0,15158,inf,0,500,5280
+CC1(C)OCC2OC3(C4OC(C)(C)OC4CO)OC(C)(C)OC3C2O1,GNN-NN-Split-MAX-3.0,11532,inf,0,500,4174
+CC1(C)OCC2OC3(C4OC(C)(C)OC4CO)OC(C)(C)OC3C2O1,GNN-NN-Split-MAX-10.0,11201,inf,0,500,4176
+CC(=O)NC(Cc1ccc(O)cc1)C(=O)NC1CSSCC(C(=O)O)NC(=O)C2(CCCC2)CCNC1=O,GNN-NN-Split-AVG-3.0,20722,inf,0,500,6094
+CC(C)(C)CN1CCC2(CC1)CN(c1ccccc1N=c1[nH]nc(-c3cccc(F)c3)s1)c1c(O)ccc(C(F)(F)F)c12,GNN-NN-Split-MAX-10.0,15334,inf,0,500,5421
+CC1(C)OCC2OC3(C4OC(C)(C)OC4CO)OC(C)(C)OC3C2O1,GNN-NN-Split-AVG-3.0,11532,inf,0,500,4174
+CC(C)(C)CN1CCC2(CC1)CN(c1ccccc1N=c1[nH]nc(-c3cccc(F)c3)s1)c1c(O)ccc(C(F)(F)F)c12,GNN-NN-Split-AVG-3.0,15194,inf,0,500,5309
+CC1(C)OCC2OC3(C4OC(C)(C)OC4CO)OC(C)(C)OC3C2O1,GNN-NN-Split-AVG-10.0,11201,inf,0,500,4176
+COC(=O)c1cc(C(=CCCCC(=O)SC)c2cc(Cl)c(OC)c(C(=O)OC)c2)cc(Cl)c1OC,constant-0,10888,inf,0,500,528
+CC(=O)NC(Cc1ccc(O)cc1)C(=O)NC1CSSCC(C(=O)O)NC(=O)C2(CCCC2)CCNC1=O,GNN-NN-Split-AVG-10.0,21433,inf,0,500,7395
+COc1cc2ncnc(Nc3cccc(Br)c3)c2cc1OCCCSC(=S)N1CCN(C)CC1,constant-0,796,23,0,23 (NOTE: this was less than the maximum budget),72
+COc1cc2ncnc(Nc3cccc(Br)c3)c2cc1OCCCSC(=S)N1CCN(C)CC1,SAscore-linear-0.3,697,18,0,18 (NOTE: this was less than the maximum budget),185
+COc1cc2ncnc(Nc3cccc(Br)c3)c2cc1OCCCSC(=S)N1CCN(C)CC1,SAscore-linear-1.0,591,14,0,14 (NOTE: this was less than the maximum budget),180
+COc1cc2ncnc(Nc3cccc(Br)c3)c2cc1OCCCSC(=S)N1CCN(C)CC1,GNNEstimatorMAXScore-3.0,352,7,0,7 (NOTE: this was less than the maximum budget),91
+COc1cc2ncnc(Nc3cccc(Br)c3)c2cc1OCCCSC(=S)N1CCN(C)CC1,GNNEstimatorMAXScore-10.0,254,5,0,5 (NOTE: this was less than the maximum budget),77
+COc1cc2ncnc(Nc3cccc(Br)c3)c2cc1OCCCSC(=S)N1CCN(C)CC1,GNNEstimatorAVGScore-3.0,352,7,0,7 (NOTE: this was less than the maximum budget),91
+COc1cc2ncnc(Nc3cccc(Br)c3)c2cc1OCCCSC(=S)N1CCN(C)CC1,GNNEstimatorAVGScore-10.0,254,5,0,5 (NOTE: this was less than the maximum budget),77
+COC(=O)c1cc(C(=CCCCC(=O)SC)c2cc(Cl)c(OC)c(C(=O)OC)c2)cc(Cl)c1OC,SAscore-linear-0.3,11102,inf,0,500,1656
+COc1cc2ncnc(Nc3cccc(Br)c3)c2cc1OCCCSC(=S)N1CCN(C)CC1,GNN_NNSplitSingleMAXScore-3.0,352,7,0,7 (NOTE: this was less than the maximum budget),91
+COc1cc2ncnc(Nc3cccc(Br)c3)c2cc1OCCCSC(=S)N1CCN(C)CC1,GNN_NNSplitSingleMAXScore-10.0,254,5,0,5 (NOTE: this was less than the maximum budget),77
+COc1cc2ncnc(Nc3cccc(Br)c3)c2cc1OCCCSC(=S)N1CCN(C)CC1,GNN_NNSplitSingleAVGSCore-3.0,352,7,0,7 (NOTE: this was less than the maximum budget),91
+COc1cc2ncnc(Nc3cccc(Br)c3)c2cc1OCCCSC(=S)N1CCN(C)CC1,GNN_NNSplitSingleAVGSCore-10.0,254,5,0,5 (NOTE: this was less than the maximum budget),77
+COc1cc2ncnc(Nc3cccc(Br)c3)c2cc1OCCCSC(=S)N1CCN(C)CC1,GNN-NN-Split-MAX-3.0,352,7,0,7 (NOTE: this was less than the maximum budget),91
+COc1cc2ncnc(Nc3cccc(Br)c3)c2cc1OCCCSC(=S)N1CCN(C)CC1,GNN-NN-Split-MAX-10.0,254,5,0,5 (NOTE: this was less than the maximum budget),77
+COc1cc2ncnc(Nc3cccc(Br)c3)c2cc1OCCCSC(=S)N1CCN(C)CC1,GNN-NN-Split-AVG-3.0,352,7,0,7 (NOTE: this was less than the maximum budget),91
+COc1cc2ncnc(Nc3cccc(Br)c3)c2cc1OCCCSC(=S)N1CCN(C)CC1,GNN-NN-Split-AVG-10.0,254,5,0,5 (NOTE: this was less than the maximum budget),77
+CC(=O)N1CCN(C(=O)c2cc(CSc3cnc(NC(=O)c4ccc(N(C)C)cc4)s3)ccc2[N+](=O)[O-])CC1,constant-0,2958,167,0,167 (NOTE: this was less than the maximum budget),210
+COC(=O)c1cc(C(=CCCCC(=O)SC)c2cc(Cl)c(OC)c(C(=O)OC)c2)cc(Cl)c1OC,SAscore-linear-1.0,10656,inf,0,500,2709
+CC(=O)N1CCN(C(=O)c2cc(CSc3cnc(NC(=O)c4ccc(N(C)C)cc4)s3)ccc2[N+](=O)[O-])CC1,SAscore-linear-0.3,3383,198,0,198 (NOTE: this was less than the maximum budget),668
+CC(=O)N1CCN(C(=O)c2cc(CSc3cnc(NC(=O)c4ccc(N(C)C)cc4)s3)ccc2[N+](=O)[O-])CC1,SAscore-linear-1.0,6296,392,0,392 (NOTE: this was less than the maximum budget),1416
+COC(=O)c1cc(C(=CCCCC(=O)SC)c2cc(Cl)c(OC)c(C(=O)OC)c2)cc(Cl)c1OC,GNNEstimatorMAXScore-3.0,9779,inf,0,500,2503
+CC(=O)N1CCN(C(=O)c2cc(CSc3cnc(NC(=O)c4ccc(N(C)C)cc4)s3)ccc2[N+](=O)[O-])CC1,GNNEstimatorMAXScore-3.0,6176,379,0,379 (NOTE: this was less than the maximum budget),1413
+CC(=O)N1CCN(C(=O)c2cc(CSc3cnc(NC(=O)c4ccc(N(C)C)cc4)s3)ccc2[N+](=O)[O-])CC1,GNNEstimatorMAXScore-10.0,1139,45,0,45 (NOTE: this was less than the maximum budget),342
+CC(=O)N1CCN(C(=O)c2cc(CSc3cnc(NC(=O)c4ccc(N(C)C)cc4)s3)ccc2[N+](=O)[O-])CC1,GNNEstimatorAVGScore-3.0,6134,377,0,377 (NOTE: this was less than the maximum budget),1399
+CC(=O)N1CCN(C(=O)c2cc(CSc3cnc(NC(=O)c4ccc(N(C)C)cc4)s3)ccc2[N+](=O)[O-])CC1,GNNEstimatorAVGScore-10.0,1203,48,0,48 (NOTE: this was less than the maximum budget),361
+CC(=O)N1CCN(C(=O)c2cc(CSc3cnc(NC(=O)c4ccc(N(C)C)cc4)s3)ccc2[N+](=O)[O-])CC1,GNN_NNSplitSingleMAXScore-3.0,6165,378,0,378 (NOTE: this was less than the maximum budget),1413
+CC(=O)N1CCN(C(=O)c2cc(CSc3cnc(NC(=O)c4ccc(N(C)C)cc4)s3)ccc2[N+](=O)[O-])CC1,GNN_NNSplitSingleMAXScore-10.0,2435,123,0,123 (NOTE: this was less than the maximum budget),692
+CC(=O)N1CCN(C(=O)c2cc(CSc3cnc(NC(=O)c4ccc(N(C)C)cc4)s3)ccc2[N+](=O)[O-])CC1,GNN_NNSplitSingleAVGSCore-3.0,6151,378,0,378 (NOTE: this was less than the maximum budget),1408
+CC(=O)N1CCN(C(=O)c2cc(CSc3cnc(NC(=O)c4ccc(N(C)C)cc4)s3)ccc2[N+](=O)[O-])CC1,GNN_NNSplitSingleAVGSCore-10.0,1158,46,0,46 (NOTE: this was less than the maximum budget),350
+COC(=O)c1cc(C(=CCCCC(=O)SC)c2cc(Cl)c(OC)c(C(=O)OC)c2)cc(Cl)c1OC,GNNEstimatorMAXScore-10.0,13305,inf,0,500,4322
+CC(C)(C)CN1CCC2(CC1)CN(c1ccccc1N=c1[nH]nc(-c3cccc(F)c3)s1)c1c(O)ccc(C(F)(F)F)c12,GNN-NN-Split-AVG-10.0,15259,inf,0,500,5564
+O=C(CN(Cc1ccco1)C(=O)c1ccc(Cl)cc1)Nc1ccc(Cl)c(Cl)c1,constant-0,294,17,0,17 (NOTE: this was less than the maximum budget),32
+O=C(CN(Cc1ccco1)C(=O)c1ccc(Cl)cc1)Nc1ccc(Cl)c(Cl)c1,SAscore-linear-0.3,631,33,0,33 (NOTE: this was less than the maximum budget),105
+O=C(CN(Cc1ccco1)C(=O)c1ccc(Cl)cc1)Nc1ccc(Cl)c(Cl)c1,SAscore-linear-1.0,287,12,0,12 (NOTE: this was less than the maximum budget),82
+O=C(CN(Cc1ccco1)C(=O)c1ccc(Cl)cc1)Nc1ccc(Cl)c(Cl)c1,GNNEstimatorMAXScore-3.0,253,10,0,10 (NOTE: this was less than the maximum budget),75
+O=C(CN(Cc1ccco1)C(=O)c1ccc(Cl)cc1)Nc1ccc(Cl)c(Cl)c1,GNNEstimatorMAXScore-10.0,354,16,0,16 (NOTE: this was less than the maximum budget),96
+O=C(CN(Cc1ccco1)C(=O)c1ccc(Cl)cc1)Nc1ccc(Cl)c(Cl)c1,GNNEstimatorAVGScore-3.0,253,10,0,10 (NOTE: this was less than the maximum budget),76
+O=C(CN(Cc1ccco1)C(=O)c1ccc(Cl)cc1)Nc1ccc(Cl)c(Cl)c1,GNNEstimatorAVGScore-10.0,354,16,0,16 (NOTE: this was less than the maximum budget),97
+O=C(CN(Cc1ccco1)C(=O)c1ccc(Cl)cc1)Nc1ccc(Cl)c(Cl)c1,GNN_NNSplitSingleMAXScore-3.0,253,10,0,10 (NOTE: this was less than the maximum budget),74
+O=C(CN(Cc1ccco1)C(=O)c1ccc(Cl)cc1)Nc1ccc(Cl)c(Cl)c1,GNN_NNSplitSingleMAXScore-10.0,354,16,0,16 (NOTE: this was less than the maximum budget),99
+O=C(CN(Cc1ccco1)C(=O)c1ccc(Cl)cc1)Nc1ccc(Cl)c(Cl)c1,GNN_NNSplitSingleAVGSCore-3.0,253,10,0,10 (NOTE: this was less than the maximum budget),76
+O=C(CN(Cc1ccco1)C(=O)c1ccc(Cl)cc1)Nc1ccc(Cl)c(Cl)c1,GNN_NNSplitSingleAVGSCore-10.0,354,16,0,16 (NOTE: this was less than the maximum budget),97
+O=C(CN(Cc1ccco1)C(=O)c1ccc(Cl)cc1)Nc1ccc(Cl)c(Cl)c1,GNN-NN-Split-MAX-3.0,253,10,0,10 (NOTE: this was less than the maximum budget),75
+O=C(CN(Cc1ccco1)C(=O)c1ccc(Cl)cc1)Nc1ccc(Cl)c(Cl)c1,GNN-NN-Split-MAX-10.0,354,16,0,16 (NOTE: this was less than the maximum budget),96
+O=C(CN(Cc1ccco1)C(=O)c1ccc(Cl)cc1)Nc1ccc(Cl)c(Cl)c1,GNN-NN-Split-AVG-3.0,253,10,0,10 (NOTE: this was less than the maximum budget),73
+COC(=O)c1cc(C(=CCCCC(=O)SC)c2cc(Cl)c(OC)c(C(=O)OC)c2)cc(Cl)c1OC,GNNEstimatorAVGScore-3.0,9703,inf,0,500,2476
+O=C(CN(Cc1ccco1)C(=O)c1ccc(Cl)cc1)Nc1ccc(Cl)c(Cl)c1,GNN-NN-Split-AVG-10.0,354,16,0,16 (NOTE: this was less than the maximum budget),97
+CC(=O)N1CCN(C(=O)c2cc(CSc3cnc(NC(=O)c4ccc(N(C)C)cc4)s3)ccc2[N+](=O)[O-])CC1,GNN-NN-Split-MAX-3.0,6159,378,0,378 (NOTE: this was less than the maximum budget),1407
+C=C(C)C1CC=C(COC(C)=O)CCC(O)C(C)=CCC=C(C)CC1,constant-0,9108,inf,0,500,635
+CC(=O)N1CCN(C(=O)c2cc(CSc3cnc(NC(=O)c4ccc(N(C)C)cc4)s3)ccc2[N+](=O)[O-])CC1,GNN-NN-Split-MAX-10.0,1184,47,0,47 (NOTE: this was less than the maximum budget),349
+C=C(C)C1CC=C(COC(C)=O)CCC(O)C(C)=CCC=C(C)CC1,SAscore-linear-0.3,9349,inf,0,500,2792
+C=C(C)C1CC=C(COC(C)=O)CCC(O)C(C)=CCC=C(C)CC1,SAscore-linear-1.0,9387,inf,0,500,2811
+CC(=O)N1CCN(C(=O)c2cc(CSc3cnc(NC(=O)c4ccc(N(C)C)cc4)s3)ccc2[N+](=O)[O-])CC1,GNN-NN-Split-AVG-3.0,6192,377,0,377 (NOTE: this was less than the maximum budget),1417
+C=C(C)C1CC=C(COC(C)=O)CCC(O)C(C)=CCC=C(C)CC1,GNNEstimatorMAXScore-3.0,8417,inf,0,500,2537
+CC(=O)N1CCN(C(=O)c2cc(CSc3cnc(NC(=O)c4ccc(N(C)C)cc4)s3)ccc2[N+](=O)[O-])CC1,GNN-NN-Split-AVG-10.0,1158,46,0,46 (NOTE: this was less than the maximum budget),352
+COC(=O)c1cc(C(=CCCCC(=O)SC)c2cc(Cl)c(OC)c(C(=O)OC)c2)cc(Cl)c1OC,GNNEstimatorAVGScore-10.0,14043,inf,0,500,4590
+O=C(CNc1ncnc2ccc(C(F)(F)F)cc12)NC1CN(C2CCC(N3C(=O)CCC3=O)CC2)C1,constant-0,12135,inf,0,500,715
+O=C(CNc1ncnc2ccc(C(F)(F)F)cc12)NC1CN(C2CCC(N3C(=O)CCC3=O)CC2)C1,SAscore-linear-0.3,10824,427,0,427 (NOTE: this was less than the maximum budget),3248
+COC(=O)c1cc(C(=CCCCC(=O)SC)c2cc(Cl)c(OC)c(C(=O)OC)c2)cc(Cl)c1OC,GNN_NNSplitSingleMAXScore-3.0,9717,inf,0,500,2476
+O=C(CNc1ncnc2ccc(C(F)(F)F)cc12)NC1CN(C2CCC(N3C(=O)CCC3=O)CC2)C1,SAscore-linear-1.0,9082,321,0,321 (NOTE: this was less than the maximum budget),2950
+C=C(C)C1CC=C(COC(C)=O)CCC(O)C(C)=CCC=C(C)CC1,GNNEstimatorMAXScore-10.0,8053,inf,0,500,2499
+C=C(C)C1CC=C(COC(C)=O)CCC(O)C(C)=CCC=C(C)CC1,GNNEstimatorAVGScore-3.0,8417,inf,0,500,2537
+O=C(CNc1ncnc2ccc(C(F)(F)F)cc12)NC1CN(C2CCC(N3C(=O)CCC3=O)CC2)C1,GNNEstimatorMAXScore-3.0,11281,inf,0,500,3395
+O=C(CNc1ncnc2ccc(C(F)(F)F)cc12)NC1CN(C2CCC(N3C(=O)CCC3=O)CC2)C1,GNNEstimatorMAXScore-10.0,6223,230,0,230 (NOTE: this was less than the maximum budget),2083
+C=C(C)C1CC=C(COC(C)=O)CCC(O)C(C)=CCC=C(C)CC1,GNNEstimatorAVGScore-10.0,8055,inf,0,500,2518
+COC(=O)c1cc(C(=CCCCC(=O)SC)c2cc(Cl)c(OC)c(C(=O)OC)c2)cc(Cl)c1OC,GNN_NNSplitSingleMAXScore-10.0,13858,inf,0,500,4470
+O=C(CNc1ncnc2ccc(C(F)(F)F)cc12)NC1CN(C2CCC(N3C(=O)CCC3=O)CC2)C1,GNNEstimatorAVGScore-3.0,11331,inf,0,500,3350
+C=C(C)C1CC=C(COC(C)=O)CCC(O)C(C)=CCC=C(C)CC1,GNN_NNSplitSingleMAXScore-3.0,8417,inf,0,500,2537
+COC(=O)c1cc(C(=CCCCC(=O)SC)c2cc(Cl)c(OC)c(C(=O)OC)c2)cc(Cl)c1OC,GNN_NNSplitSingleAVGSCore-3.0,9684,inf,0,500,2472
+O=C(CNc1ncnc2ccc(C(F)(F)F)cc12)NC1CN(C2CCC(N3C(=O)CCC3=O)CC2)C1,GNNEstimatorAVGScore-10.0,10673,404,0,404 (NOTE: this was less than the maximum budget),3404
+C=C(C)C1CC=C(COC(C)=O)CCC(O)C(C)=CCC=C(C)CC1,GNN_NNSplitSingleMAXScore-10.0,8053,inf,0,500,2498
+O=C(CNc1ncnc2ccc(C(F)(F)F)cc12)NC1CN(C2CCC(N3C(=O)CCC3=O)CC2)C1,GNN_NNSplitSingleMAXScore-3.0,11503,inf,0,500,3295
+C=C(C)C1CC=C(COC(C)=O)CCC(O)C(C)=CCC=C(C)CC1,GNN_NNSplitSingleAVGSCore-3.0,8417,inf,0,500,2537
+O=C(CNc1ncnc2ccc(C(F)(F)F)cc12)NC1CN(C2CCC(N3C(=O)CCC3=O)CC2)C1,GNN_NNSplitSingleMAXScore-10.0,7268,276,0,276 (NOTE: this was less than the maximum budget),2400
+COC(=O)c1cc(C(=CCCCC(=O)SC)c2cc(Cl)c(OC)c(C(=O)OC)c2)cc(Cl)c1OC,GNN_NNSplitSingleAVGSCore-10.0,13757,inf,0,500,4420
+C=C(C)C1CC=C(COC(C)=O)CCC(O)C(C)=CCC=C(C)CC1,GNN_NNSplitSingleAVGSCore-10.0,8055,inf,0,500,2518
+O=C(CNc1ncnc2ccc(C(F)(F)F)cc12)NC1CN(C2CCC(N3C(=O)CCC3=O)CC2)C1,GNN_NNSplitSingleAVGSCore-3.0,11239,inf,0,500,3328
+O=C(CNc1ncnc2ccc(C(F)(F)F)cc12)NC1CN(C2CCC(N3C(=O)CCC3=O)CC2)C1,GNN_NNSplitSingleAVGSCore-10.0,4180,156,0,156 (NOTE: this was less than the maximum budget),1398
+COC(=O)c1cc(C(=CCCCC(=O)SC)c2cc(Cl)c(OC)c(C(=O)OC)c2)cc(Cl)c1OC,GNN-NN-Split-MAX-3.0,9988,inf,0,500,2596
+C=C(C)C1CC=C(COC(C)=O)CCC(O)C(C)=CCC=C(C)CC1,GNN-NN-Split-MAX-3.0,8373,inf,0,500,2535
+O=C(CNc1ncnc2ccc(C(F)(F)F)cc12)NC1CN(C2CCC(N3C(=O)CCC3=O)CC2)C1,GNN-NN-Split-MAX-3.0,11293,inf,0,500,3330
+C=C(C)C1CC=C(COC(C)=O)CCC(O)C(C)=CCC=C(C)CC1,GNN-NN-Split-MAX-10.0,8053,inf,0,500,2499
+O=C(CNc1ncnc2ccc(C(F)(F)F)cc12)NC1CN(C2CCC(N3C(=O)CCC3=O)CC2)C1,GNN-NN-Split-MAX-10.0,6282,235,0,235 (NOTE: this was less than the maximum budget),2090
+COC(=O)c1cc(C(=CCCCC(=O)SC)c2cc(Cl)c(OC)c(C(=O)OC)c2)cc(Cl)c1OC,GNN-NN-Split-MAX-10.0,13181,inf,0,500,4207
+C=C(C)C1CC=C(COC(C)=O)CCC(O)C(C)=CCC=C(C)CC1,GNN-NN-Split-AVG-3.0,8373,inf,0,500,2535
+O=C(CNc1ncnc2ccc(C(F)(F)F)cc12)NC1CN(C2CCC(N3C(=O)CCC3=O)CC2)C1,GNN-NN-Split-AVG-3.0,11337,inf,0,500,3409
+COC(=O)c1cc(C(=CCCCC(=O)SC)c2cc(Cl)c(OC)c(C(=O)OC)c2)cc(Cl)c1OC,GNN-NN-Split-AVG-3.0,9965,inf,0,500,2586
+C=C(C)C1CC=C(COC(C)=O)CCC(O)C(C)=CCC=C(C)CC1,GNN-NN-Split-AVG-10.0,8055,inf,0,500,2518
+COc1ccc(CNC(=O)c2ccc3ccccc3n2)cc1OC,constant-0,138,2,0,2 (NOTE: this was less than the maximum budget),11
+COc1ccc(CNC(=O)c2ccc3ccccc3n2)cc1OC,SAscore-linear-0.3,138,2,0,2 (NOTE: this was less than the maximum budget),10
+COc1ccc(CNC(=O)c2ccc3ccccc3n2)cc1OC,SAscore-linear-1.0,138,2,0,2 (NOTE: this was less than the maximum budget),10
+COc1ccc(CNC(=O)c2ccc3ccccc3n2)cc1OC,GNNEstimatorMAXScore-3.0,206,3,0,3 (NOTE: this was less than the maximum budget),36
+COc1ccc(CNC(=O)c2ccc3ccccc3n2)cc1OC,GNNEstimatorMAXScore-10.0,206,3,0,3 (NOTE: this was less than the maximum budget),36
+COc1ccc(CNC(=O)c2ccc3ccccc3n2)cc1OC,GNNEstimatorAVGScore-3.0,206,3,0,3 (NOTE: this was less than the maximum budget),36
+COc1ccc(CNC(=O)c2ccc3ccccc3n2)cc1OC,GNNEstimatorAVGScore-10.0,206,3,0,3 (NOTE: this was less than the maximum budget),36
+COc1ccc(CNC(=O)c2ccc3ccccc3n2)cc1OC,GNN_NNSplitSingleMAXScore-3.0,206,3,0,3 (NOTE: this was less than the maximum budget),36
+COc1ccc(CNC(=O)c2ccc3ccccc3n2)cc1OC,GNN_NNSplitSingleMAXScore-10.0,206,3,0,3 (NOTE: this was less than the maximum budget),36
+COc1ccc(CNC(=O)c2ccc3ccccc3n2)cc1OC,GNN_NNSplitSingleAVGSCore-3.0,206,3,0,3 (NOTE: this was less than the maximum budget),36
+COc1ccc(CNC(=O)c2ccc3ccccc3n2)cc1OC,GNN_NNSplitSingleAVGSCore-10.0,206,3,0,3 (NOTE: this was less than the maximum budget),36
+COc1ccc(CNC(=O)c2ccc3ccccc3n2)cc1OC,GNN-NN-Split-MAX-3.0,206,3,0,3 (NOTE: this was less than the maximum budget),36
+COc1ccc(CNC(=O)c2ccc3ccccc3n2)cc1OC,GNN-NN-Split-MAX-10.0,206,3,0,3 (NOTE: this was less than the maximum budget),36
+COc1ccc(CNC(=O)c2ccc3ccccc3n2)cc1OC,GNN-NN-Split-AVG-3.0,206,3,0,3 (NOTE: this was less than the maximum budget),36
+COc1ccc(CNC(=O)c2ccc3ccccc3n2)cc1OC,GNN-NN-Split-AVG-10.0,206,3,0,3 (NOTE: this was less than the maximum budget),36
+NS(=O)(=O)c1ccccc1CC(O)CC(Cc1ccccc1)C(=O)NC1c2ccccc2CC1O,constant-0,12491,inf,0,500,692
+NS(=O)(=O)c1ccccc1CC(O)CC(Cc1ccccc1)C(=O)NC1c2ccccc2CC1O,SAscore-linear-0.3,16059,inf,0,500,1440
+NS(=O)(=O)c1ccccc1CC(O)CC(Cc1ccccc1)C(=O)NC1c2ccccc2CC1O,SAscore-linear-1.0,14858,inf,0,500,5408
+O=C(CNc1ncnc2ccc(C(F)(F)F)cc12)NC1CN(C2CCC(N3C(=O)CCC3=O)CC2)C1,GNN-NN-Split-AVG-10.0,12872,inf,0,500,4117
+COc1cccc(C2CC(=O)C=C(NCCCN(C)C)C2)c1,constant-0,15124,inf,0,500,642
+COc1cccc(C2CC(=O)C=C(NCCCN(C)C)C2)c1,SAscore-linear-0.3,15471,inf,0,500,2154
+NS(=O)(=O)c1ccccc1CC(O)CC(Cc1ccccc1)C(=O)NC1c2ccccc2CC1O,GNNEstimatorMAXScore-3.0,11370,inf,0,500,3850
+COc1cccc(C2CC(=O)C=C(NCCCN(C)C)C2)c1,SAscore-linear-1.0,15516,inf,0,500,5064
+COC(=O)c1cc(C(=CCCCC(=O)SC)c2cc(Cl)c(OC)c(C(=O)OC)c2)cc(Cl)c1OC,GNN-NN-Split-AVG-10.0,12907,inf,0,500,4061
+Cc1cc(COc2ccc(NC(=O)C3CN(C)CCC3C(=O)NO)cc2)c2ccccc2n1,constant-0,15355,inf,0,500,791
+NS(=O)(=O)c1ccccc1CC(O)CC(Cc1ccccc1)C(=O)NC1c2ccccc2CC1O,GNNEstimatorMAXScore-10.0,10301,inf,0,500,3515
+COc1cccc(C2CC(=O)C=C(NCCCN(C)C)C2)c1,GNNEstimatorMAXScore-3.0,16141,inf,0,500,5479
+Cc1cc(COc2ccc(NC(=O)C3CN(C)CCC3C(=O)NO)cc2)c2ccccc2n1,SAscore-linear-0.3,16503,inf,0,500,1606
+Cc1cc(COc2ccc(NC(=O)C3CN(C)CCC3C(=O)NO)cc2)c2ccccc2n1,SAscore-linear-1.0,16748,inf,0,500,5738
+NS(=O)(=O)c1ccccc1CC(O)CC(Cc1ccccc1)C(=O)NC1c2ccccc2CC1O,GNNEstimatorAVGScore-3.0,10785,inf,0,500,3610
+Cc1cc(COc2ccc(NC(=O)C3CN(C)CCC3C(=O)NO)cc2)c2ccccc2n1,GNNEstimatorMAXScore-3.0,14840,inf,0,500,4173
+COc1cccc(C2CC(=O)C=C(NCCCN(C)C)C2)c1,GNNEstimatorMAXScore-10.0,16366,inf,0,500,5839
+NS(=O)(=O)c1ccccc1CC(O)CC(Cc1ccccc1)C(=O)NC1c2ccccc2CC1O,GNNEstimatorAVGScore-10.0,10361,inf,0,500,3536
+NS(=O)(=O)c1ccccc1CC(O)CC(Cc1ccccc1)C(=O)NC1c2ccccc2CC1O,GNN_NNSplitSingleMAXScore-3.0,10806,inf,0,500,3597
+COc1cccc(C2CC(=O)C=C(NCCCN(C)C)C2)c1,GNNEstimatorAVGScore-3.0,16134,inf,0,500,5478
+Cc1cc(COc2ccc(NC(=O)C3CN(C)CCC3C(=O)NO)cc2)c2ccccc2n1,GNNEstimatorMAXScore-10.0,14860,inf,0,500,5261
+NS(=O)(=O)c1ccccc1CC(O)CC(Cc1ccccc1)C(=O)NC1c2ccccc2CC1O,GNN_NNSplitSingleMAXScore-10.0,10304,inf,0,500,3512
+Cc1cc(COc2ccc(NC(=O)C3CN(C)CCC3C(=O)NO)cc2)c2ccccc2n1,GNNEstimatorAVGScore-3.0,14840,inf,0,500,4174
+COc1cccc(C2CC(=O)C=C(NCCCN(C)C)C2)c1,GNNEstimatorAVGScore-10.0,16361,inf,0,500,5831
+NS(=O)(=O)c1ccccc1CC(O)CC(Cc1ccccc1)C(=O)NC1c2ccccc2CC1O,GNN_NNSplitSingleAVGSCore-3.0,10802,inf,0,500,3610
+Cc1cc(COc2ccc(NC(=O)C3CN(C)CCC3C(=O)NO)cc2)c2ccccc2n1,GNNEstimatorAVGScore-10.0,14854,inf,0,500,5260
+COc1cccc(C2CC(=O)C=C(NCCCN(C)C)C2)c1,GNN_NNSplitSingleMAXScore-3.0,16134,inf,0,500,5482
+NS(=O)(=O)c1ccccc1CC(O)CC(Cc1ccccc1)C(=O)NC1c2ccccc2CC1O,GNN_NNSplitSingleAVGSCore-10.0,10294,inf,0,500,3506
+Cc1cc(COc2ccc(NC(=O)C3CN(C)CCC3C(=O)NO)cc2)c2ccccc2n1,GNN_NNSplitSingleMAXScore-3.0,14840,inf,0,500,4174
+COc1cccc(C2CC(=O)C=C(NCCCN(C)C)C2)c1,GNN_NNSplitSingleMAXScore-10.0,16369,inf,0,500,5822
+Cc1cc(COc2ccc(NC(=O)C3CN(C)CCC3C(=O)NO)cc2)c2ccccc2n1,GNN_NNSplitSingleMAXScore-10.0,14860,inf,0,500,5261
+COc1cccc(C2CC(=O)C=C(NCCCN(C)C)C2)c1,GNN_NNSplitSingleAVGSCore-3.0,16134,inf,0,500,5480
+Cc1cc(COc2ccc(NC(=O)C3CN(C)CCC3C(=O)NO)cc2)c2ccccc2n1,GNN_NNSplitSingleAVGSCore-3.0,14840,inf,0,500,4172
+NS(=O)(=O)c1ccccc1CC(O)CC(Cc1ccccc1)C(=O)NC1c2ccccc2CC1O,GNN-NN-Split-MAX-3.0,11370,inf,0,500,3850
+COc1cccc(C2CC(=O)C=C(NCCCN(C)C)C2)c1,GNN_NNSplitSingleAVGSCore-10.0,16366,inf,0,500,5822
+Cc1cc(COc2ccc(NC(=O)C3CN(C)CCC3C(=O)NO)cc2)c2ccccc2n1,GNN_NNSplitSingleAVGSCore-10.0,14860,inf,0,500,5261
+NS(=O)(=O)c1ccccc1CC(O)CC(Cc1ccccc1)C(=O)NC1c2ccccc2CC1O,GNN-NN-Split-MAX-10.0,10337,inf,0,500,3533
+Cc1cc(COc2ccc(NC(=O)C3CN(C)CCC3C(=O)NO)cc2)c2ccccc2n1,GNN-NN-Split-MAX-3.0,14840,inf,0,500,4174
+COc1cccc(C2CC(=O)C=C(NCCCN(C)C)C2)c1,GNN-NN-Split-MAX-3.0,16141,inf,0,500,5480
+NS(=O)(=O)c1ccccc1CC(O)CC(Cc1ccccc1)C(=O)NC1c2ccccc2CC1O,GNN-NN-Split-AVG-3.0,10776,inf,0,500,3596
+Cc1cc(COc2ccc(NC(=O)C3CN(C)CCC3C(=O)NO)cc2)c2ccccc2n1,GNN-NN-Split-MAX-10.0,14860,inf,0,500,5261
+NS(=O)(=O)c1ccccc1CC(O)CC(Cc1ccccc1)C(=O)NC1c2ccccc2CC1O,GNN-NN-Split-AVG-10.0,10314,inf,0,500,3519
+Cc1ccc(S(=O)(=O)NC2(C(F)(F)F)NC(=O)N(c3ccccc3F)C2=O)cc1,constant-0,10680,inf,0,500,540
+Cc1ccc(S(=O)(=O)NC2(C(F)(F)F)NC(=O)N(c3ccccc3F)C2=O)cc1,SAscore-linear-0.3,10191,inf,0,500,1975
+COc1cccc(C2CC(=O)C=C(NCCCN(C)C)C2)c1,GNN-NN-Split-MAX-10.0,16361,inf,0,500,5833
+Cc1ccc(S(=O)(=O)NC2(C(F)(F)F)NC(=O)N(c3ccccc3F)C2=O)cc1,SAscore-linear-1.0,10404,inf,0,500,2963
+Cc1ccc(S(=O)(=O)NC2(C(F)(F)F)NC(=O)N(c3ccccc3F)C2=O)cc1,GNNEstimatorMAXScore-3.0,10571,inf,0,500,3032
+Cc1ccc(S(=O)(=O)NC2(C(F)(F)F)NC(=O)N(c3ccccc3F)C2=O)cc1,GNNEstimatorMAXScore-10.0,10539,inf,0,500,3336
+Cc1cc(COc2ccc(NC(=O)C3CN(C)CCC3C(=O)NO)cc2)c2ccccc2n1,GNN-NN-Split-AVG-3.0,14840,inf,0,500,4173
+Cc1ccc(S(=O)(=O)NC2(C(F)(F)F)NC(=O)N(c3ccccc3F)C2=O)cc1,GNNEstimatorAVGScore-3.0,10571,inf,0,500,3032
+Cc1ccc(S(=O)(=O)NC2(C(F)(F)F)NC(=O)N(c3ccccc3F)C2=O)cc1,GNNEstimatorAVGScore-10.0,10661,inf,0,500,3432
+COc1cccc(C2CC(=O)C=C(NCCCN(C)C)C2)c1,GNN-NN-Split-AVG-3.0,16134,inf,0,500,5481
+Cc1ccc(S(=O)(=O)NC2(C(F)(F)F)NC(=O)N(c3ccccc3F)C2=O)cc1,GNN_NNSplitSingleMAXScore-3.0,10531,inf,0,500,3028
+Cc1ccc(S(=O)(=O)NC2(C(F)(F)F)NC(=O)N(c3ccccc3F)C2=O)cc1,GNN_NNSplitSingleMAXScore-10.0,10551,inf,0,500,3347
+Cc1ccc(S(=O)(=O)NC2(C(F)(F)F)NC(=O)N(c3ccccc3F)C2=O)cc1,GNN_NNSplitSingleAVGSCore-3.0,10531,inf,0,500,3028
+Cc1cc(COc2ccc(NC(=O)C3CN(C)CCC3C(=O)NO)cc2)c2ccccc2n1,GNN-NN-Split-AVG-10.0,14862,inf,0,500,5258
+CCOC(=O)c1ccc(O)c(-n2cc3c(c2-c2ccccc2)c(=O)n(C)c(=O)n3C)c1,constant-0,14665,inf,0,500,634
+Cc1ccc(S(=O)(=O)NC2(C(F)(F)F)NC(=O)N(c3ccccc3F)C2=O)cc1,GNN_NNSplitSingleAVGSCore-10.0,10551,inf,0,500,3347
+CCOC(=O)c1ccc(O)c(-n2cc3c(c2-c2ccccc2)c(=O)n(C)c(=O)n3C)c1,SAscore-linear-0.3,15060,inf,0,500,1978
+CCOC(=O)c1ccc(O)c(-n2cc3c(c2-c2ccccc2)c(=O)n(C)c(=O)n3C)c1,SAscore-linear-1.0,15489,inf,0,500,4682
+COc1cccc(C2CC(=O)C=C(NCCCN(C)C)C2)c1,GNN-NN-Split-AVG-10.0,16361,inf,0,500,5833
+CCOC(=O)c1ccc(O)c(-n2cc3c(c2-c2ccccc2)c(=O)n(C)c(=O)n3C)c1,GNNEstimatorMAXScore-3.0,13560,inf,0,500,3989
+CC1=CC(C2=C(C)CCC(OC3OC(CO)C(O)C(O)C3O)C2(C)C)C(C=C(C)C(=O)O)OC1,constant-0,26754,inf,0,500,1087
+Cc1ccc(S(=O)(=O)NC2(C(F)(F)F)NC(=O)N(c3ccccc3F)C2=O)cc1,GNN-NN-Split-MAX-3.0,10530,inf,0,500,3027
+CC1=CC(C2=C(C)CCC(OC3OC(CO)C(O)C(O)C3O)C2(C)C)C(C=C(C)C(=O)O)OC1,SAscore-linear-0.3,25772,inf,0,500,10503
+CC1=CC(C2=C(C)CCC(OC3OC(CO)C(O)C(O)C3O)C2(C)C)C(C=C(C)C(=O)O)OC1,SAscore-linear-1.0,25588,inf,0,500,10502
+CCOC(=O)c1ccc(O)c(-n2cc3c(c2-c2ccccc2)c(=O)n(C)c(=O)n3C)c1,GNNEstimatorMAXScore-10.0,13936,inf,0,500,4214
+Cc1ccc(S(=O)(=O)NC2(C(F)(F)F)NC(=O)N(c3ccccc3F)C2=O)cc1,GNN-NN-Split-MAX-10.0,10571,inf,0,500,3355
+CCOC(=O)c1ccc(O)c(-n2cc3c(c2-c2ccccc2)c(=O)n(C)c(=O)n3C)c1,GNNEstimatorAVGScore-3.0,13563,inf,0,500,3993
+CC1=CC(C2=C(C)CCC(OC3OC(CO)C(O)C(O)C3O)C2(C)C)C(C=C(C)C(=O)O)OC1,GNNEstimatorMAXScore-3.0,23694,inf,0,500,9631
+Cc1ccc(S(=O)(=O)NC2(C(F)(F)F)NC(=O)N(c3ccccc3F)C2=O)cc1,GNN-NN-Split-AVG-3.0,10539,inf,0,500,3029
+CCOC(=O)c1ccc(O)c(-n2cc3c(c2-c2ccccc2)c(=O)n(C)c(=O)n3C)c1,GNNEstimatorAVGScore-10.0,13947,inf,0,500,4226
+CCOC(=O)c1ccc(O)c(-n2cc3c(c2-c2ccccc2)c(=O)n(C)c(=O)n3C)c1,GNN_NNSplitSingleMAXScore-3.0,13604,inf,0,500,3995
+CC1=CC(C2=C(C)CCC(OC3OC(CO)C(O)C(O)C3O)C2(C)C)C(C=C(C)C(=O)O)OC1,GNNEstimatorMAXScore-10.0,22059,inf,0,500,9086
+Cc1ccc(S(=O)(=O)NC2(C(F)(F)F)NC(=O)N(c3ccccc3F)C2=O)cc1,GNN-NN-Split-AVG-10.0,10649,inf,0,500,3403
+CC(C)NC(=O)c1ccc(S(=O)(=O)N(C)C)cc1,constant-0,105,3,0,3 (NOTE: this was less than the maximum budget),8
+CC(C)NC(=O)c1ccc(S(=O)(=O)N(C)C)cc1,SAscore-linear-0.3,140,5,0,5 (NOTE: this was less than the maximum budget),4
+CC(C)NC(=O)c1ccc(S(=O)(=O)N(C)C)cc1,SAscore-linear-1.0,140,5,0,5 (NOTE: this was less than the maximum budget),17
+CC(C)NC(=O)c1ccc(S(=O)(=O)N(C)C)cc1,GNNEstimatorMAXScore-3.0,126,4,0,4 (NOTE: this was less than the maximum budget),16
+CC(C)NC(=O)c1ccc(S(=O)(=O)N(C)C)cc1,GNNEstimatorMAXScore-10.0,126,4,0,4 (NOTE: this was less than the maximum budget),16
+CC(C)NC(=O)c1ccc(S(=O)(=O)N(C)C)cc1,GNNEstimatorAVGScore-3.0,126,4,0,4 (NOTE: this was less than the maximum budget),16
+CC(C)NC(=O)c1ccc(S(=O)(=O)N(C)C)cc1,GNNEstimatorAVGScore-10.0,126,4,0,4 (NOTE: this was less than the maximum budget),16
+CC(C)NC(=O)c1ccc(S(=O)(=O)N(C)C)cc1,GNN_NNSplitSingleMAXScore-3.0,126,4,0,4 (NOTE: this was less than the maximum budget),16
+CC(C)NC(=O)c1ccc(S(=O)(=O)N(C)C)cc1,GNN_NNSplitSingleMAXScore-10.0,126,4,0,4 (NOTE: this was less than the maximum budget),16
+CC(C)NC(=O)c1ccc(S(=O)(=O)N(C)C)cc1,GNN_NNSplitSingleAVGSCore-3.0,126,4,0,4 (NOTE: this was less than the maximum budget),16
+CC(C)NC(=O)c1ccc(S(=O)(=O)N(C)C)cc1,GNN_NNSplitSingleAVGSCore-10.0,126,4,0,4 (NOTE: this was less than the maximum budget),16
+CC(C)NC(=O)c1ccc(S(=O)(=O)N(C)C)cc1,GNN-NN-Split-MAX-3.0,126,4,0,4 (NOTE: this was less than the maximum budget),16
+CC(C)NC(=O)c1ccc(S(=O)(=O)N(C)C)cc1,GNN-NN-Split-MAX-10.0,126,4,0,4 (NOTE: this was less than the maximum budget),16
+CC(C)NC(=O)c1ccc(S(=O)(=O)N(C)C)cc1,GNN-NN-Split-AVG-3.0,126,4,0,4 (NOTE: this was less than the maximum budget),16
+CC(C)NC(=O)c1ccc(S(=O)(=O)N(C)C)cc1,GNN-NN-Split-AVG-10.0,126,4,0,4 (NOTE: this was less than the maximum budget),16
+CC(=O)C1=NN(c2ccccc2)C2(SC(=Cc3ccccc3)C(=O)N2c2ccccc2)S1,constant-0,11154,inf,0,500,727
+CC(=O)C1=NN(c2ccccc2)C2(SC(=Cc3ccccc3)C(=O)N2c2ccccc2)S1,SAscore-linear-0.3,10645,inf,0,500,3739
+CCOC(=O)c1ccc(O)c(-n2cc3c(c2-c2ccccc2)c(=O)n(C)c(=O)n3C)c1,GNN_NNSplitSingleMAXScore-10.0,13817,inf,0,500,4215
+CC(=O)C1=NN(c2ccccc2)C2(SC(=Cc3ccccc3)C(=O)N2c2ccccc2)S1,SAscore-linear-1.0,10729,inf,0,500,3766
+CC1=CC(C2=C(C)CCC(OC3OC(CO)C(O)C(O)C3O)C2(C)C)C(C=C(C)C(=O)O)OC1,GNNEstimatorAVGScore-3.0,23694,inf,0,500,9631
+CC(=O)C1=NN(c2ccccc2)C2(SC(=Cc3ccccc3)C(=O)N2c2ccccc2)S1,GNNEstimatorMAXScore-3.0,9821,inf,0,500,3540
+CCOC(=O)c1ccc(O)c(-n2cc3c(c2-c2ccccc2)c(=O)n(C)c(=O)n3C)c1,GNN_NNSplitSingleAVGSCore-3.0,13560,inf,0,500,3989
+CC(=O)C1=NN(c2ccccc2)C2(SC(=Cc3ccccc3)C(=O)N2c2ccccc2)S1,GNNEstimatorMAXScore-10.0,9478,inf,0,500,3428
+CC(=O)C1=NN(c2ccccc2)C2(SC(=Cc3ccccc3)C(=O)N2c2ccccc2)S1,GNNEstimatorAVGScore-3.0,9820,inf,0,500,3540
+CC1=CC(C2=C(C)CCC(OC3OC(CO)C(O)C(O)C3O)C2(C)C)C(C=C(C)C(=O)O)OC1,GNNEstimatorAVGScore-10.0,22059,inf,0,500,9085
+CCOC(=O)c1ccc(O)c(-n2cc3c(c2-c2ccccc2)c(=O)n(C)c(=O)n3C)c1,GNN_NNSplitSingleAVGSCore-10.0,13908,inf,0,500,4221
+CC(=O)C1=NN(c2ccccc2)C2(SC(=Cc3ccccc3)C(=O)N2c2ccccc2)S1,GNNEstimatorAVGScore-10.0,9729,inf,0,500,3521
+CC(=O)C1=NN(c2ccccc2)C2(SC(=Cc3ccccc3)C(=O)N2c2ccccc2)S1,GNN_NNSplitSingleMAXScore-3.0,9821,inf,0,500,3540
+CC(=O)C1=NN(c2ccccc2)C2(SC(=Cc3ccccc3)C(=O)N2c2ccccc2)S1,GNN_NNSplitSingleMAXScore-10.0,9476,inf,0,500,3424
+CC1=CC(C2=C(C)CCC(OC3OC(CO)C(O)C(O)C3O)C2(C)C)C(C=C(C)C(=O)O)OC1,GNN_NNSplitSingleMAXScore-3.0,23694,inf,0,500,9631
+CC(=O)C1=NN(c2ccccc2)C2(SC(=Cc3ccccc3)C(=O)N2c2ccccc2)S1,GNN_NNSplitSingleAVGSCore-3.0,10216,inf,0,500,3681
+CCOC(=O)c1ccc(O)c(-n2cc3c(c2-c2ccccc2)c(=O)n(C)c(=O)n3C)c1,GNN-NN-Split-MAX-3.0,13539,inf,0,500,3987
+CC(=O)C1=NN(c2ccccc2)C2(SC(=Cc3ccccc3)C(=O)N2c2ccccc2)S1,GNN_NNSplitSingleAVGSCore-10.0,9744,inf,0,500,3521
+CC1=CC(C2=C(C)CCC(OC3OC(CO)C(O)C(O)C3O)C2(C)C)C(C=C(C)C(=O)O)OC1,GNN_NNSplitSingleMAXScore-10.0,22059,inf,0,500,9086
+CC(=O)C1=NN(c2ccccc2)C2(SC(=Cc3ccccc3)C(=O)N2c2ccccc2)S1,GNN-NN-Split-MAX-3.0,9840,inf,0,500,3547
+CC1=CC(C2=C(C)CCC(OC3OC(CO)C(O)C(O)C3O)C2(C)C)C(C=C(C)C(=O)O)OC1,GNN_NNSplitSingleAVGSCore-3.0,23694,inf,0,500,9631
+CCOC(=O)c1ccc(O)c(-n2cc3c(c2-c2ccccc2)c(=O)n(C)c(=O)n3C)c1,GNN-NN-Split-MAX-10.0,13947,inf,0,500,4226
+CC(=O)C1=NN(c2ccccc2)C2(SC(=Cc3ccccc3)C(=O)N2c2ccccc2)S1,GNN-NN-Split-MAX-10.0,9448,inf,0,500,3391
+CC1=CC(C2=C(C)CCC(OC3OC(CO)C(O)C(O)C3O)C2(C)C)C(C=C(C)C(=O)O)OC1,GNN_NNSplitSingleAVGSCore-10.0,22059,inf,0,500,9085
+CCOC(=O)c1ccc(O)c(-n2cc3c(c2-c2ccccc2)c(=O)n(C)c(=O)n3C)c1,GNN-NN-Split-AVG-3.0,13539,inf,0,500,3988
+CC(=O)C1=NN(c2ccccc2)C2(SC(=Cc3ccccc3)C(=O)N2c2ccccc2)S1,GNN-NN-Split-AVG-3.0,9840,inf,0,500,3549
+CC(=O)C1=NN(c2ccccc2)C2(SC(=Cc3ccccc3)C(=O)N2c2ccccc2)S1,GNN-NN-Split-AVG-10.0,9482,inf,0,500,3411
+OCC1OC(n2cnc3c(NCC4=CCc5ccccc54)ncnc32)C(O)C1O,constant-0,13060,inf,0,500,595
+OCC1OC(n2cnc3c(NCC4=CCc5ccccc54)ncnc32)C(O)C1O,SAscore-linear-0.3,12826,inf,0,500,4243
+OCC1OC(n2cnc3c(NCC4=CCc5ccccc54)ncnc32)C(O)C1O,SAscore-linear-1.0,13509,inf,0,500,5020
+CCOC(=O)c1ccc(O)c(-n2cc3c(c2-c2ccccc2)c(=O)n(C)c(=O)n3C)c1,GNN-NN-Split-AVG-10.0,13887,inf,0,500,4195
+COc1cc(OC)c2c(-c3cccc(-c4ccc(C#N)cc4)c3)cc(=O)oc2c1,constant-0,510,8,0,8 (NOTE: this was less than the maximum budget),41
+COc1cc(OC)c2c(-c3cccc(-c4ccc(C#N)cc4)c3)cc(=O)oc2c1,SAscore-linear-0.3,359,4,0,4 (NOTE: this was less than the maximum budget),29
+COc1cc(OC)c2c(-c3cccc(-c4ccc(C#N)cc4)c3)cc(=O)oc2c1,SAscore-linear-1.0,272,3,0,3 (NOTE: this was less than the maximum budget),65
+COc1cc(OC)c2c(-c3cccc(-c4ccc(C#N)cc4)c3)cc(=O)oc2c1,GNNEstimatorMAXScore-3.0,365,4,0,4 (NOTE: this was less than the maximum budget),89
+COc1cc(OC)c2c(-c3cccc(-c4ccc(C#N)cc4)c3)cc(=O)oc2c1,GNNEstimatorMAXScore-10.0,365,4,0,4 (NOTE: this was less than the maximum budget),89
+COc1cc(OC)c2c(-c3cccc(-c4ccc(C#N)cc4)c3)cc(=O)oc2c1,GNNEstimatorAVGScore-3.0,365,4,0,4 (NOTE: this was less than the maximum budget),89
+COc1cc(OC)c2c(-c3cccc(-c4ccc(C#N)cc4)c3)cc(=O)oc2c1,GNNEstimatorAVGScore-10.0,365,4,0,4 (NOTE: this was less than the maximum budget),89
+COc1cc(OC)c2c(-c3cccc(-c4ccc(C#N)cc4)c3)cc(=O)oc2c1,GNN_NNSplitSingleMAXScore-3.0,365,4,0,4 (NOTE: this was less than the maximum budget),89
+COc1cc(OC)c2c(-c3cccc(-c4ccc(C#N)cc4)c3)cc(=O)oc2c1,GNN_NNSplitSingleMAXScore-10.0,365,4,0,4 (NOTE: this was less than the maximum budget),89
+COc1cc(OC)c2c(-c3cccc(-c4ccc(C#N)cc4)c3)cc(=O)oc2c1,GNN_NNSplitSingleAVGSCore-3.0,365,4,0,4 (NOTE: this was less than the maximum budget),89
+COc1cc(OC)c2c(-c3cccc(-c4ccc(C#N)cc4)c3)cc(=O)oc2c1,GNN_NNSplitSingleAVGSCore-10.0,365,4,0,4 (NOTE: this was less than the maximum budget),89
+COc1cc(OC)c2c(-c3cccc(-c4ccc(C#N)cc4)c3)cc(=O)oc2c1,GNN-NN-Split-MAX-3.0,365,4,0,4 (NOTE: this was less than the maximum budget),89
+COc1cc(OC)c2c(-c3cccc(-c4ccc(C#N)cc4)c3)cc(=O)oc2c1,GNN-NN-Split-MAX-10.0,365,4,0,4 (NOTE: this was less than the maximum budget),89
+COc1cc(OC)c2c(-c3cccc(-c4ccc(C#N)cc4)c3)cc(=O)oc2c1,GNN-NN-Split-AVG-3.0,365,4,0,4 (NOTE: this was less than the maximum budget),89
+COc1cc(OC)c2c(-c3cccc(-c4ccc(C#N)cc4)c3)cc(=O)oc2c1,GNN-NN-Split-AVG-10.0,365,4,0,4 (NOTE: this was less than the maximum budget),89
+COc1cc2[nH]c(C(=O)Nc3ccc(F)cc3)cc2c(OC)c1OC,constant-0,1194,33,0,33 (NOTE: this was less than the maximum budget),107
+COc1cc2[nH]c(C(=O)Nc3ccc(F)cc3)cc2c(OC)c1OC,SAscore-linear-0.3,1616,50,0,50 (NOTE: this was less than the maximum budget),100
+COc1cc2[nH]c(C(=O)Nc3ccc(F)cc3)cc2c(OC)c1OC,SAscore-linear-1.0,1715,52,0,52 (NOTE: this was less than the maximum budget),573
+COc1cc2[nH]c(C(=O)Nc3ccc(F)cc3)cc2c(OC)c1OC,GNNEstimatorMAXScore-3.0,402,13,0,13 (NOTE: this was less than the maximum budget),121
+COc1cc2[nH]c(C(=O)Nc3ccc(F)cc3)cc2c(OC)c1OC,GNNEstimatorMAXScore-10.0,193,6,0,6 (NOTE: this was less than the maximum budget),55
+COc1cc2[nH]c(C(=O)Nc3ccc(F)cc3)cc2c(OC)c1OC,GNNEstimatorAVGScore-3.0,393,12,0,12 (NOTE: this was less than the maximum budget),119
+COc1cc2[nH]c(C(=O)Nc3ccc(F)cc3)cc2c(OC)c1OC,GNNEstimatorAVGScore-10.0,193,6,0,6 (NOTE: this was less than the maximum budget),55
+COc1cc2[nH]c(C(=O)Nc3ccc(F)cc3)cc2c(OC)c1OC,GNN_NNSplitSingleMAXScore-3.0,402,13,0,13 (NOTE: this was less than the maximum budget),121
+OCC1OC(n2cnc3c(NCC4=CCc5ccccc54)ncnc32)C(O)C1O,GNNEstimatorMAXScore-3.0,12957,inf,0,500,4269
+COc1cc2[nH]c(C(=O)Nc3ccc(F)cc3)cc2c(OC)c1OC,GNN_NNSplitSingleMAXScore-10.0,193,6,0,6 (NOTE: this was less than the maximum budget),55
+COc1cc2[nH]c(C(=O)Nc3ccc(F)cc3)cc2c(OC)c1OC,GNN_NNSplitSingleAVGSCore-3.0,393,12,0,12 (NOTE: this was less than the maximum budget),119
+COc1cc2[nH]c(C(=O)Nc3ccc(F)cc3)cc2c(OC)c1OC,GNN_NNSplitSingleAVGSCore-10.0,193,6,0,6 (NOTE: this was less than the maximum budget),55
+COc1cc2[nH]c(C(=O)Nc3ccc(F)cc3)cc2c(OC)c1OC,GNN-NN-Split-MAX-3.0,402,13,0,13 (NOTE: this was less than the maximum budget),121
+COc1cc2[nH]c(C(=O)Nc3ccc(F)cc3)cc2c(OC)c1OC,GNN-NN-Split-MAX-10.0,193,6,0,6 (NOTE: this was less than the maximum budget),55
+COc1cc2[nH]c(C(=O)Nc3ccc(F)cc3)cc2c(OC)c1OC,GNN-NN-Split-AVG-3.0,402,13,0,13 (NOTE: this was less than the maximum budget),121
+COc1cc2[nH]c(C(=O)Nc3ccc(F)cc3)cc2c(OC)c1OC,GNN-NN-Split-AVG-10.0,193,6,0,6 (NOTE: this was less than the maximum budget),55
+COc1cc(F)cc(-c2ccc(C(CC(=O)O)NC(=O)C3CCCN3S(=O)(=O)c3cc(Cl)cc(Cl)c3)cc2)c1,constant-0,18003,inf,0,500,748
+OCC1OC(n2cnc3c(NCC4=CCc5ccccc54)ncnc32)C(O)C1O,GNNEstimatorMAXScore-10.0,12223,inf,0,500,4203
+COc1cc(F)cc(-c2ccc(C(CC(=O)O)NC(=O)C3CCCN3S(=O)(=O)c3cc(Cl)cc(Cl)c3)cc2)c1,SAscore-linear-0.3,19942,inf,0,500,3505
+COc1cc(F)cc(-c2ccc(C(CC(=O)O)NC(=O)C3CCCN3S(=O)(=O)c3cc(Cl)cc(Cl)c3)cc2)c1,SAscore-linear-1.0,19425,inf,0,500,5747
+OCC1OC(n2cnc3c(NCC4=CCc5ccccc54)ncnc32)C(O)C1O,GNNEstimatorAVGScore-3.0,12957,inf,0,500,4269
+CC1=CC(C2=C(C)CCC(OC3OC(CO)C(O)C(O)C3O)C2(C)C)C(C=C(C)C(=O)O)OC1,GNN-NN-Split-MAX-3.0,23694,inf,0,500,9631
+OCC1OC(n2cnc3c(NCC4=CCc5ccccc54)ncnc32)C(O)C1O,GNNEstimatorAVGScore-10.0,12774,inf,0,500,4547
+COc1cc(F)cc(-c2ccc(C(CC(=O)O)NC(=O)C3CCCN3S(=O)(=O)c3cc(Cl)cc(Cl)c3)cc2)c1,GNNEstimatorMAXScore-3.0,19099,inf,0,500,5618
+OCC1OC(n2cnc3c(NCC4=CCc5ccccc54)ncnc32)C(O)C1O,GNN_NNSplitSingleMAXScore-3.0,12957,inf,0,500,4270
+COc1cc(F)cc(-c2ccc(C(CC(=O)O)NC(=O)C3CCCN3S(=O)(=O)c3cc(Cl)cc(Cl)c3)cc2)c1,GNNEstimatorMAXScore-10.0,18808,inf,0,500,5824
+OCC1OC(n2cnc3c(NCC4=CCc5ccccc54)ncnc32)C(O)C1O,GNN_NNSplitSingleMAXScore-10.0,12259,inf,0,500,4686
+COc1cc(F)cc(-c2ccc(C(CC(=O)O)NC(=O)C3CCCN3S(=O)(=O)c3cc(Cl)cc(Cl)c3)cc2)c1,GNNEstimatorAVGScore-3.0,19139,inf,0,500,5624
+OCC1OC(n2cnc3c(NCC4=CCc5ccccc54)ncnc32)C(O)C1O,GNN_NNSplitSingleAVGSCore-3.0,12957,inf,0,500,4270
+OCC1OC(n2cnc3c(NCC4=CCc5ccccc54)ncnc32)C(O)C1O,GNN_NNSplitSingleAVGSCore-10.0,12243,inf,0,500,4198
+COc1cc(F)cc(-c2ccc(C(CC(=O)O)NC(=O)C3CCCN3S(=O)(=O)c3cc(Cl)cc(Cl)c3)cc2)c1,GNNEstimatorAVGScore-10.0,18620,480,0,480 (NOTE: this was less than the maximum budget),5809
+COc1cc(F)cc(-c2ccc(C(CC(=O)O)NC(=O)C3CCCN3S(=O)(=O)c3cc(Cl)cc(Cl)c3)cc2)c1,GNN_NNSplitSingleMAXScore-3.0,19381,inf,0,500,5700
+CC1=CC(C2=C(C)CCC(OC3OC(CO)C(O)C(O)C3O)C2(C)C)C(C=C(C)C(=O)O)OC1,GNN-NN-Split-MAX-10.0,22051,inf,0,500,9086
+COc1cc(F)cc(-c2ccc(C(CC(=O)O)NC(=O)C3CCCN3S(=O)(=O)c3cc(Cl)cc(Cl)c3)cc2)c1,GNN_NNSplitSingleMAXScore-10.0,19325,inf,0,500,6037
+OCC1OC(n2cnc3c(NCC4=CCc5ccccc54)ncnc32)C(O)C1O,GNN-NN-Split-MAX-3.0,12957,inf,0,500,4269
+COc1cc(F)cc(-c2ccc(C(CC(=O)O)NC(=O)C3CCCN3S(=O)(=O)c3cc(Cl)cc(Cl)c3)cc2)c1,GNN_NNSplitSingleAVGSCore-3.0,19241,inf,0,500,5633
+COc1cc(F)cc(-c2ccc(C(CC(=O)O)NC(=O)C3CCCN3S(=O)(=O)c3cc(Cl)cc(Cl)c3)cc2)c1,GNN_NNSplitSingleAVGSCore-10.0,19459,inf,0,500,6070
+OCC1OC(n2cnc3c(NCC4=CCc5ccccc54)ncnc32)C(O)C1O,GNN-NN-Split-MAX-10.0,12774,inf,0,500,4542
+CC1=CC(C2=C(C)CCC(OC3OC(CO)C(O)C(O)C3O)C2(C)C)C(C=C(C)C(=O)O)OC1,GNN-NN-Split-AVG-3.0,23694,inf,0,500,9631
+COc1cc(F)cc(-c2ccc(C(CC(=O)O)NC(=O)C3CCCN3S(=O)(=O)c3cc(Cl)cc(Cl)c3)cc2)c1,GNN-NN-Split-MAX-3.0,19139,inf,0,500,5624
+OCC1OC(n2cnc3c(NCC4=CCc5ccccc54)ncnc32)C(O)C1O,GNN-NN-Split-AVG-3.0,12957,inf,0,500,4269
+OCC1OC(n2cnc3c(NCC4=CCc5ccccc54)ncnc32)C(O)C1O,GNN-NN-Split-AVG-10.0,12757,inf,0,500,4535
+Cc1ccc(S(=O)(=O)N=C(CC(C)Br)N(C)C)cc1,constant-0,1,inf,0,1 (NOTE: this was less than the maximum budget),0
+Cc1ccc(S(=O)(=O)N=C(CC(C)Br)N(C)C)cc1,SAscore-linear-0.3,1,inf,0,1 (NOTE: this was less than the maximum budget),0
+Cc1ccc(S(=O)(=O)N=C(CC(C)Br)N(C)C)cc1,SAscore-linear-1.0,1,inf,0,1 (NOTE: this was less than the maximum budget),0
+Cc1ccc(S(=O)(=O)N=C(CC(C)Br)N(C)C)cc1,GNNEstimatorMAXScore-3.0,1,inf,0,1 (NOTE: this was less than the maximum budget),0
+Cc1ccc(S(=O)(=O)N=C(CC(C)Br)N(C)C)cc1,GNNEstimatorMAXScore-10.0,1,inf,0,1 (NOTE: this was less than the maximum budget),0
+Cc1ccc(S(=O)(=O)N=C(CC(C)Br)N(C)C)cc1,GNNEstimatorAVGScore-3.0,1,inf,0,1 (NOTE: this was less than the maximum budget),0
+Cc1ccc(S(=O)(=O)N=C(CC(C)Br)N(C)C)cc1,GNNEstimatorAVGScore-10.0,1,inf,0,1 (NOTE: this was less than the maximum budget),0
+Cc1ccc(S(=O)(=O)N=C(CC(C)Br)N(C)C)cc1,GNN_NNSplitSingleMAXScore-3.0,1,inf,0,1 (NOTE: this was less than the maximum budget),0
+Cc1ccc(S(=O)(=O)N=C(CC(C)Br)N(C)C)cc1,GNN_NNSplitSingleMAXScore-10.0,1,inf,0,1 (NOTE: this was less than the maximum budget),0
+Cc1ccc(S(=O)(=O)N=C(CC(C)Br)N(C)C)cc1,GNN_NNSplitSingleAVGSCore-3.0,1,inf,0,1 (NOTE: this was less than the maximum budget),0
+Cc1ccc(S(=O)(=O)N=C(CC(C)Br)N(C)C)cc1,GNN_NNSplitSingleAVGSCore-10.0,1,inf,0,1 (NOTE: this was less than the maximum budget),0
+Cc1ccc(S(=O)(=O)N=C(CC(C)Br)N(C)C)cc1,GNN-NN-Split-MAX-3.0,1,inf,0,1 (NOTE: this was less than the maximum budget),0
+Cc1ccc(S(=O)(=O)N=C(CC(C)Br)N(C)C)cc1,GNN-NN-Split-MAX-10.0,1,inf,0,1 (NOTE: this was less than the maximum budget),0
+Cc1ccc(S(=O)(=O)N=C(CC(C)Br)N(C)C)cc1,GNN-NN-Split-AVG-3.0,1,inf,0,1 (NOTE: this was less than the maximum budget),0
+Cc1ccc(S(=O)(=O)N=C(CC(C)Br)N(C)C)cc1,GNN-NN-Split-AVG-10.0,1,inf,0,1 (NOTE: this was less than the maximum budget),0
+O=C(c1cc2cccc(F)c2[nH]1)N1CCNCC1,constant-0,110,2,0,2 (NOTE: this was less than the maximum budget),25
+O=C(c1cc2cccc(F)c2[nH]1)N1CCNCC1,SAscore-linear-0.3,223,5,0,5 (NOTE: this was less than the maximum budget),21
+O=C(c1cc2cccc(F)c2[nH]1)N1CCNCC1,SAscore-linear-1.0,223,5,0,5 (NOTE: this was less than the maximum budget),69
+O=C(c1cc2cccc(F)c2[nH]1)N1CCNCC1,GNNEstimatorMAXScore-3.0,101,2,0,2 (NOTE: this was less than the maximum budget),21
+O=C(c1cc2cccc(F)c2[nH]1)N1CCNCC1,GNNEstimatorMAXScore-10.0,101,2,0,2 (NOTE: this was less than the maximum budget),21
+O=C(c1cc2cccc(F)c2[nH]1)N1CCNCC1,GNNEstimatorAVGScore-3.0,101,2,0,2 (NOTE: this was less than the maximum budget),21
+O=C(c1cc2cccc(F)c2[nH]1)N1CCNCC1,GNNEstimatorAVGScore-10.0,101,2,0,2 (NOTE: this was less than the maximum budget),21
+O=C(c1cc2cccc(F)c2[nH]1)N1CCNCC1,GNN_NNSplitSingleMAXScore-3.0,101,2,0,2 (NOTE: this was less than the maximum budget),21
+O=C(c1cc2cccc(F)c2[nH]1)N1CCNCC1,GNN_NNSplitSingleMAXScore-10.0,101,2,0,2 (NOTE: this was less than the maximum budget),21
+O=C(c1cc2cccc(F)c2[nH]1)N1CCNCC1,GNN_NNSplitSingleAVGSCore-3.0,101,2,0,2 (NOTE: this was less than the maximum budget),21
+O=C(c1cc2cccc(F)c2[nH]1)N1CCNCC1,GNN_NNSplitSingleAVGSCore-10.0,101,2,0,2 (NOTE: this was less than the maximum budget),21
+O=C(c1cc2cccc(F)c2[nH]1)N1CCNCC1,GNN-NN-Split-MAX-3.0,101,2,0,2 (NOTE: this was less than the maximum budget),21
+O=C(c1cc2cccc(F)c2[nH]1)N1CCNCC1,GNN-NN-Split-MAX-10.0,101,2,0,2 (NOTE: this was less than the maximum budget),21
+O=C(c1cc2cccc(F)c2[nH]1)N1CCNCC1,GNN-NN-Split-AVG-3.0,101,2,0,2 (NOTE: this was less than the maximum budget),21
+O=C(c1cc2cccc(F)c2[nH]1)N1CCNCC1,GNN-NN-Split-AVG-10.0,101,2,0,2 (NOTE: this was less than the maximum budget),21
+COc1cc(OC)c(C2CCN(C)CC2)c(O)c1C(=O)C=Cc1ccccc1F,constant-0,17639,inf,0,500,720
+COc1cc(OC)c(C2CCN(C)CC2)c(O)c1C(=O)C=Cc1ccccc1F,SAscore-linear-0.3,8874,246,0,246 (NOTE: this was less than the maximum budget),2004
+COc1cc(OC)c(C2CCN(C)CC2)c(O)c1C(=O)C=Cc1ccccc1F,SAscore-linear-1.0,8293,228,0,228 (NOTE: this was less than the maximum budget),2494
+COc1cc(F)cc(-c2ccc(C(CC(=O)O)NC(=O)C3CCCN3S(=O)(=O)c3cc(Cl)cc(Cl)c3)cc2)c1,GNN-NN-Split-MAX-10.0,19469,inf,0,500,6079
+COc1cc(OC)c(C2CCN(C)CC2)c(O)c1C(=O)C=Cc1ccccc1F,GNNEstimatorMAXScore-3.0,10898,276,0,276 (NOTE: this was less than the maximum budget),3468
+CC1=CC(C2=C(C)CCC(OC3OC(CO)C(O)C(O)C3O)C2(C)C)C(C=C(C)C(=O)O)OC1,GNN-NN-Split-AVG-10.0,22051,inf,0,500,9086
+CCOC(=O)C12CCC=C1N(Cc1ccco1)C(=O)C(CC(=O)NCC1CCCCC1)C2,constant-0,11999,inf,0,500,623
+CCOC(=O)C12CCC=C1N(Cc1ccco1)C(=O)C(CC(=O)NCC1CCCCC1)C2,SAscore-linear-0.3,12163,inf,0,500,3641
+COc1cc(OC)c(C2CCN(C)CC2)c(O)c1C(=O)C=Cc1ccccc1F,GNNEstimatorMAXScore-10.0,28056,inf,0,500,10268
+CCOC(=O)C12CCC=C1N(Cc1ccco1)C(=O)C(CC(=O)NCC1CCCCC1)C2,SAscore-linear-1.0,12441,inf,0,500,3983
+COc1cc(OC)c(C2CCN(C)CC2)c(O)c1C(=O)C=Cc1ccccc1F,GNNEstimatorAVGScore-3.0,10898,276,0,276 (NOTE: this was less than the maximum budget),3468
+CCOC(=O)C12CCC=C1N(Cc1ccco1)C(=O)C(CC(=O)NCC1CCCCC1)C2,GNNEstimatorMAXScore-3.0,12262,inf,0,500,3969
+COc1cc(F)cc(-c2ccc(C(CC(=O)O)NC(=O)C3CCCN3S(=O)(=O)c3cc(Cl)cc(Cl)c3)cc2)c1,GNN-NN-Split-AVG-3.0,19345,inf,0,500,5685
+CCOC(=O)C12CCC=C1N(Cc1ccco1)C(=O)C(CC(=O)NCC1CCCCC1)C2,GNNEstimatorMAXScore-10.0,11814,inf,0,500,4052
+COc1cc(OC)c(C2CCN(C)CC2)c(O)c1C(=O)C=Cc1ccccc1F,GNNEstimatorAVGScore-10.0,19564,394,0,394 (NOTE: this was less than the maximum budget),7032
+COc1cc(OC)c(C2CCN(C)CC2)c(O)c1C(=O)C=Cc1ccccc1F,GNN_NNSplitSingleMAXScore-3.0,10898,276,0,276 (NOTE: this was less than the maximum budget),3468
+CCOC(=O)C12CCC=C1N(Cc1ccco1)C(=O)C(CC(=O)NCC1CCCCC1)C2,GNNEstimatorAVGScore-3.0,11851,inf,0,500,3846
+CCOC(=O)C12CCC=C1N(Cc1ccco1)C(=O)C(CC(=O)NCC1CCCCC1)C2,GNNEstimatorAVGScore-10.0,11944,inf,0,500,4098
+CCOC(=O)C12CCC=C1N(Cc1ccco1)C(=O)C(CC(=O)NCC1CCCCC1)C2,GNN_NNSplitSingleMAXScore-3.0,12108,inf,0,500,3961
+COc1cc(OC)c(C2CCN(C)CC2)c(O)c1C(=O)C=Cc1ccccc1F,GNN_NNSplitSingleMAXScore-10.0,28056,inf,0,500,10268
+COc1cc(OC)c(C2CCN(C)CC2)c(O)c1C(=O)C=Cc1ccccc1F,GNN_NNSplitSingleAVGSCore-3.0,10898,276,0,276 (NOTE: this was less than the maximum budget),3468
+CCOC(=O)C12CCC=C1N(Cc1ccco1)C(=O)C(CC(=O)NCC1CCCCC1)C2,GNN_NNSplitSingleMAXScore-10.0,12016,inf,0,500,4135
+COc1cc(F)cc(-c2ccc(C(CC(=O)O)NC(=O)C3CCCN3S(=O)(=O)c3cc(Cl)cc(Cl)c3)cc2)c1,GNN-NN-Split-AVG-10.0,19469,inf,0,500,6076
+COc1cc(-c2cc(OC)c(-n3c(=O)ccc4cc(S(=O)(=O)Nc5cccnn5)ccc43)cc2F)ccc1Cl,constant-0,21558,inf,0,500,616
+CCOC(=O)C12CCC=C1N(Cc1ccco1)C(=O)C(CC(=O)NCC1CCCCC1)C2,GNN_NNSplitSingleAVGSCore-3.0,11852,inf,0,500,3841
+COc1cc(-c2cc(OC)c(-n3c(=O)ccc4cc(S(=O)(=O)Nc5cccnn5)ccc43)cc2F)ccc1Cl,SAscore-linear-0.3,22245,inf,0,500,1469
+COc1cc(-c2cc(OC)c(-n3c(=O)ccc4cc(S(=O)(=O)Nc5cccnn5)ccc43)cc2F)ccc1Cl,SAscore-linear-1.0,14294,309,0,309 (NOTE: this was less than the maximum budget),3822
+CCOC(=O)C12CCC=C1N(Cc1ccco1)C(=O)C(CC(=O)NCC1CCCCC1)C2,GNN_NNSplitSingleAVGSCore-10.0,11966,inf,0,500,4106
+COc1cc(OC)c(C2CCN(C)CC2)c(O)c1C(=O)C=Cc1ccccc1F,GNN_NNSplitSingleAVGSCore-10.0,28056,inf,0,500,10267
+COc1cc(-c2cc(OC)c(-n3c(=O)ccc4cc(S(=O)(=O)Nc5cccnn5)ccc43)cc2F)ccc1Cl,GNNEstimatorMAXScore-3.0,21603,inf,0,500,5694
+COc1cc(-c2cc(OC)c(-n3c(=O)ccc4cc(S(=O)(=O)Nc5cccnn5)ccc43)cc2F)ccc1Cl,GNNEstimatorMAXScore-10.0,3390,79,0,79 (NOTE: this was less than the maximum budget),984
+COc1cc(OC)c(C2CCN(C)CC2)c(O)c1C(=O)C=Cc1ccccc1F,GNN-NN-Split-MAX-3.0,10898,276,0,276 (NOTE: this was less than the maximum budget),3468
+CCOC(=O)C12CCC=C1N(Cc1ccco1)C(=O)C(CC(=O)NCC1CCCCC1)C2,GNN-NN-Split-MAX-3.0,11867,inf,0,500,3857
+COc1cc(-c2cc(OC)c(-n3c(=O)ccc4cc(S(=O)(=O)Nc5cccnn5)ccc43)cc2F)ccc1Cl,GNNEstimatorAVGScore-3.0,21550,inf,0,500,5627
+COc1cc(-c2cc(OC)c(-n3c(=O)ccc4cc(S(=O)(=O)Nc5cccnn5)ccc43)cc2F)ccc1Cl,GNNEstimatorAVGScore-10.0,3325,78,0,78 (NOTE: this was less than the maximum budget),950
+COc1cc(-c2cc(OC)c(-n3c(=O)ccc4cc(S(=O)(=O)Nc5cccnn5)ccc43)cc2F)ccc1Cl,GNN_NNSplitSingleMAXScore-3.0,21643,inf,0,500,5704
+COc1cc(-c2cc(OC)c(-n3c(=O)ccc4cc(S(=O)(=O)Nc5cccnn5)ccc43)cc2F)ccc1Cl,GNN_NNSplitSingleMAXScore-10.0,3244,74,0,74 (NOTE: this was less than the maximum budget),961
+CCOC(=O)C12CCC=C1N(Cc1ccco1)C(=O)C(CC(=O)NCC1CCCCC1)C2,GNN-NN-Split-MAX-10.0,11857,inf,0,500,4061
+COc1cc(-c2cc(OC)c(-n3c(=O)ccc4cc(S(=O)(=O)Nc5cccnn5)ccc43)cc2F)ccc1Cl,GNN_NNSplitSingleAVGSCore-3.0,21529,inf,0,500,5628
+COc1cc(-c2cc(OC)c(-n3c(=O)ccc4cc(S(=O)(=O)Nc5cccnn5)ccc43)cc2F)ccc1Cl,GNN_NNSplitSingleAVGSCore-10.0,3223,76,0,76 (NOTE: this was less than the maximum budget),931
+COc1cc(OC)c(C2CCN(C)CC2)c(O)c1C(=O)C=Cc1ccccc1F,GNN-NN-Split-MAX-10.0,19613,395,0,395 (NOTE: this was less than the maximum budget),7049
+CCOC(=O)C12CCC=C1N(Cc1ccco1)C(=O)C(CC(=O)NCC1CCCCC1)C2,GNN-NN-Split-AVG-3.0,12068,inf,0,500,3929
+COc1cc(OC)c(C2CCN(C)CC2)c(O)c1C(=O)C=Cc1ccccc1F,GNN-NN-Split-AVG-3.0,10898,276,0,276 (NOTE: this was less than the maximum budget),3468
+COc1cc(-c2cc(OC)c(-n3c(=O)ccc4cc(S(=O)(=O)Nc5cccnn5)ccc43)cc2F)ccc1Cl,GNN-NN-Split-MAX-3.0,21615,inf,0,500,5702
+COc1cc(-c2cc(OC)c(-n3c(=O)ccc4cc(S(=O)(=O)Nc5cccnn5)ccc43)cc2F)ccc1Cl,GNN-NN-Split-MAX-10.0,3321,77,0,77 (NOTE: this was less than the maximum budget),983
+CCOC(=O)C12CCC=C1N(Cc1ccco1)C(=O)C(CC(=O)NCC1CCCCC1)C2,GNN-NN-Split-AVG-10.0,11934,inf,0,500,4102
+CCOC(=O)N1CCN(C(=O)c2ccc3c(=O)n(CCc4ccc(OC)c(OC)c4)c(=O)[nH]c3c2)CC1,constant-0,5739,199,0,199 (NOTE: this was less than the maximum budget),302
+CCOC(=O)N1CCN(C(=O)c2ccc3c(=O)n(CCc4ccc(OC)c(OC)c4)c(=O)[nH]c3c2)CC1,SAscore-linear-0.3,5108,175,0,175 (NOTE: this was less than the maximum budget),1061
+CCOC(=O)N1CCN(C(=O)c2ccc3c(=O)n(CCc4ccc(OC)c(OC)c4)c(=O)[nH]c3c2)CC1,SAscore-linear-1.0,3410,110,0,110 (NOTE: this was less than the maximum budget),1112
+CCOC(=O)N1CCN(C(=O)c2ccc3c(=O)n(CCc4ccc(OC)c(OC)c4)c(=O)[nH]c3c2)CC1,GNNEstimatorMAXScore-3.0,4391,149,0,149 (NOTE: this was less than the maximum budget),1327
+CCOC(=O)N1CCN(C(=O)c2ccc3c(=O)n(CCc4ccc(OC)c(OC)c4)c(=O)[nH]c3c2)CC1,GNNEstimatorMAXScore-10.0,369,11,0,11 (NOTE: this was less than the maximum budget),112
+CCOC(=O)N1CCN(C(=O)c2ccc3c(=O)n(CCc4ccc(OC)c(OC)c4)c(=O)[nH]c3c2)CC1,GNNEstimatorAVGScore-3.0,4391,149,0,149 (NOTE: this was less than the maximum budget),1327
+CCOC(=O)N1CCN(C(=O)c2ccc3c(=O)n(CCc4ccc(OC)c(OC)c4)c(=O)[nH]c3c2)CC1,GNNEstimatorAVGScore-10.0,369,11,0,11 (NOTE: this was less than the maximum budget),112
+CCOC(=O)N1CCN(C(=O)c2ccc3c(=O)n(CCc4ccc(OC)c(OC)c4)c(=O)[nH]c3c2)CC1,GNN_NNSplitSingleMAXScore-3.0,4332,148,0,148 (NOTE: this was less than the maximum budget),1312
+CCOC(=O)N1CCN(C(=O)c2ccc3c(=O)n(CCc4ccc(OC)c(OC)c4)c(=O)[nH]c3c2)CC1,GNN_NNSplitSingleMAXScore-10.0,369,11,0,11 (NOTE: this was less than the maximum budget),112
+CCOC(=O)N1CCN(C(=O)c2ccc3c(=O)n(CCc4ccc(OC)c(OC)c4)c(=O)[nH]c3c2)CC1,GNN_NNSplitSingleAVGSCore-3.0,4391,149,0,149 (NOTE: this was less than the maximum budget),1308
+CCOC(=O)N1CCN(C(=O)c2ccc3c(=O)n(CCc4ccc(OC)c(OC)c4)c(=O)[nH]c3c2)CC1,GNN_NNSplitSingleAVGSCore-10.0,369,11,0,11 (NOTE: this was less than the maximum budget),112
+CCOC(=O)N1CCN(C(=O)c2ccc3c(=O)n(CCc4ccc(OC)c(OC)c4)c(=O)[nH]c3c2)CC1,GNN-NN-Split-MAX-3.0,4391,149,0,149 (NOTE: this was less than the maximum budget),1308
+CCOC(=O)N1CCN(C(=O)c2ccc3c(=O)n(CCc4ccc(OC)c(OC)c4)c(=O)[nH]c3c2)CC1,GNN-NN-Split-MAX-10.0,369,11,0,11 (NOTE: this was less than the maximum budget),112
+COc1cc(OC)c(C2CCN(C)CC2)c(O)c1C(=O)C=Cc1ccccc1F,GNN-NN-Split-AVG-10.0,19198,388,0,388 (NOTE: this was less than the maximum budget),6895
+CCN(C(=O)OCc1ccccc1)C1CCN(CCC(CN2C(=O)NC(Cc3c[nH]c4ccccc34)C2=O)c2cccc(Cl)c2)CC1,constant-0,18725,inf,0,500,936
+CCOC(=O)N1CCN(C(=O)c2ccc3c(=O)n(CCc4ccc(OC)c(OC)c4)c(=O)[nH]c3c2)CC1,GNN-NN-Split-AVG-3.0,4332,148,0,148 (NOTE: this was less than the maximum budget),1312
+CCOC(=O)N1CCN(C(=O)c2ccc3c(=O)n(CCc4ccc(OC)c(OC)c4)c(=O)[nH]c3c2)CC1,GNN-NN-Split-AVG-10.0,369,11,0,11 (NOTE: this was less than the maximum budget),112
+CC(O)C1C(=O)N2C(C(=O)O)=C(SC(=S)N3CCCC3)C(C)C12,constant-0,8141,inf,0,500,730
+CCN(C(=O)OCc1ccccc1)C1CCN(CCC(CN2C(=O)NC(Cc3c[nH]c4ccccc34)C2=O)c2cccc(Cl)c2)CC1,SAscore-linear-0.3,17150,inf,0,500,5535
+COc1cc(-c2cc(OC)c(-n3c(=O)ccc4cc(S(=O)(=O)Nc5cccnn5)ccc43)cc2F)ccc1Cl,GNN-NN-Split-AVG-3.0,21611,inf,0,500,5707
+CC(O)C1C(=O)N2C(C(=O)O)=C(SC(=S)N3CCCC3)C(C)C12,SAscore-linear-0.3,8365,inf,0,500,2694
+CCN(C(=O)OCc1ccccc1)C1CCN(CCC(CN2C(=O)NC(Cc3c[nH]c4ccccc34)C2=O)c2cccc(Cl)c2)CC1,SAscore-linear-1.0,20107,inf,0,500,6882
+CC(O)C1C(=O)N2C(C(=O)O)=C(SC(=S)N3CCCC3)C(C)C12,SAscore-linear-1.0,8470,inf,0,500,2885
+COc1cc(-c2cc(OC)c(-n3c(=O)ccc4cc(S(=O)(=O)Nc5cccnn5)ccc43)cc2F)ccc1Cl,GNN-NN-Split-AVG-10.0,3219,75,0,75 (NOTE: this was less than the maximum budget),936
+CCCCC1(C)CC(CO)C(CCCC)(OC)OO1,constant-0,18232,inf,0,500,787
+CC(O)C1C(=O)N2C(C(=O)O)=C(SC(=S)N3CCCC3)C(C)C12,GNNEstimatorMAXScore-3.0,8744,inf,0,500,2975
+CCCCC1(C)CC(CO)C(CCCC)(OC)OO1,SAscore-linear-0.3,19558,inf,0,500,7231
+CCCCC1(C)CC(CO)C(CCCC)(OC)OO1,SAscore-linear-1.0,19501,inf,0,500,7137
+CCN(C(=O)OCc1ccccc1)C1CCN(CCC(CN2C(=O)NC(Cc3c[nH]c4ccccc34)C2=O)c2cccc(Cl)c2)CC1,GNNEstimatorMAXScore-3.0,20008,inf,0,500,6594
+CC(O)C1C(=O)N2C(C(=O)O)=C(SC(=S)N3CCCC3)C(C)C12,GNNEstimatorMAXScore-10.0,9053,inf,0,500,3196
+CC(O)C1C(=O)N2C(C(=O)O)=C(SC(=S)N3CCCC3)C(C)C12,GNNEstimatorAVGScore-3.0,8673,inf,0,500,2938
+CCCCC1(C)CC(CO)C(CCCC)(OC)OO1,GNNEstimatorMAXScore-3.0,18662,inf,0,500,6683
+CC(O)C1C(=O)N2C(C(=O)O)=C(SC(=S)N3CCCC3)C(C)C12,GNNEstimatorAVGScore-10.0,9028,inf,0,500,3199
+CCN(C(=O)OCc1ccccc1)C1CCN(CCC(CN2C(=O)NC(Cc3c[nH]c4ccccc34)C2=O)c2cccc(Cl)c2)CC1,GNNEstimatorMAXScore-10.0,22866,inf,0,500,8447
+CCCCC1(C)CC(CO)C(CCCC)(OC)OO1,GNNEstimatorMAXScore-10.0,22596,inf,0,500,9031
+CC(O)C1C(=O)N2C(C(=O)O)=C(SC(=S)N3CCCC3)C(C)C12,GNN_NNSplitSingleMAXScore-3.0,8768,inf,0,500,2984
+CC(O)C1C(=O)N2C(C(=O)O)=C(SC(=S)N3CCCC3)C(C)C12,GNN_NNSplitSingleMAXScore-10.0,9039,inf,0,500,3206
+CCCCC1(C)CC(CO)C(CCCC)(OC)OO1,GNNEstimatorAVGScore-3.0,18632,inf,0,500,6699
+CCN(C(=O)OCc1ccccc1)C1CCN(CCC(CN2C(=O)NC(Cc3c[nH]c4ccccc34)C2=O)c2cccc(Cl)c2)CC1,GNNEstimatorAVGScore-3.0,20099,inf,0,500,6578
+CC(O)C1C(=O)N2C(C(=O)O)=C(SC(=S)N3CCCC3)C(C)C12,GNN_NNSplitSingleAVGSCore-3.0,8768,inf,0,500,2984
+CC(O)C1C(=O)N2C(C(=O)O)=C(SC(=S)N3CCCC3)C(C)C12,GNN_NNSplitSingleAVGSCore-10.0,9037,inf,0,500,3169
+CCCCC1(C)CC(CO)C(CCCC)(OC)OO1,GNNEstimatorAVGScore-10.0,22551,inf,0,500,9068
+CCN(C(=O)OCc1ccccc1)C1CCN(CCC(CN2C(=O)NC(Cc3c[nH]c4ccccc34)C2=O)c2cccc(Cl)c2)CC1,GNNEstimatorAVGScore-10.0,20954,inf,0,500,7668
+CCCCC1(C)CC(CO)C(CCCC)(OC)OO1,GNN_NNSplitSingleMAXScore-3.0,18662,inf,0,500,6683
+CC(O)C1C(=O)N2C(C(=O)O)=C(SC(=S)N3CCCC3)C(C)C12,GNN-NN-Split-MAX-3.0,8673,inf,0,500,2938
+CCN(C(=O)OCc1ccccc1)C1CCN(CCC(CN2C(=O)NC(Cc3c[nH]c4ccccc34)C2=O)c2cccc(Cl)c2)CC1,GNN_NNSplitSingleMAXScore-3.0,20050,inf,0,500,6570
+CCCCC1(C)CC(CO)C(CCCC)(OC)OO1,GNN_NNSplitSingleMAXScore-10.0,22596,inf,0,500,9031
+CCCCC1(C)CC(CO)C(CCCC)(OC)OO1,GNN_NNSplitSingleAVGSCore-3.0,18632,inf,0,500,6698
+CCN(C(=O)OCc1ccccc1)C1CCN(CCC(CN2C(=O)NC(Cc3c[nH]c4ccccc34)C2=O)c2cccc(Cl)c2)CC1,GNN_NNSplitSingleMAXScore-10.0,22088,inf,0,500,8144
+CC(O)C1C(=O)N2C(C(=O)O)=C(SC(=S)N3CCCC3)C(C)C12,GNN-NN-Split-MAX-10.0,9037,inf,0,500,3168
+CCCCC1(C)CC(CO)C(CCCC)(OC)OO1,GNN_NNSplitSingleAVGSCore-10.0,22602,inf,0,500,9052
+CCN(C(=O)OCc1ccccc1)C1CCN(CCC(CN2C(=O)NC(Cc3c[nH]c4ccccc34)C2=O)c2cccc(Cl)c2)CC1,GNN_NNSplitSingleAVGSCore-3.0,20307,inf,0,500,6613
+CC(O)C1C(=O)N2C(C(=O)O)=C(SC(=S)N3CCCC3)C(C)C12,GNN-NN-Split-AVG-3.0,8673,inf,0,500,2938
+CCN(C(=O)OCc1ccccc1)C1CCN(CCC(CN2C(=O)NC(Cc3c[nH]c4ccccc34)C2=O)c2cccc(Cl)c2)CC1,GNN_NNSplitSingleAVGSCore-10.0,22862,inf,0,500,8579
+CC(O)C1C(=O)N2C(C(=O)O)=C(SC(=S)N3CCCC3)C(C)C12,GNN-NN-Split-AVG-10.0,9039,inf,0,500,3170
+O=C1OCCC1Sc1nnc(-c2ccc(F)cc2)n1Cc1ccccc1,constant-0,7993,491,0,491 (NOTE: this was less than the maximum budget),565
+CCCCC1(C)CC(CO)C(CCCC)(OC)OO1,GNN-NN-Split-MAX-3.0,18632,inf,0,500,6699
+O=C1OCCC1Sc1nnc(-c2ccc(F)cc2)n1Cc1ccccc1,SAscore-linear-0.3,8053,inf,0,500,1420
+O=C1OCCC1Sc1nnc(-c2ccc(F)cc2)n1Cc1ccccc1,SAscore-linear-1.0,5011,305,0,305 (NOTE: this was less than the maximum budget),1481
+O=C1OCCC1Sc1nnc(-c2ccc(F)cc2)n1Cc1ccccc1,GNNEstimatorMAXScore-3.0,2378,148,0,148 (NOTE: this was less than the maximum budget),672
+O=C1OCCC1Sc1nnc(-c2ccc(F)cc2)n1Cc1ccccc1,GNNEstimatorMAXScore-10.0,1464,84,0,84 (NOTE: this was less than the maximum budget),469
+O=C1OCCC1Sc1nnc(-c2ccc(F)cc2)n1Cc1ccccc1,GNNEstimatorAVGScore-3.0,2301,144,0,144 (NOTE: this was less than the maximum budget),650
+O=C1OCCC1Sc1nnc(-c2ccc(F)cc2)n1Cc1ccccc1,GNNEstimatorAVGScore-10.0,1381,82,0,82 (NOTE: this was less than the maximum budget),445
+O=C1OCCC1Sc1nnc(-c2ccc(F)cc2)n1Cc1ccccc1,GNN_NNSplitSingleMAXScore-3.0,2301,144,0,144 (NOTE: this was less than the maximum budget),650
+O=C1OCCC1Sc1nnc(-c2ccc(F)cc2)n1Cc1ccccc1,GNN_NNSplitSingleMAXScore-10.0,1490,86,0,86 (NOTE: this was less than the maximum budget),479
+O=C1OCCC1Sc1nnc(-c2ccc(F)cc2)n1Cc1ccccc1,GNN_NNSplitSingleAVGSCore-3.0,2378,148,0,148 (NOTE: this was less than the maximum budget),673
+O=C1OCCC1Sc1nnc(-c2ccc(F)cc2)n1Cc1ccccc1,GNN_NNSplitSingleAVGSCore-10.0,1455,86,0,86 (NOTE: this was less than the maximum budget),475
+O=C1OCCC1Sc1nnc(-c2ccc(F)cc2)n1Cc1ccccc1,GNN-NN-Split-MAX-3.0,2437,152,0,152 (NOTE: this was less than the maximum budget),691
+O=C1OCCC1Sc1nnc(-c2ccc(F)cc2)n1Cc1ccccc1,GNN-NN-Split-MAX-10.0,1464,84,0,84 (NOTE: this was less than the maximum budget),470
+O=C1OCCC1Sc1nnc(-c2ccc(F)cc2)n1Cc1ccccc1,GNN-NN-Split-AVG-3.0,2301,144,0,144 (NOTE: this was less than the maximum budget),650
+O=C1OCCC1Sc1nnc(-c2ccc(F)cc2)n1Cc1ccccc1,GNN-NN-Split-AVG-10.0,1417,85,0,85 (NOTE: this was less than the maximum budget),457
+Cc1nc(Cc2ccc(F)cc2)nc(N2CCc3cc(Cl)ccc3C2C)c1C,constant-0,2527,104,0,104 (NOTE: this was less than the maximum budget),165
+Cc1nc(Cc2ccc(F)cc2)nc(N2CCc3cc(Cl)ccc3C2C)c1C,SAscore-linear-0.3,3130,124,0,124 (NOTE: this was less than the maximum budget),733
+Cc1nc(Cc2ccc(F)cc2)nc(N2CCc3cc(Cl)ccc3C2C)c1C,SAscore-linear-1.0,2671,104,0,104 (NOTE: this was less than the maximum budget),793
+Cc1nc(Cc2ccc(F)cc2)nc(N2CCc3cc(Cl)ccc3C2C)c1C,GNNEstimatorMAXScore-3.0,2535,101,0,101 (NOTE: this was less than the maximum budget),767
+Cc1nc(Cc2ccc(F)cc2)nc(N2CCc3cc(Cl)ccc3C2C)c1C,GNNEstimatorMAXScore-10.0,534,20,0,20 (NOTE: this was less than the maximum budget),147
+Cc1nc(Cc2ccc(F)cc2)nc(N2CCc3cc(Cl)ccc3C2C)c1C,GNNEstimatorAVGScore-3.0,2535,101,0,101 (NOTE: this was less than the maximum budget),767
+Cc1nc(Cc2ccc(F)cc2)nc(N2CCc3cc(Cl)ccc3C2C)c1C,GNNEstimatorAVGScore-10.0,534,20,0,20 (NOTE: this was less than the maximum budget),147
+Cc1nc(Cc2ccc(F)cc2)nc(N2CCc3cc(Cl)ccc3C2C)c1C,GNN_NNSplitSingleMAXScore-3.0,2535,101,0,101 (NOTE: this was less than the maximum budget),767
+Cc1nc(Cc2ccc(F)cc2)nc(N2CCc3cc(Cl)ccc3C2C)c1C,GNN_NNSplitSingleMAXScore-10.0,534,20,0,20 (NOTE: this was less than the maximum budget),147
+CCN(C(=O)OCc1ccccc1)C1CCN(CCC(CN2C(=O)NC(Cc3c[nH]c4ccccc34)C2=O)c2cccc(Cl)c2)CC1,GNN-NN-Split-MAX-3.0,20109,inf,0,500,6569
+Cc1nc(Cc2ccc(F)cc2)nc(N2CCc3cc(Cl)ccc3C2C)c1C,GNN_NNSplitSingleAVGSCore-3.0,2535,101,0,101 (NOTE: this was less than the maximum budget),767
+Cc1nc(Cc2ccc(F)cc2)nc(N2CCc3cc(Cl)ccc3C2C)c1C,GNN_NNSplitSingleAVGSCore-10.0,534,20,0,20 (NOTE: this was less than the maximum budget),147
+Cc1nc(Cc2ccc(F)cc2)nc(N2CCc3cc(Cl)ccc3C2C)c1C,GNN-NN-Split-MAX-3.0,2535,101,0,101 (NOTE: this was less than the maximum budget),767
+Cc1nc(Cc2ccc(F)cc2)nc(N2CCc3cc(Cl)ccc3C2C)c1C,GNN-NN-Split-MAX-10.0,534,20,0,20 (NOTE: this was less than the maximum budget),147
+Cc1nc(Cc2ccc(F)cc2)nc(N2CCc3cc(Cl)ccc3C2C)c1C,GNN-NN-Split-AVG-3.0,2535,101,0,101 (NOTE: this was less than the maximum budget),767
+Cc1nc(Cc2ccc(F)cc2)nc(N2CCc3cc(Cl)ccc3C2C)c1C,GNN-NN-Split-AVG-10.0,534,20,0,20 (NOTE: this was less than the maximum budget),147
+Cc1ccc(C)n1-c1nc(C2CC2)n(Cc2ccc(-c3ccccc3-c3nn[nH]n3)cc2)c1C(=O)O,constant-0,11626,inf,0,500,686
+CCCCC1(C)CC(CO)C(CCCC)(OC)OO1,GNN-NN-Split-MAX-10.0,22533,inf,0,500,9070
+Cc1ccc(C)n1-c1nc(C2CC2)n(Cc2ccc(-c3ccccc3-c3nn[nH]n3)cc2)c1C(=O)O,SAscore-linear-0.3,11272,inf,0,500,1763
+Cc1ccc(C)n1-c1nc(C2CC2)n(Cc2ccc(-c3ccccc3-c3nn[nH]n3)cc2)c1C(=O)O,SAscore-linear-1.0,10943,inf,0,500,2909
+Cc1ccc(C)n1-c1nc(C2CC2)n(Cc2ccc(-c3ccccc3-c3nn[nH]n3)cc2)c1C(=O)O,GNNEstimatorMAXScore-3.0,11265,inf,0,500,2724
+Cc1ccc(C)n1-c1nc(C2CC2)n(Cc2ccc(-c3ccccc3-c3nn[nH]n3)cc2)c1C(=O)O,GNNEstimatorMAXScore-10.0,11587,inf,0,500,3314
+Cc1ccc(C)n1-c1nc(C2CC2)n(Cc2ccc(-c3ccccc3-c3nn[nH]n3)cc2)c1C(=O)O,GNNEstimatorAVGScore-3.0,11362,inf,0,500,3081
+Cc1ccc(C)n1-c1nc(C2CC2)n(Cc2ccc(-c3ccccc3-c3nn[nH]n3)cc2)c1C(=O)O,GNNEstimatorAVGScore-10.0,11548,inf,0,500,3289
+CCCCC1(C)CC(CO)C(CCCC)(OC)OO1,GNN-NN-Split-AVG-3.0,18662,inf,0,500,6683
+CCN(C(=O)OCc1ccccc1)C1CCN(CCC(CN2C(=O)NC(Cc3c[nH]c4ccccc34)C2=O)c2cccc(Cl)c2)CC1,GNN-NN-Split-MAX-10.0,22030,inf,0,500,8118
+Cc1ccc(C)n1-c1nc(C2CC2)n(Cc2ccc(-c3ccccc3-c3nn[nH]n3)cc2)c1C(=O)O,GNN_NNSplitSingleMAXScore-3.0,11282,inf,0,500,2721
+Cc1ccc(C)n1-c1nc(C2CC2)n(Cc2ccc(-c3ccccc3-c3nn[nH]n3)cc2)c1C(=O)O,GNN_NNSplitSingleMAXScore-10.0,11636,inf,0,500,3337
+Cc1ccc(C)n1-c1nc(C2CC2)n(Cc2ccc(-c3ccccc3-c3nn[nH]n3)cc2)c1C(=O)O,GNN_NNSplitSingleAVGSCore-3.0,11368,inf,0,500,3097
+Cc1ccc(C)n1-c1nc(C2CC2)n(Cc2ccc(-c3ccccc3-c3nn[nH]n3)cc2)c1C(=O)O,GNN_NNSplitSingleAVGSCore-10.0,11594,inf,0,500,3261
+CCCCC1(C)CC(CO)C(CCCC)(OC)OO1,GNN-NN-Split-AVG-10.0,22596,inf,0,500,9030
+Cc1ccc(C)n1-c1nc(C2CC2)n(Cc2ccc(-c3ccccc3-c3nn[nH]n3)cc2)c1C(=O)O,GNN-NN-Split-MAX-3.0,11392,inf,0,500,2782
+CCN(C(=O)OCc1ccccc1)C1CCN(CCC(CN2C(=O)NC(Cc3c[nH]c4ccccc34)C2=O)c2cccc(Cl)c2)CC1,GNN-NN-Split-AVG-3.0,19531,inf,0,500,6443
+CCCCCCCCCCCCNc1ccc2c3c(cccc13)C(=O)N(CCCN1CCCNCCNCCCNCC1)C2=O,constant-0,44869,inf,0,500,1345
+CCCCCCCCCCCCNc1ccc2c3c(cccc13)C(=O)N(CCCN1CCCNCCNCCCNCC1)C2=O,SAscore-linear-0.3,43749,inf,0,500,3094
+CCCCCCCCCCCCNc1ccc2c3c(cccc13)C(=O)N(CCCN1CCCNCCNCCCNCC1)C2=O,SAscore-linear-1.0,43082,inf,0,500,13439
+Cc1ccc(C)n1-c1nc(C2CC2)n(Cc2ccc(-c3ccccc3-c3nn[nH]n3)cc2)c1C(=O)O,GNN-NN-Split-MAX-10.0,11636,inf,0,500,3329
+Cc1ccc(C)n1-c1nc(C2CC2)n(Cc2ccc(-c3ccccc3-c3nn[nH]n3)cc2)c1C(=O)O,GNN-NN-Split-AVG-3.0,11389,inf,0,500,2784
+CCCCCCCCCCCCNc1ccc2c3c(cccc13)C(=O)N(CCCN1CCCNCCNCCCNCC1)C2=O,GNNEstimatorMAXScore-3.0,44686,inf,0,500,15283
+CCCCCCCCCCCCNc1ccc2c3c(cccc13)C(=O)N(CCCN1CCCNCCNCCCNCC1)C2=O,GNNEstimatorMAXScore-10.0,21066,249,0,249 (NOTE: this was less than the maximum budget),8228
+CCN(C(=O)OCc1ccccc1)C1CCN(CCC(CN2C(=O)NC(Cc3c[nH]c4ccccc34)C2=O)c2cccc(Cl)c2)CC1,GNN-NN-Split-AVG-10.0,23200,inf,0,500,8678
+NCCCNCCCCNCCCNC(=O)Cc1cccc2ccccc12,constant-0,4259,62,0,62 (NOTE: this was less than the maximum budget),222
+Cc1ccc(C)n1-c1nc(C2CC2)n(Cc2ccc(-c3ccccc3-c3nn[nH]n3)cc2)c1C(=O)O,GNN-NN-Split-AVG-10.0,11577,inf,0,500,3226
+CCCCC(=O)NN=C(C)C=Cc1ccccc1F,constant-0,291,8,0,8 (NOTE: this was less than the maximum budget),10
+CCCCC(=O)NN=C(C)C=Cc1ccccc1F,SAscore-linear-0.3,96,6,0,6 (NOTE: this was less than the maximum budget),7
+CCCCC(=O)NN=C(C)C=Cc1ccccc1F,SAscore-linear-1.0,96,6,0,6 (NOTE: this was less than the maximum budget),19
+CCCCC(=O)NN=C(C)C=Cc1ccccc1F,GNNEstimatorMAXScore-3.0,96,6,0,6 (NOTE: this was less than the maximum budget),18
+CCCCC(=O)NN=C(C)C=Cc1ccccc1F,GNNEstimatorMAXScore-10.0,96,6,0,6 (NOTE: this was less than the maximum budget),19
+CCCCC(=O)NN=C(C)C=Cc1ccccc1F,GNNEstimatorAVGScore-3.0,96,6,0,6 (NOTE: this was less than the maximum budget),18
+CCCCC(=O)NN=C(C)C=Cc1ccccc1F,GNNEstimatorAVGScore-10.0,96,6,0,6 (NOTE: this was less than the maximum budget),19
+CCCCC(=O)NN=C(C)C=Cc1ccccc1F,GNN_NNSplitSingleMAXScore-3.0,96,6,0,6 (NOTE: this was less than the maximum budget),18
+CCCCC(=O)NN=C(C)C=Cc1ccccc1F,GNN_NNSplitSingleMAXScore-10.0,96,6,0,6 (NOTE: this was less than the maximum budget),18
+CCCCC(=O)NN=C(C)C=Cc1ccccc1F,GNN_NNSplitSingleAVGSCore-3.0,96,6,0,6 (NOTE: this was less than the maximum budget),18
+CCCCC(=O)NN=C(C)C=Cc1ccccc1F,GNN_NNSplitSingleAVGSCore-10.0,96,6,0,6 (NOTE: this was less than the maximum budget),18
+CCCCC(=O)NN=C(C)C=Cc1ccccc1F,GNN-NN-Split-MAX-3.0,96,6,0,6 (NOTE: this was less than the maximum budget),17
+CCCCC(=O)NN=C(C)C=Cc1ccccc1F,GNN-NN-Split-MAX-10.0,96,6,0,6 (NOTE: this was less than the maximum budget),18
+CCCCC(=O)NN=C(C)C=Cc1ccccc1F,GNN-NN-Split-AVG-3.0,96,6,0,6 (NOTE: this was less than the maximum budget),18
+CCCCC(=O)NN=C(C)C=Cc1ccccc1F,GNN-NN-Split-AVG-10.0,96,6,0,6 (NOTE: this was less than the maximum budget),18
+NCCCNCCCCNCCCNC(=O)Cc1cccc2ccccc12,SAscore-linear-0.3,26348,465,0,465 (NOTE: this was less than the maximum budget),5169
+NCCCNCCCCNCCCNC(=O)Cc1cccc2ccccc12,SAscore-linear-1.0,2369,31,0,31 (NOTE: this was less than the maximum budget),620
+NCCCNCCCCNCCCNC(=O)Cc1cccc2ccccc12,GNNEstimatorMAXScore-3.0,2400,33,0,33 (NOTE: this was less than the maximum budget),615
+NCCCNCCCCNCCCNC(=O)Cc1cccc2ccccc12,GNNEstimatorMAXScore-10.0,591,7,0,7 (NOTE: this was less than the maximum budget),230
+NCCCNCCCCNCCCNC(=O)Cc1cccc2ccccc12,GNNEstimatorAVGScore-3.0,2400,33,0,33 (NOTE: this was less than the maximum budget),614
+NCCCNCCCCNCCCNC(=O)Cc1cccc2ccccc12,GNNEstimatorAVGScore-10.0,591,7,0,7 (NOTE: this was less than the maximum budget),230
+c1ccc2c(c1)CCN1CCc3cc(OCCCCCOc4ccc5c(c4)CCN4CCc6ccccc6C54)ccc3C21,constant-0,21975,inf,0,500,909
+NCCCNCCCCNCCCNC(=O)Cc1cccc2ccccc12,GNN_NNSplitSingleMAXScore-3.0,2400,33,0,33 (NOTE: this was less than the maximum budget),616
+NCCCNCCCCNCCCNC(=O)Cc1cccc2ccccc12,GNN_NNSplitSingleMAXScore-10.0,591,7,0,7 (NOTE: this was less than the maximum budget),230
+NCCCNCCCCNCCCNC(=O)Cc1cccc2ccccc12,GNN_NNSplitSingleAVGSCore-3.0,2400,33,0,33 (NOTE: this was less than the maximum budget),614
+NCCCNCCCCNCCCNC(=O)Cc1cccc2ccccc12,GNN_NNSplitSingleAVGSCore-10.0,591,7,0,7 (NOTE: this was less than the maximum budget),230
+c1ccc2c(c1)CCN1CCc3cc(OCCCCCOc4ccc5c(c4)CCN4CCc6ccccc6C54)ccc3C21,SAscore-linear-0.3,12332,290,0,290 (NOTE: this was less than the maximum budget),2349
+c1ccc2c(c1)CCN1CCc3cc(OCCCCCOc4ccc5c(c4)CCN4CCc6ccccc6C54)ccc3C21,SAscore-linear-1.0,8926,198,0,198 (NOTE: this was less than the maximum budget),2621
+NCCCNCCCCNCCCNC(=O)Cc1cccc2ccccc12,GNN-NN-Split-MAX-3.0,2400,33,0,33 (NOTE: this was less than the maximum budget),594
+NCCCNCCCCNCCCNC(=O)Cc1cccc2ccccc12,GNN-NN-Split-MAX-10.0,591,7,0,7 (NOTE: this was less than the maximum budget),230
+NCCCNCCCCNCCCNC(=O)Cc1cccc2ccccc12,GNN-NN-Split-AVG-3.0,2400,33,0,33 (NOTE: this was less than the maximum budget),614
+NCCCNCCCCNCCCNC(=O)Cc1cccc2ccccc12,GNN-NN-Split-AVG-10.0,591,7,0,7 (NOTE: this was less than the maximum budget),230
+O=C(NCCCN1CCCC1=O)C1CCN(S(=O)(=O)c2cccc(Cl)c2Cl)CC1,constant-0,3138,109,0,109 (NOTE: this was less than the maximum budget),203
+O=C(NCCCN1CCCC1=O)C1CCN(S(=O)(=O)c2cccc(Cl)c2Cl)CC1,SAscore-linear-0.3,2856,96,0,96 (NOTE: this was less than the maximum budget),654
+O=C(NCCCN1CCCC1=O)C1CCN(S(=O)(=O)c2cccc(Cl)c2Cl)CC1,SAscore-linear-1.0,2559,83,0,83 (NOTE: this was less than the maximum budget),689
+O=C(NCCCN1CCCC1=O)C1CCN(S(=O)(=O)c2cccc(Cl)c2Cl)CC1,GNNEstimatorMAXScore-3.0,2694,87,0,87 (NOTE: this was less than the maximum budget),734
+O=C(NCCCN1CCCC1=O)C1CCN(S(=O)(=O)c2cccc(Cl)c2Cl)CC1,GNNEstimatorMAXScore-10.0,357,7,0,7 (NOTE: this was less than the maximum budget),115
+O=C(NCCCN1CCCC1=O)C1CCN(S(=O)(=O)c2cccc(Cl)c2Cl)CC1,GNNEstimatorAVGScore-3.0,2694,87,0,87 (NOTE: this was less than the maximum budget),734
+O=C(NCCCN1CCCC1=O)C1CCN(S(=O)(=O)c2cccc(Cl)c2Cl)CC1,GNNEstimatorAVGScore-10.0,357,7,0,7 (NOTE: this was less than the maximum budget),115
+CCCCCCCCCCCCNc1ccc2c3c(cccc13)C(=O)N(CCCN1CCCNCCNCCCNCC1)C2=O,GNNEstimatorAVGScore-3.0,44574,inf,0,500,15245
+O=C(NCCCN1CCCC1=O)C1CCN(S(=O)(=O)c2cccc(Cl)c2Cl)CC1,GNN_NNSplitSingleMAXScore-3.0,2694,87,0,87 (NOTE: this was less than the maximum budget),734
+O=C(NCCCN1CCCC1=O)C1CCN(S(=O)(=O)c2cccc(Cl)c2Cl)CC1,GNN_NNSplitSingleMAXScore-10.0,357,7,0,7 (NOTE: this was less than the maximum budget),115
+c1ccc2c(c1)CCN1CCc3cc(OCCCCCOc4ccc5c(c4)CCN4CCc6ccccc6C54)ccc3C21,GNNEstimatorMAXScore-3.0,19496,439,0,439 (NOTE: this was less than the maximum budget),5868
+O=C(NCCCN1CCCC1=O)C1CCN(S(=O)(=O)c2cccc(Cl)c2Cl)CC1,GNN_NNSplitSingleAVGSCore-3.0,2694,87,0,87 (NOTE: this was less than the maximum budget),734
+O=C(NCCCN1CCCC1=O)C1CCN(S(=O)(=O)c2cccc(Cl)c2Cl)CC1,GNN_NNSplitSingleAVGSCore-10.0,357,7,0,7 (NOTE: this was less than the maximum budget),115
+O=C(NCCCN1CCCC1=O)C1CCN(S(=O)(=O)c2cccc(Cl)c2Cl)CC1,GNN-NN-Split-MAX-3.0,2694,87,0,87 (NOTE: this was less than the maximum budget),734
+O=C(NCCCN1CCCC1=O)C1CCN(S(=O)(=O)c2cccc(Cl)c2Cl)CC1,GNN-NN-Split-MAX-10.0,357,7,0,7 (NOTE: this was less than the maximum budget),115
+c1ccc2c(c1)CCN1CCc3cc(OCCCCCOc4ccc5c(c4)CCN4CCc6ccccc6C54)ccc3C21,GNNEstimatorMAXScore-10.0,10345,229,0,229 (NOTE: this was less than the maximum budget),3036
+O=C(NCCCN1CCCC1=O)C1CCN(S(=O)(=O)c2cccc(Cl)c2Cl)CC1,GNN-NN-Split-AVG-3.0,2694,87,0,87 (NOTE: this was less than the maximum budget),734
+O=C(NCCCN1CCCC1=O)C1CCN(S(=O)(=O)c2cccc(Cl)c2Cl)CC1,GNN-NN-Split-AVG-10.0,357,7,0,7 (NOTE: this was less than the maximum budget),115
+CSc1ccc(NC(=O)Nc2ccc(-c3cc(Nc4cccc(C(F)(F)F)c4)ncn3)cc2)cc1,constant-0,321,8,0,8 (NOTE: this was less than the maximum budget),29
+CSc1ccc(NC(=O)Nc2ccc(-c3cc(Nc4cccc(C(F)(F)F)c4)ncn3)cc2)cc1,SAscore-linear-0.3,787,19,0,19 (NOTE: this was less than the maximum budget),20
+CSc1ccc(NC(=O)Nc2ccc(-c3cc(Nc4cccc(C(F)(F)F)c4)ncn3)cc2)cc1,SAscore-linear-1.0,849,19,0,19 (NOTE: this was less than the maximum budget),195
+CSc1ccc(NC(=O)Nc2ccc(-c3cc(Nc4cccc(C(F)(F)F)c4)ncn3)cc2)cc1,GNNEstimatorMAXScore-3.0,157,4,0,4 (NOTE: this was less than the maximum budget),36
+CSc1ccc(NC(=O)Nc2ccc(-c3cc(Nc4cccc(C(F)(F)F)c4)ncn3)cc2)cc1,GNNEstimatorMAXScore-10.0,157,4,0,4 (NOTE: this was less than the maximum budget),36
+CSc1ccc(NC(=O)Nc2ccc(-c3cc(Nc4cccc(C(F)(F)F)c4)ncn3)cc2)cc1,GNNEstimatorAVGScore-3.0,157,4,0,4 (NOTE: this was less than the maximum budget),36
+CSc1ccc(NC(=O)Nc2ccc(-c3cc(Nc4cccc(C(F)(F)F)c4)ncn3)cc2)cc1,GNNEstimatorAVGScore-10.0,157,4,0,4 (NOTE: this was less than the maximum budget),36
+CSc1ccc(NC(=O)Nc2ccc(-c3cc(Nc4cccc(C(F)(F)F)c4)ncn3)cc2)cc1,GNN_NNSplitSingleMAXScore-3.0,157,4,0,4 (NOTE: this was less than the maximum budget),36
+CSc1ccc(NC(=O)Nc2ccc(-c3cc(Nc4cccc(C(F)(F)F)c4)ncn3)cc2)cc1,GNN_NNSplitSingleMAXScore-10.0,157,4,0,4 (NOTE: this was less than the maximum budget),36
+CSc1ccc(NC(=O)Nc2ccc(-c3cc(Nc4cccc(C(F)(F)F)c4)ncn3)cc2)cc1,GNN_NNSplitSingleAVGSCore-3.0,157,4,0,4 (NOTE: this was less than the maximum budget),36
+CSc1ccc(NC(=O)Nc2ccc(-c3cc(Nc4cccc(C(F)(F)F)c4)ncn3)cc2)cc1,GNN_NNSplitSingleAVGSCore-10.0,157,4,0,4 (NOTE: this was less than the maximum budget),36
+CSc1ccc(NC(=O)Nc2ccc(-c3cc(Nc4cccc(C(F)(F)F)c4)ncn3)cc2)cc1,GNN-NN-Split-MAX-3.0,157,4,0,4 (NOTE: this was less than the maximum budget),36
+CSc1ccc(NC(=O)Nc2ccc(-c3cc(Nc4cccc(C(F)(F)F)c4)ncn3)cc2)cc1,GNN-NN-Split-MAX-10.0,157,4,0,4 (NOTE: this was less than the maximum budget),36
+CSc1ccc(NC(=O)Nc2ccc(-c3cc(Nc4cccc(C(F)(F)F)c4)ncn3)cc2)cc1,GNN-NN-Split-AVG-3.0,157,4,0,4 (NOTE: this was less than the maximum budget),36
+CSc1ccc(NC(=O)Nc2ccc(-c3cc(Nc4cccc(C(F)(F)F)c4)ncn3)cc2)cc1,GNN-NN-Split-AVG-10.0,157,4,0,4 (NOTE: this was less than the maximum budget),36
+COc1cc(OC)cc(C(=O)Nc2ccc(N3CCN(C(=O)c4cccs4)CC3)cc2)c1,constant-0,148,4,0,4 (NOTE: this was less than the maximum budget),14
+COc1cc(OC)cc(C(=O)Nc2ccc(N3CCN(C(=O)c4cccs4)CC3)cc2)c1,SAscore-linear-0.3,148,4,0,4 (NOTE: this was less than the maximum budget),5
+COc1cc(OC)cc(C(=O)Nc2ccc(N3CCN(C(=O)c4cccs4)CC3)cc2)c1,SAscore-linear-1.0,134,5,0,5 (NOTE: this was less than the maximum budget),40
+COc1cc(OC)cc(C(=O)Nc2ccc(N3CCN(C(=O)c4cccs4)CC3)cc2)c1,GNNEstimatorMAXScore-3.0,184,5,0,5 (NOTE: this was less than the maximum budget),40
+COc1cc(OC)cc(C(=O)Nc2ccc(N3CCN(C(=O)c4cccs4)CC3)cc2)c1,GNNEstimatorMAXScore-10.0,151,4,0,4 (NOTE: this was less than the maximum budget),22
+COc1cc(OC)cc(C(=O)Nc2ccc(N3CCN(C(=O)c4cccs4)CC3)cc2)c1,GNNEstimatorAVGScore-3.0,184,5,0,5 (NOTE: this was less than the maximum budget),40
+COc1cc(OC)cc(C(=O)Nc2ccc(N3CCN(C(=O)c4cccs4)CC3)cc2)c1,GNNEstimatorAVGScore-10.0,151,4,0,4 (NOTE: this was less than the maximum budget),22
+COc1cc(OC)cc(C(=O)Nc2ccc(N3CCN(C(=O)c4cccs4)CC3)cc2)c1,GNN_NNSplitSingleMAXScore-3.0,184,5,0,5 (NOTE: this was less than the maximum budget),40
+COc1cc(OC)cc(C(=O)Nc2ccc(N3CCN(C(=O)c4cccs4)CC3)cc2)c1,GNN_NNSplitSingleMAXScore-10.0,151,4,0,4 (NOTE: this was less than the maximum budget),22
+COc1cc(OC)cc(C(=O)Nc2ccc(N3CCN(C(=O)c4cccs4)CC3)cc2)c1,GNN_NNSplitSingleAVGSCore-3.0,184,5,0,5 (NOTE: this was less than the maximum budget),40
+CCCCCCCCCCCCNc1ccc2c3c(cccc13)C(=O)N(CCCN1CCCNCCNCCCNCC1)C2=O,GNNEstimatorAVGScore-10.0,21344,254,0,254 (NOTE: this was less than the maximum budget),8339
+COc1cc(OC)cc(C(=O)Nc2ccc(N3CCN(C(=O)c4cccs4)CC3)cc2)c1,GNN_NNSplitSingleAVGSCore-10.0,151,4,0,4 (NOTE: this was less than the maximum budget),22
+COc1cc(OC)cc(C(=O)Nc2ccc(N3CCN(C(=O)c4cccs4)CC3)cc2)c1,GNN-NN-Split-MAX-3.0,184,5,0,5 (NOTE: this was less than the maximum budget),40
+COc1cc(OC)cc(C(=O)Nc2ccc(N3CCN(C(=O)c4cccs4)CC3)cc2)c1,GNN-NN-Split-MAX-10.0,151,4,0,4 (NOTE: this was less than the maximum budget),22
+COc1cc(OC)cc(C(=O)Nc2ccc(N3CCN(C(=O)c4cccs4)CC3)cc2)c1,GNN-NN-Split-AVG-3.0,184,5,0,5 (NOTE: this was less than the maximum budget),40
+COc1cc(OC)cc(C(=O)Nc2ccc(N3CCN(C(=O)c4cccs4)CC3)cc2)c1,GNN-NN-Split-AVG-10.0,151,4,0,4 (NOTE: this was less than the maximum budget),22
+Cc1ccc(C2=C(CC(=O)O)C(c3cccs3)NC(S)=N2)cc1,constant-0,11435,inf,0,500,908
+Cc1ccc(C2=C(CC(=O)O)C(c3cccs3)NC(S)=N2)cc1,SAscore-linear-0.3,10538,inf,0,500,3434
+Cc1ccc(C2=C(CC(=O)O)C(c3cccs3)NC(S)=N2)cc1,SAscore-linear-1.0,10688,inf,0,500,3531
+c1ccc2c(c1)CCN1CCc3cc(OCCCCCOc4ccc5c(c4)CCN4CCc6ccccc6C54)ccc3C21,GNNEstimatorAVGScore-3.0,22019,inf,0,500,6560
+c1ccc2c(c1)CCN1CCc3cc(OCCCCCOc4ccc5c(c4)CCN4CCc6ccccc6C54)ccc3C21,GNNEstimatorAVGScore-10.0,1653,35,0,35 (NOTE: this was less than the maximum budget),596
+Cc1ccc(C2=C(CC(=O)O)C(c3cccs3)NC(S)=N2)cc1,GNNEstimatorMAXScore-3.0,10515,inf,0,500,3484
+Cc1ccc(C2=C(CC(=O)O)C(c3cccs3)NC(S)=N2)cc1,GNNEstimatorMAXScore-10.0,9991,inf,0,500,3427
+c1ccc2c(c1)CCN1CCc3cc(OCCCCCOc4ccc5c(c4)CCN4CCc6ccccc6C54)ccc3C21,GNN_NNSplitSingleMAXScore-3.0,21782,inf,0,500,6198
+c1ccc2c(c1)CCN1CCc3cc(OCCCCCOc4ccc5c(c4)CCN4CCc6ccccc6C54)ccc3C21,GNN_NNSplitSingleMAXScore-10.0,1653,35,0,35 (NOTE: this was less than the maximum budget),597
+CCCCCCCCCCCCNc1ccc2c3c(cccc13)C(=O)N(CCCN1CCCNCCNCCCNCC1)C2=O,GNN_NNSplitSingleMAXScore-3.0,44717,inf,0,500,15292
+Cc1ccc(C2=C(CC(=O)O)C(c3cccs3)NC(S)=N2)cc1,GNNEstimatorAVGScore-3.0,10523,inf,0,500,3479
+Cc1ccc(C2=C(CC(=O)O)C(c3cccs3)NC(S)=N2)cc1,GNNEstimatorAVGScore-10.0,10041,inf,0,500,3457
+c1ccc2c(c1)CCN1CCc3cc(OCCCCCOc4ccc5c(c4)CCN4CCc6ccccc6C54)ccc3C21,GNN_NNSplitSingleAVGSCore-3.0,21985,inf,0,500,6337
+c1ccc2c(c1)CCN1CCc3cc(OCCCCCOc4ccc5c(c4)CCN4CCc6ccccc6C54)ccc3C21,GNN_NNSplitSingleAVGSCore-10.0,1653,35,0,35 (NOTE: this was less than the maximum budget),597
+CCCCCCCCCCCCNc1ccc2c3c(cccc13)C(=O)N(CCCN1CCCNCCNCCCNCC1)C2=O,GNN_NNSplitSingleMAXScore-10.0,21246,251,0,251 (NOTE: this was less than the maximum budget),8305
+Cc1ccc(C2=C(CC(=O)O)C(c3cccs3)NC(S)=N2)cc1,GNN_NNSplitSingleMAXScore-3.0,10515,inf,0,500,3485
+Cc1ccc(C2=C(CC(=O)O)C(c3cccs3)NC(S)=N2)cc1,GNN_NNSplitSingleMAXScore-10.0,10060,inf,0,500,3440
+Cc1ccc(C2=C(CC(=O)O)C(c3cccs3)NC(S)=N2)cc1,GNN_NNSplitSingleAVGSCore-3.0,10515,inf,0,500,3485
+Cc1ccc(C2=C(CC(=O)O)C(c3cccs3)NC(S)=N2)cc1,GNN_NNSplitSingleAVGSCore-10.0,10044,inf,0,500,3449
+CCCCCCCCCCCCNc1ccc2c3c(cccc13)C(=O)N(CCCN1CCCNCCNCCCNCC1)C2=O,GNN_NNSplitSingleAVGSCore-3.0,44619,inf,0,500,15255
+c1ccc2c(c1)CCN1CCc3cc(OCCCCCOc4ccc5c(c4)CCN4CCc6ccccc6C54)ccc3C21,GNN-NN-Split-MAX-3.0,18926,428,0,428 (NOTE: this was less than the maximum budget),5631
+c1ccc2c(c1)CCN1CCc3cc(OCCCCCOc4ccc5c(c4)CCN4CCc6ccccc6C54)ccc3C21,GNN-NN-Split-MAX-10.0,1653,35,0,35 (NOTE: this was less than the maximum budget),597
+CCCCCCCCCCCCNc1ccc2c3c(cccc13)C(=O)N(CCCN1CCCNCCNCCCNCC1)C2=O,GNN_NNSplitSingleAVGSCore-10.0,20734,242,0,242 (NOTE: this was less than the maximum budget),8104
+Cc1ccc(C2=C(CC(=O)O)C(c3cccs3)NC(S)=N2)cc1,GNN-NN-Split-MAX-3.0,10515,inf,0,500,3485
+Cc1ccc(C2=C(CC(=O)O)C(c3cccs3)NC(S)=N2)cc1,GNN-NN-Split-MAX-10.0,10044,inf,0,500,3447
+c1ccc2c(c1)CCN1CCc3cc(OCCCCCOc4ccc5c(c4)CCN4CCc6ccccc6C54)ccc3C21,GNN-NN-Split-AVG-3.0,22062,inf,0,500,6496
+c1ccc2c(c1)CCN1CCc3cc(OCCCCCOc4ccc5c(c4)CCN4CCc6ccccc6C54)ccc3C21,GNN-NN-Split-AVG-10.0,1653,35,0,35 (NOTE: this was less than the maximum budget),600
+Cc1cc(C)nc(SCC(=O)NC2=NC(=O)C(C)S2)n1,constant-0,684,36,0,36 (NOTE: this was less than the maximum budget),62
+Cc1cc(C)nc(SCC(=O)NC2=NC(=O)C(C)S2)n1,SAscore-linear-0.3,404,22,0,22 (NOTE: this was less than the maximum budget),38
+Cc1cc(C)nc(SCC(=O)NC2=NC(=O)C(C)S2)n1,SAscore-linear-1.0,513,29,0,29 (NOTE: this was less than the maximum budget),145
+Cc1cc(C)nc(SCC(=O)NC2=NC(=O)C(C)S2)n1,GNNEstimatorMAXScore-3.0,286,13,0,13 (NOTE: this was less than the maximum budget),88
+Cc1cc(C)nc(SCC(=O)NC2=NC(=O)C(C)S2)n1,GNNEstimatorMAXScore-10.0,180,7,0,7 (NOTE: this was less than the maximum budget),54
+Cc1cc(C)nc(SCC(=O)NC2=NC(=O)C(C)S2)n1,GNNEstimatorAVGScore-3.0,286,13,0,13 (NOTE: this was less than the maximum budget),88
+Cc1cc(C)nc(SCC(=O)NC2=NC(=O)C(C)S2)n1,GNNEstimatorAVGScore-10.0,246,12,0,12 (NOTE: this was less than the maximum budget),73
+Cc1cc(C)nc(SCC(=O)NC2=NC(=O)C(C)S2)n1,GNN_NNSplitSingleMAXScore-3.0,286,13,0,13 (NOTE: this was less than the maximum budget),88
+Cc1cc(C)nc(SCC(=O)NC2=NC(=O)C(C)S2)n1,GNN_NNSplitSingleMAXScore-10.0,180,7,0,7 (NOTE: this was less than the maximum budget),54
+Cc1cc(C)nc(SCC(=O)NC2=NC(=O)C(C)S2)n1,GNN_NNSplitSingleAVGSCore-3.0,286,13,0,13 (NOTE: this was less than the maximum budget),88
+Cc1cc(C)nc(SCC(=O)NC2=NC(=O)C(C)S2)n1,GNN_NNSplitSingleAVGSCore-10.0,260,13,0,13 (NOTE: this was less than the maximum budget),74
+Cc1cc(C)nc(SCC(=O)NC2=NC(=O)C(C)S2)n1,GNN-NN-Split-MAX-3.0,286,13,0,13 (NOTE: this was less than the maximum budget),88
+Cc1cc(C)nc(SCC(=O)NC2=NC(=O)C(C)S2)n1,GNN-NN-Split-MAX-10.0,186,8,0,8 (NOTE: this was less than the maximum budget),57
+Cc1cc(C)nc(SCC(=O)NC2=NC(=O)C(C)S2)n1,GNN-NN-Split-AVG-3.0,286,13,0,13 (NOTE: this was less than the maximum budget),88
+Cc1cc(C)nc(SCC(=O)NC2=NC(=O)C(C)S2)n1,GNN-NN-Split-AVG-10.0,246,12,0,12 (NOTE: this was less than the maximum budget),73
+COc1ncnc2sc(-c3ccccc3)cc12,constant-0,13467,inf,0,500,662
+COc1ncnc2sc(-c3ccccc3)cc12,SAscore-linear-0.3,14100,inf,0,500,1006
+COc1ncnc2sc(-c3ccccc3)cc12,SAscore-linear-1.0,7528,255,0,255 (NOTE: this was less than the maximum budget),2244
+Cc1ccc(C2=C(CC(=O)O)C(c3cccs3)NC(S)=N2)cc1,GNN-NN-Split-AVG-3.0,10515,inf,0,500,3484
+COc1ncnc2sc(-c3ccccc3)cc12,GNNEstimatorMAXScore-3.0,13775,inf,0,500,4220
+COc1ncnc2sc(-c3ccccc3)cc12,GNNEstimatorMAXScore-10.0,1430,41,0,41 (NOTE: this was less than the maximum budget),470
+COc1ncnc2sc(-c3ccccc3)cc12,GNNEstimatorAVGScore-3.0,13750,inf,0,500,4211
+COc1ncnc2sc(-c3ccccc3)cc12,GNNEstimatorAVGScore-10.0,1430,41,0,41 (NOTE: this was less than the maximum budget),470
+COc1ncnc2sc(-c3ccccc3)cc12,GNN_NNSplitSingleMAXScore-3.0,13752,inf,0,500,4211
+COc1ncnc2sc(-c3ccccc3)cc12,GNN_NNSplitSingleMAXScore-10.0,1430,41,0,41 (NOTE: this was less than the maximum budget),470
+Cc1ccc(C2=C(CC(=O)O)C(c3cccs3)NC(S)=N2)cc1,GNN-NN-Split-AVG-10.0,10013,inf,0,500,3391
+O=C(CSCc1ccccc1)N1CCN(c2ccccc2)CC1,constant-0,102,2,0,2 (NOTE: this was less than the maximum budget),18
+O=C(CSCc1ccccc1)N1CCN(c2ccccc2)CC1,SAscore-linear-0.3,195,3,0,3 (NOTE: this was less than the maximum budget),13
+O=C(CSCc1ccccc1)N1CCN(c2ccccc2)CC1,SAscore-linear-1.0,195,3,0,3 (NOTE: this was less than the maximum budget),42
+O=C(CSCc1ccccc1)N1CCN(c2ccccc2)CC1,GNNEstimatorMAXScore-3.0,195,3,0,3 (NOTE: this was less than the maximum budget),42
+O=C(CSCc1ccccc1)N1CCN(c2ccccc2)CC1,GNNEstimatorMAXScore-10.0,195,3,0,3 (NOTE: this was less than the maximum budget),42
+O=C(CSCc1ccccc1)N1CCN(c2ccccc2)CC1,GNNEstimatorAVGScore-3.0,195,3,0,3 (NOTE: this was less than the maximum budget),42
+O=C(CSCc1ccccc1)N1CCN(c2ccccc2)CC1,GNNEstimatorAVGScore-10.0,195,3,0,3 (NOTE: this was less than the maximum budget),42
+O=C(CSCc1ccccc1)N1CCN(c2ccccc2)CC1,GNN_NNSplitSingleMAXScore-3.0,195,3,0,3 (NOTE: this was less than the maximum budget),42
+O=C(CSCc1ccccc1)N1CCN(c2ccccc2)CC1,GNN_NNSplitSingleMAXScore-10.0,195,3,0,3 (NOTE: this was less than the maximum budget),42
+O=C(CSCc1ccccc1)N1CCN(c2ccccc2)CC1,GNN_NNSplitSingleAVGSCore-3.0,195,3,0,3 (NOTE: this was less than the maximum budget),42
+O=C(CSCc1ccccc1)N1CCN(c2ccccc2)CC1,GNN_NNSplitSingleAVGSCore-10.0,195,3,0,3 (NOTE: this was less than the maximum budget),42
+O=C(CSCc1ccccc1)N1CCN(c2ccccc2)CC1,GNN-NN-Split-MAX-3.0,195,3,0,3 (NOTE: this was less than the maximum budget),42
+O=C(CSCc1ccccc1)N1CCN(c2ccccc2)CC1,GNN-NN-Split-MAX-10.0,195,3,0,3 (NOTE: this was less than the maximum budget),42
+O=C(CSCc1ccccc1)N1CCN(c2ccccc2)CC1,GNN-NN-Split-AVG-3.0,195,3,0,3 (NOTE: this was less than the maximum budget),42
+O=C(CSCc1ccccc1)N1CCN(c2ccccc2)CC1,GNN-NN-Split-AVG-10.0,195,3,0,3 (NOTE: this was less than the maximum budget),42
+COc1cc2c(cc1OC)C(c1ccccc1)N(CCCCCCn1ccnc1C=NO)CC2,constant-0,186,6,0,6 (NOTE: this was less than the maximum budget),10
+COc1cc2c(cc1OC)C(c1ccccc1)N(CCCCCCn1ccnc1C=NO)CC2,SAscore-linear-0.3,308,9,0,9 (NOTE: this was less than the maximum budget),50
+COc1cc2c(cc1OC)C(c1ccccc1)N(CCCCCCn1ccnc1C=NO)CC2,SAscore-linear-1.0,328,10,0,10 (NOTE: this was less than the maximum budget),94
+COc1cc2c(cc1OC)C(c1ccccc1)N(CCCCCCn1ccnc1C=NO)CC2,GNNEstimatorMAXScore-3.0,328,10,0,10 (NOTE: this was less than the maximum budget),118
+COc1cc2c(cc1OC)C(c1ccccc1)N(CCCCCCn1ccnc1C=NO)CC2,GNNEstimatorMAXScore-10.0,436,13,0,13 (NOTE: this was less than the maximum budget),163
+COc1cc2c(cc1OC)C(c1ccccc1)N(CCCCCCn1ccnc1C=NO)CC2,GNNEstimatorAVGScore-3.0,325,10,0,10 (NOTE: this was less than the maximum budget),118
+COc1cc2c(cc1OC)C(c1ccccc1)N(CCCCCCn1ccnc1C=NO)CC2,GNNEstimatorAVGScore-10.0,436,13,0,13 (NOTE: this was less than the maximum budget),161
+COc1cc2c(cc1OC)C(c1ccccc1)N(CCCCCCn1ccnc1C=NO)CC2,GNN_NNSplitSingleMAXScore-3.0,328,10,0,10 (NOTE: this was less than the maximum budget),118
+COc1cc2c(cc1OC)C(c1ccccc1)N(CCCCCCn1ccnc1C=NO)CC2,GNN_NNSplitSingleMAXScore-10.0,436,13,0,13 (NOTE: this was less than the maximum budget),163
+COc1cc2c(cc1OC)C(c1ccccc1)N(CCCCCCn1ccnc1C=NO)CC2,GNN_NNSplitSingleAVGSCore-3.0,325,10,0,10 (NOTE: this was less than the maximum budget),118
+COc1cc2c(cc1OC)C(c1ccccc1)N(CCCCCCn1ccnc1C=NO)CC2,GNN_NNSplitSingleAVGSCore-10.0,436,13,0,13 (NOTE: this was less than the maximum budget),162
+COc1ncnc2sc(-c3ccccc3)cc12,GNN_NNSplitSingleAVGSCore-3.0,13752,inf,0,500,4210
+COc1cc2c(cc1OC)C(c1ccccc1)N(CCCCCCn1ccnc1C=NO)CC2,GNN-NN-Split-MAX-3.0,328,10,0,10 (NOTE: this was less than the maximum budget),118
+COc1ncnc2sc(-c3ccccc3)cc12,GNN_NNSplitSingleAVGSCore-10.0,1430,41,0,41 (NOTE: this was less than the maximum budget),470
+COc1cc2c(cc1OC)C(c1ccccc1)N(CCCCCCn1ccnc1C=NO)CC2,GNN-NN-Split-MAX-10.0,436,13,0,13 (NOTE: this was less than the maximum budget),163
+COc1cc2c(cc1OC)C(c1ccccc1)N(CCCCCCn1ccnc1C=NO)CC2,GNN-NN-Split-AVG-3.0,325,10,0,10 (NOTE: this was less than the maximum budget),118
+COc1cc2c(cc1OC)C(c1ccccc1)N(CCCCCCn1ccnc1C=NO)CC2,GNN-NN-Split-AVG-10.0,436,13,0,13 (NOTE: this was less than the maximum budget),163
+CC(C)NCC(O)Cn1c2ccc(Br)cc2c2cc(Br)ccc21,constant-0,151,3,0,3 (NOTE: this was less than the maximum budget),26
+CC(C)NCC(O)Cn1c2ccc(Br)cc2c2cc(Br)ccc21,SAscore-linear-0.3,279,7,0,7 (NOTE: this was less than the maximum budget),18
+CC(C)NCC(O)Cn1c2ccc(Br)cc2c2cc(Br)ccc21,SAscore-linear-1.0,279,7,0,7 (NOTE: this was less than the maximum budget),98
+CC(C)NCC(O)Cn1c2ccc(Br)cc2c2cc(Br)ccc21,GNNEstimatorMAXScore-3.0,340,8,0,8 (NOTE: this was less than the maximum budget),122
+CC(C)NCC(O)Cn1c2ccc(Br)cc2c2cc(Br)ccc21,GNNEstimatorMAXScore-10.0,262,5,0,5 (NOTE: this was less than the maximum budget),88
+CC(C)NCC(O)Cn1c2ccc(Br)cc2c2cc(Br)ccc21,GNNEstimatorAVGScore-3.0,340,8,0,8 (NOTE: this was less than the maximum budget),122
+CC(C)NCC(O)Cn1c2ccc(Br)cc2c2cc(Br)ccc21,GNNEstimatorAVGScore-10.0,262,5,0,5 (NOTE: this was less than the maximum budget),88
+CC(C)NCC(O)Cn1c2ccc(Br)cc2c2cc(Br)ccc21,GNN_NNSplitSingleMAXScore-3.0,340,8,0,8 (NOTE: this was less than the maximum budget),122
+CC(C)NCC(O)Cn1c2ccc(Br)cc2c2cc(Br)ccc21,GNN_NNSplitSingleMAXScore-10.0,262,5,0,5 (NOTE: this was less than the maximum budget),88
+CC(C)NCC(O)Cn1c2ccc(Br)cc2c2cc(Br)ccc21,GNN_NNSplitSingleAVGSCore-3.0,340,8,0,8 (NOTE: this was less than the maximum budget),122
+CC(C)NCC(O)Cn1c2ccc(Br)cc2c2cc(Br)ccc21,GNN_NNSplitSingleAVGSCore-10.0,262,5,0,5 (NOTE: this was less than the maximum budget),88
+CC(C)NCC(O)Cn1c2ccc(Br)cc2c2cc(Br)ccc21,GNN-NN-Split-MAX-3.0,340,8,0,8 (NOTE: this was less than the maximum budget),122
+CC(C)NCC(O)Cn1c2ccc(Br)cc2c2cc(Br)ccc21,GNN-NN-Split-MAX-10.0,262,5,0,5 (NOTE: this was less than the maximum budget),88
+CC(C)NCC(O)Cn1c2ccc(Br)cc2c2cc(Br)ccc21,GNN-NN-Split-AVG-3.0,340,8,0,8 (NOTE: this was less than the maximum budget),122
+CC(C)NCC(O)Cn1c2ccc(Br)cc2c2cc(Br)ccc21,GNN-NN-Split-AVG-10.0,262,5,0,5 (NOTE: this was less than the maximum budget),88
+O=C(CSc1nc(O)c2cnn(-c3ccccc3)c2n1)N1CCOCC1,constant-0,12574,inf,0,500,701
+O=C(CSc1nc(O)c2cnn(-c3ccccc3)c2n1)N1CCOCC1,SAscore-linear-0.3,13340,inf,0,500,1279
+O=C(CSc1nc(O)c2cnn(-c3ccccc3)c2n1)N1CCOCC1,SAscore-linear-1.0,13420,inf,0,500,4026
+CCCCCCCCCCCCNc1ccc2c3c(cccc13)C(=O)N(CCCN1CCCNCCNCCCNCC1)C2=O,GNN-NN-Split-MAX-3.0,44638,inf,0,500,15265
+O=C(CSc1nc(O)c2cnn(-c3ccccc3)c2n1)N1CCOCC1,GNNEstimatorMAXScore-3.0,13812,inf,0,500,4341
+COc1ncnc2sc(-c3ccccc3)cc12,GNN-NN-Split-MAX-3.0,13775,inf,0,500,4221
+COc1ncnc2sc(-c3ccccc3)cc12,GNN-NN-Split-MAX-10.0,1430,41,0,41 (NOTE: this was less than the maximum budget),470
+O=C(CSc1nc(O)c2cnn(-c3ccccc3)c2n1)N1CCOCC1,GNNEstimatorMAXScore-10.0,13890,inf,0,500,4659
+O=C(CSc1nc(O)c2cnn(-c3ccccc3)c2n1)N1CCOCC1,GNNEstimatorAVGScore-3.0,13803,inf,0,500,4335
+CCCCCCCCCCCCNc1ccc2c3c(cccc13)C(=O)N(CCCN1CCCNCCNCCCNCC1)C2=O,GNN-NN-Split-MAX-10.0,12215,144,0,144 (NOTE: this was less than the maximum budget),4404
+COc1ncnc2sc(-c3ccccc3)cc12,GNN-NN-Split-AVG-3.0,13750,inf,0,500,4211
+COc1ncnc2sc(-c3ccccc3)cc12,GNN-NN-Split-AVG-10.0,1430,41,0,41 (NOTE: this was less than the maximum budget),470
+O=C(CSc1nc(O)c2cnn(-c3ccccc3)c2n1)N1CCOCC1,GNNEstimatorAVGScore-10.0,13863,inf,0,500,4631
+CN(C)N=Nc1ncn(C2CCCO2)c1C(N)=O,constant-0,6680,inf,0,500,634
+CN(C)N=Nc1ncn(C2CCCO2)c1C(N)=O,SAscore-linear-0.3,6457,inf,0,500,1779
+CN(C)N=Nc1ncn(C2CCCO2)c1C(N)=O,SAscore-linear-1.0,6561,inf,0,500,1853
+O=C(CSc1nc(O)c2cnn(-c3ccccc3)c2n1)N1CCOCC1,GNN_NNSplitSingleMAXScore-3.0,13822,inf,0,500,4334
+CN(C)N=Nc1ncn(C2CCCO2)c1C(N)=O,GNNEstimatorMAXScore-3.0,6349,inf,0,500,1832
+CN(C)N=Nc1ncn(C2CCCO2)c1C(N)=O,GNNEstimatorMAXScore-10.0,6472,inf,0,500,2056
+O=C(CSc1nc(O)c2cnn(-c3ccccc3)c2n1)N1CCOCC1,GNN_NNSplitSingleMAXScore-10.0,13710,inf,0,500,4586
+CN(C)N=Nc1ncn(C2CCCO2)c1C(N)=O,GNNEstimatorAVGScore-3.0,6421,inf,0,500,1810
+CN(C)N=Nc1ncn(C2CCCO2)c1C(N)=O,GNNEstimatorAVGScore-10.0,6554,inf,0,500,2094
+O=C(CSc1nc(O)c2cnn(-c3ccccc3)c2n1)N1CCOCC1,GNN_NNSplitSingleAVGSCore-3.0,13822,inf,0,500,4335
+CN(C)N=Nc1ncn(C2CCCO2)c1C(N)=O,GNN_NNSplitSingleMAXScore-3.0,6284,inf,0,500,1816
+O=C(CSc1nc(O)c2cnn(-c3ccccc3)c2n1)N1CCOCC1,GNN_NNSplitSingleAVGSCore-10.0,13684,inf,0,500,4573
+CN(C)N=Nc1ncn(C2CCCO2)c1C(N)=O,GNN_NNSplitSingleMAXScore-10.0,7350,inf,0,500,2393
+CN(C)N=Nc1ncn(C2CCCO2)c1C(N)=O,GNN_NNSplitSingleAVGSCore-3.0,6239,inf,0,500,1791
+CN(C)N=Nc1ncn(C2CCCO2)c1C(N)=O,GNN_NNSplitSingleAVGSCore-10.0,6733,inf,0,500,2194
+CN(C)N=Nc1ncn(C2CCCO2)c1C(N)=O,GNN-NN-Split-MAX-3.0,6297,inf,0,500,1818
+O=C(CSc1nc(O)c2cnn(-c3ccccc3)c2n1)N1CCOCC1,GNN-NN-Split-MAX-3.0,13771,inf,0,500,4336
+CN(C)N=Nc1ncn(C2CCCO2)c1C(N)=O,GNN-NN-Split-MAX-10.0,7499,inf,0,500,2495
+CN(C)N=Nc1ncn(C2CCCO2)c1C(N)=O,GNN-NN-Split-AVG-3.0,6305,inf,0,500,1805
+O=C(CSc1nc(O)c2cnn(-c3ccccc3)c2n1)N1CCOCC1,GNN-NN-Split-MAX-10.0,13883,inf,0,500,4657
+CCCCCCCCCCCCNc1ccc2c3c(cccc13)C(=O)N(CCCN1CCCNCCNCCCNCC1)C2=O,GNN-NN-Split-AVG-3.0,44619,inf,0,500,15255
+CN(C)N=Nc1ncn(C2CCCO2)c1C(N)=O,GNN-NN-Split-AVG-10.0,7517,inf,0,500,2466
+COc1ccc(CNC(=O)CN2C(=O)NC3(CCCCCC3)C2=O)cc1,constant-0,11123,inf,0,500,706
+COc1ccc(CNC(=O)CN2C(=O)NC3(CCCCCC3)C2=O)cc1,SAscore-linear-0.3,12496,inf,0,500,1162
+COc1ccc(CNC(=O)CN2C(=O)NC3(CCCCCC3)C2=O)cc1,SAscore-linear-1.0,12625,inf,0,500,3702
+O=C(CSc1nc(O)c2cnn(-c3ccccc3)c2n1)N1CCOCC1,GNN-NN-Split-AVG-3.0,13781,inf,0,500,4339
+COc1ccc(CNC(=O)CN2C(=O)NC3(CCCCCC3)C2=O)cc1,GNNEstimatorMAXScore-3.0,12468,inf,0,500,3849
+CCCCCCCCCCCCNc1ccc2c3c(cccc13)C(=O)N(CCCN1CCCNCCNCCCNCC1)C2=O,GNN-NN-Split-AVG-10.0,12502,147,0,147 (NOTE: this was less than the maximum budget),4533
+COC(=O)C1=C(c2cc3ccccc3o2)CC2CCC1N2C(=O)NCc1cccc2ccccc12,constant-0,21751,inf,0,500,543
+COc1ccc(CNC(=O)CN2C(=O)NC3(CCCCCC3)C2=O)cc1,GNNEstimatorMAXScore-10.0,12783,inf,0,500,4199
+COC(=O)C1=C(c2cc3ccccc3o2)CC2CCC1N2C(=O)NCc1cccc2ccccc12,SAscore-linear-0.3,21777,inf,0,500,8036
+COc1ccc(CNC(=O)CN2C(=O)NC3(CCCCCC3)C2=O)cc1,GNNEstimatorAVGScore-3.0,12459,inf,0,500,3849
+COC(=O)C1=C(c2cc3ccccc3o2)CC2CCC1N2C(=O)NCc1cccc2ccccc12,SAscore-linear-1.0,22188,inf,0,500,8305
+O=C(CSc1nc(O)c2cnn(-c3ccccc3)c2n1)N1CCOCC1,GNN-NN-Split-AVG-10.0,13835,inf,0,500,4641
+Cn1cc(C#N)cc1C(=O)Nc1ccc(CN2CCOCC2)cn1,constant-0,2478,111,0,111 (NOTE: this was less than the maximum budget),186
+Cn1cc(C#N)cc1C(=O)Nc1ccc(CN2CCOCC2)cn1,SAscore-linear-0.3,1894,82,0,82 (NOTE: this was less than the maximum budget),486
+COc1ccc(CNC(=O)CN2C(=O)NC3(CCCCCC3)C2=O)cc1,GNNEstimatorAVGScore-10.0,12763,inf,0,500,4169
+Cn1cc(C#N)cc1C(=O)Nc1ccc(CN2CCOCC2)cn1,SAscore-linear-1.0,7371,352,0,352 (NOTE: this was less than the maximum budget),1779
+Cn1cc(C#N)cc1C(=O)Nc1ccc(CN2CCOCC2)cn1,GNNEstimatorMAXScore-3.0,6964,334,0,334 (NOTE: this was less than the maximum budget),1685
+Cn1cc(C#N)cc1C(=O)Nc1ccc(CN2CCOCC2)cn1,GNNEstimatorMAXScore-10.0,641,21,0,21 (NOTE: this was less than the maximum budget),210
+COc1ccc(CNC(=O)CN2C(=O)NC3(CCCCCC3)C2=O)cc1,GNN_NNSplitSingleMAXScore-3.0,12430,inf,0,500,3834
+Cn1cc(C#N)cc1C(=O)Nc1ccc(CN2CCOCC2)cn1,GNNEstimatorAVGScore-3.0,6964,334,0,334 (NOTE: this was less than the maximum budget),1685
+Cn1cc(C#N)cc1C(=O)Nc1ccc(CN2CCOCC2)cn1,GNNEstimatorAVGScore-10.0,641,21,0,21 (NOTE: this was less than the maximum budget),210
+COC(=O)C1=C(c2cc3ccccc3o2)CC2CCC1N2C(=O)NCc1cccc2ccccc12,GNNEstimatorMAXScore-3.0,21758,inf,0,500,8676
+Cn1cc(C#N)cc1C(=O)Nc1ccc(CN2CCOCC2)cn1,GNN_NNSplitSingleMAXScore-3.0,6964,334,0,334 (NOTE: this was less than the maximum budget),1685
+Cn1cc(C#N)cc1C(=O)Nc1ccc(CN2CCOCC2)cn1,GNN_NNSplitSingleMAXScore-10.0,641,21,0,21 (NOTE: this was less than the maximum budget),210
+Cn1cc(C#N)cc1C(=O)Nc1ccc(CN2CCOCC2)cn1,GNN_NNSplitSingleAVGSCore-3.0,6964,334,0,334 (NOTE: this was less than the maximum budget),1685
+Cn1cc(C#N)cc1C(=O)Nc1ccc(CN2CCOCC2)cn1,GNN_NNSplitSingleAVGSCore-10.0,641,21,0,21 (NOTE: this was less than the maximum budget),210
+COc1ccc(CNC(=O)CN2C(=O)NC3(CCCCCC3)C2=O)cc1,GNN_NNSplitSingleMAXScore-10.0,12472,inf,0,500,4177
+COc1ccc(CNC(=O)CN2C(=O)NC3(CCCCCC3)C2=O)cc1,GNN_NNSplitSingleAVGSCore-3.0,12430,inf,0,500,3834
+Cn1cc(C#N)cc1C(=O)Nc1ccc(CN2CCOCC2)cn1,GNN-NN-Split-MAX-3.0,6964,334,0,334 (NOTE: this was less than the maximum budget),1685
+Cn1cc(C#N)cc1C(=O)Nc1ccc(CN2CCOCC2)cn1,GNN-NN-Split-MAX-10.0,532,19,0,19 (NOTE: this was less than the maximum budget),169
+COC(=O)C1=C(c2cc3ccccc3o2)CC2CCC1N2C(=O)NCc1cccc2ccccc12,GNNEstimatorMAXScore-10.0,21468,inf,0,500,8614
+COc1ccc(CNC(=O)CN2C(=O)NC3(CCCCCC3)C2=O)cc1,GNN_NNSplitSingleAVGSCore-10.0,12761,inf,0,500,4175
+Cn1cc(C#N)cc1C(=O)Nc1ccc(CN2CCOCC2)cn1,GNN-NN-Split-AVG-3.0,6964,334,0,334 (NOTE: this was less than the maximum budget),1685
+Cn1cc(C#N)cc1C(=O)Nc1ccc(CN2CCOCC2)cn1,GNN-NN-Split-AVG-10.0,641,21,0,21 (NOTE: this was less than the maximum budget),210
+COc1ccc(C(=O)NCCCNC(=O)c2cc3ccccc3[nH]2)cc1OC,constant-0,96,2,0,2 (NOTE: this was less than the maximum budget),24
+COc1ccc(C(=O)NCCCNC(=O)c2cc3ccccc3[nH]2)cc1OC,SAscore-linear-0.3,147,3,0,3 (NOTE: this was less than the maximum budget),11
+COc1ccc(C(=O)NCCCNC(=O)c2cc3ccccc3[nH]2)cc1OC,SAscore-linear-1.0,147,3,0,3 (NOTE: this was less than the maximum budget),20
+COc1ccc(C(=O)NCCCNC(=O)c2cc3ccccc3[nH]2)cc1OC,GNNEstimatorMAXScore-3.0,192,4,0,4 (NOTE: this was less than the maximum budget),36
+COc1ccc(C(=O)NCCCNC(=O)c2cc3ccccc3[nH]2)cc1OC,GNNEstimatorMAXScore-10.0,192,4,0,4 (NOTE: this was less than the maximum budget),36
+COc1ccc(C(=O)NCCCNC(=O)c2cc3ccccc3[nH]2)cc1OC,GNNEstimatorAVGScore-3.0,192,4,0,4 (NOTE: this was less than the maximum budget),35
+COc1ccc(C(=O)NCCCNC(=O)c2cc3ccccc3[nH]2)cc1OC,GNNEstimatorAVGScore-10.0,192,4,0,4 (NOTE: this was less than the maximum budget),35
+COc1ccc(C(=O)NCCCNC(=O)c2cc3ccccc3[nH]2)cc1OC,GNN_NNSplitSingleMAXScore-3.0,192,4,0,4 (NOTE: this was less than the maximum budget),37
+COc1ccc(C(=O)NCCCNC(=O)c2cc3ccccc3[nH]2)cc1OC,GNN_NNSplitSingleMAXScore-10.0,192,4,0,4 (NOTE: this was less than the maximum budget),35
+COc1ccc(C(=O)NCCCNC(=O)c2cc3ccccc3[nH]2)cc1OC,GNN_NNSplitSingleAVGSCore-3.0,192,4,0,4 (NOTE: this was less than the maximum budget),36
+COc1ccc(C(=O)NCCCNC(=O)c2cc3ccccc3[nH]2)cc1OC,GNN_NNSplitSingleAVGSCore-10.0,192,4,0,4 (NOTE: this was less than the maximum budget),35
+COc1ccc(C(=O)NCCCNC(=O)c2cc3ccccc3[nH]2)cc1OC,GNN-NN-Split-MAX-3.0,192,4,0,4 (NOTE: this was less than the maximum budget),36
+COc1ccc(C(=O)NCCCNC(=O)c2cc3ccccc3[nH]2)cc1OC,GNN-NN-Split-MAX-10.0,192,4,0,4 (NOTE: this was less than the maximum budget),35
+COc1ccc(C(=O)NCCCNC(=O)c2cc3ccccc3[nH]2)cc1OC,GNN-NN-Split-AVG-3.0,192,4,0,4 (NOTE: this was less than the maximum budget),37
+COc1ccc(C(=O)NCCCNC(=O)c2cc3ccccc3[nH]2)cc1OC,GNN-NN-Split-AVG-10.0,192,4,0,4 (NOTE: this was less than the maximum budget),35
+O=c1ccc(-n2ccnc2)nn1CCNS(=O)(=O)c1ccccc1Cl,constant-0,529,16,0,16 (NOTE: this was less than the maximum budget),49
+O=c1ccc(-n2ccnc2)nn1CCNS(=O)(=O)c1ccccc1Cl,SAscore-linear-0.3,687,21,0,21 (NOTE: this was less than the maximum budget),118
+O=c1ccc(-n2ccnc2)nn1CCNS(=O)(=O)c1ccccc1Cl,SAscore-linear-1.0,587,19,0,19 (NOTE: this was less than the maximum budget),202
+O=c1ccc(-n2ccnc2)nn1CCNS(=O)(=O)c1ccccc1Cl,GNNEstimatorMAXScore-3.0,494,15,0,15 (NOTE: this was less than the maximum budget),165
+O=c1ccc(-n2ccnc2)nn1CCNS(=O)(=O)c1ccccc1Cl,GNNEstimatorMAXScore-10.0,581,17,0,17 (NOTE: this was less than the maximum budget),180
+O=c1ccc(-n2ccnc2)nn1CCNS(=O)(=O)c1ccccc1Cl,GNNEstimatorAVGScore-3.0,494,15,0,15 (NOTE: this was less than the maximum budget),164
+O=c1ccc(-n2ccnc2)nn1CCNS(=O)(=O)c1ccccc1Cl,GNNEstimatorAVGScore-10.0,581,17,0,17 (NOTE: this was less than the maximum budget),179
+O=c1ccc(-n2ccnc2)nn1CCNS(=O)(=O)c1ccccc1Cl,GNN_NNSplitSingleMAXScore-3.0,494,15,0,15 (NOTE: this was less than the maximum budget),165
+O=c1ccc(-n2ccnc2)nn1CCNS(=O)(=O)c1ccccc1Cl,GNN_NNSplitSingleMAXScore-10.0,581,17,0,17 (NOTE: this was less than the maximum budget),181
+O=c1ccc(-n2ccnc2)nn1CCNS(=O)(=O)c1ccccc1Cl,GNN_NNSplitSingleAVGSCore-3.0,494,15,0,15 (NOTE: this was less than the maximum budget),165
+O=c1ccc(-n2ccnc2)nn1CCNS(=O)(=O)c1ccccc1Cl,GNN_NNSplitSingleAVGSCore-10.0,581,17,0,17 (NOTE: this was less than the maximum budget),180
+O=c1ccc(-n2ccnc2)nn1CCNS(=O)(=O)c1ccccc1Cl,GNN-NN-Split-MAX-3.0,494,15,0,15 (NOTE: this was less than the maximum budget),165
+O=c1ccc(-n2ccnc2)nn1CCNS(=O)(=O)c1ccccc1Cl,GNN-NN-Split-MAX-10.0,581,17,0,17 (NOTE: this was less than the maximum budget),181
+O=c1ccc(-n2ccnc2)nn1CCNS(=O)(=O)c1ccccc1Cl,GNN-NN-Split-AVG-3.0,494,15,0,15 (NOTE: this was less than the maximum budget),165
+O=c1ccc(-n2ccnc2)nn1CCNS(=O)(=O)c1ccccc1Cl,GNN-NN-Split-AVG-10.0,581,17,0,17 (NOTE: this was less than the maximum budget),180
+COC(=O)C1=C(c2cc3ccccc3o2)CC2CCC1N2C(=O)NCc1cccc2ccccc12,GNNEstimatorAVGScore-3.0,21817,inf,0,500,8703
+CCN(CC)C(=O)Cn1c2nc3ccccc3c(C)c2c(=O)n1-c1ccc(F)cc1,constant-0,11716,inf,0,500,662
+CCN(CC)C(=O)Cn1c2nc3ccccc3c(C)c2c(=O)n1-c1ccc(F)cc1,SAscore-linear-0.3,11814,inf,0,500,4028
+CCN(CC)C(=O)Cn1c2nc3ccccc3c(C)c2c(=O)n1-c1ccc(F)cc1,SAscore-linear-1.0,11889,inf,0,500,4218
+COc1ccc(CNC(=O)CN2C(=O)NC3(CCCCCC3)C2=O)cc1,GNN-NN-Split-MAX-3.0,12459,inf,0,500,3851
+CCN(CC)C(=O)Cn1c2nc3ccccc3c(C)c2c(=O)n1-c1ccc(F)cc1,GNNEstimatorMAXScore-3.0,11713,inf,0,500,4122
+COC(=O)C1=C(c2cc3ccccc3o2)CC2CCC1N2C(=O)NCc1cccc2ccccc12,GNNEstimatorAVGScore-10.0,21489,inf,0,500,8639
+CCN(CC)C(=O)Cn1c2nc3ccccc3c(C)c2c(=O)n1-c1ccc(F)cc1,GNNEstimatorMAXScore-10.0,13076,inf,0,500,4922
+CCN(CC)C(=O)Cn1c2nc3ccccc3c(C)c2c(=O)n1-c1ccc(F)cc1,GNNEstimatorAVGScore-3.0,11713,inf,0,500,4123
+COC(=O)C1=C(c2cc3ccccc3o2)CC2CCC1N2C(=O)NCc1cccc2ccccc12,GNN_NNSplitSingleMAXScore-3.0,21739,inf,0,500,8668
+COc1ccc(CNC(=O)CN2C(=O)NC3(CCCCCC3)C2=O)cc1,GNN-NN-Split-MAX-10.0,12493,inf,0,500,4175

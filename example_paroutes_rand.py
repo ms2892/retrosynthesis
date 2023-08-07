@@ -72,12 +72,13 @@ def compare_cost_functions(
 
     # Do search
     logger = logging.getLogger("COMPARISON")
+    csv_file = f"results_rand_{datetime.today().strftime('%Y-%m-%d')}.csv"
     min_soln_times: list[tuple[float, ...]] = []
-    if Path('results.csv').exists():
-        df = pd.read_csv('results.csv',index_col=None)
+    if Path(csv_file).exists():
+        df = pd.read_csv(csv_file,index_col=None)
     else:
         df=None
-        f=open(f"results_rand_{datetime.today().strftime('%Y-%m-%d')}.csv",'w')
+        f=open(csv_file,'w')
         f.write('SMILES,NAME,NODES,SOLUTION_TIME,NUM_ROUTES,FINAL_NUM_RXN_MODEL_CALLS,final_num_value_model_calls\n')
         f.close()
     # print(df[['SMILES','NAME']])
@@ -127,7 +128,7 @@ def compare_cost_functions(
                 f"final num value model calls = {v7}."
             )
             print("WRITING TO CSV")
-            f = open('results.csv','a')
+            f = open(csv_file,'a')
             f.write(f'{v1},{v1_5},{v2},{v3},{v4},{v6},{v7}\n')
             f.close()
             print("WROTE TO CSV")
