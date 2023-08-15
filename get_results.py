@@ -3,7 +3,7 @@ import numpy as np
 
 
 
-df = pd.read_csv('results.csv')
+df = pd.read_csv('results_no_tan.csv')
 
 names = df.NAME.unique()
 

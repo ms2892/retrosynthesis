@@ -263,7 +263,7 @@ class GATCritic(nn.Module):
         x = F.dropout(x,p=0.6,training=self.training)
         x = self.conv2(x,edge_index)  
         s = torch.mean(x,dim=0)
-        return F.tanh(s)
+        return F.sigmoid(s)
 
 if __name__=='__main__':
     model = GAT(9,32)

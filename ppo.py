@@ -86,7 +86,7 @@ def main():
     target_reached = False
     best_reward = 0
     iters = 0
-    EPOCHS = 15
+    EPOCHS = 25
     torch.autograd.set_detect_anomaly(True)
     max_iters = 100
 
@@ -96,8 +96,8 @@ def main():
     model_actor = GAT(9, 32)
     model_critic = GATCritic(9, 1)
     env = SASEnvironment(dataset)
-    optimizer_act = torch.optim.Adam(model_actor.parameters(), lr=1e-4)
-    optimizer_critic = torch.optim.Adam(model_critic.parameters(), lr=1e-4)
+    optimizer_act = torch.optim.Adam(model_actor.parameters(), lr=1e-3)
+    optimizer_critic = torch.optim.Adam(model_critic.parameters(), lr=1e-3)
     avg_reward_list = []
     while not target_reached and iters < max_iters:
         states = []

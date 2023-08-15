@@ -120,26 +120,26 @@ if __name__ == "__main__":
     ]
 
     # Nearest neighbour cost heuristics
-    # for num_nearest_neighbours in [
-    #     1,
-    #     5,
-    # ]:
-    #     for scale in [
-    #         1.0,
-    #         3.0,
-    #     ]:
-    #         # Tanimoto distance cost heuristic
-    #         value_fns.append(
-    #             (
-    #                 f"Tanimoto-top{num_nearest_neighbours}NN-linear-{scale}",
-    #                 ScaledTanimotoNNAvgCostEstimator(
-    #                     scale=scale,
-    #                     inventory=inventory,
-    #                     distance_to_cost=DistanceToCost.NOTHING,
-    #                     num_nearest_neighbours=num_nearest_neighbours,
-    #                 ),
-    #             )
-    #         )
+    for num_nearest_neighbours in [
+        1,
+        10,
+    ]:
+        for scale in [
+            3.0,
+            10.0,
+        ]:
+            # Tanimoto distance cost heuristic
+            value_fns.append(
+                (
+                    f"Tanimoto-top{num_nearest_neighbours}NN-linear-{scale}",
+                    ScaledTanimotoNNAvgCostEstimator(
+                        scale=scale,
+                        inventory=inventory,
+                        distance_to_cost=DistanceToCost.NOTHING,
+                        num_nearest_neighbours=num_nearest_neighbours,
+                    ),
+                )
+            )
 
     for scale in [0.3, 1.0]:
         # SAscore cost heuristic (different scale)

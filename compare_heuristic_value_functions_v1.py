@@ -14,7 +14,7 @@ from syntheseus.search.graph.and_or import AndOrGraph, OrNode
 from syntheseus.search.node_evaluation.base import NoCacheNodeEvaluator
 
 from paroutes import PaRoutesInventory, PaRoutesModel, PaRoutesRandomInventory
-from example_paroutes_rand import compare_cost_functions
+from example_paroutes import compare_cost_functions
 from heuristic_value_functions import *
 
 
@@ -108,11 +108,11 @@ if __name__ == "__main__":
 
     # Make reaction model, inventory, value functions
     rxn_model = PaRoutesModel()
-    inventory = PaRoutesRandomInventory(n=args.paroutes_n)
+    inventory = PaRoutesInventory(n=args.paroutes_n)
 
     print(type(inventory))
 
-    l = input()
+    # l = input()
 
     # Create all the value functions to test
     value_fns = [  # baseline: 0 value function
@@ -120,26 +120,26 @@ if __name__ == "__main__":
     ]
 
     # Nearest neighbour cost heuristics
-    # for num_nearest_neighbours in [
-    #     1,
-    #     5,
-    # ]:
-    #     for scale in [
-    #         1.0,
-    #         3.0,
-    #     ]:
-    #         # Tanimoto distance cost heuristic
-    #         value_fns.append(
-    #             (
-    #                 f"Tanimoto-top{num_nearest_neighbours}NN-linear-{scale}",
-    #                 ScaledTanimotoNNAvgCostEstimator(
-    #                     scale=scale,
-    #                     inventory=inventory,
-    #                     distance_to_cost=DistanceToCost.NOTHING,
-    #                     num_nearest_neighbours=num_nearest_neighbours,
-    #                 ),
-    #             )
-    #         )
+    for num_nearest_neighbours in [
+        1,
+        10,
+    ]:
+        for scale in [
+            3.0,
+            10.0,
+        ]:
+            # Tanimoto distance cost heuristic
+            value_fns.append(
+                (
+                    f"Tanimoto-top{num_nearest_neighbours}NN-linear-{scale}",
+                    ScaledTanimotoNNAvgCostEstimator(
+                        scale=scale,
+                        inventory=inventory,
+                        distance_to_cost=DistanceToCost.NOTHING,
+                        num_nearest_neighbours=num_nearest_neighbours,
+                    ),
+                )
+            )
 
     for scale in [0.3, 1.0]:
         # SAscore cost heuristic (different scale)

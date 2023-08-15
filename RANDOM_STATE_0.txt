@@ -1,9 +1,9 @@
 Value function: constant-0
 Quantile 0: 1.00
 Quantile 0.05: 2.00
-Quantile 0.1: 2.00
-Quantile 0.25: 9.25
-Quantile 0.5: 145.50
+Quantile 0.1: 5.00
+Quantile 0.25: 33.00
+Quantile 0.5: nan
 Quantile 0.75: nan
 Quantile 0.9: nan
 Quantile 0.95: nan
@@ -11,10 +11,10 @@ Quantile 1.0: nan
 
 Value function: SAscore-linear-0.3
 Quantile 0: 1.00
-Quantile 0.05: 2.00
-Quantile 0.1: 2.00
-Quantile 0.25: 8.00
-Quantile 0.5: 153.50
+Quantile 0.05: 3.00
+Quantile 0.1: 6.00
+Quantile 0.25: 26.50
+Quantile 0.5: nan
 Quantile 0.75: nan
 Quantile 0.9: nan
 Quantile 0.95: nan
@@ -22,10 +22,10 @@ Quantile 1.0: nan
 
 Value function: SAscore-linear-1.0
 Quantile 0: 1.00
-Quantile 0.05: 2.00
-Quantile 0.1: 2.00
-Quantile 0.25: 9.00
-Quantile 0.5: 78.50
+Quantile 0.05: 3.00
+Quantile 0.1: 6.00
+Quantile 0.25: 28.00
+Quantile 0.5: 319.00
 Quantile 0.75: nan
 Quantile 0.9: nan
 Quantile 0.95: nan
@@ -33,10 +33,10 @@ Quantile 1.0: nan
 
 Value function: GNNEstimatorMAXScore-3.0
 Quantile 0: 1.00
-Quantile 0.05: 2.00
-Quantile 0.1: 2.00
-Quantile 0.25: 8.00
-Quantile 0.5: 86.00
+Quantile 0.05: 3.00
+Quantile 0.1: 5.50
+Quantile 0.25: 22.00
+Quantile 0.5: 441.00
 Quantile 0.75: nan
 Quantile 0.9: nan
 Quantile 0.95: nan
@@ -44,10 +44,10 @@ Quantile 1.0: nan
 
 Value function: GNNEstimatorMAXScore-10.0
 Quantile 0: 1.00
-Quantile 0.05: 2.00
-Quantile 0.1: 2.00
-Quantile 0.25: 5.00
-Quantile 0.5: 21.00
+Quantile 0.05: 3.00
+Quantile 0.1: 4.00
+Quantile 0.25: 10.00
+Quantile 0.5: 119.00
 Quantile 0.75: nan
 Quantile 0.9: nan
 Quantile 0.95: nan
@@ -55,10 +55,10 @@ Quantile 1.0: nan
 
 Value function: GNNEstimatorAVGScore-3.0
 Quantile 0: 1.00
-Quantile 0.05: 2.00
-Quantile 0.1: 2.00
-Quantile 0.25: 8.00
-Quantile 0.5: 113.00
+Quantile 0.05: 3.00
+Quantile 0.1: 5.50
+Quantile 0.25: 24.50
+Quantile 0.5: 434.00
 Quantile 0.75: nan
 Quantile 0.9: nan
 Quantile 0.95: nan
@@ -66,54 +66,10 @@ Quantile 1.0: nan
 
 Value function: GNNEstimatorAVGScore-10.0
 Quantile 0: 1.00
-Quantile 0.05: 2.00
-Quantile 0.1: 2.00
-Quantile 0.25: 5.00
-Quantile 0.5: 20.50
-Quantile 0.75: nan
-Quantile 0.9: nan
-Quantile 0.95: nan
-Quantile 1.0: nan
-
-Value function: GNN-NN-Split-MAX-3.0
-Quantile 0: 1.00
-Quantile 0.05: 2.00
-Quantile 0.1: 2.00
-Quantile 0.25: 8.00
-Quantile 0.5: 95.50
-Quantile 0.75: nan
-Quantile 0.9: nan
-Quantile 0.95: nan
-Quantile 1.0: nan
-
-Value function: GNN-NN-Split-MAX-10.0
-Quantile 0: 1.00
-Quantile 0.05: 2.00
-Quantile 0.1: 2.00
-Quantile 0.25: 5.00
-Quantile 0.5: 24.00
-Quantile 0.75: nan
-Quantile 0.9: nan
-Quantile 0.95: nan
-Quantile 1.0: nan
-
-Value function: GNN-NN-Split-AVG-3.0
-Quantile 0: 1.00
-Quantile 0.05: 2.00
-Quantile 0.1: 2.00
-Quantile 0.25: 8.00
-Quantile 0.5: 95.50
-Quantile 0.75: nan
-Quantile 0.9: nan
-Quantile 0.95: nan
-Quantile 1.0: nan
-
-Value function: GNN-NN-Split-AVG-10.0
-Quantile 0: 1.00
-Quantile 0.05: 2.00
-Quantile 0.1: 2.00
-Quantile 0.25: 5.00
-Quantile 0.5: 22.50
+Quantile 0.05: 3.00
+Quantile 0.1: 4.00
+Quantile 0.25: 11.00
+Quantile 0.5: 111.00
 Quantile 0.75: nan
 Quantile 0.9: nan
 Quantile 0.95: nan
@@ -121,10 +77,10 @@ Quantile 1.0: nan
 
 Value function: GNN_NNSplitSingleMAXScore-3.0
 Quantile 0: 1.00
-Quantile 0.05: 2.00
-Quantile 0.1: 2.00
-Quantile 0.25: 7.25
-Quantile 0.5: 114.00
+Quantile 0.05: 3.00
+Quantile 0.1: 5.50
+Quantile 0.25: 19.00
+Quantile 0.5: 459.00
 Quantile 0.75: nan
 Quantile 0.9: nan
 Quantile 0.95: nan
@@ -132,10 +88,10 @@ Quantile 1.0: nan
 
 Value function: GNN_NNSplitSingleMAXScore-10.0
 Quantile 0: 1.00
-Quantile 0.05: 2.00
-Quantile 0.1: 2.00
-Quantile 0.25: 5.00
-Quantile 0.5: 21.00
+Quantile 0.05: 3.00
+Quantile 0.1: 4.00
+Quantile 0.25: 10.00
+Quantile 0.5: 124.50
 Quantile 0.75: nan
 Quantile 0.9: nan
 Quantile 0.95: nan
@@ -143,10 +99,10 @@ Quantile 1.0: nan
 
 Value function: GNN_NNSplitSingleAVGSCore-3.0
 Quantile 0: 1.00
-Quantile 0.05: 2.00
-Quantile 0.1: 2.00
-Quantile 0.25: 7.25
-Quantile 0.5: 114.50
+Quantile 0.05: 3.00
+Quantile 0.1: 5.50
+Quantile 0.25: 24.50
+Quantile 0.5: nan
 Quantile 0.75: nan
 Quantile 0.9: nan
 Quantile 0.95: nan
@@ -154,10 +110,54 @@ Quantile 1.0: nan
 
 Value function: GNN_NNSplitSingleAVGSCore-10.0
 Quantile 0: 1.00
-Quantile 0.05: 2.00
-Quantile 0.1: 2.00
-Quantile 0.25: 5.00
-Quantile 0.5: 21.00
+Quantile 0.05: 3.00
+Quantile 0.1: 4.00
+Quantile 0.25: 10.50
+Quantile 0.5: 109.00
+Quantile 0.75: nan
+Quantile 0.9: nan
+Quantile 0.95: nan
+Quantile 1.0: nan
+
+Value function: GNN-NN-Split-MAX-3.0
+Quantile 0: 1.00
+Quantile 0.05: 3.00
+Quantile 0.1: 5.40
+Quantile 0.25: 21.00
+Quantile 0.5: 430.00
+Quantile 0.75: nan
+Quantile 0.9: nan
+Quantile 0.95: nan
+Quantile 1.0: nan
+
+Value function: GNN-NN-Split-MAX-10.0
+Quantile 0: 1.00
+Quantile 0.05: 3.00
+Quantile 0.1: 4.00
+Quantile 0.25: 10.00
+Quantile 0.5: 97.00
+Quantile 0.75: nan
+Quantile 0.9: nan
+Quantile 0.95: nan
+Quantile 1.0: nan
+
+Value function: GNN-NN-Split-AVG-3.0
+Quantile 0: 1.00
+Quantile 0.05: 3.00
+Quantile 0.1: 5.40
+Quantile 0.25: 24.00
+Quantile 0.5: 446.00
+Quantile 0.75: nan
+Quantile 0.9: nan
+Quantile 0.95: nan
+Quantile 1.0: nan
+
+Value function: GNN-NN-Split-AVG-10.0
+Quantile 0: 1.00
+Quantile 0.05: 3.00
+Quantile 0.1: 4.00
+Quantile 0.25: 10.50
+Quantile 0.5: 97.00
 Quantile 0.75: nan
 Quantile 0.9: nan
 Quantile 0.95: nan
@@ -165,10 +165,10 @@ Quantile 1.0: nan
 
 Value function: Tanimoto-top1NN-linear-3.0
 Quantile 0: 1.00
-Quantile 0.05: 2.00
-Quantile 0.1: 2.90
-Quantile 0.25: 10.00
-Quantile 0.5: 105.50
+Quantile 0.05: 3.00
+Quantile 0.1: 5.00
+Quantile 0.25: 19.00
+Quantile 0.5: nan
 Quantile 0.75: nan
 Quantile 0.9: nan
 Quantile 0.95: nan
@@ -176,10 +176,10 @@ Quantile 1.0: nan
 
 Value function: Tanimoto-top1NN-linear-10.0
 Quantile 0: 1.00
-Quantile 0.05: 2.00
-Quantile 0.1: 2.00
-Quantile 0.25: 5.00
-Quantile 0.5: 22.00
+Quantile 0.05: 3.00
+Quantile 0.1: 4.00
+Quantile 0.25: 10.00
+Quantile 0.5: 102.50
 Quantile 0.75: nan
 Quantile 0.9: nan
 Quantile 0.95: nan
@@ -187,10 +187,10 @@ Quantile 1.0: nan
 
 Value function: Tanimoto-top10NN-linear-3.0
 Quantile 0: 1.00
-Quantile 0.05: 2.00
-Quantile 0.1: 2.00
-Quantile 0.25: 9.00
-Quantile 0.5: 136.50
+Quantile 0.05: 3.00
+Quantile 0.1: 5.50
+Quantile 0.25: 22.50
+Quantile 0.5: 464.00
 Quantile 0.75: nan
 Quantile 0.9: nan
 Quantile 0.95: nan
@@ -198,69 +198,69 @@ Quantile 1.0: nan
 
 Value function: Tanimoto-top10NN-linear-10.0
 Quantile 0: 1.00
-Quantile 0.05: 2.00
-Quantile 0.1: 2.00
-Quantile 0.25: 5.00
-Quantile 0.5: 41.50
+Quantile 0.05: 3.00
+Quantile 0.1: 4.00
+Quantile 0.25: 16.00
+Quantile 0.5: 188.00
 Quantile 0.75: nan
 Quantile 0.9: nan
 Quantile 0.95: nan
 Quantile 1.0: nan
 
 Value function: constant-0
-Number of solutions found: 143, 57.199999999999996
+Number of solutions found: 101, 40.400000000000006
 
 Value function: SAscore-linear-0.3
-Number of solutions found: 148, 59.199999999999996
+Number of solutions found: 106, 42.4
 
 Value function: SAscore-linear-1.0
-Number of solutions found: 161, 64.4
+Number of solutions found: 119, 47.599999999999994
 
 Value function: GNNEstimatorMAXScore-3.0
-Number of solutions found: 155, 62.0
+Number of solutions found: 110, 44.0
 
 Value function: GNNEstimatorMAXScore-10.0
-Number of solutions found: 176, 70.39999999999999
+Number of solutions found: 134, 53.6
 
 Value function: GNNEstimatorAVGScore-3.0
-Number of solutions found: 153, 61.199999999999996
+Number of solutions found: 110, 44.0
 
 Value function: GNNEstimatorAVGScore-10.0
-Number of solutions found: 176, 70.39999999999999
-
-Value function: GNN-NN-Split-MAX-3.0
-Number of solutions found: 155, 62.0
-
-Value function: GNN-NN-Split-MAX-10.0
-Number of solutions found: 180, 72.0
-
-Value function: GNN-NN-Split-AVG-3.0
-Number of solutions found: 155, 62.0
-
-Value function: GNN-NN-Split-AVG-10.0
-Number of solutions found: 179, 71.6
+Number of solutions found: 136, 54.400000000000006
 
 Value function: GNN_NNSplitSingleMAXScore-3.0
-Number of solutions found: 156, 62.4
+Number of solutions found: 109, 43.6
 
 Value function: GNN_NNSplitSingleMAXScore-10.0
-Number of solutions found: 182, 72.8
+Number of solutions found: 134, 53.6
 
 Value function: GNN_NNSplitSingleAVGSCore-3.0
-Number of solutions found: 154, 61.6
+Number of solutions found: 108, 43.2
 
 Value function: GNN_NNSplitSingleAVGSCore-10.0
-Number of solutions found: 181, 72.39999999999999
+Number of solutions found: 134, 53.6
+
+Value function: GNN-NN-Split-MAX-3.0
+Number of solutions found: 111, 44.4
+
+Value function: GNN-NN-Split-MAX-10.0
+Number of solutions found: 135, 54.0
+
+Value function: GNN-NN-Split-AVG-3.0
+Number of solutions found: 109, 43.6
+
+Value function: GNN-NN-Split-AVG-10.0
+Number of solutions found: 133, 53.2
 
 Value function: Tanimoto-top1NN-linear-3.0
-Number of solutions found: 156, 62.4
+Number of solutions found: 108, 43.2
 
 Value function: Tanimoto-top1NN-linear-10.0
-Number of solutions found: 178, 71.2
+Number of solutions found: 134, 53.6
 
 Value function: Tanimoto-top10NN-linear-3.0
-Number of solutions found: 151, 60.4
+Number of solutions found: 109, 43.6
 
 Value function: Tanimoto-top10NN-linear-10.0
-Number of solutions found: 169, 67.60000000000001
+Number of solutions found: 124, 49.6
 
